@@ -1,0 +1,770 @@
+[
+  {
+    "id": "code:raw:3042251",
+    "prompt": 6670,
+    "output": 37,
+    "arrival_ms": 0.0
+  },
+  {
+    "id": "code:raw:3042252",
+    "prompt": 195,
+    "output": 5,
+    "arrival_ms": 190.47619047619048
+  },
+  {
+    "id": "code:raw:3042253",
+    "prompt": 125,
+    "output": 1,
+    "arrival_ms": 380.95238095238096
+  },
+  {
+    "id": "code:raw:3042254",
+    "prompt": 2841,
+    "output": 15,
+    "arrival_ms": 571.4285714285714
+  },
+  {
+    "id": "code:raw:3042255",
+    "prompt": 195,
+    "output": 5,
+    "arrival_ms": 761.9047619047619
+  },
+  {
+    "id": "code:raw:3042256",
+    "prompt": 124,
+    "output": 4,
+    "arrival_ms": 952.3809523809524
+  },
+  {
+    "id": "code:raw:3042257",
+    "prompt": 196,
+    "output": 20,
+    "arrival_ms": 1142.857142857143
+  },
+  {
+    "id": "code:raw:3042258",
+    "prompt": 1581,
+    "output": 1,
+    "arrival_ms": 1333.3333333333333
+  },
+  {
+    "id": "code:raw:3042259",
+    "prompt": 2938,
+    "output": 5,
+    "arrival_ms": 1523.8095238095239
+  },
+  {
+    "id": "code:raw:3042260",
+    "prompt": 2050,
+    "output": 47,
+    "arrival_ms": 1714.2857142857142
+  },
+  {
+    "id": "code:raw:3042261",
+    "prompt": 4877,
+    "output": 10,
+    "arrival_ms": 1904.7619047619048
+  },
+  {
+    "id": "code:raw:3042262",
+    "prompt": 125,
+    "output": 4,
+    "arrival_ms": 2095.2380952380954
+  },
+  {
+    "id": "code:raw:3042263",
+    "prompt": 7137,
+    "output": 20,
+    "arrival_ms": 2285.714285714286
+  },
+  {
+    "id": "code:raw:3042264",
+    "prompt": 754,
+    "output": 47,
+    "arrival_ms": 2476.190476190476
+  },
+  {
+    "id": "code:raw:3042265",
+    "prompt": 127,
+    "output": 3,
+    "arrival_ms": 2666.6666666666665
+  },
+  {
+    "id": "code:raw:3042267",
+    "prompt": 2910,
+    "output": 1,
+    "arrival_ms": 2857.1428571428573
+  },
+  {
+    "id": "code:raw:3042268",
+    "prompt": 2051,
+    "output": 49,
+    "arrival_ms": 3047.6190476190477
+  },
+  {
+    "id": "code:raw:3042269",
+    "prompt": 4558,
+    "output": 5,
+    "arrival_ms": 3238.095238095238
+  },
+  {
+    "id": "code:raw:3042270",
+    "prompt": 124,
+    "output": 1,
+    "arrival_ms": 3428.5714285714284
+  },
+  {
+    "id": "code:raw:3042271",
+    "prompt": 12,
+    "output": 4,
+    "arrival_ms": 3619.0476190476193
+  },
+  {
+    "id": "code:raw:3042272",
+    "prompt": 1506,
+    "output": 9,
+    "arrival_ms": 3809.5238095238096
+  },
+  {
+    "id": "code:raw:3042273",
+    "prompt": 1583,
+    "output": 37,
+    "arrival_ms": 4000.0
+  },
+  {
+    "id": "code:raw:3042274",
+    "prompt": 13,
+    "output": 3,
+    "arrival_ms": 4190.476190476191
+  },
+  {
+    "id": "code:raw:3042275",
+    "prompt": 5306,
+    "output": 16,
+    "arrival_ms": 4380.952380952381
+  },
+  {
+    "id": "code:raw:3042276",
+    "prompt": 204,
+    "output": 15,
+    "arrival_ms": 4571.428571428572
+  },
+  {
+    "id": "code:raw:3042277",
+    "prompt": 126,
+    "output": 3,
+    "arrival_ms": 4761.9047619047615
+  },
+  {
+    "id": "code:raw:3042278",
+    "prompt": 5306,
+    "output": 32,
+    "arrival_ms": 4952.380952380952
+  },
+  {
+    "id": "code:raw:3042279",
+    "prompt": 1504,
+    "output": 7,
+    "arrival_ms": 5142.857142857143
+  },
+  {
+    "id": "code:raw:3042280",
+    "prompt": 680,
+    "output": 4,
+    "arrival_ms": 5333.333333333333
+  },
+  {
+    "id": "code:raw:3042281",
+    "prompt": 1659,
+    "output": 9,
+    "arrival_ms": 5523.809523809524
+  },
+  {
+    "id": "code:raw:3042282",
+    "prompt": 2840,
+    "output": 55,
+    "arrival_ms": 5714.285714285715
+  },
+  {
+    "id": "code:raw:3042283",
+    "prompt": 1701,
+    "output": 2,
+    "arrival_ms": 5904.761904761905
+  },
+  {
+    "id": "code:raw:3042284",
+    "prompt": 1503,
+    "output": 2,
+    "arrival_ms": 6095.238095238095
+  },
+  {
+    "id": "code:raw:3042285",
+    "prompt": 1504,
+    "output": 3,
+    "arrival_ms": 6285.714285714285
+  },
+  {
+    "id": "code:raw:3042286",
+    "prompt": 1533,
+    "output": 3,
+    "arrival_ms": 6476.190476190476
+  },
+  {
+    "id": "code:raw:3042287",
+    "prompt": 4276,
+    "output": 8,
+    "arrival_ms": 6666.666666666667
+  },
+  {
+    "id": "code:raw:3042288",
+    "prompt": 7687,
+    "output": 9,
+    "arrival_ms": 6857.142857142857
+  },
+  {
+    "id": "code:raw:3042289",
+    "prompt": 947,
+    "output": 10,
+    "arrival_ms": 7047.619047619048
+  },
+  {
+    "id": "code:raw:3042290",
+    "prompt": 7137,
+    "output": 21,
+    "arrival_ms": 7238.0952380952385
+  },
+  {
+    "id": "code:raw:3042291",
+    "prompt": 1660,
+    "output": 4,
+    "arrival_ms": 7428.571428571428
+  },
+  {
+    "id": "code:raw:3042292",
+    "prompt": 1533,
+    "output": 3,
+    "arrival_ms": 7619.047619047619
+  },
+  {
+    "id": "code:raw:3042293",
+    "prompt": 1020,
+    "output": 17,
+    "arrival_ms": 7809.523809523809
+  },
+  {
+    "id": "code:raw:3042294",
+    "prompt": 2771,
+    "output": 13,
+    "arrival_ms": 8000.0
+  },
+  {
+    "id": "code:raw:3042295",
+    "prompt": 198,
+    "output": 24,
+    "arrival_ms": 8190.476190476191
+  },
+  {
+    "id": "code:raw:3042296",
+    "prompt": 206,
+    "output": 1,
+    "arrival_ms": 8380.952380952382
+  },
+  {
+    "id": "code:raw:3042297",
+    "prompt": 2840,
+    "output": 9,
+    "arrival_ms": 8571.42857142857
+  },
+  {
+    "id": "code:raw:3042298",
+    "prompt": 949,
+    "output": 5,
+    "arrival_ms": 8761.904761904761
+  },
+  {
+    "id": "code:raw:3042299",
+    "prompt": 2146,
+    "output": 2,
+    "arrival_ms": 8952.380952380952
+  },
+  {
+    "id": "code:raw:3042300",
+    "prompt": 1805,
+    "output": 8,
+    "arrival_ms": 9142.857142857143
+  },
+  {
+    "id": "code:raw:3042301",
+    "prompt": 680,
+    "output": 3,
+    "arrival_ms": 9333.333333333334
+  },
+  {
+    "id": "code:raw:3042302",
+    "prompt": 2538,
+    "output": 10,
+    "arrival_ms": 9523.809523809523
+  },
+  {
+    "id": "code:raw:3042303",
+    "prompt": 2103,
+    "output": 2,
+    "arrival_ms": 9714.285714285714
+  },
+  {
+    "id": "code:raw:3042304",
+    "prompt": 12,
+    "output": 14,
+    "arrival_ms": 9904.761904761905
+  },
+  {
+    "id": "code:raw:3042305",
+    "prompt": 198,
+    "output": 9,
+    "arrival_ms": 10095.238095238095
+  },
+  {
+    "id": "code:raw:3042306",
+    "prompt": 1661,
+    "output": 3,
+    "arrival_ms": 10285.714285714286
+  },
+  {
+    "id": "code:raw:3042307",
+    "prompt": 206,
+    "output": 1,
+    "arrival_ms": 10476.190476190477
+  },
+  {
+    "id": "code:raw:3042308",
+    "prompt": 7669,
+    "output": 10,
+    "arrival_ms": 10666.666666666666
+  },
+  {
+    "id": "code:raw:3042309",
+    "prompt": 198,
+    "output": 10,
+    "arrival_ms": 10857.142857142857
+  },
+  {
+    "id": "code:raw:3042310",
+    "prompt": 952,
+    "output": 1,
+    "arrival_ms": 11047.619047619048
+  },
+  {
+    "id": "code:raw:3042311",
+    "prompt": 1585,
+    "output": 3,
+    "arrival_ms": 11238.095238095239
+  },
+  {
+    "id": "code:raw:3042312",
+    "prompt": 2524,
+    "output": 11,
+    "arrival_ms": 11428.57142857143
+  },
+  {
+    "id": "code:raw:3042313",
+    "prompt": 3958,
+    "output": 48,
+    "arrival_ms": 11619.047619047618
+  },
+  {
+    "id": "code:raw:3042314",
+    "prompt": 4277,
+    "output": 2,
+    "arrival_ms": 11809.52380952381
+  },
+  {
+    "id": "code:raw:3042315",
+    "prompt": 952,
+    "output": 1,
+    "arrival_ms": 12000.0
+  },
+  {
+    "id": "code:raw:3042316",
+    "prompt": 2539,
+    "output": 64,
+    "arrival_ms": 12190.47619047619
+  },
+  {
+    "id": "code:raw:3042317",
+    "prompt": 2147,
+    "output": 1,
+    "arrival_ms": 12380.952380952382
+  },
+  {
+    "id": "code:raw:3042318",
+    "prompt": 582,
+    "output": 5,
+    "arrival_ms": 12571.42857142857
+  },
+  {
+    "id": "code:raw:3042319",
+    "prompt": 2524,
+    "output": 16,
+    "arrival_ms": 12761.904761904761
+  },
+  {
+    "id": "code:raw:3042320",
+    "prompt": 680,
+    "output": 3,
+    "arrival_ms": 12952.380952380952
+  },
+  {
+    "id": "code:raw:3042321",
+    "prompt": 583,
+    "output": 5,
+    "arrival_ms": 13142.857142857143
+  },
+  {
+    "id": "code:raw:3042322",
+    "prompt": 2052,
+    "output": 1,
+    "arrival_ms": 13333.333333333334
+  },
+  {
+    "id": "code:raw:3042323",
+    "prompt": 2052,
+    "output": 6,
+    "arrival_ms": 13523.809523809523
+  },
+  {
+    "id": "code:raw:3042324",
+    "prompt": 198,
+    "output": 22,
+    "arrival_ms": 13714.285714285714
+  },
+  {
+    "id": "code:raw:3042325",
+    "prompt": 583,
+    "output": 4,
+    "arrival_ms": 13904.761904761905
+  },
+  {
+    "id": "code:raw:3042326",
+    "prompt": 455,
+    "output": 5,
+    "arrival_ms": 14095.238095238095
+  },
+  {
+    "id": "code:raw:3042327",
+    "prompt": 207,
+    "output": 57,
+    "arrival_ms": 14285.714285714286
+  },
+  {
+    "id": "code:raw:3042328",
+    "prompt": 1037,
+    "output": 16,
+    "arrival_ms": 14476.190476190477
+  },
+  {
+    "id": "code:raw:3042329",
+    "prompt": 455,
+    "output": 5,
+    "arrival_ms": 14666.666666666666
+  },
+  {
+    "id": "code:raw:3042330",
+    "prompt": 2052,
+    "output": 1,
+    "arrival_ms": 14857.142857142857
+  },
+  {
+    "id": "code:raw:3042331",
+    "prompt": 247,
+    "output": 3,
+    "arrival_ms": 15047.619047619048
+  },
+  {
+    "id": "code:raw:3042332",
+    "prompt": 2052,
+    "output": 9,
+    "arrival_ms": 15238.095238095239
+  },
+  {
+    "id": "code:raw:3042333",
+    "prompt": 14,
+    "output": 3,
+    "arrival_ms": 15428.57142857143
+  },
+  {
+    "id": "code:raw:3042334",
+    "prompt": 494,
+    "output": 3,
+    "arrival_ms": 15619.047619047618
+  },
+  {
+    "id": "code:raw:3042335",
+    "prompt": 4277,
+    "output": 1,
+    "arrival_ms": 15809.52380952381
+  },
+  {
+    "id": "code:raw:3042336",
+    "prompt": 2053,
+    "output": 34,
+    "arrival_ms": 16000.0
+  },
+  {
+    "id": "code:raw:3042337",
+    "prompt": 494,
+    "output": 3,
+    "arrival_ms": 16190.47619047619
+  },
+  {
+    "id": "code:raw:3042338",
+    "prompt": 2408,
+    "output": 1,
+    "arrival_ms": 16380.952380952382
+  },
+  {
+    "id": "code:raw:3042339",
+    "prompt": 2053,
+    "output": 29,
+    "arrival_ms": 16571.428571428572
+  },
+  {
+    "id": "code:raw:3042340",
+    "prompt": 207,
+    "output": 119,
+    "arrival_ms": 16761.904761904763
+  },
+  {
+    "id": "code:raw:3042341",
+    "prompt": 2408,
+    "output": 3,
+    "arrival_ms": 16952.380952380954
+  },
+  {
+    "id": "code:raw:3042342",
+    "prompt": 1573,
+    "output": 1,
+    "arrival_ms": 17142.85714285714
+  },
+  {
+    "id": "code:raw:3042343",
+    "prompt": 1505,
+    "output": 3,
+    "arrival_ms": 17333.333333333332
+  },
+  {
+    "id": "code:raw:3042344",
+    "prompt": 2767,
+    "output": 8,
+    "arrival_ms": 17523.809523809523
+  },
+  {
+    "id": "code:raw:3042345",
+    "prompt": 1573,
+    "output": 1,
+    "arrival_ms": 17714.285714285714
+  },
+  {
+    "id": "code:raw:3042346",
+    "prompt": 2053,
+    "output": 1,
+    "arrival_ms": 17904.761904761905
+  },
+  {
+    "id": "code:raw:3042347",
+    "prompt": 1982,
+    "output": 30,
+    "arrival_ms": 18095.238095238095
+  },
+  {
+    "id": "code:raw:3042348",
+    "prompt": 2053,
+    "output": 4,
+    "arrival_ms": 18285.714285714286
+  },
+  {
+    "id": "code:raw:3042349",
+    "prompt": 951,
+    "output": 3,
+    "arrival_ms": 18476.190476190477
+  },
+  {
+    "id": "code:raw:3042350",
+    "prompt": 7686,
+    "output": 1,
+    "arrival_ms": 18666.666666666668
+  },
+  {
+    "id": "code:raw:3042351",
+    "prompt": 1507,
+    "output": 3,
+    "arrival_ms": 18857.14285714286
+  },
+  {
+    "id": "code:raw:3042352",
+    "prompt": 257,
+    "output": 2,
+    "arrival_ms": 19047.619047619046
+  },
+  {
+    "id": "code:raw:3042353",
+    "prompt": 7686,
+    "output": 12,
+    "arrival_ms": 19238.095238095237
+  },
+  {
+    "id": "code:raw:3042354",
+    "prompt": 1507,
+    "output": 2,
+    "arrival_ms": 19428.571428571428
+  },
+  {
+    "id": "code:raw:3042355",
+    "prompt": 45,
+    "output": 13,
+    "arrival_ms": 19619.04761904762
+  },
+  {
+    "id": "code:raw:3042356",
+    "prompt": 2054,
+    "output": 24,
+    "arrival_ms": 19809.52380952381
+  },
+  {
+    "id": "code:raw:3042357",
+    "prompt": 260,
+    "output": 14,
+    "arrival_ms": 20000.0
+  },
+  {
+    "id": "code:raw:3042358",
+    "prompt": 15,
+    "output": 3,
+    "arrival_ms": 20190.47619047619
+  },
+  {
+    "id": "code:raw:3042359",
+    "prompt": 3961,
+    "output": 14,
+    "arrival_ms": 20380.95238095238
+  },
+  {
+    "id": "code:raw:3042360",
+    "prompt": 206,
+    "output": 22,
+    "arrival_ms": 20571.428571428572
+  },
+  {
+    "id": "code:raw:3042361",
+    "prompt": 261,
+    "output": 13,
+    "arrival_ms": 20761.904761904763
+  },
+  {
+    "id": "code:raw:3042362",
+    "prompt": 15,
+    "output": 3,
+    "arrival_ms": 20952.380952380954
+  },
+  {
+    "id": "code:raw:3042363",
+    "prompt": 1509,
+    "output": 1,
+    "arrival_ms": 21142.85714285714
+  },
+  {
+    "id": "code:raw:3042364",
+    "prompt": 200,
+    "output": 19,
+    "arrival_ms": 21333.333333333332
+  },
+  {
+    "id": "code:raw:3042365",
+    "prompt": 313,
+    "output": 3,
+    "arrival_ms": 21523.809523809523
+  },
+  {
+    "id": "code:raw:3042366",
+    "prompt": 953,
+    "output": 5,
+    "arrival_ms": 21714.285714285714
+  },
+  {
+    "id": "code:raw:3042367",
+    "prompt": 1623,
+    "output": 16,
+    "arrival_ms": 21904.761904761905
+  },
+  {
+    "id": "code:raw:3042368",
+    "prompt": 457,
+    "output": 8,
+    "arrival_ms": 22095.238095238095
+  },
+  {
+    "id": "code:raw:3042369",
+    "prompt": 3962,
+    "output": 23,
+    "arrival_ms": 22285.714285714286
+  },
+  {
+    "id": "code:raw:3042370",
+    "prompt": 2153,
+    "output": 36,
+    "arrival_ms": 22476.190476190477
+  },
+  {
+    "id": "code:raw:3042371",
+    "prompt": 2055,
+    "output": 28,
+    "arrival_ms": 22666.666666666668
+  },
+  {
+    "id": "code:raw:3042372",
+    "prompt": 202,
+    "output": 1,
+    "arrival_ms": 22857.14285714286
+  },
+  {
+    "id": "code:raw:3042373",
+    "prompt": 1509,
+    "output": 160,
+    "arrival_ms": 23047.619047619046
+  },
+  {
+    "id": "code:raw:3042374",
+    "prompt": 3236,
+    "output": 1,
+    "arrival_ms": 23238.095238095237
+  },
+  {
+    "id": "code:raw:3042375",
+    "prompt": 7668,
+    "output": 25,
+    "arrival_ms": 23428.571428571428
+  },
+  {
+    "id": "code:raw:3042376",
+    "prompt": 202,
+    "output": 20,
+    "arrival_ms": 23619.04761904762
+  },
+  {
+    "id": "code:raw:3042377",
+    "prompt": 1662,
+    "output": 1,
+    "arrival_ms": 23809.52380952381
+  },
+  {
+    "id": "code:raw:3042378",
+    "prompt": 2257,
+    "output": 15,
+    "arrival_ms": 24000.0
+  },
+  {
+    "id": "code:raw:3042379",
+    "prompt": 3236,
+    "output": 1,
+    "arrival_ms": 24190.47619047619
+  }
+]

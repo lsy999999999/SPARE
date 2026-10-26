@@ -1,0 +1,611 @@
+{
+  "sample_count": 10,
+  "window_size": 512,
+  "selection": "Eligible requests after each fixed date anchor; 10 evenly spaced, nonoverlapping contiguous 512-request segments per date.",
+  "source_hashes": {
+    "data/azure_code_1week.csv": "71de5c55cbc35f8f1ed0b6b7806b4cd1e9764b0058469725a6aac98023a1448f",
+    "data/azure_conv_1week.csv": "a0cc9b969a9bbf0fd811802cbf4323edd3a209ace791e3799ad4f9207f213941"
+  },
+  "samples": [
+    {
+      "window": "code_new0",
+      "sample": 0,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new0_s00.json",
+      "sha256": "b5fd884a43d0222edc69b3113fb7d79cbd6428a9eb2c269db70b170dad913ccc",
+      "first_id": "code:raw:3042251",
+      "last_id": "code:raw:3042763",
+      "first_timestamp": "2024-05-11 16:37:00.342079+00:00",
+      "last_timestamp": "2024-05-11 16:37:37.269942+00:00"
+    },
+    {
+      "window": "code_new0",
+      "sample": 1,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new0_s01.json",
+      "sha256": "82a201ddc332437cce1f3b1750c5080541df4085d272a5d3db6176c0ca6a31b2",
+      "first_id": "code:raw:3088559",
+      "last_id": "code:raw:3089070",
+      "first_timestamp": "2024-05-11 17:26:44.886707+00:00",
+      "last_timestamp": "2024-05-11 17:27:17.591611+00:00"
+    },
+    {
+      "window": "code_new0",
+      "sample": 2,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new0_s02.json",
+      "sha256": "5d07b57f9ee01ca67da353e1134421f81240348dc0a88c50e6dbcaaa9a90d5d3",
+      "first_id": "code:raw:3134932",
+      "last_id": "code:raw:3135448",
+      "first_timestamp": "2024-05-11 18:13:23.285452+00:00",
+      "last_timestamp": "2024-05-11 18:13:55.138893+00:00"
+    },
+    {
+      "window": "code_new0",
+      "sample": 3,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new0_s03.json",
+      "sha256": "8f382e0d64570fca3fa97b6cf6768d098bbe10927a562503cf436b5606c2a738",
+      "first_id": "code:raw:3181282",
+      "last_id": "code:raw:3181794",
+      "first_timestamp": "2024-05-11 18:58:07.257436+00:00",
+      "last_timestamp": "2024-05-11 18:58:40.338167+00:00"
+    },
+    {
+      "window": "code_new0",
+      "sample": 4,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new0_s04.json",
+      "sha256": "fb500857ee6225db1e8522ee1cd8a63ebb8fef0ec436879d0a3559637a3d9fbe",
+      "first_id": "code:raw:3227669",
+      "last_id": "code:raw:3228180",
+      "first_timestamp": "2024-05-11 19:40:58.334641+00:00",
+      "last_timestamp": "2024-05-11 19:41:29.334125+00:00"
+    },
+    {
+      "window": "code_new0",
+      "sample": 5,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new0_s05.json",
+      "sha256": "e506aea98c30bc568c0d27c997d844c52ea46d612958eea2a2679d9da6f373d3",
+      "first_id": "code:raw:3273993",
+      "last_id": "code:raw:3274505",
+      "first_timestamp": "2024-05-11 20:29:52.268285+00:00",
+      "last_timestamp": "2024-05-11 20:30:26.051919+00:00"
+    },
+    {
+      "window": "code_new0",
+      "sample": 6,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new0_s06.json",
+      "sha256": "3f41d2dd9a305fdea7b89f10610c3d6e96362aa3f9dbcb31613d4026b777d460",
+      "first_id": "code:raw:3320352",
+      "last_id": "code:raw:3320867",
+      "first_timestamp": "2024-05-11 21:18:25.755869+00:00",
+      "last_timestamp": "2024-05-11 21:19:00.789654+00:00"
+    },
+    {
+      "window": "code_new0",
+      "sample": 7,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new0_s07.json",
+      "sha256": "9526d062f259b36268d3f6a73b69b441b428c879fae21d9974242501547bfa64",
+      "first_id": "code:raw:3366726",
+      "last_id": "code:raw:3367241",
+      "first_timestamp": "2024-05-11 22:14:26.634065+00:00",
+      "last_timestamp": "2024-05-11 22:14:56.893336+00:00"
+    },
+    {
+      "window": "code_new0",
+      "sample": 8,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new0_s08.json",
+      "sha256": "28cf5e51f7df9d687dd706f3a5ee00c20b30d944dbf4ba355445a40e3f53487d",
+      "first_id": "code:raw:3413099",
+      "last_id": "code:raw:3413612",
+      "first_timestamp": "2024-05-11 23:01:46.086470+00:00",
+      "last_timestamp": "2024-05-11 23:02:15.338008+00:00"
+    },
+    {
+      "window": "code_new0",
+      "sample": 9,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new0_s09.json",
+      "sha256": "50a9df7aea7c08f808d79929f309ecf7d52b45aee69dca107f9cf06b9945f2a1",
+      "first_id": "code:raw:3459412",
+      "last_id": "code:raw:3459924",
+      "first_timestamp": "2024-05-11 23:59:28.057936+00:00",
+      "last_timestamp": "2024-05-11 23:59:59.837210+00:00"
+    },
+    {
+      "window": "code_new1",
+      "sample": 0,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new1_s00.json",
+      "sha256": "0e939b05c8c73e9ccea8e4ec69577d2ec09792585ff1f282b95fd51e631caa49",
+      "first_id": "code:raw:5703033",
+      "last_id": "code:raw:5703545",
+      "first_timestamp": "2024-05-13 16:37:00.020442+00:00",
+      "last_timestamp": "2024-05-13 16:37:08.841926+00:00"
+    },
+    {
+      "window": "code_new1",
+      "sample": 1,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new1_s01.json",
+      "sha256": "8ae62ad41fc6444541d6bad230bfcf449fd21848428d4d15ad2c9871595cb07c",
+      "first_id": "code:raw:5883417",
+      "last_id": "code:raw:5883928",
+      "first_timestamp": "2024-05-13 17:24:56.273705+00:00",
+      "last_timestamp": "2024-05-13 17:25:03.777510+00:00"
+    },
+    {
+      "window": "code_new1",
+      "sample": 2,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new1_s02.json",
+      "sha256": "d57e87e770bad2c111c4d7435428af5eb80d9101aac4ecdc95fb1dd833da9f14",
+      "first_id": "code:raw:6063746",
+      "last_id": "code:raw:6064258",
+      "first_timestamp": "2024-05-13 18:06:48.402588+00:00",
+      "last_timestamp": "2024-05-13 18:06:54.894363+00:00"
+    },
+    {
+      "window": "code_new1",
+      "sample": 3,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new1_s03.json",
+      "sha256": "79f55418ed93f343cb19c4286aa520438d21fd3e01fc9e7101c05c9c0193e21c",
+      "first_id": "code:raw:6244078",
+      "last_id": "code:raw:6244591",
+      "first_timestamp": "2024-05-13 18:46:20.644345+00:00",
+      "last_timestamp": "2024-05-13 18:46:27.893341+00:00"
+    },
+    {
+      "window": "code_new1",
+      "sample": 4,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new1_s04.json",
+      "sha256": "a892e775092525387d2c442a4fe1c2d0237b80be0f4a337a9525141ec4e01c4a",
+      "first_id": "code:raw:6424441",
+      "last_id": "code:raw:6424953",
+      "first_timestamp": "2024-05-13 19:25:45.926679+00:00",
+      "last_timestamp": "2024-05-13 19:25:52.531458+00:00"
+    },
+    {
+      "window": "code_new1",
+      "sample": 5,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new1_s05.json",
+      "sha256": "7182c2b0db175b50efcbf81136d0261fcd1fe60a9d38138a7907ea225771a013",
+      "first_id": "code:raw:6604831",
+      "last_id": "code:raw:6605344",
+      "first_timestamp": "2024-05-13 20:03:15.556777+00:00",
+      "last_timestamp": "2024-05-13 20:03:21.836505+00:00"
+    },
+    {
+      "window": "code_new1",
+      "sample": 6,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new1_s06.json",
+      "sha256": "3d693eb1d33e1e3b383398d5282a9d699c76557081f9b515af6b6b6db6bebbbc",
+      "first_id": "code:raw:6785226",
+      "last_id": "code:raw:6785738",
+      "first_timestamp": "2024-05-13 20:42:42.516400+00:00",
+      "last_timestamp": "2024-05-13 20:42:49.413150+00:00"
+    },
+    {
+      "window": "code_new1",
+      "sample": 7,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new1_s07.json",
+      "sha256": "60e423f055ab2e7331b8d3c9756bdf6060aab43b71f6ffd91e9b366aae537ac7",
+      "first_id": "code:raw:6965602",
+      "last_id": "code:raw:6966115",
+      "first_timestamp": "2024-05-13 21:30:41.050452+00:00",
+      "last_timestamp": "2024-05-13 21:30:51.409713+00:00"
+    },
+    {
+      "window": "code_new1",
+      "sample": 8,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new1_s08.json",
+      "sha256": "55c7c7802b0101f28415f4d45c6e9aa7d7edce8631cf7cb0682af80a97e4575c",
+      "first_id": "code:raw:7145977",
+      "last_id": "code:raw:7146488",
+      "first_timestamp": "2024-05-13 22:32:02.590684+00:00",
+      "last_timestamp": "2024-05-13 22:32:13.050774+00:00"
+    },
+    {
+      "window": "code_new1",
+      "sample": 9,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new1_s09.json",
+      "sha256": "f1084368f900719144752a935879ef551519d3ca0424a5fefb64d77e3c247b9d",
+      "first_id": "code:raw:7326364",
+      "last_id": "code:raw:7326875",
+      "first_timestamp": "2024-05-13 23:59:40.522724+00:00",
+      "last_timestamp": "2024-05-13 23:59:59.906429+00:00"
+    },
+    {
+      "window": "code_new2",
+      "sample": 0,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new2_s00.json",
+      "sha256": "ba5cb7fa670c08f405c165a95fa93a79310c7021b43cfabffb9aa4dc98e6e7bb",
+      "first_id": "code:raw:15189695",
+      "last_id": "code:raw:15190207",
+      "first_timestamp": "2024-05-16 16:37:00.008516+00:00",
+      "last_timestamp": "2024-05-16 16:37:09.553632+00:00"
+    },
+    {
+      "window": "code_new2",
+      "sample": 1,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new2_s01.json",
+      "sha256": "2041356cc63bb1f993429ee1f62e3d4277c9195c9627d9cc325e51583d97ab60",
+      "first_id": "code:raw:15368997",
+      "last_id": "code:raw:15369511",
+      "first_timestamp": "2024-05-16 17:21:34.657679+00:00",
+      "last_timestamp": "2024-05-16 17:21:42.041933+00:00"
+    },
+    {
+      "window": "code_new2",
+      "sample": 2,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new2_s02.json",
+      "sha256": "51f9808570289f06a8359cb6dc3de503716ebc8ffa2df398a60bed1ce73e0334",
+      "first_id": "code:raw:15548284",
+      "last_id": "code:raw:15548798",
+      "first_timestamp": "2024-05-16 18:02:00.788519+00:00",
+      "last_timestamp": "2024-05-16 18:02:07.508578+00:00"
+    },
+    {
+      "window": "code_new2",
+      "sample": 3,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new2_s03.json",
+      "sha256": "1ec59afea7e63ae33e12f8d9f7157199f9376ceb05db909079fac61cccc235f4",
+      "first_id": "code:raw:15727575",
+      "last_id": "code:raw:15728090",
+      "first_timestamp": "2024-05-16 18:40:03.166871+00:00",
+      "last_timestamp": "2024-05-16 18:40:09.802347+00:00"
+    },
+    {
+      "window": "code_new2",
+      "sample": 4,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new2_s04.json",
+      "sha256": "07e49ff886df40c6e279ef8b5d520e9d28e31410481fff0e4371b8f45e922de5",
+      "first_id": "code:raw:15906789",
+      "last_id": "code:raw:15907302",
+      "first_timestamp": "2024-05-16 19:17:39.540697+00:00",
+      "last_timestamp": "2024-05-16 19:17:44.541745+00:00"
+    },
+    {
+      "window": "code_new2",
+      "sample": 5,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new2_s05.json",
+      "sha256": "a40cecc07e9864de0a8f361445e1c6078a6bd69e258ce96348782e143e9df3d0",
+      "first_id": "code:raw:16086043",
+      "last_id": "code:raw:16086557",
+      "first_timestamp": "2024-05-16 19:55:04.291634+00:00",
+      "last_timestamp": "2024-05-16 19:55:11.090227+00:00"
+    },
+    {
+      "window": "code_new2",
+      "sample": 6,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new2_s06.json",
+      "sha256": "f0e4622969dcd1a7978155b9f6619c6ca99d414d120bd03e86dc2a8faae4079a",
+      "first_id": "code:raw:16265320",
+      "last_id": "code:raw:16265832",
+      "first_timestamp": "2024-05-16 20:34:34.273905+00:00",
+      "last_timestamp": "2024-05-16 20:34:41.543231+00:00"
+    },
+    {
+      "window": "code_new2",
+      "sample": 7,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new2_s07.json",
+      "sha256": "2f3f8dcbf8093ffd7919992a21cf7f780f30a34829530dc58f2bf7a7c976282b",
+      "first_id": "code:raw:16444560",
+      "last_id": "code:raw:16445074",
+      "first_timestamp": "2024-05-16 21:20:51.907264+00:00",
+      "last_timestamp": "2024-05-16 21:21:01.841079+00:00"
+    },
+    {
+      "window": "code_new2",
+      "sample": 8,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new2_s08.json",
+      "sha256": "bb9c914926b5d349dbe43c2c38f3ff792dd40fce552ca16c5fe73bfffa622a46",
+      "first_id": "code:raw:16623855",
+      "last_id": "code:raw:16624367",
+      "first_timestamp": "2024-05-16 22:24:18.410801+00:00",
+      "last_timestamp": "2024-05-16 22:24:34.782039+00:00"
+    },
+    {
+      "window": "code_new2",
+      "sample": 9,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/code_new2_s09.json",
+      "sha256": "b384dbcf64249898e52ba4ba46b07d319c27de7f75839a57d46ce354db2a0688",
+      "first_id": "code:raw:16803179",
+      "last_id": "code:raw:16803694",
+      "first_timestamp": "2024-05-16 23:59:40.304986+00:00",
+      "last_timestamp": "2024-05-16 23:59:59.929501+00:00"
+    },
+    {
+      "window": "conversation_new0",
+      "sample": 0,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new0_s00.json",
+      "sha256": "d840f7b96b7117e25877e4314a70f6c56661e5fd1a60c4eaf8ebab20fa1bc86b",
+      "first_id": "conversation:raw:5731344",
+      "last_id": "conversation:raw:5731866",
+      "first_timestamp": "2024-05-13 16:37:00.003126+00:00",
+      "last_timestamp": "2024-05-13 16:37:07.510720+00:00"
+    },
+    {
+      "window": "conversation_new0",
+      "sample": 1,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new0_s01.json",
+      "sha256": "8ec1c0a7ede81638c9301582494c1e19e6fa3186b6ad07d321b1440c1f44d53c",
+      "first_id": "conversation:raw:5880984",
+      "last_id": "conversation:raw:5881506",
+      "first_timestamp": "2024-05-13 17:20:15.282817+00:00",
+      "last_timestamp": "2024-05-13 17:20:23.918725+00:00"
+    },
+    {
+      "window": "conversation_new0",
+      "sample": 2,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new0_s02.json",
+      "sha256": "5f9b9dc44032f0283fdb06e974bfce3f370fa0b450891e3d8e194dcee3554069",
+      "first_id": "conversation:raw:6030495",
+      "last_id": "conversation:raw:6031015",
+      "first_timestamp": "2024-05-13 18:03:28.787118+00:00",
+      "last_timestamp": "2024-05-13 18:03:37.263089+00:00"
+    },
+    {
+      "window": "conversation_new0",
+      "sample": 3,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new0_s03.json",
+      "sha256": "4aeffd77144a4273f1c619c17f5b8e5b998a6d71af76de03c9ea45dbfa23768e",
+      "first_id": "conversation:raw:6179827",
+      "last_id": "conversation:raw:6180344",
+      "first_timestamp": "2024-05-13 18:47:13.539175+00:00",
+      "last_timestamp": "2024-05-13 18:47:23.035832+00:00"
+    },
+    {
+      "window": "conversation_new0",
+      "sample": 4,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new0_s04.json",
+      "sha256": "91c2ea9dccd1de175f5405069dc7a77e89457d35d3960487452523eba7a27925",
+      "first_id": "conversation:raw:6329066",
+      "last_id": "conversation:raw:6329589",
+      "first_timestamp": "2024-05-13 19:33:45.648738+00:00",
+      "last_timestamp": "2024-05-13 19:33:55.165627+00:00"
+    },
+    {
+      "window": "conversation_new0",
+      "sample": 5,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new0_s05.json",
+      "sha256": "6200499271646c280cbab09b1b9c6099424b4f88bc57b11c6239548420dec009",
+      "first_id": "conversation:raw:6478398",
+      "last_id": "conversation:raw:6478920",
+      "first_timestamp": "2024-05-13 20:15:17.789852+00:00",
+      "last_timestamp": "2024-05-13 20:15:26.144276+00:00"
+    },
+    {
+      "window": "conversation_new0",
+      "sample": 6,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new0_s06.json",
+      "sha256": "87c791a3cb0ccff9e51c14e50688659bb3b3c3508f7446c266572018c65a9149",
+      "first_id": "conversation:raw:6627774",
+      "last_id": "conversation:raw:6628299",
+      "first_timestamp": "2024-05-13 21:03:22.999433+00:00",
+      "last_timestamp": "2024-05-13 21:03:35.246310+00:00"
+    },
+    {
+      "window": "conversation_new0",
+      "sample": 7,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new0_s07.json",
+      "sha256": "327d8a7fb587c87312afcebea4ea67db251b375451bc844d837e4443dd9e892d",
+      "first_id": "conversation:raw:6777497",
+      "last_id": "conversation:raw:6778019",
+      "first_timestamp": "2024-05-13 22:01:49.755349+00:00",
+      "last_timestamp": "2024-05-13 22:02:02.670464+00:00"
+    },
+    {
+      "window": "conversation_new0",
+      "sample": 8,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new0_s08.json",
+      "sha256": "b28ee83eabe534aebbc0c422727689a45ac332daa0c1903a5b61c84f9b22e665",
+      "first_id": "conversation:raw:6927540",
+      "last_id": "conversation:raw:6928060",
+      "first_timestamp": "2024-05-13 23:02:07.200542+00:00",
+      "last_timestamp": "2024-05-13 23:02:20.254945+00:00"
+    },
+    {
+      "window": "conversation_new0",
+      "sample": 9,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new0_s09.json",
+      "sha256": "40a092bc7a99103e7eec73c8c1a2ec1d8e1d58126993cf8a7af82c67c5fce6d4",
+      "first_id": "conversation:raw:7078691",
+      "last_id": "conversation:raw:7079223",
+      "first_timestamp": "2024-05-13 23:59:48.195103+00:00",
+      "last_timestamp": "2024-05-13 23:59:59.998362+00:00"
+    },
+    {
+      "window": "conversation_new1",
+      "sample": 0,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new1_s00.json",
+      "sha256": "dc373e1b820ee061fc0ab4f993dff4caf5262940ef296e445c83bf78c5832752",
+      "first_id": "conversation:raw:15026831",
+      "last_id": "conversation:raw:15027358",
+      "first_timestamp": "2024-05-15 16:37:00.003913+00:00",
+      "last_timestamp": "2024-05-15 16:37:09.414839+00:00"
+    },
+    {
+      "window": "conversation_new1",
+      "sample": 1,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new1_s01.json",
+      "sha256": "1510cf0a5a8a93e7d4e93e68f4d8e8c4abfee43bbf3bfd9a9a46c4c28445ba88",
+      "first_id": "conversation:raw:15165432",
+      "last_id": "conversation:raw:15165957",
+      "first_timestamp": "2024-05-15 17:18:09.286850+00:00",
+      "last_timestamp": "2024-05-15 17:18:18.251943+00:00"
+    },
+    {
+      "window": "conversation_new1",
+      "sample": 2,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new1_s02.json",
+      "sha256": "5ac8b5683a45f319d615f838c927d956d537c7fbe918f6150432794583918ea7",
+      "first_id": "conversation:raw:15303778",
+      "last_id": "conversation:raw:15304305",
+      "first_timestamp": "2024-05-15 17:59:26.951461+00:00",
+      "last_timestamp": "2024-05-15 17:59:35.748995+00:00"
+    },
+    {
+      "window": "conversation_new1",
+      "sample": 3,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new1_s03.json",
+      "sha256": "5bea28cad7b9ca9a220c991a2a54b3a7dbb380d5149704fccabe980cd1c99206",
+      "first_id": "conversation:raw:15442145",
+      "last_id": "conversation:raw:15442667",
+      "first_timestamp": "2024-05-15 18:38:20.900198+00:00",
+      "last_timestamp": "2024-05-15 18:38:30.541102+00:00"
+    },
+    {
+      "window": "conversation_new1",
+      "sample": 4,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new1_s04.json",
+      "sha256": "09566e86867febb477b0e523bb35bbb554259463b77e8398a5e1eaefa447cf0d",
+      "first_id": "conversation:raw:15580464",
+      "last_id": "conversation:raw:15580983",
+      "first_timestamp": "2024-05-15 19:19:33.171030+00:00",
+      "last_timestamp": "2024-05-15 19:19:43.540652+00:00"
+    },
+    {
+      "window": "conversation_new1",
+      "sample": 5,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new1_s05.json",
+      "sha256": "47d85bef26e6102536d34d5b0e6ba5041815169f17a72b21c290b01d1845d8bd",
+      "first_id": "conversation:raw:15718658",
+      "last_id": "conversation:raw:15719181",
+      "first_timestamp": "2024-05-15 20:02:15.512001+00:00",
+      "last_timestamp": "2024-05-15 20:02:25.501402+00:00"
+    },
+    {
+      "window": "conversation_new1",
+      "sample": 6,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new1_s06.json",
+      "sha256": "7b0266ac16d879d1c7da138bfe07086edf0574efe4650283857fcf4689402b65",
+      "first_id": "conversation:raw:15856893",
+      "last_id": "conversation:raw:15857418",
+      "first_timestamp": "2024-05-15 20:51:19.415341+00:00",
+      "last_timestamp": "2024-05-15 20:51:30.664644+00:00"
+    },
+    {
+      "window": "conversation_new1",
+      "sample": 7,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new1_s07.json",
+      "sha256": "d7b3669aafc612ffbbc517204572fad89b7d96bbabc258ff4acb38e8cadf15a3",
+      "first_id": "conversation:raw:15995236",
+      "last_id": "conversation:raw:15995763",
+      "first_timestamp": "2024-05-15 21:51:18.504128+00:00",
+      "last_timestamp": "2024-05-15 21:51:35.711420+00:00"
+    },
+    {
+      "window": "conversation_new1",
+      "sample": 8,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new1_s08.json",
+      "sha256": "9f83333c8c43cda2a60988fd9a30464a3bb537f4a1176957f5fdc5215d618c66",
+      "first_id": "conversation:raw:16133993",
+      "last_id": "conversation:raw:16134523",
+      "first_timestamp": "2024-05-15 22:59:16.923804+00:00",
+      "last_timestamp": "2024-05-15 22:59:33.287363+00:00"
+    },
+    {
+      "window": "conversation_new1",
+      "sample": 9,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new1_s09.json",
+      "sha256": "4df657424434eed402ebd9d9c7e35c3ed630115fdd103ba38a6de8987d179fbe",
+      "first_id": "conversation:raw:16273741",
+      "last_id": "conversation:raw:16274272",
+      "first_timestamp": "2024-05-15 23:59:48.005756+00:00",
+      "last_timestamp": "2024-05-15 23:59:59.916734+00:00"
+    },
+    {
+      "window": "conversation_new2",
+      "sample": 0,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new2_s00.json",
+      "sha256": "1365b8bc070518c413cafb65a440ca2e7c47fb863f0e215ce315768da5873a2e",
+      "first_id": "conversation:raw:26512702",
+      "last_id": "conversation:raw:26513234",
+      "first_timestamp": "2024-05-18 16:37:00.000073+00:00",
+      "last_timestamp": "2024-05-18 16:37:16.174344+00:00"
+    },
+    {
+      "window": "conversation_new2",
+      "sample": 1,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new2_s01.json",
+      "sha256": "cd6cca13e7aeabbd4c173f6677471061fe66f9bf4b12a76dfe05e9abcbd9de30",
+      "first_id": "conversation:raw:26600624",
+      "last_id": "conversation:raw:26601144",
+      "first_timestamp": "2024-05-18 17:18:14.471511+00:00",
+      "last_timestamp": "2024-05-18 17:18:29.163364+00:00"
+    },
+    {
+      "window": "conversation_new2",
+      "sample": 2,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new2_s02.json",
+      "sha256": "6415720fbfa1cf9cc71cf0b58e06ffa8d928b6f808b38037832c71736ba3dbf1",
+      "first_id": "conversation:raw:26688383",
+      "last_id": "conversation:raw:26688912",
+      "first_timestamp": "2024-05-18 18:00:48.499869+00:00",
+      "last_timestamp": "2024-05-18 18:01:04.743701+00:00"
+    },
+    {
+      "window": "conversation_new2",
+      "sample": 3,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new2_s03.json",
+      "sha256": "a11b02bb7d9414739dde54a0965f2ce086547a0f424ba3392e9017c3fa02077f",
+      "first_id": "conversation:raw:26776194",
+      "last_id": "conversation:raw:26776717",
+      "first_timestamp": "2024-05-18 18:48:12.921277+00:00",
+      "last_timestamp": "2024-05-18 18:48:27.292870+00:00"
+    },
+    {
+      "window": "conversation_new2",
+      "sample": 4,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new2_s04.json",
+      "sha256": "d061632e7d9177b04a5def86d1167733d773d6bd3cbb6036cdabb399e954812f",
+      "first_id": "conversation:raw:26863938",
+      "last_id": "conversation:raw:26864458",
+      "first_timestamp": "2024-05-18 19:37:12.752113+00:00",
+      "last_timestamp": "2024-05-18 19:37:27.695634+00:00"
+    },
+    {
+      "window": "conversation_new2",
+      "sample": 5,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new2_s05.json",
+      "sha256": "a4a32d5aa4cbd60c9c3ba9343aaa7d6a24d45f2a25f778e48b2826a5bda73571",
+      "first_id": "conversation:raw:26951706",
+      "last_id": "conversation:raw:26952236",
+      "first_timestamp": "2024-05-18 20:25:47.244323+00:00",
+      "last_timestamp": "2024-05-18 20:26:02.504583+00:00"
+    },
+    {
+      "window": "conversation_new2",
+      "sample": 6,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new2_s06.json",
+      "sha256": "ffa4b18d7cc475cf127eb4485a83e60c1fcfb7428c15bb8c6cd19a1f5a714cac",
+      "first_id": "conversation:raw:27039480",
+      "last_id": "conversation:raw:27040010",
+      "first_timestamp": "2024-05-18 21:13:52.749788+00:00",
+      "last_timestamp": "2024-05-18 21:14:08.539975+00:00"
+    },
+    {
+      "window": "conversation_new2",
+      "sample": 7,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new2_s07.json",
+      "sha256": "dbba56b0476d928e4341131d3f1de7368a7dec6521685dfd7d9263cec1d6cff7",
+      "first_id": "conversation:raw:27127346",
+      "last_id": "conversation:raw:27127873",
+      "first_timestamp": "2024-05-18 22:03:29.538017+00:00",
+      "last_timestamp": "2024-05-18 22:03:48.436318+00:00"
+    },
+    {
+      "window": "conversation_new2",
+      "sample": 8,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new2_s08.json",
+      "sha256": "339b1e6ae38c704def62faa261e6787f5ab205afc5e49e18ab7271926af69ed4",
+      "first_id": "conversation:raw:27215268",
+      "last_id": "conversation:raw:27215791",
+      "first_timestamp": "2024-05-18 23:00:41.542541+00:00",
+      "last_timestamp": "2024-05-18 23:00:59.654082+00:00"
+    },
+    {
+      "window": "conversation_new2",
+      "sample": 9,
+      "path": "artifacts/www_simulator_50rep_20261014_r1/samples/conversation_new2_s09.json",
+      "sha256": "f686e01ae05fb5dc8c0d3b78631fc82d1d49dc6f839999c5fe0e186ed8237c9c",
+      "first_id": "conversation:raw:27303469",
+      "last_id": "conversation:raw:27303998",
+      "first_timestamp": "2024-05-18 23:59:36.045972+00:00",
+      "last_timestamp": "2024-05-18 23:59:59.995460+00:00"
+    }
+  ]
+}

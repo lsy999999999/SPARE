@@ -1,0 +1,20 @@
+{
+  "source": "artifacts/www_plan_abc_20261008_r1/c/analysis/partial_cell_means.csv",
+  "groups": {
+    "capacity768": {
+      "n": 12,
+      "fixed_wins": 11,
+      "spare_mean_paired_increase_pct": 4.446214081538358
+    },
+    "Conversation": {
+      "n": 11,
+      "fixed_wins": 10,
+      "spare_mean_paired_increase_pct": 5.6808122213038335
+    }
+  },
+  "full_cpu_schedule_ms": {
+    "spare": 0.6727672209643331,
+    "fixed_selected": 0.5905851467971217
+  },
+  "scope": "Post-hoc 23 accepted C scenarios; four repeats averaged before equal scenario weights; includes auditing, not isolated candidate overhead."
+}

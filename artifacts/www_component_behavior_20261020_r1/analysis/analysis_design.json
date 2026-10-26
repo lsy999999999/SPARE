@@ -1,0 +1,6 @@
+{
+  "resamples": 2000,
+  "seed": 20261020,
+  "paired_unit": "source window",
+  "conflict_aggregation": "mean of per-window ratios; zero denominators excluded"
+}

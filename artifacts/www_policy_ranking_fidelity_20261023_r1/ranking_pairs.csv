@@ -1,0 +1,4 @@
+source,sample,policy_a,policy_b,gpu_relation,simulator_relation,gpu_lower_a,gpu_lower_b,simulator_lower_a,simulator_lower_b
+code,code_d2_w02,SPARE,SRP,0,1,2.0,2.0,2.25,2.0
+code,code_d2_w02,SPARE,Sarathi,1,1,2.0,1.75,2.25,1.75
+code,code_d2_w02,SRP,Sarathi,1,1,2.0,1.75,2.0,1.75

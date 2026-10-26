@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "design_sha256": "b6b2f5d9969cc202530b3eb9675a82d69e86273a2e8172eeab729dac6136a850",
+  "archive_parity": [
+    {
+      "source": "code",
+      "rate": 0.5,
+      "name": "code_d1_w00",
+      "trajectory_sha256": "f1856619c841d8f64e2e337d5414b94353714a81666131edbe694efe54d8f6d0",
+      "parity": true
+    },
+    {
+      "source": "conversation",
+      "rate": 1.0,
+      "name": "conversation_d1_w00",
+      "trajectory_sha256": "58262f5342b60ff1d45bb7911702b61d1a1f0239f908efd1ea1f0b2b4ff3df0b",
+      "parity": true
+    }
+  ],
+  "variants": {
+    "spare": {
+      "trajectory_sha256": "ed6e978a010c74d5bf6a0f81c9acd1f406ed1dada84f061b33c3794dc3a70103",
+      "mean_ttft_ms": 653.9389287620968,
+      "interventions": 43
+    },
+    "srp": {
+      "trajectory_sha256": "d82e9a3358761fcde7b530ca704825a2f43e431f4a10a33f72b44a8844ea2bd4",
+      "mean_ttft_ms": 856.079820476123,
+      "interventions": 0
+    },
+    "no_arrival": {
+      "trajectory_sha256": "c19e7500b39f5109856cdd157a16d48d8155340a19220c9eee5f4312744a7013",
+      "mean_ttft_ms": 707.5342590383598,
+      "interventions": 29
+    },
+    "constant16": {
+      "trajectory_sha256": "d6be009ab1ad1e8044e160b9b0572bc37c9efc006d6e106a310a84f2977a982d",
+      "mean_ttft_ms": 606.7501903160039,
+      "interventions": 174
+    },
+    "constant32": {
+      "trajectory_sha256": "d6b5579f434d75818065a6c083c73c7fbb800f3f4a08a3563d25012a154fa47e",
+      "mean_ttft_ms": 637.4397324777641,
+      "interventions": 66
+    },
+    "no_finish_guard": {
+      "trajectory_sha256": "ed6e978a010c74d5bf6a0f81c9acd1f406ed1dada84f061b33c3794dc3a70103",
+      "mean_ttft_ms": 653.9389287620968,
+      "interventions": 43
+    }
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "kv_blocks": 2048,
+    "source": "conversation",
+    "offered_qps": 3.5,
+    "spare_mean_ttft_ms": 1567.9460574342954,
+    "rl_mean_ttft_ms": 1432.4099508228114,
+    "rl_gain_pct": 8.644181728628354,
+    "paired_bootstrap_pct_low": 4.19056367952512,
+    "paired_bootstrap_pct_high": 13.813444575896956,
+    "rl_faster_windows": 33,
+    "rl_slower_windows": 17,
+    "spare_p99_tbt_ms": 91.43734546172597,
+    "rl_p99_tbt_ms": 90.37943466423934,
+    "spare_backlog_drift": 1.14,
+    "rl_backlog_drift": 0.92,
+    "spare_preemptions": 59.82,
+    "rl_preemptions": 44.4
+  },
+  {
+    "kv_blocks": 12032,
+    "source": "conversation",
+    "offered_qps": 3.5,
+    "spare_mean_ttft_ms": 564.5615472091882,
+    "rl_mean_ttft_ms": 683.4404736174447,
+    "rl_gain_pct": -21.056858547294578,
+    "paired_bootstrap_pct_low": -27.724740783318172,
+    "paired_bootstrap_pct_high": -13.886967834740263,
+    "rl_faster_windows": 4,
+    "rl_slower_windows": 46,
+    "spare_p99_tbt_ms": 103.82781161338691,
+    "rl_p99_tbt_ms": 53.67375486995193,
+    "spare_backlog_drift": 0.02,
+    "rl_backlog_drift": 0.42,
+    "spare_preemptions": 0.0,
+    "rl_preemptions": 0.0
+  }
+]

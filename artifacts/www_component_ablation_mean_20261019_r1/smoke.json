@@ -1,0 +1,52 @@
+{
+  "parity": [
+    {
+      "source": "code",
+      "kv": 1024,
+      "rate": 2.0,
+      "trajectory_sha256": "a09bcd293aa3553509012ee670be8e93174dcf906ca117fcc5b8bedde4c0ec38"
+    },
+    {
+      "source": "conversation",
+      "kv": 2048,
+      "rate": 3.0,
+      "trajectory_sha256": "91d9b3baa841c06ad3f094666a6ed9d149b96b515e9048e06cb485ae776fa43e"
+    },
+    {
+      "source": "conversation",
+      "kv": 4096,
+      "rate": 4.0,
+      "trajectory_sha256": "7b176b15231c8d656b1e22e219cc459e9499a8b8ea2e54457a48bb840ea7d3bb"
+    }
+  ],
+  "variants": {
+    "constant1": {
+      "trajectory_sha256": "2b7a3468e47f31e34bb9d91afcb124f4099b69533839d5b126b3eea88a7ede13",
+      "interventions": 1676
+    },
+    "constant8": {
+      "trajectory_sha256": "918fd7045f8147179ee19f7971e411223799e18eb09568635ebeee46eb719917",
+      "interventions": 1733
+    },
+    "chunk_family": {
+      "trajectory_sha256": "91d9b3baa841c06ad3f094666a6ed9d149b96b515e9048e06cb485ae776fa43e",
+      "interventions": 0
+    },
+    "drop_candidate1": {
+      "trajectory_sha256": "91d9b3baa841c06ad3f094666a6ed9d149b96b515e9048e06cb485ae776fa43e",
+      "interventions": 0
+    },
+    "drop_candidate2": {
+      "trajectory_sha256": "91d9b3baa841c06ad3f094666a6ed9d149b96b515e9048e06cb485ae776fa43e",
+      "interventions": 0
+    },
+    "drop_candidate3": {
+      "trajectory_sha256": "91d9b3baa841c06ad3f094666a6ed9d149b96b515e9048e06cb485ae776fa43e",
+      "interventions": 0
+    },
+    "drop_candidate4": {
+      "trajectory_sha256": "91d9b3baa841c06ad3f094666a6ed9d149b96b515e9048e06cb485ae776fa43e",
+      "interventions": 0
+    }
+  }
+}

@@ -1,0 +1,1768 @@
+{
+  "groups": [
+    {
+      "theta_ms": 1000.0,
+      "arm": "full",
+      "offered_qps": 0.8,
+      "mean_ttft_ms": 1061.7996708297687,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": -3.3333333333333335,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "full",
+      "offered_qps": 1.0,
+      "mean_ttft_ms": 1061.799670829769,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": 2.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "full",
+      "offered_qps": 1.1,
+      "mean_ttft_ms": 1061.7996708297685,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": -3.3333333333333335,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "full",
+      "offered_qps": 1.14,
+      "mean_ttft_ms": 1061.799670829769,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": 0.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "full",
+      "offered_qps": 1.16,
+      "mean_ttft_ms": 1061.799670829769,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": -3.3333333333333335,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "full",
+      "offered_qps": 1.18,
+      "mean_ttft_ms": 1061.7996708297687,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": 1.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "full",
+      "offered_qps": 1.2,
+      "mean_ttft_ms": 1061.7996708297685,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": 0.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "full",
+      "offered_qps": 1.22,
+      "mean_ttft_ms": 3226.6686434333023,
+      "p99_tbt_ms": 44.401429499480095,
+      "backlog_drift": -3.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "full",
+      "offered_qps": 1.24,
+      "mean_ttft_ms": 8279.813510535534,
+      "p99_tbt_ms": 52.43171081512003,
+      "backlog_drift": 2.3333333333333335,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "full",
+      "offered_qps": 1.26,
+      "mean_ttft_ms": 10174.382652887218,
+      "p99_tbt_ms": 45.621625487421795,
+      "backlog_drift": 2.6666666666666665,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "full",
+      "offered_qps": 1.28,
+      "mean_ttft_ms": 11600.47857135987,
+      "p99_tbt_ms": 45.62119616070413,
+      "backlog_drift": 0.3333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "full",
+      "offered_qps": 1.3,
+      "mean_ttft_ms": 13270.4843190513,
+      "p99_tbt_ms": 45.621260472795505,
+      "backlog_drift": 6.666666666666667,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "full",
+      "offered_qps": 1.32,
+      "mean_ttft_ms": 14787.291885462168,
+      "p99_tbt_ms": 45.6211382218753,
+      "backlog_drift": 7.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "full",
+      "offered_qps": 1.4,
+      "mean_ttft_ms": 21065.40601638138,
+      "p99_tbt_ms": 45.62032707827166,
+      "backlog_drift": 6.333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 0.8,
+      "mean_ttft_ms": 1049.9309157004602,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": -3.6666666666666665,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.0,
+      "mean_ttft_ms": 1049.93091570046,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": 2.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.1,
+      "mean_ttft_ms": 1049.93091570046,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": -3.3333333333333335,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.14,
+      "mean_ttft_ms": 1049.9309157004602,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": 0.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.16,
+      "mean_ttft_ms": 1049.93091570046,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": -3.3333333333333335,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.18,
+      "mean_ttft_ms": 1049.9309157004604,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": 1.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.2,
+      "mean_ttft_ms": 1049.9309157004598,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": 0.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.22,
+      "mean_ttft_ms": 1049.9309157004598,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": -3.3333333333333335,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.24,
+      "mean_ttft_ms": 6064.351514599046,
+      "p99_tbt_ms": 48.382788488577354,
+      "backlog_drift": 2.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.26,
+      "mean_ttft_ms": 10131.95197108187,
+      "p99_tbt_ms": 45.621625487421795,
+      "backlog_drift": 2.6666666666666665,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.28,
+      "mean_ttft_ms": 11659.297730632037,
+      "p99_tbt_ms": 45.62125409952326,
+      "backlog_drift": 0.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.3,
+      "mean_ttft_ms": 13148.996065823572,
+      "p99_tbt_ms": 45.621260472795505,
+      "backlog_drift": 6.333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.32,
+      "mean_ttft_ms": 14790.988433705434,
+      "p99_tbt_ms": 45.6211382218753,
+      "backlog_drift": 7.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 1000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.4,
+      "mean_ttft_ms": 21129.570266745843,
+      "p99_tbt_ms": 45.620379802597064,
+      "backlog_drift": 6.333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "full",
+      "offered_qps": 0.8,
+      "mean_ttft_ms": 1061.7996708297687,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "full",
+      "offered_qps": 1.0,
+      "mean_ttft_ms": 1061.799670829769,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": 2.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "full",
+      "offered_qps": 1.1,
+      "mean_ttft_ms": 1061.7996708297685,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "full",
+      "offered_qps": 1.14,
+      "mean_ttft_ms": 1061.799670829769,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": 0.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "full",
+      "offered_qps": 1.16,
+      "mean_ttft_ms": 1061.799670829769,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "full",
+      "offered_qps": 1.18,
+      "mean_ttft_ms": 1061.7996708297687,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": 1.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "full",
+      "offered_qps": 1.2,
+      "mean_ttft_ms": 1061.7996708297685,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": 0.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "full",
+      "offered_qps": 1.22,
+      "mean_ttft_ms": 3226.6686434333023,
+      "p99_tbt_ms": 44.401429499480095,
+      "backlog_drift": -3.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "full",
+      "offered_qps": 1.24,
+      "mean_ttft_ms": 8279.813510535534,
+      "p99_tbt_ms": 52.43171081512003,
+      "backlog_drift": 2.3333333333333335,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "full",
+      "offered_qps": 1.26,
+      "mean_ttft_ms": 10174.382652887218,
+      "p99_tbt_ms": 45.621625487421795,
+      "backlog_drift": 2.6666666666666665,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "full",
+      "offered_qps": 1.28,
+      "mean_ttft_ms": 11600.47857135987,
+      "p99_tbt_ms": 45.62119616070413,
+      "backlog_drift": 0.3333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "full",
+      "offered_qps": 1.3,
+      "mean_ttft_ms": 13270.4843190513,
+      "p99_tbt_ms": 45.621260472795505,
+      "backlog_drift": 6.666666666666667,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "full",
+      "offered_qps": 1.32,
+      "mean_ttft_ms": 14787.291885462168,
+      "p99_tbt_ms": 45.6211382218753,
+      "backlog_drift": 7.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "full",
+      "offered_qps": 1.4,
+      "mean_ttft_ms": 21065.40601638138,
+      "p99_tbt_ms": 45.62032707827166,
+      "backlog_drift": 6.333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 0.8,
+      "mean_ttft_ms": 1049.9309157004602,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": -3.6666666666666665,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.0,
+      "mean_ttft_ms": 1049.93091570046,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": 2.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.1,
+      "mean_ttft_ms": 1049.93091570046,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.14,
+      "mean_ttft_ms": 1049.9309157004602,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": 0.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.16,
+      "mean_ttft_ms": 1049.93091570046,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.18,
+      "mean_ttft_ms": 1049.9309157004604,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": 1.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.2,
+      "mean_ttft_ms": 1049.9309157004598,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": 0.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.22,
+      "mean_ttft_ms": 1049.9309157004598,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.24,
+      "mean_ttft_ms": 6064.351514599046,
+      "p99_tbt_ms": 48.382788488577354,
+      "backlog_drift": 2.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.26,
+      "mean_ttft_ms": 10131.95197108187,
+      "p99_tbt_ms": 45.621625487421795,
+      "backlog_drift": 2.6666666666666665,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.28,
+      "mean_ttft_ms": 11659.297730632037,
+      "p99_tbt_ms": 45.62125409952326,
+      "backlog_drift": 0.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.3,
+      "mean_ttft_ms": 13148.996065823572,
+      "p99_tbt_ms": 45.621260472795505,
+      "backlog_drift": 6.333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.32,
+      "mean_ttft_ms": 14790.988433705434,
+      "p99_tbt_ms": 45.6211382218753,
+      "backlog_drift": 7.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 1500.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.4,
+      "mean_ttft_ms": 21129.570266745843,
+      "p99_tbt_ms": 45.620379802597064,
+      "backlog_drift": 6.333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "full",
+      "offered_qps": 0.8,
+      "mean_ttft_ms": 1061.7996708297687,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "full",
+      "offered_qps": 1.0,
+      "mean_ttft_ms": 1061.799670829769,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": 2.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "full",
+      "offered_qps": 1.1,
+      "mean_ttft_ms": 1061.7996708297685,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "full",
+      "offered_qps": 1.14,
+      "mean_ttft_ms": 1061.799670829769,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": 0.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "full",
+      "offered_qps": 1.16,
+      "mean_ttft_ms": 1061.799670829769,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "full",
+      "offered_qps": 1.18,
+      "mean_ttft_ms": 1061.7996708297687,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": 1.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "full",
+      "offered_qps": 1.2,
+      "mean_ttft_ms": 1061.7996708297685,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": 0.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "full",
+      "offered_qps": 1.22,
+      "mean_ttft_ms": 3226.6686434333023,
+      "p99_tbt_ms": 44.401429499480095,
+      "backlog_drift": -3.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "full",
+      "offered_qps": 1.24,
+      "mean_ttft_ms": 8279.813510535534,
+      "p99_tbt_ms": 52.43171081512003,
+      "backlog_drift": 2.3333333333333335,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "full",
+      "offered_qps": 1.26,
+      "mean_ttft_ms": 10174.382652887218,
+      "p99_tbt_ms": 45.621625487421795,
+      "backlog_drift": 2.6666666666666665,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "full",
+      "offered_qps": 1.28,
+      "mean_ttft_ms": 11600.47857135987,
+      "p99_tbt_ms": 45.62119616070413,
+      "backlog_drift": 0.3333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "full",
+      "offered_qps": 1.3,
+      "mean_ttft_ms": 13270.4843190513,
+      "p99_tbt_ms": 45.621260472795505,
+      "backlog_drift": 6.666666666666667,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "full",
+      "offered_qps": 1.32,
+      "mean_ttft_ms": 14787.291885462168,
+      "p99_tbt_ms": 45.6211382218753,
+      "backlog_drift": 7.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "full",
+      "offered_qps": 1.4,
+      "mean_ttft_ms": 21065.40601638138,
+      "p99_tbt_ms": 45.62032707827166,
+      "backlog_drift": 6.333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 0.8,
+      "mean_ttft_ms": 1049.9309157004602,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": -3.6666666666666665,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.0,
+      "mean_ttft_ms": 1049.93091570046,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": 2.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.1,
+      "mean_ttft_ms": 1049.93091570046,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.14,
+      "mean_ttft_ms": 1049.9309157004602,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": 0.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.16,
+      "mean_ttft_ms": 1049.93091570046,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.18,
+      "mean_ttft_ms": 1049.9309157004604,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": 1.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.2,
+      "mean_ttft_ms": 1049.9309157004598,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": 0.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.22,
+      "mean_ttft_ms": 1049.9309157004598,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.24,
+      "mean_ttft_ms": 6064.351514599046,
+      "p99_tbt_ms": 48.382788488577354,
+      "backlog_drift": 2.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.26,
+      "mean_ttft_ms": 10131.95197108187,
+      "p99_tbt_ms": 45.621625487421795,
+      "backlog_drift": 2.6666666666666665,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.28,
+      "mean_ttft_ms": 11659.297730632037,
+      "p99_tbt_ms": 45.62125409952326,
+      "backlog_drift": 0.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.3,
+      "mean_ttft_ms": 13148.996065823572,
+      "p99_tbt_ms": 45.621260472795505,
+      "backlog_drift": 6.333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.32,
+      "mean_ttft_ms": 14790.988433705434,
+      "p99_tbt_ms": 45.6211382218753,
+      "backlog_drift": 7.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 2000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.4,
+      "mean_ttft_ms": 21129.570266745843,
+      "p99_tbt_ms": 45.620379802597064,
+      "backlog_drift": 6.333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "full",
+      "offered_qps": 0.8,
+      "mean_ttft_ms": 1061.7996708297687,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "full",
+      "offered_qps": 1.0,
+      "mean_ttft_ms": 1061.799670829769,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": 2.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "full",
+      "offered_qps": 1.1,
+      "mean_ttft_ms": 1061.7996708297685,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "full",
+      "offered_qps": 1.14,
+      "mean_ttft_ms": 1061.799670829769,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": 0.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "full",
+      "offered_qps": 1.16,
+      "mean_ttft_ms": 1061.799670829769,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "full",
+      "offered_qps": 1.18,
+      "mean_ttft_ms": 1061.7996708297687,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": 1.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "full",
+      "offered_qps": 1.2,
+      "mean_ttft_ms": 1061.7996708297685,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": 0.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "full",
+      "offered_qps": 1.22,
+      "mean_ttft_ms": 3226.6686434333023,
+      "p99_tbt_ms": 44.401429499480095,
+      "backlog_drift": -3.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "full",
+      "offered_qps": 1.24,
+      "mean_ttft_ms": 8279.813510535534,
+      "p99_tbt_ms": 52.43171081512003,
+      "backlog_drift": 2.3333333333333335,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "full",
+      "offered_qps": 1.26,
+      "mean_ttft_ms": 10174.382652887218,
+      "p99_tbt_ms": 45.621625487421795,
+      "backlog_drift": 2.6666666666666665,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "full",
+      "offered_qps": 1.28,
+      "mean_ttft_ms": 11600.47857135987,
+      "p99_tbt_ms": 45.62119616070413,
+      "backlog_drift": 0.3333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "full",
+      "offered_qps": 1.3,
+      "mean_ttft_ms": 13270.4843190513,
+      "p99_tbt_ms": 45.621260472795505,
+      "backlog_drift": 6.666666666666667,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "full",
+      "offered_qps": 1.32,
+      "mean_ttft_ms": 14787.291885462168,
+      "p99_tbt_ms": 45.6211382218753,
+      "backlog_drift": 7.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "full",
+      "offered_qps": 1.4,
+      "mean_ttft_ms": 21065.40601638138,
+      "p99_tbt_ms": 45.62032707827166,
+      "backlog_drift": 6.333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 0.8,
+      "mean_ttft_ms": 1049.9309157004602,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": -3.6666666666666665,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.0,
+      "mean_ttft_ms": 1049.93091570046,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": 2.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.1,
+      "mean_ttft_ms": 1049.93091570046,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.14,
+      "mean_ttft_ms": 1049.9309157004602,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": 0.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.16,
+      "mean_ttft_ms": 1049.93091570046,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.18,
+      "mean_ttft_ms": 1049.9309157004604,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": 1.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.2,
+      "mean_ttft_ms": 1049.9309157004598,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": 0.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.22,
+      "mean_ttft_ms": 1049.9309157004598,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.24,
+      "mean_ttft_ms": 6064.351514599046,
+      "p99_tbt_ms": 48.382788488577354,
+      "backlog_drift": 2.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.26,
+      "mean_ttft_ms": 10131.95197108187,
+      "p99_tbt_ms": 45.621625487421795,
+      "backlog_drift": 2.6666666666666665,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.28,
+      "mean_ttft_ms": 11659.297730632037,
+      "p99_tbt_ms": 45.62125409952326,
+      "backlog_drift": 0.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.3,
+      "mean_ttft_ms": 13148.996065823572,
+      "p99_tbt_ms": 45.621260472795505,
+      "backlog_drift": 6.333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.32,
+      "mean_ttft_ms": 14790.988433705434,
+      "p99_tbt_ms": 45.6211382218753,
+      "backlog_drift": 7.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 4000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.4,
+      "mean_ttft_ms": 21129.570266745843,
+      "p99_tbt_ms": 45.620379802597064,
+      "backlog_drift": 6.333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "full",
+      "offered_qps": 0.8,
+      "mean_ttft_ms": 1061.7996708297687,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "full",
+      "offered_qps": 1.0,
+      "mean_ttft_ms": 1061.799670829769,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": 2.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "full",
+      "offered_qps": 1.1,
+      "mean_ttft_ms": 1061.7996708297685,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "full",
+      "offered_qps": 1.14,
+      "mean_ttft_ms": 1061.799670829769,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": 0.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "full",
+      "offered_qps": 1.16,
+      "mean_ttft_ms": 1061.799670829769,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "full",
+      "offered_qps": 1.18,
+      "mean_ttft_ms": 1061.7996708297687,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": 1.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "full",
+      "offered_qps": 1.2,
+      "mean_ttft_ms": 1061.7996708297685,
+      "p99_tbt_ms": 37.40663433741914,
+      "backlog_drift": 0.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "full",
+      "offered_qps": 1.22,
+      "mean_ttft_ms": 3226.6686434333023,
+      "p99_tbt_ms": 44.401429499480095,
+      "backlog_drift": -3.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "full",
+      "offered_qps": 1.24,
+      "mean_ttft_ms": 8279.813510535534,
+      "p99_tbt_ms": 52.43171081512003,
+      "backlog_drift": 2.3333333333333335,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "full",
+      "offered_qps": 1.26,
+      "mean_ttft_ms": 10174.382652887218,
+      "p99_tbt_ms": 45.621625487421795,
+      "backlog_drift": 2.6666666666666665,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "full",
+      "offered_qps": 1.28,
+      "mean_ttft_ms": 11600.47857135987,
+      "p99_tbt_ms": 45.62119616070413,
+      "backlog_drift": 0.3333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "full",
+      "offered_qps": 1.3,
+      "mean_ttft_ms": 13270.4843190513,
+      "p99_tbt_ms": 45.621260472795505,
+      "backlog_drift": 6.666666666666667,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "full",
+      "offered_qps": 1.32,
+      "mean_ttft_ms": 14787.291885462168,
+      "p99_tbt_ms": 45.6211382218753,
+      "backlog_drift": 7.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "full",
+      "offered_qps": 1.4,
+      "mean_ttft_ms": 21065.40601638138,
+      "p99_tbt_ms": 45.62032707827166,
+      "backlog_drift": 6.333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 0.8,
+      "mean_ttft_ms": 1049.9309157004602,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": -3.6666666666666665,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.0,
+      "mean_ttft_ms": 1049.93091570046,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": 2.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.1,
+      "mean_ttft_ms": 1049.93091570046,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.14,
+      "mean_ttft_ms": 1049.9309157004602,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": 0.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.16,
+      "mean_ttft_ms": 1049.93091570046,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.18,
+      "mean_ttft_ms": 1049.9309157004604,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": 1.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.2,
+      "mean_ttft_ms": 1049.9309157004598,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": 0.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.22,
+      "mean_ttft_ms": 1049.9309157004598,
+      "p99_tbt_ms": 41.413462688515814,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.24,
+      "mean_ttft_ms": 6064.351514599046,
+      "p99_tbt_ms": 48.382788488577354,
+      "backlog_drift": 2.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.26,
+      "mean_ttft_ms": 10131.95197108187,
+      "p99_tbt_ms": 45.621625487421795,
+      "backlog_drift": 2.6666666666666665,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.28,
+      "mean_ttft_ms": 11659.297730632037,
+      "p99_tbt_ms": 45.62125409952326,
+      "backlog_drift": 0.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.3,
+      "mean_ttft_ms": 13148.996065823572,
+      "p99_tbt_ms": 45.621260472795505,
+      "backlog_drift": 6.333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.32,
+      "mean_ttft_ms": 14790.988433705434,
+      "p99_tbt_ms": 45.6211382218753,
+      "backlog_drift": 7.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "theta_ms": 8000.0,
+      "arm": "no_finish_guard",
+      "offered_qps": 1.4,
+      "mean_ttft_ms": 21129.570266745843,
+      "p99_tbt_ms": 45.620379802597064,
+      "backlog_drift": 6.333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    }
+  ],
+  "capacity": {
+    "1000.0": {
+      "full": {
+        "last_pass_qps": 0.0,
+        "first_fail": {
+          "theta_ms": 1000.0,
+          "arm": "full",
+          "offered_qps": 0.8,
+          "mean_ttft_ms": 1061.7996708297687,
+          "p99_tbt_ms": 37.40663433741914,
+          "backlog_drift": -3.3333333333333335,
+          "passes": false,
+          "failure_causes": [
+            "mean_ttft"
+          ]
+        }
+      },
+      "no_finish_guard": {
+        "last_pass_qps": 0.0,
+        "first_fail": {
+          "theta_ms": 1000.0,
+          "arm": "no_finish_guard",
+          "offered_qps": 0.8,
+          "mean_ttft_ms": 1049.9309157004602,
+          "p99_tbt_ms": 41.413462688515814,
+          "backlog_drift": -3.6666666666666665,
+          "passes": false,
+          "failure_causes": [
+            "mean_ttft"
+          ]
+        }
+      }
+    },
+    "1500.0": {
+      "full": {
+        "last_pass_qps": 1.2,
+        "first_fail": {
+          "theta_ms": 1500.0,
+          "arm": "full",
+          "offered_qps": 1.22,
+          "mean_ttft_ms": 3226.6686434333023,
+          "p99_tbt_ms": 44.401429499480095,
+          "backlog_drift": -3.0,
+          "passes": false,
+          "failure_causes": [
+            "mean_ttft"
+          ]
+        }
+      },
+      "no_finish_guard": {
+        "last_pass_qps": 1.22,
+        "first_fail": {
+          "theta_ms": 1500.0,
+          "arm": "no_finish_guard",
+          "offered_qps": 1.24,
+          "mean_ttft_ms": 6064.351514599046,
+          "p99_tbt_ms": 48.382788488577354,
+          "backlog_drift": 2.0,
+          "passes": false,
+          "failure_causes": [
+            "mean_ttft"
+          ]
+        }
+      }
+    },
+    "2000.0": {
+      "full": {
+        "last_pass_qps": 1.2,
+        "first_fail": {
+          "theta_ms": 2000.0,
+          "arm": "full",
+          "offered_qps": 1.22,
+          "mean_ttft_ms": 3226.6686434333023,
+          "p99_tbt_ms": 44.401429499480095,
+          "backlog_drift": -3.0,
+          "passes": false,
+          "failure_causes": [
+            "mean_ttft"
+          ]
+        }
+      },
+      "no_finish_guard": {
+        "last_pass_qps": 1.22,
+        "first_fail": {
+          "theta_ms": 2000.0,
+          "arm": "no_finish_guard",
+          "offered_qps": 1.24,
+          "mean_ttft_ms": 6064.351514599046,
+          "p99_tbt_ms": 48.382788488577354,
+          "backlog_drift": 2.0,
+          "passes": false,
+          "failure_causes": [
+            "mean_ttft"
+          ]
+        }
+      }
+    },
+    "4000.0": {
+      "full": {
+        "last_pass_qps": 1.22,
+        "first_fail": {
+          "theta_ms": 4000.0,
+          "arm": "full",
+          "offered_qps": 1.24,
+          "mean_ttft_ms": 8279.813510535534,
+          "p99_tbt_ms": 52.43171081512003,
+          "backlog_drift": 2.3333333333333335,
+          "passes": false,
+          "failure_causes": [
+            "mean_ttft",
+            "backlog"
+          ]
+        }
+      },
+      "no_finish_guard": {
+        "last_pass_qps": 1.22,
+        "first_fail": {
+          "theta_ms": 4000.0,
+          "arm": "no_finish_guard",
+          "offered_qps": 1.24,
+          "mean_ttft_ms": 6064.351514599046,
+          "p99_tbt_ms": 48.382788488577354,
+          "backlog_drift": 2.0,
+          "passes": false,
+          "failure_causes": [
+            "mean_ttft"
+          ]
+        }
+      }
+    },
+    "8000.0": {
+      "full": {
+        "last_pass_qps": 1.22,
+        "first_fail": {
+          "theta_ms": 8000.0,
+          "arm": "full",
+          "offered_qps": 1.24,
+          "mean_ttft_ms": 8279.813510535534,
+          "p99_tbt_ms": 52.43171081512003,
+          "backlog_drift": 2.3333333333333335,
+          "passes": false,
+          "failure_causes": [
+            "mean_ttft",
+            "backlog"
+          ]
+        }
+      },
+      "no_finish_guard": {
+        "last_pass_qps": 1.24,
+        "first_fail": {
+          "theta_ms": 8000.0,
+          "arm": "no_finish_guard",
+          "offered_qps": 1.26,
+          "mean_ttft_ms": 10131.95197108187,
+          "p99_tbt_ms": 45.621625487421795,
+          "backlog_drift": 2.6666666666666665,
+          "passes": false,
+          "failure_causes": [
+            "mean_ttft",
+            "backlog"
+          ]
+        }
+      }
+    }
+  }
+}

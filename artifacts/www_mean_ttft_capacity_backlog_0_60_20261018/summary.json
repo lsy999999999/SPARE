@@ -1,0 +1,73 @@
+{
+  "rate_points": 10064,
+  "groups": 648,
+  "changed_eligibility": 4854,
+  "thresholds": {
+    "250": {
+      "spare_best": 27,
+      "old_spare_best": 27
+    },
+    "350": {
+      "spare_best": 26,
+      "old_spare_best": 26
+    },
+    "500": {
+      "spare_best": 26,
+      "old_spare_best": 27
+    },
+    "750": {
+      "spare_best": 26,
+      "old_spare_best": 27
+    },
+    "1000": {
+      "spare_best": 26,
+      "old_spare_best": 27
+    },
+    "1500": {
+      "spare_best": 26,
+      "old_spare_best": 18
+    },
+    "2000": {
+      "spare_best": 26,
+      "old_spare_best": 27
+    },
+    "3000": {
+      "spare_best": 26,
+      "old_spare_best": 27
+    },
+    "4000": {
+      "spare_best": 26,
+      "old_spare_best": 27
+    },
+    "5000": {
+      "spare_best": 26,
+      "old_spare_best": 27
+    },
+    "6000": {
+      "spare_best": 26,
+      "old_spare_best": 27
+    },
+    "8000": {
+      "spare_best": 26,
+      "old_spare_best": 27
+    },
+    "10000": {
+      "spare_best": 26,
+      "old_spare_best": 27
+    },
+    "12000": {
+      "spare_best": 26,
+      "old_spare_best": 27
+    },
+    "16000": {
+      "spare_best": 26,
+      "old_spare_best": 27
+    }
+  },
+  "boundary_gaps_at_2s": [
+    0.1299999999999999,
+    0.25,
+    0.5
+  ],
+  "note": "Sensitivity analysis only: arrivals begin after 0 s, so the 0-60 s delta equals all requests still in service at 60 s, including normally running requests. Capacity is the last continuously passing archived QPS; no new rates were simulated."
+}

@@ -1,0 +1,9 @@
+source,kv_blocks,arm,simulator_last_pass_qps,simulator_first_fail_qps,gpu_lower_passed,gpu_upper_passed,gpu_bracket_confirmed
+code,2048,arrival,2.5,3.0,,,
+code,2048,s3_proxy,3.0,3.25,,,
+code,6144,arrival,2.5,3.0,,,
+code,6144,apt_serve_kv_rule,2.5,3.0,,,
+conversation,2048,arrival,3.0,3.5,,,
+conversation,2048,s3_proxy,3.0,3.5,,,
+conversation,6144,arrival,4.0,5.0,,,
+conversation,6144,apt_serve_kv_rule,4.0,4.5,,,

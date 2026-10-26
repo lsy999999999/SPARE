@@ -1,0 +1,66 @@
+{
+  "complete": true,
+  "protocol": {
+    "algorithm": "Double DQN",
+    "training_source": "conversation",
+    "training_kv_blocks": 2048,
+    "training_rates_qps": [
+      0.5,
+      2.0,
+      4.0,
+      6.0
+    ],
+    "development_source": "conversation",
+    "development_rates_qps": [
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "evaluation_sources": [
+      "conversation",
+      "code"
+    ],
+    "training_windows": 16,
+    "development_windows": 4,
+    "test_windows_per_source": 50,
+    "episodes": 1024,
+    "checkpoint_episodes": [
+      512,
+      1024
+    ],
+    "seeds": [
+      1017,
+      2027,
+      3037
+    ],
+    "train_input_sha256": "1df32b33888d72db32cf7699e641b6a932750e7e8fc49567a0f3d30895ed29e5",
+    "dev_input_sha256": "2ec33925d22fa16b5cf02a184512d46966c24e4fc904880744afff6243a519b2",
+    "test_input_sha256": {
+      "conversation": "fc4fd7e74bfbb387e6537eb7952cded32ee53d9e2518b2163206da2546a4b709",
+      "code": "95132d23a2e0a71bb272b2bd8069b6d0a688521b2a0ac1babf077abc0df1ad69"
+    },
+    "mean_ttft_limits_ms": [
+      250,
+      350,
+      500,
+      750,
+      1000,
+      1500,
+      2000,
+      3000,
+      4000,
+      5000,
+      6000,
+      8000,
+      10000,
+      12000,
+      16000
+    ],
+    "p99_tbt_limit_ms": 200,
+    "backlog_limit": "max(2, offered QPS)",
+    "frozen_during_evaluation": true
+  },
+  "internal_arm_name": "rl_mixed",
+  "public_arm_name": "RL-Conversation"
+}

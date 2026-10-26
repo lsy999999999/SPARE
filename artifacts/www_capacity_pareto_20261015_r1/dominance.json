@@ -1,0 +1,904 @@
+[
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 0.0,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 0.1,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 0.2,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 0.3,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 0.4,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 0.5,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 0.6,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 0.7,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 0.8,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 0.9,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 1.0,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 0.0,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 0.1,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 0.2,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 0.3,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 0.4,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 0.5,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 0.6,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 0.7,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 0.8,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 0.9,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 1.0,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 0.0,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 0.1,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 0.2,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 0.3,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 0.4,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 0.5,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 0.6,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 0.7,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 0.8,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 0.9,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 1.0,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 0.0,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 0.1,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 0.2,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 0.3,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 0.4,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 0.5,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 0.6,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 0.7,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 0.8,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 0.9,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "code",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 1.0,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 0.0,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future_multi:T256",
+      "s3_proxy:T256",
+      "apt_serve_kv_rule:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 0.1,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future_multi:T256",
+      "s3_proxy:T256",
+      "apt_serve_kv_rule:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 0.2,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future_multi:T256",
+      "s3_proxy:T256",
+      "apt_serve_kv_rule:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 0.3,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future_multi:T256",
+      "s3_proxy:T256",
+      "apt_serve_kv_rule:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 0.4,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future_multi:T256",
+      "s3_proxy:T256",
+      "apt_serve_kv_rule:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 0.5,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future_multi:T256",
+      "s3_proxy:T256",
+      "apt_serve_kv_rule:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 0.6,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future_multi:T256",
+      "s3_proxy:T256",
+      "apt_serve_kv_rule:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 0.7,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future_multi:T256",
+      "s3_proxy:T256",
+      "apt_serve_kv_rule:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 0.8,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future_multi:T256",
+      "s3_proxy:T256",
+      "apt_serve_kv_rule:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 0.9,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future_multi:T256",
+      "s3_proxy:T256",
+      "apt_serve_kv_rule:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "strict",
+    "weight": 1.0,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future_multi:T256",
+      "s3_proxy:T256",
+      "apt_serve_kv_rule:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 0.0,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future:T512",
+      "past_future_multi:T256",
+      "s3_proxy:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 0.1,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future:T512",
+      "past_future_multi:T256",
+      "s3_proxy:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 0.2,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future:T512",
+      "past_future_multi:T256",
+      "s3_proxy:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 0.3,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future:T512",
+      "past_future_multi:T256",
+      "s3_proxy:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 0.4,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future:T512",
+      "past_future_multi:T256",
+      "s3_proxy:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 0.5,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future:T512",
+      "past_future_multi:T256",
+      "s3_proxy:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 0.6,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future:T512",
+      "past_future_multi:T256",
+      "s3_proxy:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 0.7,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future:T512",
+      "past_future_multi:T256",
+      "s3_proxy:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 0.8,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future:T512",
+      "past_future_multi:T256",
+      "s3_proxy:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 0.9,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future:T512",
+      "past_future_multi:T256",
+      "s3_proxy:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 768,
+    "slo": "relaxed",
+    "weight": 1.0,
+    "spare_feasible": true,
+    "dominated": true,
+    "dominators": [
+      "past_future:T256",
+      "past_future:T512",
+      "past_future_multi:T256",
+      "s3_proxy:T256"
+    ]
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 0.0,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 0.1,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 0.2,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 0.3,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 0.4,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 0.5,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 0.6,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 0.7,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 0.8,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 0.9,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "strict",
+    "weight": 1.0,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 0.0,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 0.1,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 0.2,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 0.3,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 0.4,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 0.5,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 0.6,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 0.7,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 0.8,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 0.9,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  },
+  {
+    "source": "conversation",
+    "capacity": 4096,
+    "slo": "relaxed",
+    "weight": 1.0,
+    "spare_feasible": true,
+    "dominated": false,
+    "dominators": []
+  }
+]

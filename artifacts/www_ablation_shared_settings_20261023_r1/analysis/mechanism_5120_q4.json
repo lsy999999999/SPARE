@@ -1,0 +1,30 @@
+{
+  "source": "conversation",
+  "kv_blocks": 5120,
+  "qps": 4,
+  "windows": 24,
+  "latency_scope": "Measured arrivals at 20-60s, followed to completion",
+  "counter_scope": "Entire simulation including warmup and drain",
+  "results": {
+    "spare": {
+      "mean_ttft_ms": 760.0356047153346,
+      "p99_tbt_ms": 105.83364554968573,
+      "backlog_drift": 0.4583333333333333,
+      "preemptions": 0.75,
+      "recomputed_tokens": 1339.6666666666667,
+      "interventions": 43.666666666666664,
+      "rounds": 1760.2083333333333,
+      "pooled_intervention_round_fraction": 0.024807669546691915
+    },
+    "constant8": {
+      "mean_ttft_ms": 1032.7890039335,
+      "p99_tbt_ms": 51.39008124979879,
+      "backlog_drift": 2.0416666666666665,
+      "preemptions": 0.0,
+      "recomputed_tokens": 0.0,
+      "interventions": 1815.4583333333333,
+      "rounds": 2354.6666666666665,
+      "pooled_intervention_round_fraction": 0.7710043884484711
+    }
+  }
+}

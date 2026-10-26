@@ -1,0 +1,353 @@
+{
+  "kind": "nonnegative_batch_affine",
+  "features": [
+    "base",
+    "prefill_k",
+    "prefill_attention_m",
+    "decode_32",
+    "decode_context_100k",
+    "token_256_tiles",
+    "has_prefill",
+    "mixed"
+  ],
+  "coefficients": [
+    8.170397909559354,
+    54.46668310667815,
+    3.7175281967417724,
+    1.19691738375284,
+    17.381648741460637,
+    7.499136186135258,
+    0.0,
+    0.0
+  ],
+  "training_episodes": 48,
+  "training_iterations": 25747,
+  "training_request_ids": [
+    "code:raw:3906641",
+    "code:raw:3906642",
+    "code:raw:3906643",
+    "code:raw:3906644",
+    "code:raw:3906645",
+    "code:raw:3906646",
+    "code:raw:3906647",
+    "code:raw:3906648",
+    "code:raw:3906649",
+    "code:raw:3906650",
+    "code:raw:3906651",
+    "code:raw:3906652",
+    "code:raw:3906653",
+    "code:raw:3906654",
+    "code:raw:3906655",
+    "code:raw:3906656",
+    "code:raw:3906657",
+    "code:raw:3906658",
+    "code:raw:3906659",
+    "code:raw:3906660",
+    "code:raw:3906661",
+    "code:raw:3906662",
+    "code:raw:3906663",
+    "code:raw:3906664",
+    "code:raw:3906665",
+    "code:raw:3906667",
+    "code:raw:3906668",
+    "code:raw:3906669",
+    "code:raw:3906670",
+    "code:raw:3906671",
+    "code:raw:3906672",
+    "code:raw:3906673",
+    "code:raw:3906674",
+    "code:raw:3906675",
+    "code:raw:3906676",
+    "code:raw:3906677",
+    "code:raw:3906678",
+    "code:raw:3906679",
+    "code:raw:3906680",
+    "code:raw:3906681",
+    "code:raw:3906682",
+    "code:raw:3906683",
+    "code:raw:3906684",
+    "code:raw:3906685",
+    "code:raw:3906686",
+    "code:raw:3906687",
+    "code:raw:3906688",
+    "code:raw:3906689",
+    "code:raw:3906690",
+    "code:raw:3906691",
+    "code:raw:3906692",
+    "code:raw:3906693",
+    "code:raw:3906694",
+    "code:raw:3906695",
+    "code:raw:3906696",
+    "code:raw:3906697",
+    "code:raw:3906698",
+    "code:raw:3906699",
+    "code:raw:3906700",
+    "code:raw:3906701",
+    "code:raw:3906702",
+    "code:raw:3906703",
+    "code:raw:3906704",
+    "code:raw:3906706",
+    "conversation:raw:10165312",
+    "conversation:raw:10165313",
+    "conversation:raw:10165314",
+    "conversation:raw:10165315",
+    "conversation:raw:10165316",
+    "conversation:raw:10165317",
+    "conversation:raw:10165318",
+    "conversation:raw:10165319",
+    "conversation:raw:10165320",
+    "conversation:raw:10165321",
+    "conversation:raw:10165322",
+    "conversation:raw:10165323",
+    "conversation:raw:10165324",
+    "conversation:raw:10165325",
+    "conversation:raw:10165326",
+    "conversation:raw:10165327",
+    "conversation:raw:10165328",
+    "conversation:raw:10165329",
+    "conversation:raw:10165330",
+    "conversation:raw:10165331",
+    "conversation:raw:10165332",
+    "conversation:raw:10165333",
+    "conversation:raw:10165334",
+    "conversation:raw:10165335",
+    "conversation:raw:10165336",
+    "conversation:raw:10165337",
+    "conversation:raw:10165338",
+    "conversation:raw:10165339",
+    "conversation:raw:10165340",
+    "conversation:raw:10165341",
+    "conversation:raw:10165342",
+    "conversation:raw:10165343",
+    "conversation:raw:10165344",
+    "conversation:raw:10165345",
+    "conversation:raw:10165346",
+    "conversation:raw:10165347",
+    "conversation:raw:10165348",
+    "conversation:raw:10165349",
+    "conversation:raw:10165350",
+    "conversation:raw:10165351",
+    "conversation:raw:10165352",
+    "conversation:raw:10165353",
+    "conversation:raw:10165354",
+    "conversation:raw:10165355",
+    "conversation:raw:10165356",
+    "conversation:raw:10165357",
+    "conversation:raw:10165358",
+    "conversation:raw:10165359",
+    "conversation:raw:10165360",
+    "conversation:raw:10165361",
+    "conversation:raw:10165362",
+    "conversation:raw:10165363",
+    "conversation:raw:10165364",
+    "conversation:raw:10165365",
+    "conversation:raw:10165366",
+    "conversation:raw:10165367",
+    "conversation:raw:10165368",
+    "conversation:raw:10165369",
+    "conversation:raw:10165370",
+    "conversation:raw:10165371",
+    "conversation:raw:10165372",
+    "conversation:raw:10165373",
+    "conversation:raw:10165374",
+    "conversation:raw:10165375"
+  ],
+  "sources": [
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell00_code_fresh0_burst_stop_c1536/a0/rounds/arrival_r0.json.gz",
+      "sha256": "58d8110d4503102c18e60340c3b7ab3fae0a04cdd4dd5fbe0c4ea5086f082481"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell00_code_fresh0_burst_stop_c1536/a0/rounds/srp_r0.json.gz",
+      "sha256": "4f4d0473070b2000e0445a73565bc3caed5ca8727ea7ea771d9d23a095bd74f2"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell00_code_fresh0_burst_stop_c1536/a0/rounds/native_r0.json.gz",
+      "sha256": "0c2c9d248d4210abd84c895c443a487f5b839184924a27cd6bab60cfee5c1a91"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell00_code_fresh0_burst_stop_c1536/a0/rounds/arrival_r1.json.gz",
+      "sha256": "1b7550c48e68f00226b462527a15a1f2655c467dbbbae234eb5ff4087c745660"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell00_code_fresh0_burst_stop_c1536/a0/rounds/srp_r1.json.gz",
+      "sha256": "de3385da1cd05cd3c3061050784b49d1ac6f08f8b9a820fcdb0c36a17980b44c"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell00_code_fresh0_burst_stop_c1536/a0/rounds/native_r1.json.gz",
+      "sha256": "f2dffc64ec965aff5cce0cd5d85c4f17a6006ec711425561fd8d42df989063b5"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell01_code_fresh0_burst_stop_c4096/a1/rounds/arrival_r0.json.gz",
+      "sha256": "dae83cad14bcb2c546de6880434b59e0f53bebbae8616220250480a50ed79f8d"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell01_code_fresh0_burst_stop_c4096/a1/rounds/srp_r0.json.gz",
+      "sha256": "89072a629b538b031844f04f51a44e6ea56f5dc3295fc6c5a2324207896ecba0"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell01_code_fresh0_burst_stop_c4096/a1/rounds/native_r0.json.gz",
+      "sha256": "867cefd434bbb3673656e000c2fc6966a39491b61d649a1a45bd0379b1cb3614"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell01_code_fresh0_burst_stop_c4096/a1/rounds/arrival_r1.json.gz",
+      "sha256": "3bf68d0593fe5954fb359335c1b7312babba4ca6d8cb9ca6c5017ff84a7373c4"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell01_code_fresh0_burst_stop_c4096/a1/rounds/srp_r1.json.gz",
+      "sha256": "00f929f5a8a29c08cb8cb4aa3d344cc0eb77b70ceb981eb4f9a16a7b526804a1"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell01_code_fresh0_burst_stop_c4096/a1/rounds/native_r1.json.gz",
+      "sha256": "d74db060b47a012671b941ed52e4dde7c8a4eb14632a01a773d18458fa283aaa"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell02_code_fresh0_steady_c1536/a1/rounds/arrival_r0.json.gz",
+      "sha256": "1b78fc621a6a255e2f1f0c1671437fe7c07560da15cce34cb02da919697b82f5"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell02_code_fresh0_steady_c1536/a1/rounds/srp_r0.json.gz",
+      "sha256": "12e00681a7d5a85001dba12f9cea993f98f62e5a1d1cef6e3ef4c7f281c516ab"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell02_code_fresh0_steady_c1536/a1/rounds/native_r0.json.gz",
+      "sha256": "434ed6aa407d905cd6be692a638d2efdf15135326b9dbb6dd29e1ef721cd1c92"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell02_code_fresh0_steady_c1536/a1/rounds/arrival_r1.json.gz",
+      "sha256": "2c4f9d5d57ca8be339d21e2b764a3a35cdd8f32b3505559945739a59d821699b"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell02_code_fresh0_steady_c1536/a1/rounds/srp_r1.json.gz",
+      "sha256": "f85394a7f23baef94c0524216a684f3f17fcee32ef320e6d7c1733eb9d98898d"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell02_code_fresh0_steady_c1536/a1/rounds/native_r1.json.gz",
+      "sha256": "275ba023ec08b9bbcb2add2a68c65fc259d136a9ee7089887196067d02419474"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell03_code_fresh0_steady_c4096/a0/rounds/arrival_r0.json.gz",
+      "sha256": "f0995ed6c2361ce7e9cce0b57983bc006b99e36fe9143dbe9d574f43b29764ce"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell03_code_fresh0_steady_c4096/a0/rounds/srp_r0.json.gz",
+      "sha256": "ffcf0ee2130a3245467266674b3ff23b8c3870081b6f518cc6c64b73efdc57b8"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell03_code_fresh0_steady_c4096/a0/rounds/native_r0.json.gz",
+      "sha256": "f6fe8e4945279f52fdf4d64486a2bf2ea8ff31c19e8d299c664790cde167eb60"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell03_code_fresh0_steady_c4096/a0/rounds/arrival_r1.json.gz",
+      "sha256": "fcecce1bb45676d8d67af50cec7c67575bcb8a50fe41a031002b8c1874ca9c2a"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell03_code_fresh0_steady_c4096/a0/rounds/srp_r1.json.gz",
+      "sha256": "0de8044c71d4d31648e3afa8c84947fcc4c974f263bdb3b8521eaac7559dd083"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell03_code_fresh0_steady_c4096/a0/rounds/native_r1.json.gz",
+      "sha256": "a5709bed476185536749cdcfb728b0e7a4b8c5ad75f2765438ac37a56abf1c7c"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell08_conversation_fresh0_burst_stop_c768/a0/rounds/arrival_r0.json.gz",
+      "sha256": "70d6d28a3e200dee342e46ab9fc3ffaef8d86b964e2cc4f0a178406d8340da64"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell08_conversation_fresh0_burst_stop_c768/a0/rounds/srp_r0.json.gz",
+      "sha256": "8a8a09393fd88ad0e518f487e9233ad38fbd05bfbd98f06e7c95f82b6f2adb7b"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell08_conversation_fresh0_burst_stop_c768/a0/rounds/native_r0.json.gz",
+      "sha256": "8865ed18f97902e34c892c5b8ce6d68bd83beed920bc270043442b3e77b276b8"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell08_conversation_fresh0_burst_stop_c768/a0/rounds/arrival_r1.json.gz",
+      "sha256": "2381cbb1cdf4fc6c29ca93d4ecb6ae8814cadf34f811ae2fccfad12f663f8461"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell08_conversation_fresh0_burst_stop_c768/a0/rounds/srp_r1.json.gz",
+      "sha256": "c24ca48e5f134bbed252e48e747e322fb4de57831a52522737c1478c5e95fd23"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell08_conversation_fresh0_burst_stop_c768/a0/rounds/native_r1.json.gz",
+      "sha256": "8c3bd5f1ac54f33c56cce6f0b3186d93dd05f872f4ef63f6dfdcf138ec6b43ce"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell09_conversation_fresh0_burst_stop_c4096/a1/rounds/arrival_r0.json.gz",
+      "sha256": "59051feb5711f4119143a2fbfc7ea7a7a71f2a2e80776324c58809f145ec0681"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell09_conversation_fresh0_burst_stop_c4096/a1/rounds/srp_r0.json.gz",
+      "sha256": "505b36283118c291f84c61b797ecd89a9c87cb4268235ceba89f47d1a0b1adb7"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell09_conversation_fresh0_burst_stop_c4096/a1/rounds/native_r0.json.gz",
+      "sha256": "21f25e41c05592e7a4299aedd14c1568cc874b319cbef4fab576f3d3b825a537"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell09_conversation_fresh0_burst_stop_c4096/a1/rounds/arrival_r1.json.gz",
+      "sha256": "2d13fc3623e6df639ee48a8578cc025a032e121caef7027bd2b2fb2598d28bd4"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell09_conversation_fresh0_burst_stop_c4096/a1/rounds/srp_r1.json.gz",
+      "sha256": "9fdaacd5b1661248ebb7605e8cbf22519d63c090141de6f5b327d4cc6f0e3297"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell09_conversation_fresh0_burst_stop_c4096/a1/rounds/native_r1.json.gz",
+      "sha256": "cb46ade4579ee80d1f3d8e1467df46cc9cd61023f54d7fd6d6ac94d7d9b1e10b"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell10_conversation_fresh0_steady_c768/a0/rounds/arrival_r0.json.gz",
+      "sha256": "e21cfd77b559b839f4b994976ced7dd4191529ac835d679d01207b2bccc03677"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell10_conversation_fresh0_steady_c768/a0/rounds/srp_r0.json.gz",
+      "sha256": "a95dbdc6869d267c3d824bd675987e1349bed1e2b35fce0c7adfbdc8284a1ffa"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell10_conversation_fresh0_steady_c768/a0/rounds/native_r0.json.gz",
+      "sha256": "f1ec46857a36d64df84d394c97b26fac8952dded450a097a451ccdc8c8bb2cc2"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell10_conversation_fresh0_steady_c768/a0/rounds/arrival_r1.json.gz",
+      "sha256": "7ed089285c903b9d23b4f911c2dad61c98a3613870a179bf810c9b55180ebf32"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell10_conversation_fresh0_steady_c768/a0/rounds/srp_r1.json.gz",
+      "sha256": "5fe7287d3a6cf07a5930ccb12884d1a81affceae729cfbe0278864d26f39004a"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell10_conversation_fresh0_steady_c768/a0/rounds/native_r1.json.gz",
+      "sha256": "886fe06b033d794b66d1c900cc0b19f8733556ef0c2040c48c9f3cfe607d35fd"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell11_conversation_fresh0_steady_c4096/a0/rounds/arrival_r0.json.gz",
+      "sha256": "277c933ce032d4bcdbe06b8e094e531c97fabbbf857ffe1e6dadd880f2fe2710"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell11_conversation_fresh0_steady_c4096/a0/rounds/srp_r0.json.gz",
+      "sha256": "172e3a6688ed6140a0b0d08bda1dc6feb41c53fb705e45c6b1773a8273883716"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell11_conversation_fresh0_steady_c4096/a0/rounds/native_r0.json.gz",
+      "sha256": "77c11ff393627181851e93384c05bdbd9e93ba1e420c4ba66474a59fd207f2c5"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell11_conversation_fresh0_steady_c4096/a0/rounds/arrival_r1.json.gz",
+      "sha256": "fb8f4fbe10bf9bede5db4b6d9c55fb45ed17d6d71df59c045cdd64772dab971f"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell11_conversation_fresh0_steady_c4096/a0/rounds/srp_r1.json.gz",
+      "sha256": "b2e7d773d9789ede62fc48f33374ce92c52e01e1cfe7421dd68a7c90ae553f18"
+    },
+    {
+      "path": "writing/www/experiments/gpu_baselines_4090_20260930_r3/attempts/cell11_conversation_fresh0_steady_c4096/a0/rounds/native_r1.json.gz",
+      "sha256": "47f5ba36d2572f7c599c0f1c0ba196f58854edf6d353d5e5125a4a45a17b5986"
+    }
+  ],
+  "training_rmse_ms": 1.4934701717951022,
+  "scope": "Retrospective fit: GPU r3 fresh0, arrival/SRP/native, repeats 0-1; total engine.step wall time including instrumentation.",
+  "holdout": "GPU r3 fresh1, never used to fit or choose this model; historical research windows, not prospectively collected validation.",
+  "performance_validated": false
+}

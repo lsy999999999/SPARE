@@ -1,0 +1,34 @@
+{
+  "overall": {
+    "points": 116,
+    "pairs": 348,
+    "pair_matches": 194,
+    "material_pairs": 192,
+    "material_matches": 167
+  },
+  "by_model": {
+    "mistral_7b": {
+      "points": 36,
+      "pairs": 108,
+      "pair_matches": 67,
+      "material_pairs": 56,
+      "material_matches": 55
+    },
+    "qwen25_3b": {
+      "points": 44,
+      "pairs": 132,
+      "pair_matches": 53,
+      "material_pairs": 73,
+      "material_matches": 49
+    },
+    "qwen3_8b": {
+      "points": 36,
+      "pairs": 108,
+      "pair_matches": 74,
+      "material_pairs": 63,
+      "material_matches": 63
+    }
+  },
+  "full_order_matches": 52,
+  "full_order_points": 116
+}

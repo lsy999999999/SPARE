@@ -1,0 +1,124 @@
+{
+  "completed": 19040,
+  "expected": 19040,
+  "validation_runs": 5440,
+  "test_runs": 13600,
+  "previous_trajectory_matches": 4480,
+  "main_external_families": 9,
+  "all_external_families": 13,
+  "main_weight_winners": {
+    "s3_proxy": 7,
+    "arrival": 37
+  },
+  "diagnostic_weight_winners": {
+    "arrival": 33,
+    "mc_sf_oracle": 10,
+    "ltr_oracle": 1
+  },
+  "verdicts": [
+    {
+      "source": "code",
+      "capacity": 768,
+      "group": "main",
+      "spare_frontier_budgets": [
+        256
+      ],
+      "default_external_dominators": [],
+      "covered": 42,
+      "total": 44,
+      "weighted_wins": 10
+    },
+    {
+      "source": "code",
+      "capacity": 768,
+      "group": "oracle_diagnostic",
+      "spare_frontier_budgets": [
+        256
+      ],
+      "default_external_dominators": [],
+      "covered": 20,
+      "total": 20,
+      "weighted_wins": 11
+    },
+    {
+      "source": "code",
+      "capacity": 4096,
+      "group": "main",
+      "spare_frontier_budgets": [
+        512,
+        1024
+      ],
+      "default_external_dominators": [],
+      "covered": 44,
+      "total": 44,
+      "weighted_wins": 11
+    },
+    {
+      "source": "code",
+      "capacity": 4096,
+      "group": "oracle_diagnostic",
+      "spare_frontier_budgets": [
+        512,
+        1024
+      ],
+      "default_external_dominators": [],
+      "covered": 20,
+      "total": 20,
+      "weighted_wins": 11
+    },
+    {
+      "source": "conversation",
+      "capacity": 768,
+      "group": "main",
+      "spare_frontier_budgets": [
+        256
+      ],
+      "default_external_dominators": [
+        "apt_serve_kv_rule:T256"
+      ],
+      "covered": 29,
+      "total": 44,
+      "weighted_wins": 6
+    },
+    {
+      "source": "conversation",
+      "capacity": 768,
+      "group": "oracle_diagnostic",
+      "spare_frontier_budgets": [],
+      "default_external_dominators": [
+        "mc_sf_oracle:T256",
+        "mc_sf_oracle:T512",
+        "mc_sf_oracle:T1024",
+        "mc_sf_oracle:T2048"
+      ],
+      "covered": 14,
+      "total": 20,
+      "weighted_wins": 0
+    },
+    {
+      "source": "conversation",
+      "capacity": 4096,
+      "group": "main",
+      "spare_frontier_budgets": [
+        512
+      ],
+      "default_external_dominators": [],
+      "covered": 40,
+      "total": 44,
+      "weighted_wins": 10
+    },
+    {
+      "source": "conversation",
+      "capacity": 4096,
+      "group": "oracle_diagnostic",
+      "spare_frontier_budgets": [
+        512
+      ],
+      "default_external_dominators": [],
+      "covered": 20,
+      "total": 20,
+      "weighted_wins": 11
+    }
+  ],
+  "performance_validated": false
+}

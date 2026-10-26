@@ -1,0 +1,29 @@
+[
+  {
+    "model": "qwen25_3b",
+    "training_episodes": 182,
+    "training_iterations": 533829,
+    "heldout_episodes": 192,
+    "holdout_step_mae_ms": 1.7452048857867737,
+    "holdout_step_mape_pct": 7.831364975242617,
+    "holdout_total_time_ape_pct": 4.001349248292183
+  },
+  {
+    "model": "qwen3_8b",
+    "training_episodes": 142,
+    "training_iterations": 222260,
+    "heldout_episodes": 196,
+    "holdout_step_mae_ms": 1.414930656677939,
+    "holdout_step_mape_pct": 3.2094435738885694,
+    "holdout_total_time_ape_pct": 1.1809086228893884
+  },
+  {
+    "model": "mistral_7b",
+    "training_episodes": 148,
+    "training_iterations": 252546,
+    "heldout_episodes": 208,
+    "holdout_step_mae_ms": 1.8911812652902389,
+    "holdout_step_mape_pct": 4.4597685477171485,
+    "holdout_total_time_ape_pct": 1.4678030026059283
+  }
+]

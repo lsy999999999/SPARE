@@ -1,0 +1,770 @@
+[
+  {
+    "id": "code:raw:5703033",
+    "prompt": 968,
+    "output": 22,
+    "arrival_ms": 0.0
+  },
+  {
+    "id": "code:raw:5703034",
+    "prompt": 1424,
+    "output": 1,
+    "arrival_ms": 190.47619047619048
+  },
+  {
+    "id": "code:raw:5703035",
+    "prompt": 751,
+    "output": 6,
+    "arrival_ms": 380.95238095238096
+  },
+  {
+    "id": "code:raw:5703036",
+    "prompt": 1069,
+    "output": 17,
+    "arrival_ms": 571.4285714285714
+  },
+  {
+    "id": "code:raw:5703037",
+    "prompt": 732,
+    "output": 3,
+    "arrival_ms": 761.9047619047619
+  },
+  {
+    "id": "code:raw:5703038",
+    "prompt": 7668,
+    "output": 32,
+    "arrival_ms": 952.3809523809524
+  },
+  {
+    "id": "code:raw:5703039",
+    "prompt": 967,
+    "output": 1,
+    "arrival_ms": 1142.857142857143
+  },
+  {
+    "id": "code:raw:5703040",
+    "prompt": 2135,
+    "output": 31,
+    "arrival_ms": 1333.3333333333333
+  },
+  {
+    "id": "code:raw:5703041",
+    "prompt": 2830,
+    "output": 2,
+    "arrival_ms": 1523.8095238095239
+  },
+  {
+    "id": "code:raw:5703042",
+    "prompt": 7686,
+    "output": 3,
+    "arrival_ms": 1714.2857142857142
+  },
+  {
+    "id": "code:raw:5703043",
+    "prompt": 1194,
+    "output": 22,
+    "arrival_ms": 1904.7619047619048
+  },
+  {
+    "id": "code:raw:5703044",
+    "prompt": 3041,
+    "output": 9,
+    "arrival_ms": 2095.2380952380954
+  },
+  {
+    "id": "code:raw:5703045",
+    "prompt": 1312,
+    "output": 8,
+    "arrival_ms": 2285.714285714286
+  },
+  {
+    "id": "code:raw:5703046",
+    "prompt": 121,
+    "output": 8,
+    "arrival_ms": 2476.190476190476
+  },
+  {
+    "id": "code:raw:5703047",
+    "prompt": 2343,
+    "output": 14,
+    "arrival_ms": 2666.6666666666665
+  },
+  {
+    "id": "code:raw:5703048",
+    "prompt": 1971,
+    "output": 2,
+    "arrival_ms": 2857.1428571428573
+  },
+  {
+    "id": "code:raw:5703049",
+    "prompt": 674,
+    "output": 29,
+    "arrival_ms": 3047.6190476190477
+  },
+  {
+    "id": "code:raw:5703050",
+    "prompt": 1832,
+    "output": 1,
+    "arrival_ms": 3238.095238095238
+  },
+  {
+    "id": "code:raw:5703051",
+    "prompt": 1589,
+    "output": 48,
+    "arrival_ms": 3428.5714285714284
+  },
+  {
+    "id": "code:raw:5703052",
+    "prompt": 3137,
+    "output": 6,
+    "arrival_ms": 3619.0476190476193
+  },
+  {
+    "id": "code:raw:5703053",
+    "prompt": 1424,
+    "output": 1,
+    "arrival_ms": 3809.5238095238096
+  },
+  {
+    "id": "code:raw:5703054",
+    "prompt": 968,
+    "output": 24,
+    "arrival_ms": 4000.0
+  },
+  {
+    "id": "code:raw:5703055",
+    "prompt": 1424,
+    "output": 2,
+    "arrival_ms": 4190.476190476191
+  },
+  {
+    "id": "code:raw:5703056",
+    "prompt": 1320,
+    "output": 144,
+    "arrival_ms": 4380.952380952381
+  },
+  {
+    "id": "code:raw:5703057",
+    "prompt": 480,
+    "output": 5,
+    "arrival_ms": 4571.428571428572
+  },
+  {
+    "id": "code:raw:5703058",
+    "prompt": 299,
+    "output": 7,
+    "arrival_ms": 4761.9047619047615
+  },
+  {
+    "id": "code:raw:5703059",
+    "prompt": 1382,
+    "output": 84,
+    "arrival_ms": 4952.380952380952
+  },
+  {
+    "id": "code:raw:5703060",
+    "prompt": 7667,
+    "output": 4,
+    "arrival_ms": 5142.857142857143
+  },
+  {
+    "id": "code:raw:5703061",
+    "prompt": 1832,
+    "output": 1,
+    "arrival_ms": 5333.333333333333
+  },
+  {
+    "id": "code:raw:5703062",
+    "prompt": 1590,
+    "output": 6,
+    "arrival_ms": 5523.809523809524
+  },
+  {
+    "id": "code:raw:5703063",
+    "prompt": 1484,
+    "output": 3,
+    "arrival_ms": 5714.285714285715
+  },
+  {
+    "id": "code:raw:5703064",
+    "prompt": 1425,
+    "output": 1,
+    "arrival_ms": 5904.761904761905
+  },
+  {
+    "id": "code:raw:5703065",
+    "prompt": 735,
+    "output": 2,
+    "arrival_ms": 6095.238095238095
+  },
+  {
+    "id": "code:raw:5703066",
+    "prompt": 2171,
+    "output": 9,
+    "arrival_ms": 6285.714285714285
+  },
+  {
+    "id": "code:raw:5703067",
+    "prompt": 1322,
+    "output": 3,
+    "arrival_ms": 6476.190476190476
+  },
+  {
+    "id": "code:raw:5703068",
+    "prompt": 4735,
+    "output": 4,
+    "arrival_ms": 6666.666666666667
+  },
+  {
+    "id": "code:raw:5703069",
+    "prompt": 6448,
+    "output": 2,
+    "arrival_ms": 6857.142857142857
+  },
+  {
+    "id": "code:raw:5703070",
+    "prompt": 7682,
+    "output": 9,
+    "arrival_ms": 7047.619047619048
+  },
+  {
+    "id": "code:raw:5703071",
+    "prompt": 927,
+    "output": 3,
+    "arrival_ms": 7238.0952380952385
+  },
+  {
+    "id": "code:raw:5703072",
+    "prompt": 967,
+    "output": 11,
+    "arrival_ms": 7428.571428571428
+  },
+  {
+    "id": "code:raw:5703073",
+    "prompt": 1846,
+    "output": 3,
+    "arrival_ms": 7619.047619047619
+  },
+  {
+    "id": "code:raw:5703074",
+    "prompt": 2792,
+    "output": 9,
+    "arrival_ms": 7809.523809523809
+  },
+  {
+    "id": "code:raw:5703075",
+    "prompt": 2499,
+    "output": 8,
+    "arrival_ms": 8000.0
+  },
+  {
+    "id": "code:raw:5703076",
+    "prompt": 3397,
+    "output": 1,
+    "arrival_ms": 8190.476190476191
+  },
+  {
+    "id": "code:raw:5703077",
+    "prompt": 1345,
+    "output": 44,
+    "arrival_ms": 8380.952380952382
+  },
+  {
+    "id": "code:raw:5703078",
+    "prompt": 4207,
+    "output": 8,
+    "arrival_ms": 8571.42857142857
+  },
+  {
+    "id": "code:raw:5703079",
+    "prompt": 2343,
+    "output": 24,
+    "arrival_ms": 8761.904761904761
+  },
+  {
+    "id": "code:raw:5703080",
+    "prompt": 1832,
+    "output": 1,
+    "arrival_ms": 8952.380952380952
+  },
+  {
+    "id": "code:raw:5703081",
+    "prompt": 675,
+    "output": 39,
+    "arrival_ms": 9142.857142857143
+  },
+  {
+    "id": "code:raw:5703082",
+    "prompt": 3138,
+    "output": 12,
+    "arrival_ms": 9333.333333333334
+  },
+  {
+    "id": "code:raw:5703083",
+    "prompt": 5972,
+    "output": 63,
+    "arrival_ms": 9523.809523809523
+  },
+  {
+    "id": "code:raw:5703084",
+    "prompt": 2976,
+    "output": 25,
+    "arrival_ms": 9714.285714285714
+  },
+  {
+    "id": "code:raw:5703085",
+    "prompt": 970,
+    "output": 20,
+    "arrival_ms": 9904.761904761905
+  },
+  {
+    "id": "code:raw:5703086",
+    "prompt": 927,
+    "output": 3,
+    "arrival_ms": 10095.238095238095
+  },
+  {
+    "id": "code:raw:5703087",
+    "prompt": 4255,
+    "output": 16,
+    "arrival_ms": 10285.714285714286
+  },
+  {
+    "id": "code:raw:5703088",
+    "prompt": 1226,
+    "output": 16,
+    "arrival_ms": 10476.190476190477
+  },
+  {
+    "id": "code:raw:5703089",
+    "prompt": 479,
+    "output": 15,
+    "arrival_ms": 10666.666666666666
+  },
+  {
+    "id": "code:raw:5703090",
+    "prompt": 402,
+    "output": 50,
+    "arrival_ms": 10857.142857142857
+  },
+  {
+    "id": "code:raw:5703091",
+    "prompt": 931,
+    "output": 9,
+    "arrival_ms": 11047.619047619048
+  },
+  {
+    "id": "code:raw:5703092",
+    "prompt": 1195,
+    "output": 2,
+    "arrival_ms": 11238.095238095239
+  },
+  {
+    "id": "code:raw:5703093",
+    "prompt": 1832,
+    "output": 1,
+    "arrival_ms": 11428.57142857143
+  },
+  {
+    "id": "code:raw:5703094",
+    "prompt": 1945,
+    "output": 12,
+    "arrival_ms": 11619.047619047618
+  },
+  {
+    "id": "code:raw:5703095",
+    "prompt": 2697,
+    "output": 37,
+    "arrival_ms": 11809.52380952381
+  },
+  {
+    "id": "code:raw:5703096",
+    "prompt": 1322,
+    "output": 3,
+    "arrival_ms": 12000.0
+  },
+  {
+    "id": "code:raw:5703097",
+    "prompt": 90,
+    "output": 151,
+    "arrival_ms": 12190.47619047619
+  },
+  {
+    "id": "code:raw:5703098",
+    "prompt": 2725,
+    "output": 6,
+    "arrival_ms": 12380.952380952382
+  },
+  {
+    "id": "code:raw:5703099",
+    "prompt": 4255,
+    "output": 1,
+    "arrival_ms": 12571.42857142857
+  },
+  {
+    "id": "code:raw:5703100",
+    "prompt": 2573,
+    "output": 10,
+    "arrival_ms": 12761.904761904761
+  },
+  {
+    "id": "code:raw:5703101",
+    "prompt": 2346,
+    "output": 4,
+    "arrival_ms": 12952.380952380952
+  },
+  {
+    "id": "code:raw:5703102",
+    "prompt": 2440,
+    "output": 19,
+    "arrival_ms": 13142.857142857143
+  },
+  {
+    "id": "code:raw:5703103",
+    "prompt": 2347,
+    "output": 12,
+    "arrival_ms": 13333.333333333334
+  },
+  {
+    "id": "code:raw:5703104",
+    "prompt": 1832,
+    "output": 1,
+    "arrival_ms": 13523.809523809523
+  },
+  {
+    "id": "code:raw:5703105",
+    "prompt": 376,
+    "output": 10,
+    "arrival_ms": 13714.285714285714
+  },
+  {
+    "id": "code:raw:5703106",
+    "prompt": 1486,
+    "output": 1,
+    "arrival_ms": 13904.761904761905
+  },
+  {
+    "id": "code:raw:5703107",
+    "prompt": 6852,
+    "output": 26,
+    "arrival_ms": 14095.238095238095
+  },
+  {
+    "id": "code:raw:5703108",
+    "prompt": 7685,
+    "output": 9,
+    "arrival_ms": 14285.714285714286
+  },
+  {
+    "id": "code:raw:5703109",
+    "prompt": 736,
+    "output": 1,
+    "arrival_ms": 14476.190476190477
+  },
+  {
+    "id": "code:raw:5703110",
+    "prompt": 2173,
+    "output": 9,
+    "arrival_ms": 14666.666666666666
+  },
+  {
+    "id": "code:raw:5703111",
+    "prompt": 5306,
+    "output": 15,
+    "arrival_ms": 14857.142857142857
+  },
+  {
+    "id": "code:raw:5703112",
+    "prompt": 2176,
+    "output": 2,
+    "arrival_ms": 15047.619047619048
+  },
+  {
+    "id": "code:raw:5703113",
+    "prompt": 5946,
+    "output": 25,
+    "arrival_ms": 15238.095238095239
+  },
+  {
+    "id": "code:raw:5703114",
+    "prompt": 290,
+    "output": 12,
+    "arrival_ms": 15428.57142857143
+  },
+  {
+    "id": "code:raw:5703115",
+    "prompt": 4206,
+    "output": 49,
+    "arrival_ms": 15619.047619047618
+  },
+  {
+    "id": "code:raw:5703116",
+    "prompt": 3580,
+    "output": 3,
+    "arrival_ms": 15809.52380952381
+  },
+  {
+    "id": "code:raw:5703117",
+    "prompt": 2350,
+    "output": 12,
+    "arrival_ms": 16000.0
+  },
+  {
+    "id": "code:raw:5703118",
+    "prompt": 972,
+    "output": 5,
+    "arrival_ms": 16190.47619047619
+  },
+  {
+    "id": "code:raw:5703119",
+    "prompt": 252,
+    "output": 49,
+    "arrival_ms": 16380.952380952382
+  },
+  {
+    "id": "code:raw:5703120",
+    "prompt": 2462,
+    "output": 82,
+    "arrival_ms": 16571.428571428572
+  },
+  {
+    "id": "code:raw:5703121",
+    "prompt": 752,
+    "output": 2,
+    "arrival_ms": 16761.904761904763
+  },
+  {
+    "id": "code:raw:5703122",
+    "prompt": 736,
+    "output": 1,
+    "arrival_ms": 16952.380952380954
+  },
+  {
+    "id": "code:raw:5703123",
+    "prompt": 7682,
+    "output": 9,
+    "arrival_ms": 17142.85714285714
+  },
+  {
+    "id": "code:raw:5703124",
+    "prompt": 4256,
+    "output": 3,
+    "arrival_ms": 17333.333333333332
+  },
+  {
+    "id": "code:raw:5703125",
+    "prompt": 976,
+    "output": 5,
+    "arrival_ms": 17523.809523809523
+  },
+  {
+    "id": "code:raw:5703126",
+    "prompt": 6449,
+    "output": 10,
+    "arrival_ms": 17714.285714285714
+  },
+  {
+    "id": "code:raw:5703127",
+    "prompt": 402,
+    "output": 2,
+    "arrival_ms": 17904.761904761905
+  },
+  {
+    "id": "code:raw:5703128",
+    "prompt": 2792,
+    "output": 9,
+    "arrival_ms": 18095.238095238095
+  },
+  {
+    "id": "code:raw:5703129",
+    "prompt": 4299,
+    "output": 9,
+    "arrival_ms": 18285.714285714286
+  },
+  {
+    "id": "code:raw:5703130",
+    "prompt": 1428,
+    "output": 1,
+    "arrival_ms": 18476.190476190477
+  },
+  {
+    "id": "code:raw:5703131",
+    "prompt": 2440,
+    "output": 47,
+    "arrival_ms": 18666.666666666668
+  },
+  {
+    "id": "code:raw:5703132",
+    "prompt": 4206,
+    "output": 37,
+    "arrival_ms": 18857.14285714286
+  },
+  {
+    "id": "code:raw:5703133",
+    "prompt": 377,
+    "output": 7,
+    "arrival_ms": 19047.619047619046
+  },
+  {
+    "id": "code:raw:5703134",
+    "prompt": 972,
+    "output": 14,
+    "arrival_ms": 19238.095238095237
+  },
+  {
+    "id": "code:raw:5703135",
+    "prompt": 1487,
+    "output": 8,
+    "arrival_ms": 19428.571428571428
+  },
+  {
+    "id": "code:raw:5703136",
+    "prompt": 252,
+    "output": 41,
+    "arrival_ms": 19619.04761904762
+  },
+  {
+    "id": "code:raw:5703137",
+    "prompt": 1072,
+    "output": 14,
+    "arrival_ms": 19809.52380952381
+  },
+  {
+    "id": "code:raw:5703138",
+    "prompt": 1922,
+    "output": 1,
+    "arrival_ms": 20000.0
+  },
+  {
+    "id": "code:raw:5703139",
+    "prompt": 1986,
+    "output": 3,
+    "arrival_ms": 20190.47619047619
+  },
+  {
+    "id": "code:raw:5703140",
+    "prompt": 403,
+    "output": 3,
+    "arrival_ms": 20380.95238095238
+  },
+  {
+    "id": "code:raw:5703141",
+    "prompt": 1196,
+    "output": 3,
+    "arrival_ms": 20571.428571428572
+  },
+  {
+    "id": "code:raw:5703142",
+    "prompt": 5946,
+    "output": 43,
+    "arrival_ms": 20761.904761904763
+  },
+  {
+    "id": "code:raw:5703143",
+    "prompt": 5806,
+    "output": 1,
+    "arrival_ms": 20952.380952380954
+  },
+  {
+    "id": "code:raw:5703144",
+    "prompt": 1142,
+    "output": 14,
+    "arrival_ms": 21142.85714285714
+  },
+  {
+    "id": "code:raw:5703145",
+    "prompt": 2976,
+    "output": 26,
+    "arrival_ms": 21333.333333333332
+  },
+  {
+    "id": "code:raw:5703146",
+    "prompt": 1137,
+    "output": 127,
+    "arrival_ms": 21523.809523809523
+  },
+  {
+    "id": "code:raw:5703147",
+    "prompt": 4031,
+    "output": 1,
+    "arrival_ms": 21714.285714285714
+  },
+  {
+    "id": "code:raw:5703148",
+    "prompt": 404,
+    "output": 1,
+    "arrival_ms": 21904.761904761905
+  },
+  {
+    "id": "code:raw:5703149",
+    "prompt": 4356,
+    "output": 9,
+    "arrival_ms": 22095.238095238095
+  },
+  {
+    "id": "code:raw:5703150",
+    "prompt": 1197,
+    "output": 6,
+    "arrival_ms": 22285.714285714286
+  },
+  {
+    "id": "code:raw:5703151",
+    "prompt": 2441,
+    "output": 2,
+    "arrival_ms": 22476.190476190477
+  },
+  {
+    "id": "code:raw:5703152",
+    "prompt": 5807,
+    "output": 17,
+    "arrival_ms": 22666.666666666668
+  },
+  {
+    "id": "code:raw:5703153",
+    "prompt": 2299,
+    "output": 1,
+    "arrival_ms": 22857.14285714286
+  },
+  {
+    "id": "code:raw:5703154",
+    "prompt": 4206,
+    "output": 63,
+    "arrival_ms": 23047.619047619046
+  },
+  {
+    "id": "code:raw:5703155",
+    "prompt": 1972,
+    "output": 61,
+    "arrival_ms": 23238.095238095237
+  },
+  {
+    "id": "code:raw:5703156",
+    "prompt": 1428,
+    "output": 2,
+    "arrival_ms": 23428.571428571428
+  },
+  {
+    "id": "code:raw:5703157",
+    "prompt": 114,
+    "output": 1,
+    "arrival_ms": 23619.04761904762
+  },
+  {
+    "id": "code:raw:5703158",
+    "prompt": 1487,
+    "output": 12,
+    "arrival_ms": 23809.52380952381
+  },
+  {
+    "id": "code:raw:5703159",
+    "prompt": 975,
+    "output": 1,
+    "arrival_ms": 24000.0
+  },
+  {
+    "id": "code:raw:5703160",
+    "prompt": 2728,
+    "output": 1,
+    "arrival_ms": 24190.47619047619
+  }
+]

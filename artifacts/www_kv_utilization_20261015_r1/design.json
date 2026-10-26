@@ -1,0 +1,83 @@
+{
+  "samples": [
+    {
+      "name": "code_d1_w00",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 0,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w00.json"
+    },
+    {
+      "name": "code_d2_w00",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 0,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w00.json"
+    },
+    {
+      "name": "conversation_d1_w00",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 0,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w00.json"
+    },
+    {
+      "name": "conversation_d2_w00",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 0,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w00.json"
+    }
+  ],
+  "arms": [
+    "arrival",
+    "native",
+    "sarathi",
+    "sola_rule",
+    "uniboost_static",
+    "past_future",
+    "s3_proxy",
+    "apt_serve_kv_rule"
+  ],
+  "capacities": [
+    768,
+    1024,
+    2048,
+    4096
+  ],
+  "rate": 4.0,
+  "horizon_ms": 120000.0,
+  "measurement_ms": [
+    60000,
+    120000
+  ],
+  "budget": 1024,
+  "chunk": 256,
+  "concurrency": 32,
+  "windows_per_source": 2,
+  "gpu_execution": false,
+  "timing_sha256": "e73a97338fe7beb9883b86e3bd46b7f44742e70026796262993858b351a44cc8",
+  "history_sha256": "a5749e43180bba08597c17ea6cbe7784667a9333148598681160880f148ece4e",
+  "source_sha256": {
+    "research/www_evaluation_completion_20261003/simulate.py": "b35f5b716b7d771ef4a8d43863ac60deb95643ed9f0ea99fa251ca241873aaf1",
+    "research/www_evaluation_completion_20261003/scheduler.py": "57d83304f3ac84e1a4ccf842e13f74aff104e715a90627c7c974fe9df7d59d17",
+    "research/www_evaluation_completion_20261003/policy.py": "42003dee07b34d840c9e09fb78fc47629d486c08c73023cfc6699320e90f186f",
+    "writing/www/code/run_simulator.py": "d9e95dfebfee825a2202c751ad16a44550e128c094f05d5ea450f2985ad8c246",
+    "simulator_core/timing.py": "f1cd3e9e99bbc75879222cd50e7e2cf0f793d5383e424c737c8e150ddd18da6a",
+    "research/v1_broad12h_20260925/policy.py": "9d79b2fc7978338f3f6b4633d3895a9b3e21aaa00aa23237df63d112e76865e0",
+    "research/v1_broad12h_20260925/scheduler.py": "18ece913c6cb7553e46a28ea0d3ad19c180899ae410cefa1df68ae964f7f327c",
+    "research/v1_saving_threshold_20260924/policy.py": "91be5c6b341ff81728ba3a60571bd927eb26b096f3302bc52d54718271454ab2",
+    "research/v1_budget_20260922/policy.py": "7a47e70bcde98f3e4924e1c395d593531cd580601ff81f1a2d9da89b227d6ebe",
+    "research/v1_budget_20260922/scheduler.py": "541d9b46947369229699f3d16a2a6557435e1eb3a67a0fd0c5cdaa75f4615ae3",
+    "research/v1_paper_comparison_20260922/scheduler.py": "0ec9cfbe361377fb1d1a54151eeab56589536f203c756f5e63cd318719a04636",
+    "research/v1_paper_comparison_20260922/rules.py": "37d514ed46828e67a186ce85854c84b30757ac68fac4a3d37f45709fe8186b86",
+    "research/www_legacy_baselines_20261006/scheduler.py": "4b38d5e20b119b7e623b81d425892def37ce610d92486319396b2a730f71eba7",
+    "research/www_capacity_pareto_20261015/run.py": "60cfc9ad06371b9772dfb1a7319ca62e91d85dd44a932ea6b5f0f88c5a68cc5a",
+    "research/www_pressure_extended_20261015/run.py": "c0769a9453e574357eda796812e63207a3f0a72b9cdc9fdd4e5eb1b74407dc49",
+    "research/www_kv_utilization_20261015/run.py": "0861abf96f39ea17bd98eb25752ba9f8d2ee1af1bf07ae1783b44e36d1ec00b4"
+  }
+}

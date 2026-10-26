@@ -1,0 +1,3 @@
+source,gpu_best_baseline,simulator_best_baseline,gpu_gain_pct,simulator_gain_pct,error_pp,gpu_min_pct,gpu_max_pct,simulator_min_pct,simulator_max_pct
+code,SRP,SRP,0.0,0.0,0.0,-16.666666666666664,19.999999999999996,-16.666666666666664,19.999999999999996
+conversation,SRP,SRP,0.0,133.33333333333334,133.33333333333334,-25.0,33.33333333333333,75.0,166.66666666666666

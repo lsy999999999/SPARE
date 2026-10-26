@@ -1,0 +1,20 @@
+{
+  "initial_error": "AttributeError: 'Plan' object has no attribute 'dict'",
+  "root_cause": "undetermined; did not recur on group restart or two targeted replays",
+  "kv": 3584,
+  "arm": "spare",
+  "rate": 4.81,
+  "sample": "conversation_d2_w10",
+  "checks": [
+    {
+      "replay": 1,
+      "trajectory_sha256": "4d4ad06fb09119bb5407d8148503f95481423659dabc3decca83f2392fbdd3dd",
+      "matches_saved": true
+    },
+    {
+      "replay": 2,
+      "trajectory_sha256": "4d4ad06fb09119bb5407d8148503f95481423659dabc3decca83f2392fbdd3dd",
+      "matches_saved": true
+    }
+  ]
+}

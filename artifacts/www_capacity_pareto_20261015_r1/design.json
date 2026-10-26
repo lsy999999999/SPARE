@@ -1,0 +1,1337 @@
+{
+  "samples": [
+    {
+      "name": "code_d0_w00",
+      "source": "code",
+      "day": "2024-05-11",
+      "window": 0,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d0_w00.json"
+    },
+    {
+      "name": "code_d0_w01",
+      "source": "code",
+      "day": "2024-05-11",
+      "window": 1,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d0_w01.json"
+    },
+    {
+      "name": "code_d0_w02",
+      "source": "code",
+      "day": "2024-05-11",
+      "window": 2,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d0_w02.json"
+    },
+    {
+      "name": "code_d0_w03",
+      "source": "code",
+      "day": "2024-05-11",
+      "window": 3,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d0_w03.json"
+    },
+    {
+      "name": "code_d0_w04",
+      "source": "code",
+      "day": "2024-05-11",
+      "window": 4,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d0_w04.json"
+    },
+    {
+      "name": "code_d0_w05",
+      "source": "code",
+      "day": "2024-05-11",
+      "window": 5,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d0_w05.json"
+    },
+    {
+      "name": "code_d0_w06",
+      "source": "code",
+      "day": "2024-05-11",
+      "window": 6,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d0_w06.json"
+    },
+    {
+      "name": "code_d0_w07",
+      "source": "code",
+      "day": "2024-05-11",
+      "window": 7,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d0_w07.json"
+    },
+    {
+      "name": "code_d0_w08",
+      "source": "code",
+      "day": "2024-05-11",
+      "window": 8,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d0_w08.json"
+    },
+    {
+      "name": "code_d0_w09",
+      "source": "code",
+      "day": "2024-05-11",
+      "window": 9,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d0_w09.json"
+    },
+    {
+      "name": "code_d0_w10",
+      "source": "code",
+      "day": "2024-05-11",
+      "window": 10,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d0_w10.json"
+    },
+    {
+      "name": "code_d0_w11",
+      "source": "code",
+      "day": "2024-05-11",
+      "window": 11,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d0_w11.json"
+    },
+    {
+      "name": "code_d0_w12",
+      "source": "code",
+      "day": "2024-05-11",
+      "window": 12,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d0_w12.json"
+    },
+    {
+      "name": "code_d0_w13",
+      "source": "code",
+      "day": "2024-05-11",
+      "window": 13,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d0_w13.json"
+    },
+    {
+      "name": "code_d0_w14",
+      "source": "code",
+      "day": "2024-05-11",
+      "window": 14,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d0_w14.json"
+    },
+    {
+      "name": "code_d0_w15",
+      "source": "code",
+      "day": "2024-05-11",
+      "window": 15,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d0_w15.json"
+    },
+    {
+      "name": "code_d0_w16",
+      "source": "code",
+      "day": "2024-05-11",
+      "window": 16,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d0_w16.json"
+    },
+    {
+      "name": "code_d0_w17",
+      "source": "code",
+      "day": "2024-05-11",
+      "window": 17,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d0_w17.json"
+    },
+    {
+      "name": "code_d0_w18",
+      "source": "code",
+      "day": "2024-05-11",
+      "window": 18,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d0_w18.json"
+    },
+    {
+      "name": "code_d0_w19",
+      "source": "code",
+      "day": "2024-05-11",
+      "window": 19,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d0_w19.json"
+    },
+    {
+      "name": "code_d1_w00",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 0,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w00.json"
+    },
+    {
+      "name": "code_d1_w01",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 1,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w01.json"
+    },
+    {
+      "name": "code_d1_w02",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 2,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w02.json"
+    },
+    {
+      "name": "code_d1_w03",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 3,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w03.json"
+    },
+    {
+      "name": "code_d1_w04",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 4,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w04.json"
+    },
+    {
+      "name": "code_d1_w05",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 5,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w05.json"
+    },
+    {
+      "name": "code_d1_w06",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 6,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w06.json"
+    },
+    {
+      "name": "code_d1_w07",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 7,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w07.json"
+    },
+    {
+      "name": "code_d1_w08",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 8,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w08.json"
+    },
+    {
+      "name": "code_d1_w09",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 9,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w09.json"
+    },
+    {
+      "name": "code_d1_w10",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 10,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w10.json"
+    },
+    {
+      "name": "code_d1_w11",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 11,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w11.json"
+    },
+    {
+      "name": "code_d1_w12",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 12,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w12.json"
+    },
+    {
+      "name": "code_d1_w13",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 13,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w13.json"
+    },
+    {
+      "name": "code_d1_w14",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 14,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w14.json"
+    },
+    {
+      "name": "code_d1_w15",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 15,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w15.json"
+    },
+    {
+      "name": "code_d1_w16",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 16,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w16.json"
+    },
+    {
+      "name": "code_d1_w17",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 17,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w17.json"
+    },
+    {
+      "name": "code_d1_w18",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 18,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w18.json"
+    },
+    {
+      "name": "code_d1_w19",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 19,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w19.json"
+    },
+    {
+      "name": "code_d1_w20",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 20,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w20.json"
+    },
+    {
+      "name": "code_d1_w21",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 21,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w21.json"
+    },
+    {
+      "name": "code_d1_w22",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 22,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w22.json"
+    },
+    {
+      "name": "code_d1_w23",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 23,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w23.json"
+    },
+    {
+      "name": "code_d1_w24",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 24,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w24.json"
+    },
+    {
+      "name": "code_d2_w00",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 0,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w00.json"
+    },
+    {
+      "name": "code_d2_w01",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 1,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w01.json"
+    },
+    {
+      "name": "code_d2_w02",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 2,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w02.json"
+    },
+    {
+      "name": "code_d2_w03",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 3,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w03.json"
+    },
+    {
+      "name": "code_d2_w04",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 4,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w04.json"
+    },
+    {
+      "name": "code_d2_w05",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 5,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w05.json"
+    },
+    {
+      "name": "code_d2_w06",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 6,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w06.json"
+    },
+    {
+      "name": "code_d2_w07",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 7,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w07.json"
+    },
+    {
+      "name": "code_d2_w08",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 8,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w08.json"
+    },
+    {
+      "name": "code_d2_w09",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 9,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w09.json"
+    },
+    {
+      "name": "code_d2_w10",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 10,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w10.json"
+    },
+    {
+      "name": "code_d2_w11",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 11,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w11.json"
+    },
+    {
+      "name": "code_d2_w12",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 12,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w12.json"
+    },
+    {
+      "name": "code_d2_w13",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 13,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w13.json"
+    },
+    {
+      "name": "code_d2_w14",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 14,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w14.json"
+    },
+    {
+      "name": "code_d2_w15",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 15,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w15.json"
+    },
+    {
+      "name": "code_d2_w16",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 16,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w16.json"
+    },
+    {
+      "name": "code_d2_w17",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 17,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w17.json"
+    },
+    {
+      "name": "code_d2_w18",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 18,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w18.json"
+    },
+    {
+      "name": "code_d2_w19",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 19,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w19.json"
+    },
+    {
+      "name": "code_d2_w20",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 20,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w20.json"
+    },
+    {
+      "name": "code_d2_w21",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 21,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w21.json"
+    },
+    {
+      "name": "code_d2_w22",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 22,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w22.json"
+    },
+    {
+      "name": "code_d2_w23",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 23,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w23.json"
+    },
+    {
+      "name": "code_d2_w24",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 24,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w24.json"
+    },
+    {
+      "name": "conversation_d0_w00",
+      "source": "conversation",
+      "day": "2024-05-13",
+      "window": 0,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w00.json"
+    },
+    {
+      "name": "conversation_d0_w01",
+      "source": "conversation",
+      "day": "2024-05-13",
+      "window": 1,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w01.json"
+    },
+    {
+      "name": "conversation_d0_w02",
+      "source": "conversation",
+      "day": "2024-05-13",
+      "window": 2,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w02.json"
+    },
+    {
+      "name": "conversation_d0_w03",
+      "source": "conversation",
+      "day": "2024-05-13",
+      "window": 3,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w03.json"
+    },
+    {
+      "name": "conversation_d0_w04",
+      "source": "conversation",
+      "day": "2024-05-13",
+      "window": 4,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w04.json"
+    },
+    {
+      "name": "conversation_d0_w05",
+      "source": "conversation",
+      "day": "2024-05-13",
+      "window": 5,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w05.json"
+    },
+    {
+      "name": "conversation_d0_w06",
+      "source": "conversation",
+      "day": "2024-05-13",
+      "window": 6,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w06.json"
+    },
+    {
+      "name": "conversation_d0_w07",
+      "source": "conversation",
+      "day": "2024-05-13",
+      "window": 7,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w07.json"
+    },
+    {
+      "name": "conversation_d0_w08",
+      "source": "conversation",
+      "day": "2024-05-13",
+      "window": 8,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w08.json"
+    },
+    {
+      "name": "conversation_d0_w09",
+      "source": "conversation",
+      "day": "2024-05-13",
+      "window": 9,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w09.json"
+    },
+    {
+      "name": "conversation_d0_w10",
+      "source": "conversation",
+      "day": "2024-05-13",
+      "window": 10,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w10.json"
+    },
+    {
+      "name": "conversation_d0_w11",
+      "source": "conversation",
+      "day": "2024-05-13",
+      "window": 11,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w11.json"
+    },
+    {
+      "name": "conversation_d0_w12",
+      "source": "conversation",
+      "day": "2024-05-13",
+      "window": 12,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w12.json"
+    },
+    {
+      "name": "conversation_d0_w13",
+      "source": "conversation",
+      "day": "2024-05-13",
+      "window": 13,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w13.json"
+    },
+    {
+      "name": "conversation_d0_w14",
+      "source": "conversation",
+      "day": "2024-05-13",
+      "window": 14,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w14.json"
+    },
+    {
+      "name": "conversation_d0_w15",
+      "source": "conversation",
+      "day": "2024-05-13",
+      "window": 15,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w15.json"
+    },
+    {
+      "name": "conversation_d0_w16",
+      "source": "conversation",
+      "day": "2024-05-13",
+      "window": 16,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w16.json"
+    },
+    {
+      "name": "conversation_d0_w17",
+      "source": "conversation",
+      "day": "2024-05-13",
+      "window": 17,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w17.json"
+    },
+    {
+      "name": "conversation_d0_w18",
+      "source": "conversation",
+      "day": "2024-05-13",
+      "window": 18,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w18.json"
+    },
+    {
+      "name": "conversation_d0_w19",
+      "source": "conversation",
+      "day": "2024-05-13",
+      "window": 19,
+      "split": "validation",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w19.json"
+    },
+    {
+      "name": "conversation_d1_w00",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 0,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w00.json"
+    },
+    {
+      "name": "conversation_d1_w01",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 1,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w01.json"
+    },
+    {
+      "name": "conversation_d1_w02",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 2,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w02.json"
+    },
+    {
+      "name": "conversation_d1_w03",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 3,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w03.json"
+    },
+    {
+      "name": "conversation_d1_w04",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 4,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w04.json"
+    },
+    {
+      "name": "conversation_d1_w05",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 5,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w05.json"
+    },
+    {
+      "name": "conversation_d1_w06",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 6,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w06.json"
+    },
+    {
+      "name": "conversation_d1_w07",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 7,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w07.json"
+    },
+    {
+      "name": "conversation_d1_w08",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 8,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w08.json"
+    },
+    {
+      "name": "conversation_d1_w09",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 9,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w09.json"
+    },
+    {
+      "name": "conversation_d1_w10",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 10,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w10.json"
+    },
+    {
+      "name": "conversation_d1_w11",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 11,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w11.json"
+    },
+    {
+      "name": "conversation_d1_w12",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 12,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w12.json"
+    },
+    {
+      "name": "conversation_d1_w13",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 13,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w13.json"
+    },
+    {
+      "name": "conversation_d1_w14",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 14,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w14.json"
+    },
+    {
+      "name": "conversation_d1_w15",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 15,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w15.json"
+    },
+    {
+      "name": "conversation_d1_w16",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 16,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w16.json"
+    },
+    {
+      "name": "conversation_d1_w17",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 17,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w17.json"
+    },
+    {
+      "name": "conversation_d1_w18",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 18,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w18.json"
+    },
+    {
+      "name": "conversation_d1_w19",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 19,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w19.json"
+    },
+    {
+      "name": "conversation_d1_w20",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 20,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w20.json"
+    },
+    {
+      "name": "conversation_d1_w21",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 21,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w21.json"
+    },
+    {
+      "name": "conversation_d1_w22",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 22,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w22.json"
+    },
+    {
+      "name": "conversation_d1_w23",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 23,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w23.json"
+    },
+    {
+      "name": "conversation_d1_w24",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 24,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w24.json"
+    },
+    {
+      "name": "conversation_d2_w00",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 0,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w00.json"
+    },
+    {
+      "name": "conversation_d2_w01",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 1,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w01.json"
+    },
+    {
+      "name": "conversation_d2_w02",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 2,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w02.json"
+    },
+    {
+      "name": "conversation_d2_w03",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 3,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w03.json"
+    },
+    {
+      "name": "conversation_d2_w04",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 4,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w04.json"
+    },
+    {
+      "name": "conversation_d2_w05",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 5,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w05.json"
+    },
+    {
+      "name": "conversation_d2_w06",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 6,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w06.json"
+    },
+    {
+      "name": "conversation_d2_w07",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 7,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w07.json"
+    },
+    {
+      "name": "conversation_d2_w08",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 8,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w08.json"
+    },
+    {
+      "name": "conversation_d2_w09",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 9,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w09.json"
+    },
+    {
+      "name": "conversation_d2_w10",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 10,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w10.json"
+    },
+    {
+      "name": "conversation_d2_w11",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 11,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w11.json"
+    },
+    {
+      "name": "conversation_d2_w12",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 12,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w12.json"
+    },
+    {
+      "name": "conversation_d2_w13",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 13,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w13.json"
+    },
+    {
+      "name": "conversation_d2_w14",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 14,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w14.json"
+    },
+    {
+      "name": "conversation_d2_w15",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 15,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w15.json"
+    },
+    {
+      "name": "conversation_d2_w16",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 16,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w16.json"
+    },
+    {
+      "name": "conversation_d2_w17",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 17,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w17.json"
+    },
+    {
+      "name": "conversation_d2_w18",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 18,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w18.json"
+    },
+    {
+      "name": "conversation_d2_w19",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 19,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w19.json"
+    },
+    {
+      "name": "conversation_d2_w20",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 20,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w20.json"
+    },
+    {
+      "name": "conversation_d2_w21",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 21,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w21.json"
+    },
+    {
+      "name": "conversation_d2_w22",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 22,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w22.json"
+    },
+    {
+      "name": "conversation_d2_w23",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 23,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w23.json"
+    },
+    {
+      "name": "conversation_d2_w24",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 24,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w24.json"
+    }
+  ],
+  "source_design": "./artifacts/www_pareto_20261014_r1/design.json",
+  "source_design_sha256": "a0e4b2ff97da8714aa15c3d23d4c175196e356fbcfa1b670fa19868deb5013ed",
+  "source_inputs": {
+    "artifacts/www_pareto_20261014_r1/inputs/code_d0_w00.json": "cc83b2ba371bcebad606262ea028a076ec66d657d758f26d91d3090425151e53",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d0_w01.json": "1caa79628ccd7e1b037040fbdb15d1e64281719c58c6ba9d1845df2952e855d4",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d0_w02.json": "af5bc3f0742ca860f472d27f5234940822f41c276a6547f8b6abb72e77a73a12",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d0_w03.json": "dde53fc11c03eb7eec4f1623ecdb81b02486798432b5088de63b5547a494e1ad",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d0_w04.json": "c6ec7d4c24bee6eec2fa4f80ecec6a8367ba1f192803a5f6fa865b57b235168c",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d0_w05.json": "fe29313ec8957415f86175d778be40b7549473447d81a4f30279bac6b6606f8e",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d0_w06.json": "94eca9b6712dbbf03ca0c54cf88b2a7b1f0ac80f41cd69f9f5c848aa1a972b90",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d0_w07.json": "4c4d0410f833edba6b3a0dc07bd28ac366dc9dbef682978d435b886d16e9b893",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d0_w08.json": "b7b09a77631b179c60a7960bd7a7d6207cc3809b155d5f872245b8bd37e3aae1",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d0_w09.json": "97bd6adf24c05ac0c512622cb9f6aa950237c6cfd6bddc1d4477b584ef5d3796",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d0_w10.json": "ce17691f77a38a36502905cc057d0f972708746c66bd2cc0a3c536dd586771c9",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d0_w11.json": "7a389b09f6aeb4865394ae7e5ad504853c18f76294c7d984fbaa7f87bab1b1cb",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d0_w12.json": "2dd7f16a7c781cdeb60df70e2df809dd897e228355884658a775f952d174eade",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d0_w13.json": "f708fd63bcf41a619b47a0c2c2aaeb042fc61729a9d34580d9f26eb7298443cb",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d0_w14.json": "a77bdb2fb95136588327bcd20f41cf6e82392135ee2bc5bf6de6f906fee623f0",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d0_w15.json": "0d54c683c1006d4c1bc16756a84c8c428f3b7b1649d716d7b7aeb3e0861e440c",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d0_w16.json": "1c4c1f48291e3d1141aaa19c615c95a8a02d45096c3aaaeb5bceeadb91d99ef5",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d0_w17.json": "669b95bc9dbfbd6b2365d106f397988bb020457d7271e5c31443b24419959bf1",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d0_w18.json": "47ee1f6dc368d95654c2e48ee99bdab1623c5e77937012da5c3e7a9913a1e4e1",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d0_w19.json": "5cc74749499f2470993371cc69dd2af161a5bb9968da8d58e70517acb86e4556",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w00.json": "f64658a0dd38aaa9666973c719088133fa90983f57154bc7e4a3a69fa59cfd60",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w01.json": "0af56e01958ecafd60e4271099fbdddfb239c1bd3889989e97f9f9614db2bda6",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w02.json": "ee69d0f55a8819449fbb73fd7ded977426813fd5bffd4250f3bcf1fbfec3597f",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w03.json": "280b56818f7380f59569e8e90cfb349c26bdfa900b70caf9d2437ec82d1f5a9e",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w04.json": "5a11222fca6e6fc2e9f041746f160ae40dd6848f18a814330eb60f1244a7c3cd",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w05.json": "4a59b79ee88772f8142b6723567bac127231db5138713cf1c6f51c52300fb013",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w06.json": "228f03c472b306d6e589ffd010171d8a66ed84510c5ccc23a5bb7f01eb7a9d32",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w07.json": "70ec0b1654081eac776894de529cd0ad3ae092965bcd453a6fb19caeb36e3fa2",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w08.json": "f0fdb4658496d28e37706a9ad772f2b9660dec31ac0e75422f4914ddaaf0d39b",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w09.json": "a1765c8638e20c8ac78eb090178c1f92cc0e572345482044e9a9aa125cb46b9a",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w10.json": "c60bd7524565df62671c3a8bd38dba91582135de1ee7d536e6fd48a7979e3a1f",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w11.json": "1ff4a68611155d73f6ffe485455400fc8c7fda3406e9bf9619fa49c37419e4eb",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w12.json": "0ca0a215a7843c192f96a4638e1c1b9e6b091784c52f99f6768b72addf3d8d1c",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w13.json": "60a3e77ed36c4e4a6295b061bedc8d1b2e7626d32c61f664230329962c3f55d4",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w14.json": "012238be0a1e296276e06d138aeec95a04d691b9a062c5f29be4b4d61b8dc0d1",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w15.json": "6a38d540caa9e03b0bf2ee64846621d212b4d9bd7b0a705805768584f6d30ec1",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w16.json": "f89314843cf383a7b131a823d84325f61e563dbeb997c32ac8c6ef5e713d7efd",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w17.json": "e3c0af7cd680dfe435d44dedabda699d9475bba207b01d7a89a9e9afb3fbb988",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w18.json": "b8414201d5cb6036085650b283c5bc0828bb6cdb8383faba84e728ae6ddb15b2",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w19.json": "6b7bf65030351bfa46485e528af96898c4a5c11946a1b464160d47fc86b3bdde",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w20.json": "acb9540056d75d64ecd4ec377be98492cec9316f00284c60a556caff889f48a5",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w21.json": "ba92ef54a788b6fb1de03734b724662ba1d7bbec260fccbc65173c601bc10ed5",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w22.json": "868181f5580320c1233c642a9ba6a500dce0e146f75ede29d389a715040ddf1d",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w23.json": "f846826f00575404b218a9d5e470cc34a9f363d96042815a173bc796a2841b8f",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d1_w24.json": "d8e0aef71c0ed1a9cc9872adbd133d07bbccd12b467ddc2c660e64f957f951c8",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w00.json": "69f8b52c4ecad4436aea40f6feb65b03f898645af4a05b0802665ea17bc9b350",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w01.json": "3ecc49cc4e76b3606474b1c7a34f3364169c88efb549afead2c57d2ef28f09c4",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w02.json": "5d108a647062979790dc8a5d3611f2378e12fef97397a4f37e89d3f7fecd2004",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w03.json": "bca986de6c36b3734837338afc82b4695f745ea03185c524012dffc6a622a271",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w04.json": "95fde7b52184da7fb054dfb9968f9754c098b317a835fd045f7042b2b4f972b6",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w05.json": "394e6deeddac13860ed98b98ce5b4cb7d277626b7ec73972310c42cedab96d1d",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w06.json": "62729cabb9ffa9bb31b05f6d9ff06562499d419bada142ad45b0636cb03522cc",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w07.json": "d82ac620b71b41ac58ff86315c9a585dd3f6a31aef735db897b4f87898c5e908",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w08.json": "04421fe58ef562b10156b90378d9a4df765ee9bca329cd6641f873882030ee4d",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w09.json": "17920ab00dbf544efcc00b5c82c6954dd9a75deb0156448f9a01c9caadfe05f9",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w10.json": "99b93a59d14695fab18b976ad46445c2d030a0291c3beeb20749c95f96434cba",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w11.json": "993282a5435c2fc68d653ed66eab1f1f3b511da375f192ab1e4d2136ff3af68c",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w12.json": "13c6c6ebe5068285cc1076c99b64a96c3aa2e2b4136e070c75ff23d0d2841f56",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w13.json": "3f9eb576e486754ccb201853fb9453512ef0551d63a03705fce36b30c96e01da",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w14.json": "3ff42fac711171f092f700ca9db9566ddb881c93802d84df7be83773dcb6a7e9",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w15.json": "6d72e54bad9fac228cd877256aeca22f89d0a042ce20e77a7a1979aac6be171f",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w16.json": "40f25cc8d9943d09ecd7bede26758016decd54f1720fa50419e2f7affa414807",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w17.json": "3f569b84d472d53bff38b81e60a270af7c634b19826c92aca108de4760993f60",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w18.json": "b465d225f8d1e9eba783b12acf8880930c3789ef9f368fa6de15fd46dfc2d4e0",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w19.json": "032a24d2ba8bde2d654ef8478c10768d7fc140bba9b4131bd3cb96051503077d",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w20.json": "348060657b20c0cb7be685dd843f07a6a4862615072b14f9c66691c7c745c028",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w21.json": "afab49cfb3bb8d5f07832304b7f00de334f22c1c6f6652b0c036e414e467d762",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w22.json": "05ee308e75ffc3636576be81751170f49abed6cb7e2546d23bcf77d4220ff62b",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w23.json": "a570b542407570f2fd85fc9465884ccb67d40173dcdbc9266e2bed24b82cd373",
+    "artifacts/www_pareto_20261014_r1/inputs/code_d2_w24.json": "6cd4ffcd31ccdf96aeda80d79aecd9d06cb308abb72243623a05ba971090c81b",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w00.json": "18a6ce7310da5a53b83c6b4a99798f4c6563e276e4012fe665168d9ece4d797c",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w01.json": "41d8379f0fc5fec6b7dcfd757243f607f524e33e32cc4843066952a904421d04",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w02.json": "e3dfdbb13dc20929d470f090f9bedfa261ea9d8ce46c4db32a64d97d19f60f34",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w03.json": "6a16cc0f657912219804cc7f0e3afdc9a455d4fd67ca7065eaa5cd52e3e22b78",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w04.json": "489cfc1a253eae9f65b758ff2f4b703dbf3f6d199387e24bbba988faa0848b61",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w05.json": "a722c98fbec6f72d41ed8f67949dec8d82bba522e4547df0e86d2b5699825668",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w06.json": "173b3c9f570c26216e9617bc5adebeba413878d8d0af1cd1773fb0b6ce7a1a26",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w07.json": "c4065b5eb03150c77286ba716c76c7a1dab9706dce5742278139149de7e43a06",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w08.json": "3ffc6d91bfcdef8584db8c20d8305bb93d12d1698eaddb37cbae47a5d713e1be",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w09.json": "2bf80e9d6e90624f790bb704079ccf15d87d4dfada36309e0b92b0485cb5960c",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w10.json": "a332293ffaefca980f5e2900df87e9b512635a939d5d571a721e3d8b8d94836f",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w11.json": "327ac1e795ba853d438e1a2b45801d4f90cb585086fea732e3c27dd8d12ed482",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w12.json": "e2eab0bd647a277ea1b0deb991317b3e2e3bf4a14d79db98cb1a0292a4dd5450",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w13.json": "d378016c6c40a91280b86f27d9ffc779a9c4d90826401a22c8a8e8d2c4789d03",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w14.json": "8369e8aa2d5823e862cc105dee9adb87971bd165b42c6745c016b3dfec9908b4",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w15.json": "c8f7f50edcac5a5429c77831d6fc345dd35383c9d4eebfaa421e5051e0ffdea8",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w16.json": "ef9bc67331f1f04fc6b9d3ccef6b0a517e6339663a1d32156f0c39a67bbb7960",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w17.json": "7e971dde9c8d7d41659225b9e838a0781de71cc8d79511590bd591f04c6282bb",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w18.json": "1ea79155847438d981615029e366ad2fdc6cd0a1b6bbb866f2fff85dac0e4945",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d0_w19.json": "254f38ac0d6e0b42b2fb88d559aec70da99f18641796ef24b3c7c9917a86f877",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w00.json": "4b39cd7f575f51f6456fa6a920946fa677c4362ae06b28646a0d1fac0c7b272b",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w01.json": "693d3b58520d3d7bac10b0f4f2acb7b1f032ffa3bf0b1b816f231886656f44f0",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w02.json": "c91aeb0d38cdc363cc186ce850992e4cb4ffab960ff0adef9e385aace876345a",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w03.json": "ea6c0010ab350011aa9f63b8c4889890eecb7458581b06a5df1dca980d4fd961",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w04.json": "719ddce5fe57afa0546edc0a246b3c9160279f33208835ea5a7c77a8dc0fecc2",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w05.json": "d28f0c0c9b130ea123aaa4f52be108b3d2a6804bfac1e1ef9fb2dd9e6810676a",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w06.json": "cdbaa0f5aa3fb015f6ad7deb70a681f603d2a5d9ee6aed83b66e53c3b59a4f66",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w07.json": "45baae25b5dbb2a32e0d07854e5dd8d91616588f2ec8c92df58198d59aa377e2",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w08.json": "495777867884707a395fbd8696fd3b0705876883979ef595c414f1ca1622336b",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w09.json": "790db7ccec05467cbad99a0add0c2b8f31b0fd76ea84585c20ffe96ed5e03b3d",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w10.json": "820fcbedc8dbd80123e19ae6910642db1da9b5ed902e349ffd45d60dba86f3e8",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w11.json": "6d7da6845ba7fe5db5679cd6ad7e0d6e78bdd95fe5c31f2de0a69a768240f0b4",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w12.json": "108e751b8dae20cc8915ed89a69429152c144142befc23b8cb068ee9ddf272c7",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w13.json": "ebb00def2175aaa6bca3fce8be7d8aebf036185f489a50db2f2c8ade8d471164",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w14.json": "e3586a3fbab3e737553573a90f8e959f2fa611c4f2cc892f41a48ac586abaa8a",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w15.json": "590f83eb3d1a6cbb51f08d6f3286cad036b0ae5b7d44fe9b7cd582322b541670",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w16.json": "e09694e445433c73d063d37cc5d2262a65e890c08f9a9311cb86f1d7e40d0ab3",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w17.json": "b03effdbe71567d79ebfcacf29f991c83c2fb3fbf455ab834a077b0b98cd43d2",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w18.json": "519f7ebad154bc13e7fef14d562ec3f166a7116dd58e1c8d99bfa653f9f3daa4",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w19.json": "fa80607314e7c31d2d55ca22cb745b5cc1a974fdf1187cc438e22d93af0a61d7",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w20.json": "bc8c66abdcbfac8763769ff91bc220464042d752843b514ba25cd9826916e4ce",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w21.json": "3a0bb710f3b54e172c78d37b37e76bd09c9024bcad26978145524cf924056aab",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w22.json": "94f15010f6fbaa9ed2685b0a1a593e78297aaf434830af1720e639d9c838ba83",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w23.json": "858e766343abd1a93feb44f43167eef79331f3dcc7dfad7b9e081c4f3d6391d7",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w24.json": "39d5ce0fa8401d0aa161bc4270e3c4cf5907f29f738b8a9856409dcb67fc3fce",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w00.json": "150514c5aaeeaf8d2d8c2ca0236c40ac242479b736ee1d4663ae14dd8f2ac652",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w01.json": "072b1c218c076b7409bec918729ba2a9fff71f0837e49ae6fc9c4e03eb3d7244",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w02.json": "108978dcbc0da2cee2fba0c649b217d1c328cc829f7a1e0e5e045a41bb54c47e",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w03.json": "1f34d383e6ceebcabb44e8a9965e99ad9ff6b0802a560c70656e185ab4410796",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w04.json": "71abd65c8c0a6fc7bbd7582c377934ca70c4b79d94cb87d9a3472c5665cd9354",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w05.json": "913be0e7b0dfa6c73e4ddf63e7047f3c05b3d2074ba2a70f089a8feb03f94a38",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w06.json": "d7afcb23fb47194b5017abdfe27054031e5ed73215da3ab8b6374956b1b3a52b",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w07.json": "85b872b9584d9e892e65d8753c71c4e736d78eea4df40cf31a06999e0530ef3a",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w08.json": "678197513be5ce63f7b9aa2a57407ca36fc18c065eb4fc87bc5af5a31f3b9585",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w09.json": "66915cf42a7566f6c54ca41acdc7c4fa0c63d6027edbd636a9cf37af18dd4db6",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w10.json": "20170d04b91f98662e99bc3166b094f0a03341f0eeb114e010d246959a2bcec4",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w11.json": "82682b6c58bfdb016b9b7e2b3581d52fe97a0fc8324ba289b6db97d5502894b1",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w12.json": "bd046b4a0b31505c4e897c832550888a724b00ae3aa02fd0f6eea0ab2d6d89cd",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w13.json": "0ed37e0695ca846b6fab2cef151d4713428e9521e8823d62b072dfeeae7b766f",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w14.json": "3bae5b8bac4f3d8383498f947da9becb49e90e4c553938a0c423b3738825f5f8",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w15.json": "f059e431534f1cb042d315116a58d922740dbb409f30bc6f23e1fec8ace6a2e2",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w16.json": "5df9da55f52296557d915ce4ad54ea7cea363d27faacfec7249c1f29d181594a",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w17.json": "33f4166e57a75a4e9c25db921aa1412e92d8eb45ac238fc7d1d5ea3f66e5d336",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w18.json": "c3f07392eb709e0e801fcd2d3e72ba8db800c5a0ded2417aa31b55268bacc230",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w19.json": "a23f911b8e5548922614d153a7671937c140b8342afe02d7274a7f95c60d7d7d",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w20.json": "8ab73de9157b4157e3402fd6f31a93de11812716c16da65c5215ec93ed0ab853",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w21.json": "289f4ede89213f2d712770d3d7d082607be86f7e9ac21afd4763b5e3840827b8",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w22.json": "13462a37e2c07bb4ea10cfbbde7a8005c93ccc61267f130cd43c3f8c847c7531",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w23.json": "afed6206ee57759ab043369fcf4b722d359df85d560f7174d64bcf36591d6842",
+    "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w24.json": "d54ba14271a1e6f65878c695f174847794a9390f1b7423c5cb0989a801983f94"
+  },
+  "timing_sha256": "e73a97338fe7beb9883b86e3bd46b7f44742e70026796262993858b351a44cc8",
+  "runner_sha256": "60cfc9ad06371b9772dfb1a7319ca62e91d85dd44a932ea6b5f0f88c5a68cc5a",
+  "simulator_sha256": "66c855fceb0b311e46ae2587164678bb9feee963f7446791ef0464e83048e1ae",
+  "main_arms": [
+    "arrival",
+    "native",
+    "sarathi",
+    "past_future",
+    "past_future_multi",
+    "orca_max",
+    "s3_proxy",
+    "ltr_proxy",
+    "apt_serve_kv_rule",
+    "sola_rule",
+    "sola_calibrated",
+    "uniboost_static"
+  ],
+  "diagnostic_arms": [
+    "ssjf_oracle",
+    "trail_oracle",
+    "mc_sf_oracle",
+    "tie_oracle_proxy",
+    "ltr_oracle"
+  ],
+  "budgets": [
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "capacities": [
+    768,
+    4096
+  ],
+  "rates": [
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    8.0,
+    10.0
+  ],
+  "slos": {
+    "strict": {
+      "p95_ttft_ms": 5000.0,
+      "p99_tbt_ms": 200.0
+    },
+    "relaxed": {
+      "p95_ttft_ms": 10000.0,
+      "p99_tbt_ms": 500.0
+    }
+  },
+  "horizon_ms": 60000.0,
+  "warm_ms": 20000.0,
+  "mid_ms": 40000.0,
+  "arrival_process": "Poisson, paired rate-scaled exponentials per source window",
+  "request_lengths": "sampled with replacement from each frozen 64-request window",
+  "validation_windows": 20,
+  "test_windows": 50,
+  "performance_validated": false,
+  "gpu_execution": false,
+  "max_wall_s": 120
+}

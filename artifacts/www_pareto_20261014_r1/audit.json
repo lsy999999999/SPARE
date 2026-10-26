@@ -1,0 +1,18 @@
+{
+  "completed_runs": 5600,
+  "unique_run_keys": 5600,
+  "validation_unique_requests": 2560,
+  "test_unique_requests": 6400,
+  "request_overlap": 0,
+  "weighted_strict_wins_ties_losses": [
+    30,
+    10,
+    4
+  ],
+  "all_artifacts_present": true,
+  "source_hashes": {
+    "research/www_pareto_20261014/run.py": "0cb895e77c2636a2298a242e055c1fd5ac0fd1c625ab5a1977fd437f2b79942a",
+    "research/www_pareto_20261014/analyze.py": "4c825a83cc5c62ffd1e0155666647a8832c1e30b45f72d9cd520c22cedfb7d5f",
+    "research/www_pareto_20261014/PROTOCOL_CN.md": "562db2e95e799f4927105d9842ed3ca878e60a82bc6d2ba7f0f637f9e61d242d"
+  }
+}

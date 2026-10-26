@@ -1,0 +1,334 @@
+{
+  "samples": [
+    {
+      "name": "code_d1_w02",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 2,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w02.json"
+    },
+    {
+      "name": "code_d1_w06",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 6,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w06.json"
+    },
+    {
+      "name": "code_d1_w10",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 10,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w10.json"
+    },
+    {
+      "name": "code_d1_w14",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 14,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w14.json"
+    },
+    {
+      "name": "code_d1_w18",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 18,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w18.json"
+    },
+    {
+      "name": "code_d1_w22",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 22,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w22.json"
+    },
+    {
+      "name": "code_d2_w02",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 2,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w02.json"
+    },
+    {
+      "name": "code_d2_w06",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 6,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w06.json"
+    },
+    {
+      "name": "code_d2_w10",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 10,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w10.json"
+    },
+    {
+      "name": "code_d2_w14",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 14,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w14.json"
+    },
+    {
+      "name": "code_d2_w18",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 18,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w18.json"
+    },
+    {
+      "name": "code_d2_w22",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 22,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w22.json"
+    },
+    {
+      "name": "conversation_d1_w02",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 2,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w02.json"
+    },
+    {
+      "name": "conversation_d1_w06",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 6,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w06.json"
+    },
+    {
+      "name": "conversation_d1_w10",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 10,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w10.json"
+    },
+    {
+      "name": "conversation_d1_w14",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 14,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w14.json"
+    },
+    {
+      "name": "conversation_d1_w18",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 18,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w18.json"
+    },
+    {
+      "name": "conversation_d1_w22",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 22,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w22.json"
+    },
+    {
+      "name": "conversation_d2_w02",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 2,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w02.json"
+    },
+    {
+      "name": "conversation_d2_w06",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 6,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w06.json"
+    },
+    {
+      "name": "conversation_d2_w10",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 10,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w10.json"
+    },
+    {
+      "name": "conversation_d2_w14",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 14,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w14.json"
+    },
+    {
+      "name": "conversation_d2_w18",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 18,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w18.json"
+    },
+    {
+      "name": "conversation_d2_w22",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 22,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w22.json"
+    }
+  ],
+  "windows": [
+    2,
+    6,
+    10,
+    14,
+    18,
+    22
+  ],
+  "sources": [
+    "code",
+    "conversation"
+  ],
+  "kv_blocks": [
+    1024,
+    2048,
+    4096
+  ],
+  "theta_ms": [
+    1000.0,
+    2000.0,
+    4000.0,
+    8000.0
+  ],
+  "arms": [
+    "spare",
+    "srp",
+    "no_finish_guard",
+    "no_decode_guard",
+    "no_protection",
+    "no_arrival",
+    "constant16",
+    "constant32",
+    "budget_only",
+    "chunk_only",
+    "token_proxy",
+    "constant1",
+    "constant8",
+    "chunk_family",
+    "drop_candidate1",
+    "drop_candidate2",
+    "drop_candidate3",
+    "drop_candidate4"
+  ],
+  "existing": [
+    "spare",
+    "srp",
+    "no_finish_guard",
+    "no_decode_guard",
+    "no_protection",
+    "no_arrival",
+    "constant16",
+    "constant32",
+    "budget_only",
+    "chunk_only",
+    "token_proxy"
+  ],
+  "new": {
+    "constant1": [
+      "arrival",
+      {
+        "mode": "constant",
+        "n": 1
+      }
+    ],
+    "constant8": [
+      "arrival",
+      {
+        "mode": "constant",
+        "n": 8
+      }
+    ],
+    "chunk_family": [
+      "arrival",
+      {
+        "candidate_indices": [
+          3,
+          4
+        ]
+      }
+    ],
+    "drop_candidate1": [
+      "arrival",
+      {
+        "candidate_indices": [
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "drop_candidate2": [
+      "arrival",
+      {
+        "candidate_indices": [
+          1,
+          3,
+          4
+        ]
+      }
+    ],
+    "drop_candidate3": [
+      "arrival",
+      {
+        "candidate_indices": [
+          1,
+          2,
+          4
+        ]
+      }
+    ],
+    "drop_candidate4": [
+      "arrival",
+      {
+        "candidate_indices": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  "budget": 1024,
+  "chunk": 256,
+  "concurrency": 32,
+  "horizon_ms": 60000,
+  "warm_ms": 20000,
+  "backlog_interval_ms": [
+    40000,
+    60000
+  ],
+  "p99_tbt_limit_ms": 200,
+  "capacity_rule": "all 12 windows valid; mean TTFT <= theta; mean window P99 TBT <= 200 ms; mean backlog drift <= max(2,QPS); ascending scan through first failure",
+  "refinement_qps": 0.02,
+  "gpu_execution": false,
+  "prior_design_sha256": "93d2c7cdc663884e4a984d05a61098466c1cfdc13ceea6fd8df15b460aba9052",
+  "old_policy_sha256": "a8bc6213fa34f884d1f74dec01cbdf456eb0e0feb537cb2ba7f58836c2f3ba09",
+  "policy_sha256": "6a021a378dcc4513001030843d37d8df18ddb0f9eb0442a34cf913b5c8cc8366",
+  "runner_sha256": "61c2e15af9810f59a086a8f6412027d98f3cbdcba183697ea2ab18f45e4ab88a"
+}

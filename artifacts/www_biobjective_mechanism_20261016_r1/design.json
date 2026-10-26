@@ -1,0 +1,65 @@
+{
+  "source_design_sha256": "b6b2f5d9969cc202530b3eb9675a82d69e86273a2e8172eeab729dac6136a850",
+  "source_sha256": {
+    "research/www_biobjective_mechanism_20261016/run.py": "277103688ff198909937e74a9aaa0da5b1e1f9756b275911aac06d9b4a922e9f",
+    "research/www_fixed512_capacity_20261014/policy.py": "a8bc6213fa34f884d1f74dec01cbdf456eb0e0feb537cb2ba7f58836c2f3ba09"
+  },
+  "capacities": [
+    1024,
+    1536,
+    2048,
+    3072,
+    4096
+  ],
+  "options": {
+    "budget_only": {
+      "candidate_axes": "budget"
+    },
+    "chunk_only": {
+      "candidate_axes": "chunk"
+    },
+    "token_proxy": {
+      "saving_basis": "tokens"
+    },
+    "no_decode_guard": {
+      "protect_decode": false
+    }
+  },
+  "sources": [
+    "code",
+    "conversation"
+  ],
+  "windows_per_source": 50,
+  "rates": [
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    8.0,
+    10.0
+  ],
+  "budget": 1024,
+  "chunk": 256,
+  "concurrency": 32,
+  "reference_qps": 0.5,
+  "slo": {
+    "p95_ttft_ms": 12000.0,
+    "p99_tbt_ms": 200.0
+  },
+  "horizon_ms": 60000,
+  "warm_ms": 20000,
+  "backlog_interval_ms": [
+    40000,
+    60000
+  ],
+  "timing_sha256": "e73a97338fe7beb9883b86e3bd46b7f44742e70026796262993858b351a44cc8",
+  "capacity_rule": "all 50 valid; mean per-window P95 TTFT <= 12000 ms; mean per-window P99 TBT <= 200 ms; mean backlog count drift <= max(2, QPS)",
+  "note": "CPU fitted clock; no scheduler overhead injected"
+}

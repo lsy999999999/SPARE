@@ -1,0 +1,13 @@
+source,kv_blocks,arm,theta_s,delta_capacity_qps,bootstrap_low_qps,bootstrap_high_qps,paired_delta_mean_ttft_at_2_qps_ms,different_trajectories,paired_trajectories,resamples
+code,1024,no_savings_condition,2,0.17,-0.35,1.0,-170.739772467781,333,336,2000
+code,1024,constant1,2,0.15,-0.3605,1.0,-55.90474577320693,357,360,2000
+code,2048,no_savings_condition,2,-0.22,-0.29,0.18,-43.2827363371513,333,336,2000
+code,2048,constant1,2,-0.24,-0.5,0.18,83.78641155528194,357,360,2000
+code,4096,no_savings_condition,2,-0.38,-0.5,0.3402,-38.09451949303685,285,288,2000
+code,4096,constant1,2,-0.39,-0.53,0.25,88.97462839939642,237,240,2000
+conversation,1024,no_savings_condition,2,0.26,-0.25,1.38,-469.04497758413237,287,288,2000
+conversation,1024,constant1,2,0.21,-0.43,1.0,-367.92030917481856,311,312,2000
+conversation,2048,no_savings_condition,2,0.28,-0.5,1.0,-58.523565232681904,407,408,2000
+conversation,2048,constant1,2,0.26,-1.0,0.8905,102.1787268337478,407,408,2000
+conversation,4096,no_savings_condition,2,-0.07,-0.88,1.75,-38.4830905424038,407,408,2000
+conversation,4096,constant1,2,-0.1,-1.88,0.88,121.8079021102062,359,360,2000

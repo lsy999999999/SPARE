@@ -1,0 +1,339 @@
+{
+  "schema": 1,
+  "frozen": true,
+  "frozen_at": 1790659684.213478,
+  "cells": [
+    {
+      "key": "cell00_code_fresh0_burst_stop_c1536",
+      "source_input": "writing/www/experiments/inputs/code_fresh0_burst_stop.json",
+      "input": "inputs/cell00_code_fresh0_burst_stop.json",
+      "input_sha256": "750db8ffd06e4314aad7d627b3415b9c5a60f1fa113af693e36ebf908daf4d4f",
+      "history": "workloads/castillo_azure_code_conditional_v1/train.jsonl",
+      "history_file": "history/cell00.json",
+      "history_sha256": "4497f45b0412f2de916fa2edcbcbd537907f48c717de435444671a8c27e0b8bb",
+      "capacity": 1536,
+      "budget": 1024,
+      "chunk": 256,
+      "requests": 64,
+      "simulator_cases": [
+        "code_fresh0_burst_stop_c1536_resource",
+        "code_fresh0_burst_stop_c1536_resource_staircase"
+      ]
+    },
+    {
+      "key": "cell01_code_fresh0_burst_stop_c4096",
+      "source_input": "writing/www/experiments/inputs/code_fresh0_burst_stop.json",
+      "input": "inputs/cell01_code_fresh0_burst_stop.json",
+      "input_sha256": "750db8ffd06e4314aad7d627b3415b9c5a60f1fa113af693e36ebf908daf4d4f",
+      "history": "workloads/castillo_azure_code_conditional_v1/train.jsonl",
+      "history_file": "history/cell01.json",
+      "history_sha256": "4497f45b0412f2de916fa2edcbcbd537907f48c717de435444671a8c27e0b8bb",
+      "capacity": 4096,
+      "budget": 1024,
+      "chunk": 256,
+      "requests": 64,
+      "simulator_cases": [
+        "code_fresh0_burst_stop_c4096_resource",
+        "code_fresh0_burst_stop_c4096_resource_staircase"
+      ]
+    },
+    {
+      "key": "cell02_code_fresh0_steady_c1536",
+      "source_input": "writing/www/experiments/inputs/code_fresh0_steady.json",
+      "input": "inputs/cell02_code_fresh0_steady.json",
+      "input_sha256": "2d7c8bea490f45ceff823358348d1a8337e8b2b75b9e755a6b804c01df8c4f7c",
+      "history": "workloads/castillo_azure_code_conditional_v1/train.jsonl",
+      "history_file": "history/cell02.json",
+      "history_sha256": "4497f45b0412f2de916fa2edcbcbd537907f48c717de435444671a8c27e0b8bb",
+      "capacity": 1536,
+      "budget": 1024,
+      "chunk": 256,
+      "requests": 64,
+      "simulator_cases": [
+        "code_fresh0_steady_c1536_resource",
+        "code_fresh0_steady_c1536_resource_staircase"
+      ]
+    },
+    {
+      "key": "cell03_code_fresh0_steady_c4096",
+      "source_input": "writing/www/experiments/inputs/code_fresh0_steady.json",
+      "input": "inputs/cell03_code_fresh0_steady.json",
+      "input_sha256": "2d7c8bea490f45ceff823358348d1a8337e8b2b75b9e755a6b804c01df8c4f7c",
+      "history": "workloads/castillo_azure_code_conditional_v1/train.jsonl",
+      "history_file": "history/cell03.json",
+      "history_sha256": "4497f45b0412f2de916fa2edcbcbd537907f48c717de435444671a8c27e0b8bb",
+      "capacity": 4096,
+      "budget": 1024,
+      "chunk": 256,
+      "requests": 64,
+      "simulator_cases": [
+        "code_fresh0_steady_c4096_resource",
+        "code_fresh0_steady_c4096_resource_staircase"
+      ]
+    },
+    {
+      "key": "cell04_code_fresh1_burst_stop_c1536",
+      "source_input": "writing/www/experiments/inputs/code_fresh1_burst_stop.json",
+      "input": "inputs/cell04_code_fresh1_burst_stop.json",
+      "input_sha256": "0a76a73e4190a1458ef6646da177f316fd7325b89294bf72c74a2be434f76478",
+      "history": "workloads/castillo_azure_code_conditional_v1/train.jsonl",
+      "history_file": "history/cell04.json",
+      "history_sha256": "4497f45b0412f2de916fa2edcbcbd537907f48c717de435444671a8c27e0b8bb",
+      "capacity": 1536,
+      "budget": 1024,
+      "chunk": 256,
+      "requests": 64,
+      "simulator_cases": [
+        "code_fresh1_burst_stop_c1536_resource",
+        "code_fresh1_burst_stop_c1536_resource_staircase"
+      ]
+    },
+    {
+      "key": "cell05_code_fresh1_burst_stop_c4096",
+      "source_input": "writing/www/experiments/inputs/code_fresh1_burst_stop.json",
+      "input": "inputs/cell05_code_fresh1_burst_stop.json",
+      "input_sha256": "0a76a73e4190a1458ef6646da177f316fd7325b89294bf72c74a2be434f76478",
+      "history": "workloads/castillo_azure_code_conditional_v1/train.jsonl",
+      "history_file": "history/cell05.json",
+      "history_sha256": "4497f45b0412f2de916fa2edcbcbd537907f48c717de435444671a8c27e0b8bb",
+      "capacity": 4096,
+      "budget": 1024,
+      "chunk": 256,
+      "requests": 64,
+      "simulator_cases": [
+        "code_fresh1_burst_stop_c4096_resource",
+        "code_fresh1_burst_stop_c4096_resource_staircase"
+      ]
+    },
+    {
+      "key": "cell06_code_fresh1_steady_c1536",
+      "source_input": "writing/www/experiments/inputs/code_fresh1_steady.json",
+      "input": "inputs/cell06_code_fresh1_steady.json",
+      "input_sha256": "29acef4c045582cc53685bb3155fb1afbed56d92001b2d960427bd75ff4ee50c",
+      "history": "workloads/castillo_azure_code_conditional_v1/train.jsonl",
+      "history_file": "history/cell06.json",
+      "history_sha256": "4497f45b0412f2de916fa2edcbcbd537907f48c717de435444671a8c27e0b8bb",
+      "capacity": 1536,
+      "budget": 1024,
+      "chunk": 256,
+      "requests": 64,
+      "simulator_cases": [
+        "code_fresh1_steady_c1536_resource",
+        "code_fresh1_steady_c1536_resource_staircase"
+      ]
+    },
+    {
+      "key": "cell07_code_fresh1_steady_c4096",
+      "source_input": "writing/www/experiments/inputs/code_fresh1_steady.json",
+      "input": "inputs/cell07_code_fresh1_steady.json",
+      "input_sha256": "29acef4c045582cc53685bb3155fb1afbed56d92001b2d960427bd75ff4ee50c",
+      "history": "workloads/castillo_azure_code_conditional_v1/train.jsonl",
+      "history_file": "history/cell07.json",
+      "history_sha256": "4497f45b0412f2de916fa2edcbcbd537907f48c717de435444671a8c27e0b8bb",
+      "capacity": 4096,
+      "budget": 1024,
+      "chunk": 256,
+      "requests": 64,
+      "simulator_cases": [
+        "code_fresh1_steady_c4096_resource",
+        "code_fresh1_steady_c4096_resource_staircase"
+      ]
+    },
+    {
+      "key": "cell08_conversation_fresh0_burst_stop_c768",
+      "source_input": "writing/www/experiments/inputs/conversation_fresh0_burst_stop.json",
+      "input": "inputs/cell08_conversation_fresh0_burst_stop.json",
+      "input_sha256": "6e5d795ec09a2ea05a3973175be88899c5129df1d076852d6ba4cd147b6919e5",
+      "history": "workloads/castillo_azure_conditional_v1/train.jsonl",
+      "history_file": "history/cell08.json",
+      "history_sha256": "08fac71b6d9f47feb747450eec741ed7dce9892a9bb31c4debf47e19bcb88ddc",
+      "capacity": 768,
+      "budget": 1024,
+      "chunk": 256,
+      "requests": 64,
+      "simulator_cases": [
+        "conversation_fresh0_burst_stop_c768_resource",
+        "conversation_fresh0_burst_stop_c768_resource_staircase"
+      ]
+    },
+    {
+      "key": "cell09_conversation_fresh0_burst_stop_c4096",
+      "source_input": "writing/www/experiments/inputs/conversation_fresh0_burst_stop.json",
+      "input": "inputs/cell09_conversation_fresh0_burst_stop.json",
+      "input_sha256": "6e5d795ec09a2ea05a3973175be88899c5129df1d076852d6ba4cd147b6919e5",
+      "history": "workloads/castillo_azure_conditional_v1/train.jsonl",
+      "history_file": "history/cell09.json",
+      "history_sha256": "08fac71b6d9f47feb747450eec741ed7dce9892a9bb31c4debf47e19bcb88ddc",
+      "capacity": 4096,
+      "budget": 1024,
+      "chunk": 256,
+      "requests": 64,
+      "simulator_cases": [
+        "conversation_fresh0_burst_stop_c4096_resource",
+        "conversation_fresh0_burst_stop_c4096_resource_staircase"
+      ]
+    },
+    {
+      "key": "cell10_conversation_fresh0_steady_c768",
+      "source_input": "writing/www/experiments/inputs/conversation_fresh0_steady.json",
+      "input": "inputs/cell10_conversation_fresh0_steady.json",
+      "input_sha256": "4673fbad83ac46bf0a4f572cd4faba501655872eaf029e455daec50771821c41",
+      "history": "workloads/castillo_azure_conditional_v1/train.jsonl",
+      "history_file": "history/cell10.json",
+      "history_sha256": "08fac71b6d9f47feb747450eec741ed7dce9892a9bb31c4debf47e19bcb88ddc",
+      "capacity": 768,
+      "budget": 1024,
+      "chunk": 256,
+      "requests": 64,
+      "simulator_cases": [
+        "conversation_fresh0_steady_c768_resource",
+        "conversation_fresh0_steady_c768_resource_staircase"
+      ]
+    },
+    {
+      "key": "cell11_conversation_fresh0_steady_c4096",
+      "source_input": "writing/www/experiments/inputs/conversation_fresh0_steady.json",
+      "input": "inputs/cell11_conversation_fresh0_steady.json",
+      "input_sha256": "4673fbad83ac46bf0a4f572cd4faba501655872eaf029e455daec50771821c41",
+      "history": "workloads/castillo_azure_conditional_v1/train.jsonl",
+      "history_file": "history/cell11.json",
+      "history_sha256": "08fac71b6d9f47feb747450eec741ed7dce9892a9bb31c4debf47e19bcb88ddc",
+      "capacity": 4096,
+      "budget": 1024,
+      "chunk": 256,
+      "requests": 64,
+      "simulator_cases": [
+        "conversation_fresh0_steady_c4096_resource",
+        "conversation_fresh0_steady_c4096_resource_staircase"
+      ]
+    },
+    {
+      "key": "cell12_conversation_fresh1_burst_stop_c768",
+      "source_input": "writing/www/experiments/inputs/conversation_fresh1_burst_stop.json",
+      "input": "inputs/cell12_conversation_fresh1_burst_stop.json",
+      "input_sha256": "c727428cfc3240f0dc6a926e84b46ef1d3e34383488edbd734833584558ae2d3",
+      "history": "workloads/castillo_azure_conditional_v1/train.jsonl",
+      "history_file": "history/cell12.json",
+      "history_sha256": "08fac71b6d9f47feb747450eec741ed7dce9892a9bb31c4debf47e19bcb88ddc",
+      "capacity": 768,
+      "budget": 1024,
+      "chunk": 256,
+      "requests": 64,
+      "simulator_cases": [
+        "conversation_fresh1_burst_stop_c768_resource",
+        "conversation_fresh1_burst_stop_c768_resource_staircase"
+      ]
+    },
+    {
+      "key": "cell13_conversation_fresh1_burst_stop_c4096",
+      "source_input": "writing/www/experiments/inputs/conversation_fresh1_burst_stop.json",
+      "input": "inputs/cell13_conversation_fresh1_burst_stop.json",
+      "input_sha256": "c727428cfc3240f0dc6a926e84b46ef1d3e34383488edbd734833584558ae2d3",
+      "history": "workloads/castillo_azure_conditional_v1/train.jsonl",
+      "history_file": "history/cell13.json",
+      "history_sha256": "08fac71b6d9f47feb747450eec741ed7dce9892a9bb31c4debf47e19bcb88ddc",
+      "capacity": 4096,
+      "budget": 1024,
+      "chunk": 256,
+      "requests": 64,
+      "simulator_cases": [
+        "conversation_fresh1_burst_stop_c4096_resource",
+        "conversation_fresh1_burst_stop_c4096_resource_staircase"
+      ]
+    },
+    {
+      "key": "cell14_conversation_fresh1_steady_c768",
+      "source_input": "writing/www/experiments/inputs/conversation_fresh1_steady.json",
+      "input": "inputs/cell14_conversation_fresh1_steady.json",
+      "input_sha256": "bfad99c37d4c1aa7a2227c1d6aae9c7d28655263876830b8e4ccfc2a2160ad10",
+      "history": "workloads/castillo_azure_conditional_v1/train.jsonl",
+      "history_file": "history/cell14.json",
+      "history_sha256": "08fac71b6d9f47feb747450eec741ed7dce9892a9bb31c4debf47e19bcb88ddc",
+      "capacity": 768,
+      "budget": 1024,
+      "chunk": 256,
+      "requests": 64,
+      "simulator_cases": [
+        "conversation_fresh1_steady_c768_resource",
+        "conversation_fresh1_steady_c768_resource_staircase"
+      ]
+    },
+    {
+      "key": "cell15_conversation_fresh1_steady_c4096",
+      "source_input": "writing/www/experiments/inputs/conversation_fresh1_steady.json",
+      "input": "inputs/cell15_conversation_fresh1_steady.json",
+      "input_sha256": "bfad99c37d4c1aa7a2227c1d6aae9c7d28655263876830b8e4ccfc2a2160ad10",
+      "history": "workloads/castillo_azure_conditional_v1/train.jsonl",
+      "history_file": "history/cell15.json",
+      "history_sha256": "08fac71b6d9f47feb747450eec741ed7dce9892a9bb31c4debf47e19bcb88ddc",
+      "capacity": 4096,
+      "budget": 1024,
+      "chunk": 256,
+      "requests": 64,
+      "simulator_cases": [
+        "conversation_fresh1_steady_c4096_resource",
+        "conversation_fresh1_steady_c4096_resource_staircase"
+      ]
+    }
+  ],
+  "methods": [
+    "arrival",
+    "basic",
+    "srp",
+    "native",
+    "sarathi",
+    "past_future",
+    "ssjf_oracle",
+    "mc_sf_oracle",
+    "trail_oracle",
+    "tie_oracle_proxy",
+    "uniboost_static",
+    "apt_serve_kv_rule",
+    "sola_rule"
+  ],
+  "repeats": 4,
+  "aa_repeats": 2,
+  "expected_formal_runs": 832,
+  "expected_aa_runs": 32,
+  "max_model_len": 8176,
+  "max_num_seqs": 64,
+  "max_num_batched_tokens": 2048,
+  "block_size": 16,
+  "dtype": "float16",
+  "gpu_memory_utilization": 0.9,
+  "enforce_eager": true,
+  "enable_prefix_caching": false,
+  "enable_chunked_prefill": true,
+  "episode_timeout_s": 600,
+  "deadline_hours": 24,
+  "gpu_candidates": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    7
+  ],
+  "max_group_retries": 2,
+  "ordering": "two deterministic shuffled/reverse pairs per cell",
+  "objective": "mean TTFT primary; P95/P99 TTFT, E2E, ITL, throughput, SLO, KV and recovery secondary",
+  "stopping": "fixed repetitions and 24-hour hard deadline; no outcome-dependent stopping",
+  "source_hashes": {
+    "research/v1_broad12h_20260925/policy.py": "9d79b2fc7978338f3f6b4633d3895a9b3e21aaa00aa23237df63d112e76865e0",
+    "research/v1_broad12h_20260925/scheduler.py": "18ece913c6cb7553e46a28ea0d3ad19c180899ae410cefa1df68ae964f7f327c",
+    "research/v1_budget_20260922/policy.py": "7a47e70bcde98f3e4924e1c395d593531cd580601ff81f1a2d9da89b227d6ebe",
+    "research/v1_budget_20260922/scheduler.py": "541d9b46947369229699f3d16a2a6557435e1eb3a67a0fd0c5cdaa75f4615ae3",
+    "research/v1_paper_comparison_20260922/rules.py": "37d514ed46828e67a186ce85854c84b30757ac68fac4a3d37f45709fe8186b86",
+    "research/v1_paper_comparison_20260922/scheduler.py": "75848788c536320bab982195e51a6e1bb481f1b6f8365c94cd67941e168ef412",
+    "research/v1_saving_threshold_20260924/policy.py": "91be5c6b341ff81728ba3a60571bd927eb26b096f3302bc52d54718271454ab2",
+    "research/www_gpu_baselines_20260929/PROTOCOL_CN.md": "957eca5618baea94109d1d0c57be2b4001a932c96733d64597f6e63474aa8263",
+    "research/www_gpu_baselines_20260929/analyze.py": "af9b175edc68cdef1f3a79d7622220e1190ca60cc0eae444a66d154c659685ca",
+    "research/www_gpu_baselines_20260929/common.py": "a335820934f9972244d4fe7cce230bc8f0efb28a4593bae1004e505362f4fd61",
+    "research/www_gpu_baselines_20260929/prepare.py": "d8039997b604165d5b71c4c11735d4ea35153316f36b44fc73ac3855ad2bbb24",
+    "research/www_gpu_baselines_20260929/run.py": "44e9fe5d8ea5267f1d45c054d00bfd05df232939ae1311b6fbebe4e56fa71b62",
+    "research/www_gpu_baselines_20260929/scheduler.py": "caf9019222eb4981af12185489d9bee59075ccfb4fb9cc83829bebef2f52a653",
+    "research/www_gpu_baselines_20260929/status.py": "c95c4f0d0f94788ecbb0d41aafa829c294840f0247b643e5b7608cbf402b6003",
+    "research/www_gpu_baselines_20260929/validate.py": "0f3311e9e9afd114bbf0248dbac42cacba1a370b7a9c1ca1c464ff498b6014f7"
+  },
+  "interpretation": "GPU execution of shared-vLLM policy/rule adaptations. Oracle/proxy arms use realized output lengths and are not deployable. This is not a reproduction of each paper's original serving stack."
+}

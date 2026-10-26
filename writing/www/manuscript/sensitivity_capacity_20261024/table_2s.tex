@@ -1,0 +1,38 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Parameter sensitivity under a 2-s mean-TTFT limit. Capacity (C, QPS) and matched-load mean TTFT (L, ms) use identical KV settings and paired windows. Bold identifies the default configuration.}
+\label{tab:parameter-sensitivity-2s}
+\begin{tabular}{lrrrrrr}
+\toprule
+& \multicolumn{2}{c}{KV=1,024} & \multicolumn{2}{c}{KV=2,048} & \multicolumn{2}{c}{KV=4,096} \\
+Configuration & C$\uparrow$ & L$\downarrow$ & C$\uparrow$ & L$\downarrow$ & C$\uparrow$ & L$\downarrow$ \\
+\midrule
+\multicolumn{7}{l}{\textit{Code; TTFT at 2/2/2 QPS for the three KV settings}} \\
+\textbf{Default} & 2.86 & 942.7 & 3.38 & 738.9 & 3.54 & 733.7 \\
+$n_0=4$ & 2.84 & 929.3 & 3.35 & 739.0 & 3.54 & 733.7 \\
+$n_0=16$ & 2.80 & 983.9 & 3.41 & 734.9 & 3.54 & 733.7 \\
+$\alpha=64$ & 2.92 & 941.8 & 3.22 & 742.0 & 3.47 & 733.7 \\
+$\alpha=256$ & 2.82 & 1030.0 & 3.46 & 737.0 & 3.56 & 733.7 \\
+$H=0.5$ s & 2.86 & 943.0 & 3.36 & 734.5 & 3.54 & 733.7 \\
+$H=2$ s & 2.88 & 917.9 & 3.36 & 734.0 & 3.54 & 733.7 \\
+$\tau=0.5$ s & 2.86 & 925.4 & 3.38 & 734.2 & 3.54 & 733.7 \\
+$\tau=2$ s & 2.86 & 924.0 & 3.32 & 735.9 & 3.54 & 733.7 \\
+\midrule
+\multicolumn{7}{l}{\textit{Conversation; TTFT at 2/2/2 QPS for the three KV settings}} \\
+\textbf{Default} & 2.20 & 1511.3 & 3.88 & 352.9 & 4.96 & 332.0 \\
+$n_0=4$ & 2.24 & 1395.4 & 3.88 & 348.5 & 4.97 & 332.0 \\
+$n_0=16$ & 2.04 & 1849.9 & 3.70 & 379.6 & 4.94 & 332.0 \\
+$\alpha=64$ & 2.30 & 1362.2 & 4.00 & 344.1 & 4.94 & 332.0 \\
+$\alpha=256$ & 2.08 & 1818.7 & 3.68 & 384.0 & 4.96 & 332.0 \\
+$H=0.5$ s & 2.20 & 1466.8 & 3.90 & 353.6 & 4.96 & 332.0 \\
+$H=2$ s & 2.20 & 1518.7 & 3.92 & 353.5 & 4.97 & 332.0 \\
+$\tau=0.5$ s & 2.18 & 1542.8 & 3.88 & 359.4 & 4.94 & 332.0 \\
+$\tau=2$ s & 2.26 & 1406.6 & 3.94 & 351.0 & 4.98 & 332.0 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{0.96\textwidth}\footnotesize
+Each workload uses 24 paired windows. Capacity additionally requires mean window P99 TBT $\leq200$ ms and mean backlog growth $\leq\max(2,\lambda)$. All variants use the same offered QPS within each workload/KV setting. Capacity boundary intervals have width 0.01--0.02 QPS; these are search resolutions, not confidence intervals. Defaults: $n_0=8$, $\alpha=128$, $H=\tau=1$ s.
+\end{minipage}
+\end{table*}

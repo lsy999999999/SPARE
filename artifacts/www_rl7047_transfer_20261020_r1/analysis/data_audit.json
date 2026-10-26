@@ -1,0 +1,11 @@
+{
+  "groups": 30,
+  "rate_records": 942,
+  "window_records": 47100,
+  "reused_rates": 693,
+  "new_rates": 249,
+  "invalid_windows": 0,
+  "capacity_brackets_verified": true,
+  "paired_mixture_streams_verified": true,
+  "per_window_aggregates_verified": true
+}

@@ -1,0 +1,137 @@
+source,kv_blocks,method,arm,seed,mean_ttft_limit_s,capacity_qps,next_failed_qps,resolution_qps,attained_mean_ttft_s,below_minimum_measured_rate,first_failure_reasons
+conversation,2048,SPARE,spare,,0.25,0.76,0.78,0.02,0.24845678018693607,False,mean_ttft
+conversation,2048,SPARE,spare,,0.3,1.35,1.36,0.01,0.29999778787945275,False,mean_ttft
+conversation,2048,SPARE,spare,,0.35,1.8,1.82,0.02,0.34890034383765867,False,mean_ttft
+conversation,2048,SPARE,spare,,0.4,2.04,2.06,0.02,0.3980336528634923,False,mean_ttft
+conversation,2048,SPARE,spare,,0.5,2.35,2.37,0.02,0.49035284594616524,False,mean_ttft
+conversation,2048,SPARE,spare,,0.6,2.54,2.56,0.02,0.5861663350345835,False,mean_ttft
+conversation,2048,SPARE,spare,,0.75,2.76,2.78,0.02,0.7066791624541551,False,mean_ttft
+conversation,2048,SPARE,spare,,1.0,3.04,3.06,0.02,0.9942667481964572,False,mean_ttft
+conversation,2048,SPARE,spare,,1.25,3.25,3.26,0.01,1.2429409949460457,False,mean_ttft
+conversation,2048,SPARE,spare,,1.5,3.44,3.46,0.02,1.4964280468666205,False,mean_ttft
+conversation,2048,SPARE,spare,,1.75,3.6,3.62,0.02,1.695814521731707,False,mean_ttft
+conversation,2048,SPARE,spare,,2.0,3.84,3.85,0.01,1.9906695724973078,False,mean_ttft
+conversation,2048,SPARE,spare,,2.5,4.16,4.18,0.02,2.472384216302339,False,mean_ttft
+conversation,2048,SPARE,spare,,3.0,4.36,4.38,0.02,2.874341051578249,False,backlog_drift
+conversation,2048,SPARE,spare,,4.0,4.36,4.38,0.02,2.874341051578249,False,backlog_drift
+conversation,2048,SPARE,spare,,6.0,4.36,4.38,0.02,2.874341051578249,False,backlog_drift
+conversation,2048,SPARE,spare,,8.0,4.36,4.38,0.02,2.874341051578249,False,backlog_drift
+conversation,2048,RL (seed 7047),rl_standalone,7047,0.25,,0.25,,,True,mean_ttft
+conversation,2048,RL (seed 7047),rl_standalone,7047,0.3,,0.25,,,True,mean_ttft
+conversation,2048,RL (seed 7047),rl_standalone,7047,0.35,1.88,1.9,0.02,0.3492543798876713,False,mean_ttft
+conversation,2048,RL (seed 7047),rl_standalone,7047,0.4,2.15,2.16,0.01,0.39967613577259775,False,mean_ttft
+conversation,2048,RL (seed 7047),rl_standalone,7047,0.5,2.49,2.5,0.01,0.4960355814933287,False,mean_ttft
+conversation,2048,RL (seed 7047),rl_standalone,7047,0.6,2.68,2.7,0.02,0.5942103400497613,False,mean_ttft
+conversation,2048,RL (seed 7047),rl_standalone,7047,0.75,2.9,2.91,0.01,0.7433913664476239,False,mean_ttft
+conversation,2048,RL (seed 7047),rl_standalone,7047,1.0,3.2,3.22,0.02,0.9851903124841603,False,mean_ttft
+conversation,2048,RL (seed 7047),rl_standalone,7047,1.25,3.42,3.44,0.02,1.2456375552764387,False,mean_ttft
+conversation,2048,RL (seed 7047),rl_standalone,7047,1.5,3.58,3.59,0.01,1.4905763700495451,False,mean_ttft
+conversation,2048,RL (seed 7047),rl_standalone,7047,1.75,3.74,3.75,0.01,1.7269738802220005,False,mean_ttft
+conversation,2048,RL (seed 7047),rl_standalone,7047,2.0,4.02,4.03,0.01,1.999108776334173,False,mean_ttft
+conversation,2048,RL (seed 7047),rl_standalone,7047,2.5,4.28,4.3,0.02,2.4659049825479844,False,mean_ttft
+conversation,2048,RL (seed 7047),rl_standalone,7047,3.0,4.34,4.36,0.02,2.594796401101062,False,backlog_drift
+conversation,2048,RL (seed 7047),rl_standalone,7047,4.0,4.34,4.36,0.02,2.594796401101062,False,backlog_drift
+conversation,2048,RL (seed 7047),rl_standalone,7047,6.0,4.34,4.36,0.02,2.594796401101062,False,backlog_drift
+conversation,2048,RL (seed 7047),rl_standalone,7047,8.0,4.34,4.36,0.02,2.594796401101062,False,backlog_drift
+code,2048,SPARE,spare,,0.25,,0.25,,,True,mean_ttft
+code,2048,SPARE,spare,,0.3,,0.25,,,True,mean_ttft
+code,2048,SPARE,spare,,0.35,0.29,0.3,0.01,0.3468245716414754,False,mean_ttft
+code,2048,SPARE,spare,,0.4,0.68,0.7,0.02,0.3920648622528391,False,mean_ttft
+code,2048,SPARE,spare,,0.5,1.1,1.12,0.02,0.49642462988919683,False,mean_ttft
+code,2048,SPARE,spare,,0.6,1.48,1.5,0.02,0.5969797075976375,False,mean_ttft
+code,2048,SPARE,spare,,0.75,2.0,2.01,0.01,0.7472056342449952,False,mean_ttft
+code,2048,SPARE,spare,,1.0,2.56,2.58,0.02,0.9869829224897859,False,mean_ttft
+code,2048,SPARE,spare,,1.25,2.88,2.9,0.02,1.2250660431813465,False,mean_ttft
+code,2048,SPARE,spare,,1.5,3.04,3.06,0.02,1.475399295926411,False,mean_ttft
+code,2048,SPARE,spare,,1.75,3.18,3.2,0.02,1.7341633715806106,False,mean_ttft
+code,2048,SPARE,spare,,2.0,3.32,3.34,0.02,1.9888796498640597,False,mean_ttft
+code,2048,SPARE,spare,,2.5,3.51,3.53,0.02,2.4558607499790956,False,mean_ttft
+code,2048,SPARE,spare,,3.0,3.75,3.76,0.01,2.9907432949653407,False,mean_ttft
+code,2048,SPARE,spare,,4.0,3.78,3.8,0.02,3.0960126184119816,False,backlog_drift
+code,2048,SPARE,spare,,6.0,3.78,3.8,0.02,3.0960126184119816,False,backlog_drift
+code,2048,SPARE,spare,,8.0,3.78,3.8,0.02,3.0960126184119816,False,backlog_drift
+code,2048,RL (seed 7047),rl_standalone,7047,0.25,,0.25,,,True,mean_ttft
+code,2048,RL (seed 7047),rl_standalone,7047,0.3,,0.25,,,True,mean_ttft
+code,2048,RL (seed 7047),rl_standalone,7047,0.35,,0.25,,,True,mean_ttft
+code,2048,RL (seed 7047),rl_standalone,7047,0.4,0.64,0.65,0.01,0.39920401385176885,False,mean_ttft
+code,2048,RL (seed 7047),rl_standalone,7047,0.5,1.09,1.1,0.01,0.49933405455624186,False,mean_ttft
+code,2048,RL (seed 7047),rl_standalone,7047,0.6,1.5,1.52,0.02,0.5988000690220187,False,mean_ttft
+code,2048,RL (seed 7047),rl_standalone,7047,0.75,1.96,1.97,0.01,0.7451593854486465,False,mean_ttft
+code,2048,RL (seed 7047),rl_standalone,7047,1.0,2.42,2.44,0.02,0.9930833906819466,False,mean_ttft
+code,2048,RL (seed 7047),rl_standalone,7047,1.25,2.66,2.68,0.02,1.243956262018709,False,mean_ttft
+code,2048,RL (seed 7047),rl_standalone,7047,1.5,2.84,2.85,0.01,1.4924997703954066,False,mean_ttft
+code,2048,RL (seed 7047),rl_standalone,7047,1.75,2.97,2.99,0.02,1.7261908045269354,False,mean_ttft
+code,2048,RL (seed 7047),rl_standalone,7047,2.0,3.12,3.14,0.02,1.9973709801678539,False,mean_ttft
+code,2048,RL (seed 7047),rl_standalone,7047,2.5,3.34,3.35,0.01,2.4843950645398105,False,mean_ttft
+code,2048,RL (seed 7047),rl_standalone,7047,3.0,3.42,3.44,0.02,2.6661715019869385,False,backlog_drift
+code,2048,RL (seed 7047),rl_standalone,7047,4.0,3.42,3.44,0.02,2.6661715019869385,False,backlog_drift
+code,2048,RL (seed 7047),rl_standalone,7047,6.0,3.42,3.44,0.02,2.6661715019869385,False,backlog_drift
+code,2048,RL (seed 7047),rl_standalone,7047,8.0,3.42,3.44,0.02,2.6661715019869385,False,backlog_drift
+conversation,4096,SPARE,spare,,0.25,0.76,0.78,0.02,0.24845678018693607,False,mean_ttft
+conversation,4096,SPARE,spare,,0.3,1.35,1.36,0.01,0.299627280703816,False,mean_ttft
+conversation,4096,SPARE,spare,,0.35,2.0,2.01,0.01,0.34960893277823946,False,mean_ttft
+conversation,4096,SPARE,spare,,0.4,2.56,2.58,0.02,0.39820680739994246,False,mean_ttft
+conversation,4096,SPARE,spare,,0.5,3.12,3.14,0.02,0.49983410656665084,False,mean_ttft
+conversation,4096,SPARE,spare,,0.6,3.44,3.46,0.02,0.5992008904558153,False,mean_ttft
+conversation,4096,SPARE,spare,,0.75,3.74,3.75,0.01,0.7495893263524755,False,mean_ttft
+conversation,4096,SPARE,spare,,1.0,4.12,4.14,0.02,0.9984809414991421,False,mean_ttft
+conversation,4096,SPARE,spare,,1.25,4.38,4.39,0.01,1.2462256881774054,False,mean_ttft
+conversation,4096,SPARE,spare,,1.5,4.62,4.64,0.02,1.4789814977212807,False,mean_ttft
+conversation,4096,SPARE,spare,,1.75,4.8,4.81,0.01,1.7246373521635123,False,mean_ttft
+conversation,4096,SPARE,spare,,2.0,4.98,5.0,0.02,1.9741644949938681,False,mean_ttft
+conversation,4096,SPARE,spare,,2.5,5.26,5.28,0.02,2.4657542672183372,False,mean_ttft
+conversation,4096,SPARE,spare,,3.0,5.54,5.56,0.02,2.987507040889659,False,mean_ttft;backlog_drift
+conversation,4096,SPARE,spare,,4.0,5.54,5.56,0.02,2.987507040889659,False,backlog_drift
+conversation,4096,SPARE,spare,,6.0,5.54,5.56,0.02,2.987507040889659,False,backlog_drift
+conversation,4096,SPARE,spare,,8.0,5.54,5.56,0.02,2.987507040889659,False,backlog_drift
+conversation,4096,RL (seed 7047),rl_standalone,7047,0.25,,0.25,,,True,mean_ttft
+conversation,4096,RL (seed 7047),rl_standalone,7047,0.3,,0.25,,,True,mean_ttft
+conversation,4096,RL (seed 7047),rl_standalone,7047,0.35,,0.25,,,True,mean_ttft
+conversation,4096,RL (seed 7047),rl_standalone,7047,0.4,2.41,2.42,0.01,0.39901508735516866,False,mean_ttft
+conversation,4096,RL (seed 7047),rl_standalone,7047,0.5,2.94,2.96,0.02,0.49384234966589796,False,mean_ttft
+conversation,4096,RL (seed 7047),rl_standalone,7047,0.6,3.24,3.25,0.01,0.5979944972269359,False,mean_ttft
+conversation,4096,RL (seed 7047),rl_standalone,7047,0.75,3.56,3.58,0.02,0.7425824283657193,False,mean_ttft
+conversation,4096,RL (seed 7047),rl_standalone,7047,1.0,3.94,3.96,0.02,0.9990588451458838,False,mean_ttft
+conversation,4096,RL (seed 7047),rl_standalone,7047,1.25,4.25,4.27,0.02,1.2391628000615984,False,mean_ttft
+conversation,4096,RL (seed 7047),rl_standalone,7047,1.5,4.46,4.47,0.01,1.4910707362616709,False,mean_ttft
+conversation,4096,RL (seed 7047),rl_standalone,7047,1.75,4.66,4.68,0.02,1.7414022231670583,False,mean_ttft
+conversation,4096,RL (seed 7047),rl_standalone,7047,2.0,4.73,4.75,0.02,1.8625012807574601,False,backlog_drift
+conversation,4096,RL (seed 7047),rl_standalone,7047,2.5,4.73,4.75,0.02,1.8625012807574601,False,backlog_drift
+conversation,4096,RL (seed 7047),rl_standalone,7047,3.0,4.73,4.75,0.02,1.8625012807574601,False,backlog_drift
+conversation,4096,RL (seed 7047),rl_standalone,7047,4.0,4.73,4.75,0.02,1.8625012807574601,False,backlog_drift
+conversation,4096,RL (seed 7047),rl_standalone,7047,6.0,4.73,4.75,0.02,1.8625012807574601,False,backlog_drift
+conversation,4096,RL (seed 7047),rl_standalone,7047,8.0,4.73,4.75,0.02,1.8625012807574601,False,backlog_drift
+code,4096,SPARE,spare,,0.25,,0.25,,,True,mean_ttft
+code,4096,SPARE,spare,,0.3,,0.25,,,True,mean_ttft
+code,4096,SPARE,spare,,0.35,0.29,0.3,0.01,0.3468245716414754,False,mean_ttft
+code,4096,SPARE,spare,,0.4,0.68,0.7,0.02,0.3920648622528391,False,mean_ttft
+code,4096,SPARE,spare,,0.5,1.1,1.12,0.02,0.4962813590872653,False,mean_ttft
+code,4096,SPARE,spare,,0.6,1.48,1.5,0.02,0.5969753059461037,False,mean_ttft
+code,4096,SPARE,spare,,0.75,2.01,2.03,0.02,0.7458531983666867,False,mean_ttft
+code,4096,SPARE,spare,,1.0,2.66,2.68,0.02,0.9998500537244934,False,mean_ttft
+code,4096,SPARE,spare,,1.25,3.0,3.01,0.01,1.2396787662674613,False,mean_ttft
+code,4096,SPARE,spare,,1.5,3.22,3.24,0.02,1.4971479545411084,False,mean_ttft
+code,4096,SPARE,spare,,1.75,3.38,3.4,0.02,1.742519960900693,False,mean_ttft
+code,4096,SPARE,spare,,2.0,3.53,3.54,0.01,1.9976172187879235,False,mean_ttft
+code,4096,SPARE,spare,,2.5,3.8,3.82,0.02,2.461729945234974,False,mean_ttft
+code,4096,SPARE,spare,,3.0,4.04,4.06,0.02,2.99200519767974,False,mean_ttft
+code,4096,SPARE,spare,,4.0,4.38,4.39,0.01,3.890421162926499,False,backlog_drift
+code,4096,SPARE,spare,,6.0,4.38,4.39,0.01,3.890421162926499,False,backlog_drift
+code,4096,SPARE,spare,,8.0,4.38,4.39,0.01,3.890421162926499,False,backlog_drift
+code,4096,RL (seed 7047),rl_standalone,7047,0.25,,0.25,,,True,mean_ttft
+code,4096,RL (seed 7047),rl_standalone,7047,0.3,,0.25,,,True,mean_ttft
+code,4096,RL (seed 7047),rl_standalone,7047,0.35,,0.25,,,True,mean_ttft
+code,4096,RL (seed 7047),rl_standalone,7047,0.4,0.53,0.55,0.02,0.3977052337396027,False,mean_ttft
+code,4096,RL (seed 7047),rl_standalone,7047,0.5,1.02,1.03,0.01,0.49717676420076534,False,mean_ttft
+code,4096,RL (seed 7047),rl_standalone,7047,0.6,1.44,1.46,0.02,0.5947592883335229,False,mean_ttft
+code,4096,RL (seed 7047),rl_standalone,7047,0.75,1.97,1.98,0.01,0.7499856551675199,False,mean_ttft
+code,4096,RL (seed 7047),rl_standalone,7047,1.0,2.42,2.44,0.02,0.9877131926924405,False,mean_ttft
+code,4096,RL (seed 7047),rl_standalone,7047,1.25,2.66,2.68,0.02,1.2417499448078746,False,mean_ttft
+code,4096,RL (seed 7047),rl_standalone,7047,1.5,2.84,2.85,0.01,1.4895301821119664,False,mean_ttft
+code,4096,RL (seed 7047),rl_standalone,7047,1.75,2.97,2.99,0.02,1.7211180349464181,False,mean_ttft
+code,4096,RL (seed 7047),rl_standalone,7047,2.0,3.12,3.14,0.02,1.9927973700928692,False,mean_ttft
+code,4096,RL (seed 7047),rl_standalone,7047,2.5,3.34,3.35,0.01,2.4871061930312734,False,mean_ttft
+code,4096,RL (seed 7047),rl_standalone,7047,3.0,3.42,3.44,0.02,2.669614802695279,False,backlog_drift
+code,4096,RL (seed 7047),rl_standalone,7047,4.0,3.42,3.44,0.02,2.669614802695279,False,backlog_drift
+code,4096,RL (seed 7047),rl_standalone,7047,6.0,3.42,3.44,0.02,2.669614802695279,False,backlog_drift
+code,4096,RL (seed 7047),rl_standalone,7047,8.0,3.42,3.44,0.02,2.669614802695279,False,backlog_drift

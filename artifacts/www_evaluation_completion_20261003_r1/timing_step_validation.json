@@ -1,0 +1,3752 @@
+{
+  "complete": true,
+  "request_id_overlap": 0,
+  "independent_new_collection": false,
+  "profile_sha256": "e73a97338fe7beb9883b86e3bd46b7f44742e70026796262993858b351a44cc8",
+  "episodes": [
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "arrival",
+      "repeat": 0,
+      "n": 428,
+      "mae_ms": 0.8442157951132635,
+      "bias_ms": 0.5315976156110829,
+      "mape_pct": 2.510469022395512
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "basic",
+      "repeat": 0,
+      "n": 428,
+      "mae_ms": 0.8542541376005971,
+      "bias_ms": 0.5589363471663337,
+      "mape_pct": 2.5201487202215165
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "srp",
+      "repeat": 0,
+      "n": 222,
+      "mae_ms": 1.3759323891379371,
+      "bias_ms": 0.8661769252536633,
+      "mape_pct": 2.3827160957053763
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "native",
+      "repeat": 0,
+      "n": 259,
+      "mae_ms": 1.0285219838324202,
+      "bias_ms": 0.2369057348296253,
+      "mape_pct": 2.609069411677358
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "sarathi",
+      "repeat": 0,
+      "n": 259,
+      "mae_ms": 0.9936044702819894,
+      "bias_ms": 0.1891620637701319,
+      "mape_pct": 2.570253816569016
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "past_future",
+      "repeat": 0,
+      "n": 270,
+      "mae_ms": 1.0358374226455034,
+      "bias_ms": 0.13355740573353544,
+      "mape_pct": 2.6896083262939814
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "ssjf_oracle",
+      "repeat": 0,
+      "n": 291,
+      "mae_ms": 1.3166963978812884,
+      "bias_ms": 0.32383466992873183,
+      "mape_pct": 3.4344965099646076
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "mc_sf_oracle",
+      "repeat": 0,
+      "n": 303,
+      "mae_ms": 1.2808410500541951,
+      "bias_ms": 0.1711701592824449,
+      "mape_pct": 3.3536619590546866
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "trail_oracle",
+      "repeat": 0,
+      "n": 291,
+      "mae_ms": 1.3111603249402008,
+      "bias_ms": 0.3443772376077823,
+      "mape_pct": 3.407357752363576
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "tie_oracle_proxy",
+      "repeat": 0,
+      "n": 290,
+      "mae_ms": 12.592483611965598,
+      "bias_ms": -11.191836756219061,
+      "mape_pct": 8.193271382763829
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "uniboost_static",
+      "repeat": 0,
+      "n": 243,
+      "mae_ms": 1.255032040832091,
+      "bias_ms": 0.5100046810750365,
+      "mape_pct": 2.665090613940516
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 0,
+      "n": 256,
+      "mae_ms": 1.1399941560164906,
+      "bias_ms": 0.29504947410043847,
+      "mape_pct": 2.7558554488083176
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "sola_rule",
+      "repeat": 0,
+      "n": 297,
+      "mae_ms": 1.245723986852768,
+      "bias_ms": 0.08108282053658838,
+      "mape_pct": 3.690332210605454
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "arrival",
+      "repeat": 1,
+      "n": 428,
+      "mae_ms": 0.8406962109500928,
+      "bias_ms": 0.5133100665285101,
+      "mape_pct": 2.5220373812592323
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "basic",
+      "repeat": 1,
+      "n": 428,
+      "mae_ms": 0.8205811390362471,
+      "bias_ms": 0.5003081995503956,
+      "mape_pct": 2.461241943644262
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "srp",
+      "repeat": 1,
+      "n": 222,
+      "mae_ms": 1.3551731523152772,
+      "bias_ms": 0.8419901906233481,
+      "mape_pct": 2.3613438395629474
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "native",
+      "repeat": 1,
+      "n": 259,
+      "mae_ms": 1.0268387210527565,
+      "bias_ms": 0.25655949265517664,
+      "mape_pct": 2.5907187593025762
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "sarathi",
+      "repeat": 1,
+      "n": 259,
+      "mae_ms": 1.019295371442532,
+      "bias_ms": 0.22658540417966574,
+      "mape_pct": 2.5955618964346967
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "past_future",
+      "repeat": 1,
+      "n": 270,
+      "mae_ms": 1.0410186715204617,
+      "bias_ms": 0.1362306981971118,
+      "mape_pct": 2.7112728582082237
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "ssjf_oracle",
+      "repeat": 1,
+      "n": 291,
+      "mae_ms": 1.2803732378015396,
+      "bias_ms": 0.29200014247543304,
+      "mape_pct": 3.37438066113405
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "mc_sf_oracle",
+      "repeat": 1,
+      "n": 303,
+      "mae_ms": 1.263789582683576,
+      "bias_ms": 0.11208109683593169,
+      "mape_pct": 3.3313949577580937
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "trail_oracle",
+      "repeat": 1,
+      "n": 291,
+      "mae_ms": 1.2899586212137102,
+      "bias_ms": 0.2783872244317639,
+      "mape_pct": 3.4280053094675704
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "tie_oracle_proxy",
+      "repeat": 1,
+      "n": 290,
+      "mae_ms": 12.355713443629247,
+      "bias_ms": -11.146523172853259,
+      "mape_pct": 8.069334794184785
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "uniboost_static",
+      "repeat": 1,
+      "n": 243,
+      "mae_ms": 1.2235972958523493,
+      "bias_ms": 0.45241403669766456,
+      "mape_pct": 2.6526862652920467
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 1,
+      "n": 256,
+      "mae_ms": 1.0481619955702257,
+      "bias_ms": 0.1350989091794198,
+      "mape_pct": 2.6669238765008045
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "sola_rule",
+      "repeat": 1,
+      "n": 297,
+      "mae_ms": 1.112462160052675,
+      "bias_ms": -0.0851314278484035,
+      "mape_pct": 3.5406433179428958
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "arrival",
+      "repeat": 2,
+      "n": 428,
+      "mae_ms": 0.8557343529539005,
+      "bias_ms": 0.5575744239001662,
+      "mape_pct": 2.532381306320463
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "basic",
+      "repeat": 2,
+      "n": 428,
+      "mae_ms": 0.85990633390524,
+      "bias_ms": 0.5416885468427437,
+      "mape_pct": 2.5575107385160654
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "srp",
+      "repeat": 2,
+      "n": 222,
+      "mae_ms": 1.4093844192615552,
+      "bias_ms": 0.9119377871788399,
+      "mape_pct": 2.4243934662093425
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "native",
+      "repeat": 2,
+      "n": 259,
+      "mae_ms": 1.0799168723123336,
+      "bias_ms": 0.3231736001464885,
+      "mape_pct": 2.653589204345458
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "sarathi",
+      "repeat": 2,
+      "n": 259,
+      "mae_ms": 1.0645820839251825,
+      "bias_ms": 0.3085349137017199,
+      "mape_pct": 2.622301112326329
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "past_future",
+      "repeat": 2,
+      "n": 270,
+      "mae_ms": 1.0842755479823156,
+      "bias_ms": 0.2038448999293676,
+      "mape_pct": 2.7609844229247487
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "ssjf_oracle",
+      "repeat": 2,
+      "n": 291,
+      "mae_ms": 1.3161620216309642,
+      "bias_ms": 0.35850168057503246,
+      "mape_pct": 3.407017232376445
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "mc_sf_oracle",
+      "repeat": 2,
+      "n": 303,
+      "mae_ms": 1.2996793018358326,
+      "bias_ms": 0.21095025217836108,
+      "mape_pct": 3.3582587407372904
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "trail_oracle",
+      "repeat": 2,
+      "n": 291,
+      "mae_ms": 1.3238384463520216,
+      "bias_ms": 0.36714471891548306,
+      "mape_pct": 3.424667284980438
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "tie_oracle_proxy",
+      "repeat": 2,
+      "n": 290,
+      "mae_ms": 12.341498359637994,
+      "bias_ms": -11.064074163211254,
+      "mape_pct": 8.094428275804349
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "uniboost_static",
+      "repeat": 2,
+      "n": 243,
+      "mae_ms": 1.2870533484829985,
+      "bias_ms": 0.5281848872477873,
+      "mape_pct": 2.718943403639267
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 2,
+      "n": 256,
+      "mae_ms": 1.1227765563035375,
+      "bias_ms": 0.2766684515723917,
+      "mape_pct": 2.7397190716034223
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "sola_rule",
+      "repeat": 2,
+      "n": 297,
+      "mae_ms": 1.1621798517954989,
+      "bias_ms": 0.0484806790852344,
+      "mape_pct": 3.547213565146861
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "arrival",
+      "repeat": 3,
+      "n": 428,
+      "mae_ms": 0.8820253291810543,
+      "bias_ms": 0.5863524590068084,
+      "mape_pct": 2.6138408138759632
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "basic",
+      "repeat": 3,
+      "n": 428,
+      "mae_ms": 0.8784506607305435,
+      "bias_ms": 0.5858905056019006,
+      "mape_pct": 2.58799002992396
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "srp",
+      "repeat": 3,
+      "n": 222,
+      "mae_ms": 1.43502342009002,
+      "bias_ms": 0.9308558831744197,
+      "mape_pct": 2.470915283493261
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "native",
+      "repeat": 3,
+      "n": 259,
+      "mae_ms": 1.1048072235106272,
+      "bias_ms": 0.3430909672086567,
+      "mape_pct": 2.686703225880819
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "sarathi",
+      "repeat": 3,
+      "n": 259,
+      "mae_ms": 1.1186998608137335,
+      "bias_ms": 0.3729909202497242,
+      "mape_pct": 2.6906049595126493
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "past_future",
+      "repeat": 3,
+      "n": 270,
+      "mae_ms": 1.088737015389093,
+      "bias_ms": 0.18938363860561097,
+      "mape_pct": 2.771466802590745
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "ssjf_oracle",
+      "repeat": 3,
+      "n": 291,
+      "mae_ms": 1.3161748089139431,
+      "bias_ms": 0.3632051908204368,
+      "mape_pct": 3.4088647573136273
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "mc_sf_oracle",
+      "repeat": 3,
+      "n": 303,
+      "mae_ms": 1.283696964560777,
+      "bias_ms": 0.18140694658176001,
+      "mape_pct": 3.332936033039855
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "trail_oracle",
+      "repeat": 3,
+      "n": 291,
+      "mae_ms": 1.3203054152766678,
+      "bias_ms": 0.36347362294972646,
+      "mape_pct": 3.4129402190217477
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "tie_oracle_proxy",
+      "repeat": 3,
+      "n": 290,
+      "mae_ms": 12.368606983074173,
+      "bias_ms": -11.03920683564856,
+      "mape_pct": 8.137894033446411
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "uniboost_static",
+      "repeat": 3,
+      "n": 243,
+      "mae_ms": 1.332554877350296,
+      "bias_ms": 0.5823471128533164,
+      "mape_pct": 2.775653215062516
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 3,
+      "n": 256,
+      "mae_ms": 1.1320545832367646,
+      "bias_ms": 0.2703535188107943,
+      "mape_pct": 2.7582157768218902
+    },
+    {
+      "cell": "cell04_code_fresh1_burst_stop_c1536",
+      "arm": "sola_rule",
+      "repeat": 3,
+      "n": 297,
+      "mae_ms": 1.16784410203778,
+      "bias_ms": 0.038418969454765126,
+      "mape_pct": 3.5666535436290636
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "arrival",
+      "repeat": 0,
+      "n": 221,
+      "mae_ms": 0.7246397361679877,
+      "bias_ms": -0.1578434888049111,
+      "mape_pct": 2.253307726038435
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "basic",
+      "repeat": 0,
+      "n": 209,
+      "mae_ms": 0.7622372024017229,
+      "bias_ms": -0.5062223899274837,
+      "mape_pct": 2.321140316440246
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "srp",
+      "repeat": 0,
+      "n": 209,
+      "mae_ms": 0.7350779101746714,
+      "bias_ms": -0.2321655293118641,
+      "mape_pct": 2.1039413810051357
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "native",
+      "repeat": 0,
+      "n": 247,
+      "mae_ms": 0.825156122462128,
+      "bias_ms": -0.5543206238939158,
+      "mape_pct": 2.486480931923171
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "sarathi",
+      "repeat": 0,
+      "n": 247,
+      "mae_ms": 0.8913608278538452,
+      "bias_ms": -0.6508866978523649,
+      "mape_pct": 2.567740356427732
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "past_future",
+      "repeat": 0,
+      "n": 247,
+      "mae_ms": 0.8315041846032271,
+      "bias_ms": -0.543690315729881,
+      "mape_pct": 2.520609946244841
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "ssjf_oracle",
+      "repeat": 0,
+      "n": 286,
+      "mae_ms": 0.9395711984075806,
+      "bias_ms": -0.39972985026690044,
+      "mape_pct": 3.021607142708738
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "mc_sf_oracle",
+      "repeat": 0,
+      "n": 286,
+      "mae_ms": 0.9490398020716286,
+      "bias_ms": -0.45176612330610055,
+      "mape_pct": 3.0570944493739716
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "trail_oracle",
+      "repeat": 0,
+      "n": 286,
+      "mae_ms": 0.9459517247327379,
+      "bias_ms": -0.4480501283233353,
+      "mape_pct": 3.040972888100796
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "tie_oracle_proxy",
+      "repeat": 0,
+      "n": 286,
+      "mae_ms": 12.721507944814062,
+      "bias_ms": -11.959623417889963,
+      "mape_pct": 8.305269130058557
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "uniboost_static",
+      "repeat": 0,
+      "n": 228,
+      "mae_ms": 0.875001618173442,
+      "bias_ms": 0.1699537158625694,
+      "mape_pct": 2.389402233119526
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 0,
+      "n": 248,
+      "mae_ms": 0.9268901125757086,
+      "bias_ms": -0.6887260922481806,
+      "mape_pct": 2.618257846388768
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "sola_rule",
+      "repeat": 0,
+      "n": 276,
+      "mae_ms": 1.2866144569953917,
+      "bias_ms": -0.9223036233598199,
+      "mape_pct": 3.933543461586022
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "arrival",
+      "repeat": 1,
+      "n": 221,
+      "mae_ms": 0.7290775095140285,
+      "bias_ms": -0.4148702153281821,
+      "mape_pct": 2.2218962537986635
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "basic",
+      "repeat": 1,
+      "n": 209,
+      "mae_ms": 0.7611305139701612,
+      "bias_ms": -0.5079935203795143,
+      "mape_pct": 2.316531781882603
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "srp",
+      "repeat": 1,
+      "n": 209,
+      "mae_ms": 0.7263663263378302,
+      "bias_ms": -0.16164227702003642,
+      "mape_pct": 2.076594763958881
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "native",
+      "repeat": 1,
+      "n": 247,
+      "mae_ms": 0.8834837558905668,
+      "bias_ms": -0.5943952476380513,
+      "mape_pct": 2.548307244968241
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "sarathi",
+      "repeat": 1,
+      "n": 247,
+      "mae_ms": 0.8778576577071077,
+      "bias_ms": -0.6381464859366122,
+      "mape_pct": 2.5411444150540645
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "past_future",
+      "repeat": 1,
+      "n": 247,
+      "mae_ms": 0.9072111109178299,
+      "bias_ms": -0.6354340560697539,
+      "mape_pct": 2.568450488929792
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "ssjf_oracle",
+      "repeat": 1,
+      "n": 286,
+      "mae_ms": 0.9280065973885507,
+      "bias_ms": -0.3771404144399395,
+      "mape_pct": 3.0085758010185355
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "mc_sf_oracle",
+      "repeat": 1,
+      "n": 286,
+      "mae_ms": 0.9338600909676475,
+      "bias_ms": -0.40440122916170723,
+      "mape_pct": 2.9996726271829015
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "trail_oracle",
+      "repeat": 1,
+      "n": 286,
+      "mae_ms": 0.932842301857426,
+      "bias_ms": -0.43137892507716447,
+      "mape_pct": 3.0182512359267886
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "tie_oracle_proxy",
+      "repeat": 1,
+      "n": 286,
+      "mae_ms": 12.504751867341737,
+      "bias_ms": -11.83424268999114,
+      "mape_pct": 8.260981702337702
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "uniboost_static",
+      "repeat": 1,
+      "n": 228,
+      "mae_ms": 0.7319799130644872,
+      "bias_ms": -0.38281497450196394,
+      "mape_pct": 2.2496486870624293
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 1,
+      "n": 248,
+      "mae_ms": 0.8560234154693602,
+      "bias_ms": -0.5964212641971836,
+      "mape_pct": 2.545148183084265
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "sola_rule",
+      "repeat": 1,
+      "n": 276,
+      "mae_ms": 1.2772293043396146,
+      "bias_ms": -0.9255811229664637,
+      "mape_pct": 3.919464340905793
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "arrival",
+      "repeat": 2,
+      "n": 221,
+      "mae_ms": 0.6806133160573252,
+      "bias_ms": -0.38904689700033335,
+      "mape_pct": 2.1930906137585056
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "basic",
+      "repeat": 2,
+      "n": 209,
+      "mae_ms": 0.7482798706646887,
+      "bias_ms": -0.513406242412691,
+      "mape_pct": 2.3040078064457794
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "srp",
+      "repeat": 2,
+      "n": 209,
+      "mae_ms": 0.6937930107299041,
+      "bias_ms": -0.25127091678023633,
+      "mape_pct": 2.054077678463946
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "native",
+      "repeat": 2,
+      "n": 247,
+      "mae_ms": 0.8609377494113747,
+      "bias_ms": -0.6214434587605032,
+      "mape_pct": 2.518219741477838
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "sarathi",
+      "repeat": 2,
+      "n": 247,
+      "mae_ms": 0.958914537920302,
+      "bias_ms": -0.7240290796219283,
+      "mape_pct": 2.6005779800866318
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "past_future",
+      "repeat": 2,
+      "n": 247,
+      "mae_ms": 0.869103600994126,
+      "bias_ms": -0.654163599692322,
+      "mape_pct": 2.5232509324052756
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "ssjf_oracle",
+      "repeat": 2,
+      "n": 286,
+      "mae_ms": 0.920969685897214,
+      "bias_ms": -0.4399521401412166,
+      "mape_pct": 2.9732401759802345
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "mc_sf_oracle",
+      "repeat": 2,
+      "n": 286,
+      "mae_ms": 0.9514988693415841,
+      "bias_ms": -0.5090037857071248,
+      "mape_pct": 2.9941329269033052
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "trail_oracle",
+      "repeat": 2,
+      "n": 286,
+      "mae_ms": 0.9554595242460744,
+      "bias_ms": -0.47903590282174213,
+      "mape_pct": 3.013784028548022
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "tie_oracle_proxy",
+      "repeat": 2,
+      "n": 286,
+      "mae_ms": 12.558771969847482,
+      "bias_ms": -11.991459476873503,
+      "mape_pct": 8.223130121062468
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "uniboost_static",
+      "repeat": 2,
+      "n": 228,
+      "mae_ms": 0.7010323410798959,
+      "bias_ms": -0.36991806033617014,
+      "mape_pct": 2.2041762543857963
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 2,
+      "n": 248,
+      "mae_ms": 0.9764627488389103,
+      "bias_ms": -0.7581295592420634,
+      "mape_pct": 2.621068198633904
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "sola_rule",
+      "repeat": 2,
+      "n": 276,
+      "mae_ms": 1.250528002120996,
+      "bias_ms": -0.9212895058708853,
+      "mape_pct": 3.8842873639235767
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "arrival",
+      "repeat": 3,
+      "n": 221,
+      "mae_ms": 0.7182458154645066,
+      "bias_ms": -0.46851171333273617,
+      "mape_pct": 2.224939122904102
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "basic",
+      "repeat": 3,
+      "n": 209,
+      "mae_ms": 0.7919852809795243,
+      "bias_ms": -0.5759774258657421,
+      "mape_pct": 2.3514320440777214
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "srp",
+      "repeat": 3,
+      "n": 209,
+      "mae_ms": 0.6579591258273643,
+      "bias_ms": -0.1502293399685223,
+      "mape_pct": 2.0129635988258046
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "native",
+      "repeat": 3,
+      "n": 247,
+      "mae_ms": 0.9955996299257316,
+      "bias_ms": -0.7511163044880222,
+      "mape_pct": 2.6293051606453366
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "sarathi",
+      "repeat": 3,
+      "n": 247,
+      "mae_ms": 0.8903718322075481,
+      "bias_ms": -0.6607607249541027,
+      "mape_pct": 2.5346248408548644
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "past_future",
+      "repeat": 3,
+      "n": 247,
+      "mae_ms": 0.8242912197063379,
+      "bias_ms": -0.5995820583052668,
+      "mape_pct": 2.4967911523953568
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "ssjf_oracle",
+      "repeat": 3,
+      "n": 286,
+      "mae_ms": 0.9117494866835808,
+      "bias_ms": -0.4245703578841598,
+      "mape_pct": 2.9618249167518376
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "mc_sf_oracle",
+      "repeat": 3,
+      "n": 286,
+      "mae_ms": 0.8865623701768964,
+      "bias_ms": -0.40161656815086166,
+      "mape_pct": 2.919731151229417
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "trail_oracle",
+      "repeat": 3,
+      "n": 286,
+      "mae_ms": 0.9614785664583897,
+      "bias_ms": -0.495502508175035,
+      "mape_pct": 3.025287330135414
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "tie_oracle_proxy",
+      "repeat": 3,
+      "n": 286,
+      "mae_ms": 12.532349827192984,
+      "bias_ms": -11.95040708876804,
+      "mape_pct": 8.211923945427602
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "uniboost_static",
+      "repeat": 3,
+      "n": 228,
+      "mae_ms": 0.7121843001960863,
+      "bias_ms": -0.37834166674378633,
+      "mape_pct": 2.2345860735033143
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 3,
+      "n": 248,
+      "mae_ms": 0.8707210416788599,
+      "bias_ms": -0.66131821709882,
+      "mape_pct": 2.5438506346516028
+    },
+    {
+      "cell": "cell05_code_fresh1_burst_stop_c4096",
+      "arm": "sola_rule",
+      "repeat": 3,
+      "n": 276,
+      "mae_ms": 1.2868008219973988,
+      "bias_ms": -0.9804068597296084,
+      "mape_pct": 3.9443891834562885
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "arrival",
+      "repeat": 0,
+      "n": 330,
+      "mae_ms": 1.4269377461759214,
+      "bias_ms": 0.0905718385889613,
+      "mape_pct": 4.233968573674276
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "basic",
+      "repeat": 0,
+      "n": 325,
+      "mae_ms": 1.3167389064842836,
+      "bias_ms": 0.09584001303900462,
+      "mape_pct": 4.076872413164994
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "srp",
+      "repeat": 0,
+      "n": 316,
+      "mae_ms": 1.3324718611167266,
+      "bias_ms": 0.34679908655423375,
+      "mape_pct": 3.998226095692761
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "native",
+      "repeat": 0,
+      "n": 327,
+      "mae_ms": 1.213599148383908,
+      "bias_ms": 0.294639552045775,
+      "mape_pct": 3.791768240064012
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "sarathi",
+      "repeat": 0,
+      "n": 326,
+      "mae_ms": 1.1798815976958814,
+      "bias_ms": 0.21727257796925292,
+      "mape_pct": 3.7187132492541526
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "past_future",
+      "repeat": 0,
+      "n": 338,
+      "mae_ms": 1.1911178173771293,
+      "bias_ms": 0.1957246989537746,
+      "mape_pct": 3.749738036621401
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "ssjf_oracle",
+      "repeat": 0,
+      "n": 364,
+      "mae_ms": 1.2641322428802502,
+      "bias_ms": 0.2827949966543477,
+      "mape_pct": 4.028760168379548
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "mc_sf_oracle",
+      "repeat": 0,
+      "n": 373,
+      "mae_ms": 1.2328168347719453,
+      "bias_ms": 0.10429903328354319,
+      "mape_pct": 3.92244713459516
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "trail_oracle",
+      "repeat": 0,
+      "n": 364,
+      "mae_ms": 1.2453079980964608,
+      "bias_ms": 0.2045364231532548,
+      "mape_pct": 4.002076521011647
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "tie_oracle_proxy",
+      "repeat": 0,
+      "n": 362,
+      "mae_ms": 1.2861937346345942,
+      "bias_ms": -0.02575506429812923,
+      "mape_pct": 4.059940042280954
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "uniboost_static",
+      "repeat": 0,
+      "n": 313,
+      "mae_ms": 1.196898615134095,
+      "bias_ms": 0.3027951514885025,
+      "mape_pct": 3.5900053414971276
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 0,
+      "n": 327,
+      "mae_ms": 1.199142974597928,
+      "bias_ms": 0.2516838350713089,
+      "mape_pct": 3.7484575052651814
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "sola_rule",
+      "repeat": 0,
+      "n": 373,
+      "mae_ms": 1.1907487092835614,
+      "bias_ms": 0.02015154167157959,
+      "mape_pct": 4.040308624677627
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "arrival",
+      "repeat": 1,
+      "n": 330,
+      "mae_ms": 1.4372752772743482,
+      "bias_ms": 0.11965525332598358,
+      "mape_pct": 4.221162019560689
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "basic",
+      "repeat": 1,
+      "n": 325,
+      "mae_ms": 1.3149937611105276,
+      "bias_ms": 0.07457589697414435,
+      "mape_pct": 4.063101437771162
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "srp",
+      "repeat": 1,
+      "n": 316,
+      "mae_ms": 1.3030872329538252,
+      "bias_ms": 0.31622142486066607,
+      "mape_pct": 3.9570028864780658
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "native",
+      "repeat": 1,
+      "n": 327,
+      "mae_ms": 1.1965509174696054,
+      "bias_ms": 0.24381447236491877,
+      "mape_pct": 3.7407145386815848
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "sarathi",
+      "repeat": 1,
+      "n": 327,
+      "mae_ms": 1.2069750622108797,
+      "bias_ms": 0.27563838134912416,
+      "mape_pct": 3.761240831987952
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "past_future",
+      "repeat": 1,
+      "n": 338,
+      "mae_ms": 1.1903223587296148,
+      "bias_ms": 0.2065736687369897,
+      "mape_pct": 3.733375089108258
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "ssjf_oracle",
+      "repeat": 1,
+      "n": 365,
+      "mae_ms": 1.232497950224091,
+      "bias_ms": 0.2213496476312923,
+      "mape_pct": 3.8723348979758523
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "mc_sf_oracle",
+      "repeat": 1,
+      "n": 373,
+      "mae_ms": 1.2501360951314016,
+      "bias_ms": 0.12310854334389704,
+      "mape_pct": 3.945554284932701
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "trail_oracle",
+      "repeat": 1,
+      "n": 364,
+      "mae_ms": 1.236009267375306,
+      "bias_ms": 0.24750331720409668,
+      "mape_pct": 3.9457335468523618
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "tie_oracle_proxy",
+      "repeat": 1,
+      "n": 362,
+      "mae_ms": 1.2898409028568243,
+      "bias_ms": -0.29318562920680413,
+      "mape_pct": 3.90102839355925
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "uniboost_static",
+      "repeat": 1,
+      "n": 313,
+      "mae_ms": 1.2037858037850961,
+      "bias_ms": 0.30189979492545466,
+      "mape_pct": 3.6166595784752777
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 1,
+      "n": 327,
+      "mae_ms": 1.1977609967946503,
+      "bias_ms": 0.26760932578165786,
+      "mape_pct": 3.7315899480253005
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "sola_rule",
+      "repeat": 1,
+      "n": 373,
+      "mae_ms": 1.1867062004556146,
+      "bias_ms": -0.006593610745940857,
+      "mape_pct": 4.0341178462779705
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "arrival",
+      "repeat": 2,
+      "n": 330,
+      "mae_ms": 1.44418164507293,
+      "bias_ms": 0.13282951245804012,
+      "mape_pct": 4.2324485200802355
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "basic",
+      "repeat": 2,
+      "n": 325,
+      "mae_ms": 1.3074983609204436,
+      "bias_ms": 0.08194982112635356,
+      "mape_pct": 4.054809577897463
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "srp",
+      "repeat": 2,
+      "n": 316,
+      "mae_ms": 1.3226089711368485,
+      "bias_ms": 0.3429192748098041,
+      "mape_pct": 3.9660307782003037
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "native",
+      "repeat": 2,
+      "n": 327,
+      "mae_ms": 1.2058218328083135,
+      "bias_ms": 0.2782373936380584,
+      "mape_pct": 3.751652941234436
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "sarathi",
+      "repeat": 2,
+      "n": 327,
+      "mae_ms": 1.1884139230853294,
+      "bias_ms": 0.2415194742388086,
+      "mape_pct": 3.732968573865859
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "past_future",
+      "repeat": 2,
+      "n": 338,
+      "mae_ms": 1.1775687590983814,
+      "bias_ms": 0.1895314286311117,
+      "mape_pct": 3.7179953992213326
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "ssjf_oracle",
+      "repeat": 2,
+      "n": 365,
+      "mae_ms": 1.2305976343042282,
+      "bias_ms": 0.2081810360292765,
+      "mape_pct": 3.8891249205459624
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "mc_sf_oracle",
+      "repeat": 2,
+      "n": 373,
+      "mae_ms": 1.2479008799251068,
+      "bias_ms": 0.13827050731760077,
+      "mape_pct": 3.943207991925374
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "trail_oracle",
+      "repeat": 2,
+      "n": 364,
+      "mae_ms": 1.2317178855979851,
+      "bias_ms": 0.2829767273700716,
+      "mape_pct": 3.9531867531705345
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "tie_oracle_proxy",
+      "repeat": 2,
+      "n": 363,
+      "mae_ms": 1.2491523362771297,
+      "bias_ms": -0.204841673123939,
+      "mape_pct": 3.8568717112693545
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "uniboost_static",
+      "repeat": 2,
+      "n": 313,
+      "mae_ms": 1.2157779738544126,
+      "bias_ms": 0.35391279348858207,
+      "mape_pct": 3.6261854164067078
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 2,
+      "n": 327,
+      "mae_ms": 1.1988270513529413,
+      "bias_ms": 0.2705350955863812,
+      "mape_pct": 3.7414588433659786
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "sola_rule",
+      "repeat": 2,
+      "n": 373,
+      "mae_ms": 1.199368872374836,
+      "bias_ms": 0.04504181661957315,
+      "mape_pct": 4.039730058343259
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "arrival",
+      "repeat": 3,
+      "n": 330,
+      "mae_ms": 1.403580597482756,
+      "bias_ms": 0.008353731095099744,
+      "mape_pct": 4.269901110722918
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "basic",
+      "repeat": 3,
+      "n": 325,
+      "mae_ms": 1.2323459695307368,
+      "bias_ms": 0.014969910135338138,
+      "mape_pct": 3.8442811879021614
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "srp",
+      "repeat": 3,
+      "n": 313,
+      "mae_ms": 1.3004213129729039,
+      "bias_ms": 0.30993728816859495,
+      "mape_pct": 3.8477181079043707
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "native",
+      "repeat": 3,
+      "n": 327,
+      "mae_ms": 1.1865663322324829,
+      "bias_ms": 0.23147272943421848,
+      "mape_pct": 3.7210773162573902
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "sarathi",
+      "repeat": 3,
+      "n": 327,
+      "mae_ms": 1.1846624852332939,
+      "bias_ms": 0.22664434165966862,
+      "mape_pct": 3.7355570140640566
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "past_future",
+      "repeat": 3,
+      "n": 338,
+      "mae_ms": 1.162628295586412,
+      "bias_ms": 0.13891987848842077,
+      "mape_pct": 3.7168810573715247
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "ssjf_oracle",
+      "repeat": 3,
+      "n": 365,
+      "mae_ms": 1.2188322343971114,
+      "bias_ms": 0.18653584912655097,
+      "mape_pct": 3.854764920440037
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "mc_sf_oracle",
+      "repeat": 3,
+      "n": 373,
+      "mae_ms": 1.2412007553925295,
+      "bias_ms": 0.10273894437731579,
+      "mape_pct": 3.931081038210572
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "trail_oracle",
+      "repeat": 3,
+      "n": 364,
+      "mae_ms": 1.2354800587465413,
+      "bias_ms": 0.2141594159986093,
+      "mape_pct": 3.9410739274571367
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "tie_oracle_proxy",
+      "repeat": 3,
+      "n": 362,
+      "mae_ms": 1.3011325931155602,
+      "bias_ms": -0.2995685217942887,
+      "mape_pct": 3.923903091452112
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "uniboost_static",
+      "repeat": 3,
+      "n": 313,
+      "mae_ms": 1.1926653307723678,
+      "bias_ms": 0.291754125985318,
+      "mape_pct": 3.577301728803181
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 3,
+      "n": 327,
+      "mae_ms": 1.1920380191500612,
+      "bias_ms": 0.19698365601729728,
+      "mape_pct": 3.762041705266873
+    },
+    {
+      "cell": "cell06_code_fresh1_steady_c1536",
+      "arm": "sola_rule",
+      "repeat": 3,
+      "n": 373,
+      "mae_ms": 1.1728170765769708,
+      "bias_ms": -0.023732618989686375,
+      "mape_pct": 4.004314560941748
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "arrival",
+      "repeat": 0,
+      "n": 316,
+      "mae_ms": 1.6194260914395284,
+      "bias_ms": 0.8858820262271588,
+      "mape_pct": 4.352766155717138
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "basic",
+      "repeat": 0,
+      "n": 316,
+      "mae_ms": 1.5964473472892347,
+      "bias_ms": 0.8561206628757949,
+      "mape_pct": 4.332934647193075
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "srp",
+      "repeat": 0,
+      "n": 317,
+      "mae_ms": 1.685396723895947,
+      "bias_ms": 1.0727395587068842,
+      "mape_pct": 4.255843327722454
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "native",
+      "repeat": 0,
+      "n": 325,
+      "mae_ms": 1.7317044627000622,
+      "bias_ms": 1.0648058404107195,
+      "mape_pct": 4.4968333395182585
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "sarathi",
+      "repeat": 0,
+      "n": 325,
+      "mae_ms": 1.6856630164136635,
+      "bias_ms": 1.0294771921911903,
+      "mape_pct": 4.405111348840727
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "past_future",
+      "repeat": 0,
+      "n": 325,
+      "mae_ms": 1.7202629742940208,
+      "bias_ms": 1.0342018159698818,
+      "mape_pct": 4.515520321380774
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "ssjf_oracle",
+      "repeat": 0,
+      "n": 362,
+      "mae_ms": 1.7177162108569648,
+      "bias_ms": 0.9437435711440818,
+      "mape_pct": 4.670930190319174
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "mc_sf_oracle",
+      "repeat": 0,
+      "n": 362,
+      "mae_ms": 1.6487862583521293,
+      "bias_ms": 0.8294396146229654,
+      "mape_pct": 4.655375833635155
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "trail_oracle",
+      "repeat": 0,
+      "n": 362,
+      "mae_ms": 1.665379874123214,
+      "bias_ms": 0.8513361965167291,
+      "mape_pct": 4.6419081319651525
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "tie_oracle_proxy",
+      "repeat": 0,
+      "n": 360,
+      "mae_ms": 1.4802635502724077,
+      "bias_ms": 0.4845138215605288,
+      "mape_pct": 4.318047190670677
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "uniboost_static",
+      "repeat": 0,
+      "n": 317,
+      "mae_ms": 1.8388786807953057,
+      "bias_ms": 1.0130559199575462,
+      "mape_pct": 4.876628836659142
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 0,
+      "n": 325,
+      "mae_ms": 1.7740035804239027,
+      "bias_ms": 1.0917983783516436,
+      "mape_pct": 4.5707670422462545
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "sola_rule",
+      "repeat": 0,
+      "n": 345,
+      "mae_ms": 1.7346404401597144,
+      "bias_ms": 0.9914445145744044,
+      "mape_pct": 4.6051109291651
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "arrival",
+      "repeat": 1,
+      "n": 316,
+      "mae_ms": 1.6432318164498374,
+      "bias_ms": 0.9050599945675312,
+      "mape_pct": 4.382034973803951
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "basic",
+      "repeat": 1,
+      "n": 316,
+      "mae_ms": 1.5936058771686352,
+      "bias_ms": 0.8681280338913587,
+      "mape_pct": 4.300059710042401
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "srp",
+      "repeat": 1,
+      "n": 317,
+      "mae_ms": 1.6961157506513391,
+      "bias_ms": 1.08500113431774,
+      "mape_pct": 4.291258248672007
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "native",
+      "repeat": 1,
+      "n": 325,
+      "mae_ms": 1.6776525180208675,
+      "bias_ms": 1.002475382575835,
+      "mape_pct": 4.407738755547695
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "sarathi",
+      "repeat": 1,
+      "n": 325,
+      "mae_ms": 1.6877541730591494,
+      "bias_ms": 1.0129881847525855,
+      "mape_pct": 4.454294050572002
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "past_future",
+      "repeat": 1,
+      "n": 325,
+      "mae_ms": 1.6438806617584056,
+      "bias_ms": 0.9312894340105912,
+      "mape_pct": 4.424531362537593
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "ssjf_oracle",
+      "repeat": 1,
+      "n": 362,
+      "mae_ms": 1.6511519544282167,
+      "bias_ms": 0.8447921148036432,
+      "mape_pct": 4.60317491692509
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "mc_sf_oracle",
+      "repeat": 1,
+      "n": 362,
+      "mae_ms": 1.6459995018618032,
+      "bias_ms": 0.8272024011383594,
+      "mape_pct": 4.627086652908941
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "trail_oracle",
+      "repeat": 1,
+      "n": 362,
+      "mae_ms": 1.6688376015014728,
+      "bias_ms": 0.864698682038334,
+      "mape_pct": 4.633374614515096
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "tie_oracle_proxy",
+      "repeat": 1,
+      "n": 360,
+      "mae_ms": 1.4599406643031845,
+      "bias_ms": 0.4305214042299856,
+      "mape_pct": 4.318814742002377
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "uniboost_static",
+      "repeat": 1,
+      "n": 318,
+      "mae_ms": 1.7190779111328494,
+      "bias_ms": 1.0037118261684752,
+      "mape_pct": 4.570736019935569
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 1,
+      "n": 325,
+      "mae_ms": 1.687379706918306,
+      "bias_ms": 1.0129595659262702,
+      "mape_pct": 4.413476237338841
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "sola_rule",
+      "repeat": 1,
+      "n": 345,
+      "mae_ms": 1.6344465101734544,
+      "bias_ms": 0.8876259168081575,
+      "mape_pct": 4.495140432175219
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "arrival",
+      "repeat": 2,
+      "n": 316,
+      "mae_ms": 1.6147822636362703,
+      "bias_ms": 0.8868431275463753,
+      "mape_pct": 4.326447683718569
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "basic",
+      "repeat": 2,
+      "n": 316,
+      "mae_ms": 1.58494771767397,
+      "bias_ms": 0.8395433774560698,
+      "mape_pct": 4.315329251114931
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "srp",
+      "repeat": 2,
+      "n": 317,
+      "mae_ms": 1.6452862802500046,
+      "bias_ms": 1.0447025254540505,
+      "mape_pct": 4.201750962623828
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "native",
+      "repeat": 2,
+      "n": 325,
+      "mae_ms": 1.6177655892510885,
+      "bias_ms": 0.9389272863836227,
+      "mape_pct": 4.31563986863002
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "sarathi",
+      "repeat": 2,
+      "n": 325,
+      "mae_ms": 1.7252564438051747,
+      "bias_ms": 1.0518303887541014,
+      "mape_pct": 4.47378197151538
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "past_future",
+      "repeat": 2,
+      "n": 325,
+      "mae_ms": 1.6846000435066166,
+      "bias_ms": 0.9996495578887208,
+      "mape_pct": 4.440182334462814
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "ssjf_oracle",
+      "repeat": 2,
+      "n": 362,
+      "mae_ms": 1.629699465618105,
+      "bias_ms": 0.818698166688473,
+      "mape_pct": 4.586088955792225
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "mc_sf_oracle",
+      "repeat": 2,
+      "n": 362,
+      "mae_ms": 1.6273967819761797,
+      "bias_ms": 0.8133377689542234,
+      "mape_pct": 4.5857823315999395
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "trail_oracle",
+      "repeat": 2,
+      "n": 362,
+      "mae_ms": 1.675692738418029,
+      "bias_ms": 0.8925995100045937,
+      "mape_pct": 4.602827689006988
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "tie_oracle_proxy",
+      "repeat": 2,
+      "n": 360,
+      "mae_ms": 1.4041161956945656,
+      "bias_ms": 0.36877322655519407,
+      "mape_pct": 4.213061748783818
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "uniboost_static",
+      "repeat": 2,
+      "n": 318,
+      "mae_ms": 1.7836461059134576,
+      "bias_ms": 1.0827913426582134,
+      "mape_pct": 4.643720078788286
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 2,
+      "n": 325,
+      "mae_ms": 1.6116185815636634,
+      "bias_ms": 0.9266244836512657,
+      "mape_pct": 4.327131233271098
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "sola_rule",
+      "repeat": 2,
+      "n": 345,
+      "mae_ms": 1.658168722921748,
+      "bias_ms": 0.9146982569314993,
+      "mape_pct": 4.520086945752899
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "arrival",
+      "repeat": 3,
+      "n": 316,
+      "mae_ms": 1.6293798087647544,
+      "bias_ms": 0.9005173154565171,
+      "mape_pct": 4.3613669926122025
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "basic",
+      "repeat": 3,
+      "n": 316,
+      "mae_ms": 1.705612976661108,
+      "bias_ms": 0.9854576772328002,
+      "mape_pct": 4.431490692106204
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "srp",
+      "repeat": 3,
+      "n": 317,
+      "mae_ms": 1.7436110805411236,
+      "bias_ms": 1.1189928360103258,
+      "mape_pct": 4.377526082594882
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "native",
+      "repeat": 3,
+      "n": 325,
+      "mae_ms": 1.7895917534265733,
+      "bias_ms": 1.1234863166016715,
+      "mape_pct": 4.563955706038667
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "sarathi",
+      "repeat": 3,
+      "n": 325,
+      "mae_ms": 1.7219855194346279,
+      "bias_ms": 1.0608097678356283,
+      "mape_pct": 4.473057256806225
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "past_future",
+      "repeat": 3,
+      "n": 325,
+      "mae_ms": 1.7178934231457792,
+      "bias_ms": 1.0423048868937972,
+      "mape_pct": 4.475085076223571
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "ssjf_oracle",
+      "repeat": 3,
+      "n": 362,
+      "mae_ms": 1.7548524894990318,
+      "bias_ms": 0.9792893932947164,
+      "mape_pct": 4.7161527364868245
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "mc_sf_oracle",
+      "repeat": 3,
+      "n": 363,
+      "mae_ms": 1.6880290914688323,
+      "bias_ms": 0.8972524139081386,
+      "mape_pct": 4.66592997825777
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "trail_oracle",
+      "repeat": 3,
+      "n": 362,
+      "mae_ms": 1.7045460765218163,
+      "bias_ms": 0.901932114721172,
+      "mape_pct": 4.659866326695385
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "tie_oracle_proxy",
+      "repeat": 3,
+      "n": 360,
+      "mae_ms": 1.4565272702236294,
+      "bias_ms": 0.45452997060633893,
+      "mape_pct": 4.325889284600748
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "uniboost_static",
+      "repeat": 3,
+      "n": 318,
+      "mae_ms": 1.8521824185782607,
+      "bias_ms": 1.1582028144366117,
+      "mape_pct": 4.736354701587372
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 3,
+      "n": 325,
+      "mae_ms": 1.798907201975146,
+      "bias_ms": 1.1255649569480155,
+      "mape_pct": 4.591599156904602
+    },
+    {
+      "cell": "cell07_code_fresh1_steady_c4096",
+      "arm": "sola_rule",
+      "repeat": 3,
+      "n": 345,
+      "mae_ms": 1.677056556342549,
+      "bias_ms": 0.9312974846276021,
+      "mape_pct": 4.586818447154694
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "arrival",
+      "repeat": 0,
+      "n": 1292,
+      "mae_ms": 1.221873001811322,
+      "bias_ms": 0.9247965009534119,
+      "mape_pct": 3.6815921769039126
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "basic",
+      "repeat": 0,
+      "n": 1292,
+      "mae_ms": 1.194280448244794,
+      "bias_ms": 0.882544357863888,
+      "mape_pct": 3.602331231090435
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "srp",
+      "repeat": 0,
+      "n": 1254,
+      "mae_ms": 2.0381967416974094,
+      "bias_ms": 1.854773029871535,
+      "mape_pct": 4.698287439760578
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "native",
+      "repeat": 0,
+      "n": 1278,
+      "mae_ms": 1.4859436173885685,
+      "bias_ms": 0.8755174075875668,
+      "mape_pct": 3.8700123247290974
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "sarathi",
+      "repeat": 0,
+      "n": 1376,
+      "mae_ms": 1.5876771734473463,
+      "bias_ms": 0.9934525445151098,
+      "mape_pct": 3.734174762374814
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "past_future",
+      "repeat": 0,
+      "n": 1323,
+      "mae_ms": 1.1521474772455156,
+      "bias_ms": 0.10695005064641228,
+      "mape_pct": 4.403671838988131
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "ssjf_oracle",
+      "repeat": 0,
+      "n": 1218,
+      "mae_ms": 1.5791440429414683,
+      "bias_ms": 1.008032837681873,
+      "mape_pct": 4.255321704646383
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "mc_sf_oracle",
+      "repeat": 0,
+      "n": 1263,
+      "mae_ms": 0.9344334026311117,
+      "bias_ms": 0.18026037524688496,
+      "mape_pct": 3.4480093310259363
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "trail_oracle",
+      "repeat": 0,
+      "n": 1209,
+      "mae_ms": 1.465099309741056,
+      "bias_ms": 0.8745992233808236,
+      "mape_pct": 3.9914022191342657
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "tie_oracle_proxy",
+      "repeat": 0,
+      "n": 1177,
+      "mae_ms": 4.260237775213066,
+      "bias_ms": -2.0546850301167163,
+      "mape_pct": 5.5914867873109415
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "uniboost_static",
+      "repeat": 0,
+      "n": 1233,
+      "mae_ms": 1.5006764252146303,
+      "bias_ms": 1.0714240208241974,
+      "mape_pct": 3.6257002364364106
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 0,
+      "n": 1253,
+      "mae_ms": 1.7023587095350292,
+      "bias_ms": 1.4222499999640537,
+      "mape_pct": 3.854877027072344
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "sola_rule",
+      "repeat": 0,
+      "n": 1253,
+      "mae_ms": 1.6158729663531122,
+      "bias_ms": 0.6819970709576922,
+      "mape_pct": 4.203522793525131
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "arrival",
+      "repeat": 1,
+      "n": 1292,
+      "mae_ms": 1.2472803428884147,
+      "bias_ms": 0.9482881819359318,
+      "mape_pct": 3.7522964991156162
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "basic",
+      "repeat": 1,
+      "n": 1292,
+      "mae_ms": 1.2293572961591714,
+      "bias_ms": 0.927452658165542,
+      "mape_pct": 3.7016699271482203
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "srp",
+      "repeat": 1,
+      "n": 1254,
+      "mae_ms": 1.880194706424447,
+      "bias_ms": 1.6820939327219842,
+      "mape_pct": 4.380148309137691
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "native",
+      "repeat": 1,
+      "n": 1278,
+      "mae_ms": 1.5269510178165113,
+      "bias_ms": 0.9295854314774039,
+      "mape_pct": 3.925357197928107
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "sarathi",
+      "repeat": 1,
+      "n": 1376,
+      "mae_ms": 1.553427498256511,
+      "bias_ms": 0.9482496138216817,
+      "mape_pct": 3.6801354573413754
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "past_future",
+      "repeat": 1,
+      "n": 1323,
+      "mae_ms": 1.3642943760086454,
+      "bias_ms": -0.12247750195467234,
+      "mape_pct": 4.377256624550917
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "ssjf_oracle",
+      "repeat": 1,
+      "n": 1218,
+      "mae_ms": 1.586026577956758,
+      "bias_ms": 1.021518467701785,
+      "mape_pct": 4.280424218861686
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "mc_sf_oracle",
+      "repeat": 1,
+      "n": 1263,
+      "mae_ms": 0.9509955555068419,
+      "bias_ms": 0.19588837398169384,
+      "mape_pct": 3.491110449900662
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "trail_oracle",
+      "repeat": 1,
+      "n": 1209,
+      "mae_ms": 1.5362741787769827,
+      "bias_ms": 0.9429890374690233,
+      "mape_pct": 4.140356470189726
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "tie_oracle_proxy",
+      "repeat": 1,
+      "n": 1177,
+      "mae_ms": 4.208953219383716,
+      "bias_ms": -1.898988136675095,
+      "mape_pct": 5.312392079011334
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "uniboost_static",
+      "repeat": 1,
+      "n": 1233,
+      "mae_ms": 1.6022760331059214,
+      "bias_ms": 1.1812279157954855,
+      "mape_pct": 3.809598510220633
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 1,
+      "n": 1253,
+      "mae_ms": 1.819029579796891,
+      "bias_ms": 1.5785822406678673,
+      "mape_pct": 4.072567770181432
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "sola_rule",
+      "repeat": 1,
+      "n": 1253,
+      "mae_ms": 1.6348594179940716,
+      "bias_ms": 0.7350749814872176,
+      "mape_pct": 4.249012736015251
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "arrival",
+      "repeat": 2,
+      "n": 1292,
+      "mae_ms": 1.2268042872725238,
+      "bias_ms": 0.9327090849456893,
+      "mape_pct": 3.687460573850063
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "basic",
+      "repeat": 2,
+      "n": 1292,
+      "mae_ms": 1.2478457229497115,
+      "bias_ms": 0.9521226582728608,
+      "mape_pct": 3.752874287897979
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "srp",
+      "repeat": 2,
+      "n": 1254,
+      "mae_ms": 1.9855946693663493,
+      "bias_ms": 1.800435504425371,
+      "mape_pct": 4.59581188963238
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "native",
+      "repeat": 2,
+      "n": 1278,
+      "mae_ms": 1.468864265145958,
+      "bias_ms": 0.8743390735620669,
+      "mape_pct": 3.8063026984184267
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "sarathi",
+      "repeat": 2,
+      "n": 1376,
+      "mae_ms": 1.5892505385664422,
+      "bias_ms": 1.0074824818674017,
+      "mape_pct": 3.7206608734292357
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "past_future",
+      "repeat": 2,
+      "n": 1323,
+      "mae_ms": 1.0788489694383094,
+      "bias_ms": 0.20784093825334915,
+      "mape_pct": 3.9823904851736662
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "ssjf_oracle",
+      "repeat": 2,
+      "n": 1218,
+      "mae_ms": 1.5569006117675317,
+      "bias_ms": 0.9940187126861729,
+      "mape_pct": 4.2044897879935945
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "mc_sf_oracle",
+      "repeat": 2,
+      "n": 1263,
+      "mae_ms": 0.9467715018638949,
+      "bias_ms": 0.19536477528661877,
+      "mape_pct": 3.471173394304154
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "trail_oracle",
+      "repeat": 2,
+      "n": 1209,
+      "mae_ms": 1.4764167815608982,
+      "bias_ms": 0.9109659324936489,
+      "mape_pct": 3.972523010753764
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "tie_oracle_proxy",
+      "repeat": 2,
+      "n": 1177,
+      "mae_ms": 4.175848718066979,
+      "bias_ms": -1.9277325256766504,
+      "mape_pct": 5.28410942259116
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "uniboost_static",
+      "repeat": 2,
+      "n": 1233,
+      "mae_ms": 1.5588759699778718,
+      "bias_ms": 1.1483060869009352,
+      "mape_pct": 3.7190798231730904
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 2,
+      "n": 1253,
+      "mae_ms": 1.8227738802883078,
+      "bias_ms": 1.574389642358104,
+      "mape_pct": 4.081054310638548
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "sola_rule",
+      "repeat": 2,
+      "n": 1253,
+      "mae_ms": 1.6137632644100997,
+      "bias_ms": 0.6708509566733307,
+      "mape_pct": 4.194322217206236
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "arrival",
+      "repeat": 3,
+      "n": 1292,
+      "mae_ms": 1.175575887695633,
+      "bias_ms": 0.8397658556915963,
+      "mape_pct": 3.556176642334613
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "basic",
+      "repeat": 3,
+      "n": 1292,
+      "mae_ms": 1.1973165170079978,
+      "bias_ms": 0.8712701452154937,
+      "mape_pct": 3.614606589913563
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "srp",
+      "repeat": 3,
+      "n": 1254,
+      "mae_ms": 1.941488410794049,
+      "bias_ms": 1.7413782352096923,
+      "mape_pct": 4.544732854768639
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "native",
+      "repeat": 3,
+      "n": 1278,
+      "mae_ms": 1.4765170574533286,
+      "bias_ms": 0.8516174465898848,
+      "mape_pct": 3.870477906995331
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "sarathi",
+      "repeat": 3,
+      "n": 1376,
+      "mae_ms": 1.7706544052635207,
+      "bias_ms": 0.7420177875740561,
+      "mape_pct": 3.777458308715291
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "past_future",
+      "repeat": 3,
+      "n": 1323,
+      "mae_ms": 1.0896418150942884,
+      "bias_ms": 0.17160614014216433,
+      "mape_pct": 4.0822642456780125
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "ssjf_oracle",
+      "repeat": 3,
+      "n": 1218,
+      "mae_ms": 1.5660274955746272,
+      "bias_ms": 0.989151493217579,
+      "mape_pct": 4.258314511025124
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "mc_sf_oracle",
+      "repeat": 3,
+      "n": 1263,
+      "mae_ms": 0.9573223575994814,
+      "bias_ms": 0.22077601275732414,
+      "mape_pct": 3.4747167872275586
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "trail_oracle",
+      "repeat": 3,
+      "n": 1209,
+      "mae_ms": 1.5057165523681668,
+      "bias_ms": 0.8936151918738131,
+      "mape_pct": 4.1154185246321
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "tie_oracle_proxy",
+      "repeat": 3,
+      "n": 1177,
+      "mae_ms": 4.245613773211476,
+      "bias_ms": -1.9445735657225343,
+      "mape_pct": 5.406084530908239
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "uniboost_static",
+      "repeat": 3,
+      "n": 1233,
+      "mae_ms": 1.479140600344837,
+      "bias_ms": 1.027467222662028,
+      "mape_pct": 3.623473382440782
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 3,
+      "n": 1253,
+      "mae_ms": 1.7476940835839574,
+      "bias_ms": 1.4667953857781806,
+      "mape_pct": 3.9710456916221695
+    },
+    {
+      "cell": "cell12_conversation_fresh1_burst_stop_c768",
+      "arm": "sola_rule",
+      "repeat": 3,
+      "n": 1253,
+      "mae_ms": 1.6182971637788013,
+      "bias_ms": 0.6397342802167051,
+      "mape_pct": 4.23426097432483
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "arrival",
+      "repeat": 0,
+      "n": 572,
+      "mae_ms": 0.8581159102628877,
+      "bias_ms": -0.29998928363083927,
+      "mape_pct": 3.176112617579873
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "basic",
+      "repeat": 0,
+      "n": 572,
+      "mae_ms": 0.848671493564727,
+      "bias_ms": -0.3101494910861788,
+      "mape_pct": 3.161124922373755
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "srp",
+      "repeat": 0,
+      "n": 572,
+      "mae_ms": 0.8416593883512273,
+      "bias_ms": -0.07216143701115446,
+      "mape_pct": 3.3562076897791795
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "native",
+      "repeat": 0,
+      "n": 586,
+      "mae_ms": 1.002047197562851,
+      "bias_ms": -0.38028338692403496,
+      "mape_pct": 3.3048882158462742
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "sarathi",
+      "repeat": 0,
+      "n": 586,
+      "mae_ms": 1.012310098991421,
+      "bias_ms": -0.36132229104671265,
+      "mape_pct": 3.317597721855544
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "past_future",
+      "repeat": 0,
+      "n": 586,
+      "mae_ms": 1.0000487387064245,
+      "bias_ms": -0.34692177612965225,
+      "mape_pct": 3.3540821621111854
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "ssjf_oracle",
+      "repeat": 0,
+      "n": 596,
+      "mae_ms": 0.9838591995945997,
+      "bias_ms": -0.0050257322265709285,
+      "mape_pct": 3.6551053211859275
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "mc_sf_oracle",
+      "repeat": 0,
+      "n": 596,
+      "mae_ms": 1.01677172582915,
+      "bias_ms": -0.05803780232885055,
+      "mape_pct": 3.6610022494668506
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "trail_oracle",
+      "repeat": 0,
+      "n": 596,
+      "mae_ms": 0.9793221801654889,
+      "bias_ms": 0.004726431630700679,
+      "mape_pct": 3.624194138979315
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "tie_oracle_proxy",
+      "repeat": 0,
+      "n": 596,
+      "mae_ms": 6.54030788678564,
+      "bias_ms": -5.627622697372965,
+      "mape_pct": 5.809936150710144
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "uniboost_static",
+      "repeat": 0,
+      "n": 589,
+      "mae_ms": 0.9247964017773892,
+      "bias_ms": -0.15427123323514866,
+      "mape_pct": 3.6820593590986492
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 0,
+      "n": 586,
+      "mae_ms": 1.0024792625867331,
+      "bias_ms": -0.4085833119718757,
+      "mape_pct": 3.264177917701616
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "sola_rule",
+      "repeat": 0,
+      "n": 522,
+      "mae_ms": 0.9981828261849373,
+      "bias_ms": -0.00014226001756003712,
+      "mape_pct": 3.3702310538170717
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "arrival",
+      "repeat": 1,
+      "n": 572,
+      "mae_ms": 0.840945799181068,
+      "bias_ms": -0.32039623745848006,
+      "mape_pct": 3.1275805006288833
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "basic",
+      "repeat": 1,
+      "n": 572,
+      "mae_ms": 0.8434743106414623,
+      "bias_ms": -0.2757633862276528,
+      "mape_pct": 3.145076322785939
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "srp",
+      "repeat": 1,
+      "n": 572,
+      "mae_ms": 0.8320930754215771,
+      "bias_ms": -0.06556703249156025,
+      "mape_pct": 3.3322242025553326
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "native",
+      "repeat": 1,
+      "n": 586,
+      "mae_ms": 0.9975967691926587,
+      "bias_ms": -0.36203050306106394,
+      "mape_pct": 3.3078686171957394
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "sarathi",
+      "repeat": 1,
+      "n": 586,
+      "mae_ms": 1.010388211853295,
+      "bias_ms": -0.3722739778180131,
+      "mape_pct": 3.3368831704912303
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "past_future",
+      "repeat": 1,
+      "n": 586,
+      "mae_ms": 0.9982762256034152,
+      "bias_ms": -0.37906444142405493,
+      "mape_pct": 3.3174291001349028
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "ssjf_oracle",
+      "repeat": 1,
+      "n": 596,
+      "mae_ms": 1.024638701059817,
+      "bias_ms": -0.04888453826668393,
+      "mape_pct": 3.6963022994859243
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "mc_sf_oracle",
+      "repeat": 1,
+      "n": 596,
+      "mae_ms": 1.0113290039485312,
+      "bias_ms": -0.024313276641722042,
+      "mape_pct": 3.7083684688791885
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "trail_oracle",
+      "repeat": 1,
+      "n": 596,
+      "mae_ms": 0.996410594101088,
+      "bias_ms": -0.041057052517648455,
+      "mape_pct": 3.6333336276047734
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "tie_oracle_proxy",
+      "repeat": 1,
+      "n": 596,
+      "mae_ms": 6.483665142033208,
+      "bias_ms": -5.530276057593525,
+      "mape_pct": 5.869133669794191
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "uniboost_static",
+      "repeat": 1,
+      "n": 589,
+      "mae_ms": 0.9624134022101637,
+      "bias_ms": -0.2175843396737522,
+      "mape_pct": 3.6988235780881533
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 1,
+      "n": 586,
+      "mae_ms": 1.0367069256893737,
+      "bias_ms": -0.4441775922279676,
+      "mape_pct": 3.2985684311688237
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "sola_rule",
+      "repeat": 1,
+      "n": 522,
+      "mae_ms": 1.0144393918522627,
+      "bias_ms": -0.08045619321010182,
+      "mape_pct": 3.3651682656252584
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "arrival",
+      "repeat": 2,
+      "n": 572,
+      "mae_ms": 0.8731767656581634,
+      "bias_ms": -0.3103908379583755,
+      "mape_pct": 3.1903411346626296
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "basic",
+      "repeat": 2,
+      "n": 572,
+      "mae_ms": 0.9141339084228332,
+      "bias_ms": -0.5226474913360186,
+      "mape_pct": 3.3110359954817086
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "srp",
+      "repeat": 2,
+      "n": 572,
+      "mae_ms": 0.8385762148069692,
+      "bias_ms": -0.056401372527892436,
+      "mape_pct": 3.3516596641641514
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "native",
+      "repeat": 2,
+      "n": 586,
+      "mae_ms": 1.0341116748295094,
+      "bias_ms": -0.36386186467179876,
+      "mape_pct": 3.3638758185312527
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "sarathi",
+      "repeat": 2,
+      "n": 586,
+      "mae_ms": 1.0180898431380316,
+      "bias_ms": -0.3987218860779159,
+      "mape_pct": 3.300657605079206
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "past_future",
+      "repeat": 2,
+      "n": 586,
+      "mae_ms": 1.054487940389044,
+      "bias_ms": -0.4284574615620469,
+      "mape_pct": 3.359043630785319
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "ssjf_oracle",
+      "repeat": 2,
+      "n": 596,
+      "mae_ms": 0.9770118465153198,
+      "bias_ms": -0.06797973722429598,
+      "mape_pct": 3.5765721579728926
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "mc_sf_oracle",
+      "repeat": 2,
+      "n": 596,
+      "mae_ms": 1.0064749495238012,
+      "bias_ms": -0.03510570281289083,
+      "mape_pct": 3.653625142645003
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "trail_oracle",
+      "repeat": 2,
+      "n": 596,
+      "mae_ms": 1.0065596100830032,
+      "bias_ms": -0.053413031780880915,
+      "mape_pct": 3.644342956431275
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "tie_oracle_proxy",
+      "repeat": 2,
+      "n": 596,
+      "mae_ms": 6.484288203867423,
+      "bias_ms": -5.544971805123976,
+      "mape_pct": 5.88148718766206
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "uniboost_static",
+      "repeat": 2,
+      "n": 589,
+      "mae_ms": 0.9347934453956699,
+      "bias_ms": -0.18926770922791405,
+      "mape_pct": 3.6510558734748906
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 2,
+      "n": 586,
+      "mae_ms": 1.0528174466447315,
+      "bias_ms": -0.47317759134264537,
+      "mape_pct": 3.311027239607335
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "sola_rule",
+      "repeat": 2,
+      "n": 522,
+      "mae_ms": 1.024890769420194,
+      "bias_ms": -0.08349306663235088,
+      "mape_pct": 3.3916069368957484
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "arrival",
+      "repeat": 3,
+      "n": 572,
+      "mae_ms": 0.8440932402296097,
+      "bias_ms": -0.28716446948290464,
+      "mape_pct": 3.1433144398878046
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "basic",
+      "repeat": 3,
+      "n": 572,
+      "mae_ms": 0.8666191193519684,
+      "bias_ms": -0.34487345925962765,
+      "mape_pct": 3.1665806574949094
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "srp",
+      "repeat": 3,
+      "n": 572,
+      "mae_ms": 0.8469697367366341,
+      "bias_ms": -0.09838354212962006,
+      "mape_pct": 3.3582072351505454
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "native",
+      "repeat": 3,
+      "n": 586,
+      "mae_ms": 1.0040637568170194,
+      "bias_ms": -0.32888331419125355,
+      "mape_pct": 3.330599814061244
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "sarathi",
+      "repeat": 3,
+      "n": 586,
+      "mae_ms": 0.9707379005725941,
+      "bias_ms": -0.33196893845257097,
+      "mape_pct": 3.2496152161878804
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "past_future",
+      "repeat": 3,
+      "n": 586,
+      "mae_ms": 1.033520972903985,
+      "bias_ms": -0.3899840206112024,
+      "mape_pct": 3.36969143840562
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "ssjf_oracle",
+      "repeat": 3,
+      "n": 596,
+      "mae_ms": 0.9977791394170107,
+      "bias_ms": -0.029247359574542296,
+      "mape_pct": 3.669303050118012
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "mc_sf_oracle",
+      "repeat": 3,
+      "n": 596,
+      "mae_ms": 1.4854399832198766,
+      "bias_ms": -0.5046493778173767,
+      "mape_pct": 3.814338400279253
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "trail_oracle",
+      "repeat": 3,
+      "n": 596,
+      "mae_ms": 0.9924499556521668,
+      "bias_ms": -0.041557693093266214,
+      "mape_pct": 3.625406886051677
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "tie_oracle_proxy",
+      "repeat": 3,
+      "n": 596,
+      "mae_ms": 6.548296842051458,
+      "bias_ms": -5.569837050595541,
+      "mape_pct": 5.891368571011357
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "uniboost_static",
+      "repeat": 3,
+      "n": 589,
+      "mae_ms": 0.9086121419235553,
+      "bias_ms": -0.14893817421208855,
+      "mape_pct": 3.603187140401795
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 3,
+      "n": 586,
+      "mae_ms": 1.016523799713809,
+      "bias_ms": -0.4031284229468324,
+      "mape_pct": 3.298904553990122
+    },
+    {
+      "cell": "cell13_conversation_fresh1_burst_stop_c4096",
+      "arm": "sola_rule",
+      "repeat": 3,
+      "n": 522,
+      "mae_ms": 1.023937487666735,
+      "bias_ms": -0.024781798389088738,
+      "mape_pct": 3.446619812520103
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "arrival",
+      "repeat": 0,
+      "n": 1245,
+      "mae_ms": 1.144445473620564,
+      "bias_ms": 0.7063266538272539,
+      "mape_pct": 3.511187329010193
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "basic",
+      "repeat": 0,
+      "n": 1256,
+      "mae_ms": 1.1732756879070239,
+      "bias_ms": 0.697456579998143,
+      "mape_pct": 3.6404917346901398
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "srp",
+      "repeat": 0,
+      "n": 1257,
+      "mae_ms": 1.8187292108697184,
+      "bias_ms": 1.5274386286750923,
+      "mape_pct": 4.391323158015177
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "native",
+      "repeat": 0,
+      "n": 1341,
+      "mae_ms": 1.5890081404962562,
+      "bias_ms": 0.9749349744610218,
+      "mape_pct": 4.254416820187638
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "sarathi",
+      "repeat": 0,
+      "n": 1378,
+      "mae_ms": 1.5066971430365677,
+      "bias_ms": 0.8874803646852827,
+      "mape_pct": 3.9875412454884955
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "past_future",
+      "repeat": 0,
+      "n": 1365,
+      "mae_ms": 1.1280538956737165,
+      "bias_ms": 0.21267780371861927,
+      "mape_pct": 4.242273941912813
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "ssjf_oracle",
+      "repeat": 0,
+      "n": 1230,
+      "mae_ms": 1.5255758755574618,
+      "bias_ms": 0.9261051398501335,
+      "mape_pct": 4.304405500336337
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "mc_sf_oracle",
+      "repeat": 0,
+      "n": 1284,
+      "mae_ms": 1.0301580464682638,
+      "bias_ms": 0.1964810208469775,
+      "mape_pct": 3.8526605701646197
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "trail_oracle",
+      "repeat": 0,
+      "n": 1284,
+      "mae_ms": 1.598387215027489,
+      "bias_ms": 0.9475901876205454,
+      "mape_pct": 4.549151983247815
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "tie_oracle_proxy",
+      "repeat": 0,
+      "n": 1227,
+      "mae_ms": 2.3280330281197035,
+      "bias_ms": -0.08957551272160866,
+      "mape_pct": 4.740351394504779
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "uniboost_static",
+      "repeat": 0,
+      "n": 1392,
+      "mae_ms": 1.449078739311243,
+      "bias_ms": 0.782995579741476,
+      "mape_pct": 3.8212695655546534
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 0,
+      "n": 1270,
+      "mae_ms": 1.7406400155268236,
+      "bias_ms": 1.4662133774724897,
+      "mape_pct": 4.098750165218315
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "sola_rule",
+      "repeat": 0,
+      "n": 1272,
+      "mae_ms": 1.7029526253504137,
+      "bias_ms": 0.8773115786252308,
+      "mape_pct": 4.522710473757161
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "arrival",
+      "repeat": 1,
+      "n": 1245,
+      "mae_ms": 1.1231257347060137,
+      "bias_ms": 0.6941691939979072,
+      "mape_pct": 3.450214459093987
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "basic",
+      "repeat": 1,
+      "n": 1259,
+      "mae_ms": 1.1568183858759804,
+      "bias_ms": 0.7031891013051222,
+      "mape_pct": 3.5887688460484095
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "srp",
+      "repeat": 1,
+      "n": 1246,
+      "mae_ms": 1.7499689359181585,
+      "bias_ms": 1.454724846628702,
+      "mape_pct": 4.217753662414129
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "native",
+      "repeat": 1,
+      "n": 1341,
+      "mae_ms": 1.8419215973912726,
+      "bias_ms": 0.7804191304304425,
+      "mape_pct": 4.369847832967892
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "sarathi",
+      "repeat": 1,
+      "n": 1422,
+      "mae_ms": 1.7056649064046339,
+      "bias_ms": 0.8301618375645388,
+      "mape_pct": 4.594493227146119
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "past_future",
+      "repeat": 1,
+      "n": 1365,
+      "mae_ms": 1.123555057373374,
+      "bias_ms": 0.1937523625420467,
+      "mape_pct": 4.247703556584257
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "ssjf_oracle",
+      "repeat": 1,
+      "n": 1227,
+      "mae_ms": 1.5110855630397517,
+      "bias_ms": 0.8758087091863207,
+      "mape_pct": 4.251941212294901
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "mc_sf_oracle",
+      "repeat": 1,
+      "n": 1285,
+      "mae_ms": 1.0407811088620713,
+      "bias_ms": 0.22771306621209841,
+      "mape_pct": 3.8471982058845016
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "trail_oracle",
+      "repeat": 1,
+      "n": 1288,
+      "mae_ms": 1.5851816567829413,
+      "bias_ms": 0.9703796567698152,
+      "mape_pct": 4.431204218291333
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "tie_oracle_proxy",
+      "repeat": 1,
+      "n": 1226,
+      "mae_ms": 2.4587164311646537,
+      "bias_ms": -0.22707097635691811,
+      "mape_pct": 4.8619713785869445
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "uniboost_static",
+      "repeat": 1,
+      "n": 1391,
+      "mae_ms": 1.434327678275149,
+      "bias_ms": 0.767541868773834,
+      "mape_pct": 3.8013047054674876
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 1,
+      "n": 1270,
+      "mae_ms": 1.6984767501567926,
+      "bias_ms": 1.4050524864416551,
+      "mape_pct": 4.012344240537924
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "sola_rule",
+      "repeat": 1,
+      "n": 1267,
+      "mae_ms": 1.627883752431447,
+      "bias_ms": 0.7466339070414384,
+      "mape_pct": 4.388041106556089
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "arrival",
+      "repeat": 2,
+      "n": 1253,
+      "mae_ms": 1.166691922745202,
+      "bias_ms": 0.7437073989098433,
+      "mape_pct": 3.5724221913437075
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "basic",
+      "repeat": 2,
+      "n": 1256,
+      "mae_ms": 1.16150887584674,
+      "bias_ms": 0.6782331551696451,
+      "mape_pct": 3.612689284717579
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "srp",
+      "repeat": 2,
+      "n": 1246,
+      "mae_ms": 1.751219462430983,
+      "bias_ms": 1.4631451795630925,
+      "mape_pct": 4.224131822873285
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "native",
+      "repeat": 2,
+      "n": 1341,
+      "mae_ms": 1.5677081618085338,
+      "bias_ms": 0.9477318216311421,
+      "mape_pct": 4.2336323484460925
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "sarathi",
+      "repeat": 2,
+      "n": 1378,
+      "mae_ms": 1.495128961672231,
+      "bias_ms": 0.9113914043857466,
+      "mape_pct": 3.9036600445670713
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "past_future",
+      "repeat": 2,
+      "n": 1364,
+      "mae_ms": 1.194128388952147,
+      "bias_ms": 0.025133779554114756,
+      "mape_pct": 4.739951517408798
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "ssjf_oracle",
+      "repeat": 2,
+      "n": 1230,
+      "mae_ms": 1.549478057282418,
+      "bias_ms": 0.9264674848705969,
+      "mape_pct": 4.329221844333688
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "mc_sf_oracle",
+      "repeat": 2,
+      "n": 1284,
+      "mae_ms": 1.0227434663307717,
+      "bias_ms": 0.19658194229265363,
+      "mape_pct": 3.814421667196741
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "trail_oracle",
+      "repeat": 2,
+      "n": 1288,
+      "mae_ms": 1.586257515511536,
+      "bias_ms": 0.97719584942428,
+      "mape_pct": 4.426916323294152
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "tie_oracle_proxy",
+      "repeat": 2,
+      "n": 1220,
+      "mae_ms": 2.3106070353979926,
+      "bias_ms": -0.06824509874678135,
+      "mape_pct": 4.685920540615949
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "uniboost_static",
+      "repeat": 2,
+      "n": 1365,
+      "mae_ms": 1.4016783604513632,
+      "bias_ms": 0.7346019848701051,
+      "mape_pct": 3.801974601328051
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 2,
+      "n": 1273,
+      "mae_ms": 1.6582783176141958,
+      "bias_ms": 1.346381985255514,
+      "mape_pct": 3.9679591969491113
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "sola_rule",
+      "repeat": 2,
+      "n": 1271,
+      "mae_ms": 1.6500221814276355,
+      "bias_ms": 0.791189410202598,
+      "mape_pct": 4.385734739215081
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "arrival",
+      "repeat": 3,
+      "n": 1262,
+      "mae_ms": 1.119179907397505,
+      "bias_ms": 0.6922985380333716,
+      "mape_pct": 3.4602443098925915
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "basic",
+      "repeat": 3,
+      "n": 1260,
+      "mae_ms": 1.3781774986830906,
+      "bias_ms": 0.45603237386481643,
+      "mape_pct": 3.622213700142319
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "srp",
+      "repeat": 3,
+      "n": 1257,
+      "mae_ms": 1.7734911042106467,
+      "bias_ms": 1.4913888025614532,
+      "mape_pct": 4.290576507713596
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "native",
+      "repeat": 3,
+      "n": 1341,
+      "mae_ms": 1.588060007763914,
+      "bias_ms": 0.9645971987364867,
+      "mape_pct": 4.2696224976306105
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "sarathi",
+      "repeat": 3,
+      "n": 1422,
+      "mae_ms": 1.6334014477119998,
+      "bias_ms": 1.0050260518449834,
+      "mape_pct": 4.0424651284803135
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "past_future",
+      "repeat": 3,
+      "n": 1365,
+      "mae_ms": 1.108992234715308,
+      "bias_ms": 0.20408892348632618,
+      "mape_pct": 4.177940924707787
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "ssjf_oracle",
+      "repeat": 3,
+      "n": 1230,
+      "mae_ms": 1.5662228586906932,
+      "bias_ms": 0.9718543669000101,
+      "mape_pct": 4.320734609627406
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "mc_sf_oracle",
+      "repeat": 3,
+      "n": 1286,
+      "mae_ms": 1.016180215770531,
+      "bias_ms": 0.24565275269701192,
+      "mape_pct": 3.726510875349023
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "trail_oracle",
+      "repeat": 3,
+      "n": 1274,
+      "mae_ms": 1.6112726213969022,
+      "bias_ms": 1.0197596925895844,
+      "mape_pct": 4.4612031470398446
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "tie_oracle_proxy",
+      "repeat": 3,
+      "n": 1226,
+      "mae_ms": 2.347649105352814,
+      "bias_ms": -0.04453524430857541,
+      "mape_pct": 4.800410448325216
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "uniboost_static",
+      "repeat": 3,
+      "n": 1365,
+      "mae_ms": 1.3764774178037618,
+      "bias_ms": 0.7160463408438266,
+      "mape_pct": 3.7473584947523357
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 3,
+      "n": 1270,
+      "mae_ms": 1.694220396222687,
+      "bias_ms": 1.4201643077404191,
+      "mape_pct": 3.988356012364097
+    },
+    {
+      "cell": "cell14_conversation_fresh1_steady_c768",
+      "arm": "sola_rule",
+      "repeat": 3,
+      "n": 1272,
+      "mae_ms": 1.692471003979269,
+      "bias_ms": 0.8298251417468471,
+      "mape_pct": 4.480018043149573
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "arrival",
+      "repeat": 0,
+      "n": 692,
+      "mae_ms": 1.0842838294595951,
+      "bias_ms": -0.2116833816685289,
+      "mape_pct": 4.0325710855153325
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "basic",
+      "repeat": 0,
+      "n": 690,
+      "mae_ms": 0.9612625803012882,
+      "bias_ms": -0.06142816863568058,
+      "mape_pct": 3.483968035385527
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "srp",
+      "repeat": 0,
+      "n": 695,
+      "mae_ms": 0.9889651020162804,
+      "bias_ms": 0.24012729051056134,
+      "mape_pct": 3.606880201416607
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "native",
+      "repeat": 0,
+      "n": 696,
+      "mae_ms": 1.0035035320163055,
+      "bias_ms": 0.23398778248785454,
+      "mape_pct": 3.5829118642039464
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "sarathi",
+      "repeat": 0,
+      "n": 695,
+      "mae_ms": 1.0097026402216225,
+      "bias_ms": 0.24295540918588296,
+      "mape_pct": 3.6769952388851515
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "past_future",
+      "repeat": 0,
+      "n": 695,
+      "mae_ms": 0.9915394711575692,
+      "bias_ms": 0.2276030838461283,
+      "mape_pct": 3.5526660129942664
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "ssjf_oracle",
+      "repeat": 0,
+      "n": 695,
+      "mae_ms": 1.0058284208467623,
+      "bias_ms": 0.26519378914252195,
+      "mape_pct": 3.64374951379435
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "mc_sf_oracle",
+      "repeat": 0,
+      "n": 694,
+      "mae_ms": 1.009374228818068,
+      "bias_ms": 0.24266616432140584,
+      "mape_pct": 3.6914487257310222
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "trail_oracle",
+      "repeat": 0,
+      "n": 697,
+      "mae_ms": 0.9909916492953801,
+      "bias_ms": 0.24407478005059344,
+      "mape_pct": 3.6155806853044354
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "tie_oracle_proxy",
+      "repeat": 0,
+      "n": 688,
+      "mae_ms": 1.0532524120891458,
+      "bias_ms": 0.031044922401992924,
+      "mape_pct": 3.6276684493299105
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "uniboost_static",
+      "repeat": 0,
+      "n": 695,
+      "mae_ms": 1.0404342778518167,
+      "bias_ms": 0.2119863537937062,
+      "mape_pct": 3.87228029817878
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 0,
+      "n": 696,
+      "mae_ms": 0.9947974096748277,
+      "bias_ms": 0.24371572042262482,
+      "mape_pct": 3.562648927249993
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "sola_rule",
+      "repeat": 0,
+      "n": 696,
+      "mae_ms": 0.9952964960845326,
+      "bias_ms": 0.22277755323860793,
+      "mape_pct": 3.5553285069956537
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "arrival",
+      "repeat": 1,
+      "n": 692,
+      "mae_ms": 0.981676995611891,
+      "bias_ms": 0.010927637085521306,
+      "mape_pct": 3.4912802143544455
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "basic",
+      "repeat": 1,
+      "n": 693,
+      "mae_ms": 0.9753466718196596,
+      "bias_ms": 0.037843542632593534,
+      "mape_pct": 3.4655911156349624
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "srp",
+      "repeat": 1,
+      "n": 695,
+      "mae_ms": 1.0083887810402836,
+      "bias_ms": 0.22826561377171586,
+      "mape_pct": 3.7036225166731085
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "native",
+      "repeat": 1,
+      "n": 694,
+      "mae_ms": 1.005715159399757,
+      "bias_ms": 0.23446130100862558,
+      "mape_pct": 3.651379764074867
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "sarathi",
+      "repeat": 1,
+      "n": 695,
+      "mae_ms": 0.9956561008756094,
+      "bias_ms": 0.22661574590373898,
+      "mape_pct": 3.576449279205525
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "past_future",
+      "repeat": 1,
+      "n": 694,
+      "mae_ms": 1.010964642345419,
+      "bias_ms": 0.21740909577890916,
+      "mape_pct": 3.667593761699469
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "ssjf_oracle",
+      "repeat": 1,
+      "n": 694,
+      "mae_ms": 0.9868244841665518,
+      "bias_ms": 0.2137088241514572,
+      "mape_pct": 3.605331201788774
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "mc_sf_oracle",
+      "repeat": 1,
+      "n": 694,
+      "mae_ms": 1.0157222624530382,
+      "bias_ms": 0.2033880923465052,
+      "mape_pct": 3.7021991095557296
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "trail_oracle",
+      "repeat": 1,
+      "n": 696,
+      "mae_ms": 0.9989574589716125,
+      "bias_ms": 0.24202674195625154,
+      "mape_pct": 3.7102113988482226
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "tie_oracle_proxy",
+      "repeat": 1,
+      "n": 689,
+      "mae_ms": 1.046182073003881,
+      "bias_ms": 0.017912636397544094,
+      "mape_pct": 3.615377116395295
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "uniboost_static",
+      "repeat": 1,
+      "n": 694,
+      "mae_ms": 0.9982958521756768,
+      "bias_ms": 0.2062374323856434,
+      "mape_pct": 3.637456561635271
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 1,
+      "n": 695,
+      "mae_ms": 0.9891958634942228,
+      "bias_ms": 0.21284006704712546,
+      "mape_pct": 3.5906152058921976
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "sola_rule",
+      "repeat": 1,
+      "n": 695,
+      "mae_ms": 0.9807675777599194,
+      "bias_ms": 0.21853796399652944,
+      "mape_pct": 3.5070396926185756
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "arrival",
+      "repeat": 2,
+      "n": 692,
+      "mae_ms": 0.9835089543011148,
+      "bias_ms": -0.00960424723369745,
+      "mape_pct": 3.5035462239777613
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "basic",
+      "repeat": 2,
+      "n": 693,
+      "mae_ms": 0.9862602994093436,
+      "bias_ms": 0.026841356677874535,
+      "mape_pct": 3.492791015230038
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "srp",
+      "repeat": 2,
+      "n": 694,
+      "mae_ms": 1.002161126496557,
+      "bias_ms": 0.19790306178046482,
+      "mape_pct": 3.6876169857022902
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "native",
+      "repeat": 2,
+      "n": 695,
+      "mae_ms": 0.9996159313325921,
+      "bias_ms": 0.22528656500531277,
+      "mape_pct": 3.6453959692386366
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "sarathi",
+      "repeat": 2,
+      "n": 695,
+      "mae_ms": 1.002040408929874,
+      "bias_ms": 0.20836348709160132,
+      "mape_pct": 3.650506345559692
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "past_future",
+      "repeat": 2,
+      "n": 694,
+      "mae_ms": 1.0079940520293829,
+      "bias_ms": 0.21618421133762022,
+      "mape_pct": 3.670865252653914
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "ssjf_oracle",
+      "repeat": 2,
+      "n": 695,
+      "mae_ms": 1.005944196883123,
+      "bias_ms": 0.24253981575586525,
+      "mape_pct": 3.6158390385220742
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "mc_sf_oracle",
+      "repeat": 2,
+      "n": 694,
+      "mae_ms": 1.0207958278435671,
+      "bias_ms": 0.20221301666440875,
+      "mape_pct": 3.7029233746869226
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "trail_oracle",
+      "repeat": 2,
+      "n": 696,
+      "mae_ms": 1.001887220414813,
+      "bias_ms": 0.2284138275846762,
+      "mape_pct": 3.6892973005491014
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "tie_oracle_proxy",
+      "repeat": 2,
+      "n": 687,
+      "mae_ms": 1.0646862529850583,
+      "bias_ms": -0.012319593683982666,
+      "mape_pct": 3.6837830138870085
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "uniboost_static",
+      "repeat": 2,
+      "n": 694,
+      "mae_ms": 0.9861188041515259,
+      "bias_ms": 0.19017373727633288,
+      "mape_pct": 3.5891405760679245
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 2,
+      "n": 696,
+      "mae_ms": 1.0006078014209263,
+      "bias_ms": 0.23016657644570057,
+      "mape_pct": 3.5707240346070797
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "sola_rule",
+      "repeat": 2,
+      "n": 695,
+      "mae_ms": 1.0017869373369837,
+      "bias_ms": 0.20927379974327107,
+      "mape_pct": 3.6110277597222344
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "arrival",
+      "repeat": 3,
+      "n": 692,
+      "mae_ms": 1.4006136648245402,
+      "bias_ms": -0.41453733454073155,
+      "mape_pct": 3.607249197934194
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "basic",
+      "repeat": 3,
+      "n": 692,
+      "mae_ms": 0.9910238041584483,
+      "bias_ms": 0.011376937646126229,
+      "mape_pct": 3.5531017900668864
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "srp",
+      "repeat": 3,
+      "n": 695,
+      "mae_ms": 0.9869945928161318,
+      "bias_ms": 0.21742135423804038,
+      "mape_pct": 3.6088936548393487
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "native",
+      "repeat": 3,
+      "n": 695,
+      "mae_ms": 0.9993748627276047,
+      "bias_ms": 0.21612643059998626,
+      "mape_pct": 3.6138549217656446
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "sarathi",
+      "repeat": 3,
+      "n": 695,
+      "mae_ms": 1.0060790864911746,
+      "bias_ms": 0.21204995664907553,
+      "mape_pct": 3.6764146704432883
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "past_future",
+      "repeat": 3,
+      "n": 695,
+      "mae_ms": 1.0064300122188734,
+      "bias_ms": 0.20708013374032325,
+      "mape_pct": 3.6042317100429497
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "ssjf_oracle",
+      "repeat": 3,
+      "n": 694,
+      "mae_ms": 1.0122564334076802,
+      "bias_ms": 0.21034736785419111,
+      "mape_pct": 3.661186603438439
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "mc_sf_oracle",
+      "repeat": 3,
+      "n": 694,
+      "mae_ms": 1.01584899253742,
+      "bias_ms": 0.19604921275411083,
+      "mape_pct": 3.6794757237766262
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "trail_oracle",
+      "repeat": 3,
+      "n": 696,
+      "mae_ms": 0.9977694473847706,
+      "bias_ms": 0.2540749023765932,
+      "mape_pct": 3.70188030855785
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "tie_oracle_proxy",
+      "repeat": 3,
+      "n": 687,
+      "mae_ms": 1.0666165981324671,
+      "bias_ms": -0.003316005581148711,
+      "mape_pct": 3.696553108144913
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "uniboost_static",
+      "repeat": 3,
+      "n": 695,
+      "mae_ms": 0.9901585900176896,
+      "bias_ms": 0.20778971511008515,
+      "mape_pct": 3.6158160235575623
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "apt_serve_kv_rule",
+      "repeat": 3,
+      "n": 694,
+      "mae_ms": 1.0118617498800717,
+      "bias_ms": 0.188743379232521,
+      "mape_pct": 3.686311373330673
+    },
+    {
+      "cell": "cell15_conversation_fresh1_steady_c4096",
+      "arm": "sola_rule",
+      "repeat": 3,
+      "n": 695,
+      "mae_ms": 1.008320685411425,
+      "bias_ms": 0.2431936988981809,
+      "mape_pct": 3.7052091489909458
+    }
+  ]
+}

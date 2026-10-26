@@ -1,0 +1,15 @@
+{
+  "capacity_endpoints_checked": 96,
+  "newly_simulated_windows": 4464,
+  "reused_windows": 1440,
+  "all_valid": true,
+  "new_groups": 12,
+  "smoke_replays": 4,
+  "gpu_execution": false,
+  "all_groups_complete": true,
+  "initial_worker_errors": 1,
+  "recovered_worker_errors": 1,
+  "targeted_retry_replays": 2,
+  "behavior_replays": 24,
+  "retry_verification": "../retry_verification.json"
+}

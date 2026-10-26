@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "native_hashes": {
+    "v1/core/sched/scheduler.py": "e2c4673451148b9ff2fea055ba380f0af7ff07088aee97249c1d8140fe716814",
+    "v1/core/block_pool.py": "845535af8ab6db466b0277bde183ce06de1f6c607e51136381e33b0423b49175",
+    "v1/core/kv_cache_manager.py": "5448a5d5953ae82affff65673474b6c7697b542eb2cb5de2f9288e1fc2edb979",
+    "v1/core/single_type_kv_cache_manager.py": "e8628bfcd3bafd2a309ebb442ba74321cb443b6f8b1e09eac4d857254a549e41"
+  },
+  "burst_checks": [
+    {
+      "cell": "code_test0_burst_stop_c768",
+      "arm": "srp",
+      "matched_rounds": 1092
+    },
+    {
+      "cell": "code_test0_burst_stop_c768",
+      "arm": "fixed_selected",
+      "matched_rounds": 1462
+    },
+    {
+      "cell": "code_test0_burst_stop_c768",
+      "arm": "guarded_selected",
+      "matched_rounds": 1456
+    },
+    {
+      "cell": "code_test0_burst_stop_c2048",
+      "arm": "srp",
+      "matched_rounds": 405
+    },
+    {
+      "cell": "code_test0_burst_stop_c2048",
+      "arm": "fixed_selected",
+      "matched_rounds": 1296
+    },
+    {
+      "cell": "code_test0_burst_stop_c2048",
+      "arm": "guarded_selected",
+      "matched_rounds": 1290
+    },
+    {
+      "cell": "conversation_test0_burst_stop_c768",
+      "arm": "srp",
+      "matched_rounds": 3138
+    },
+    {
+      "cell": "conversation_test0_burst_stop_c768",
+      "arm": "fixed_selected",
+      "matched_rounds": 3214
+    },
+    {
+      "cell": "conversation_test0_burst_stop_c768",
+      "arm": "guarded_selected",
+      "matched_rounds": 3198
+    },
+    {
+      "cell": "conversation_test0_burst_stop_c2048",
+      "arm": "srp",
+      "matched_rounds": 1359
+    },
+    {
+      "cell": "conversation_test0_burst_stop_c2048",
+      "arm": "fixed_selected",
+      "matched_rounds": 1574
+    },
+    {
+      "cell": "conversation_test0_burst_stop_c2048",
+      "arm": "guarded_selected",
+      "matched_rounds": 1558
+    }
+  ],
+  "archived_spare_reproduced": true,
+  "exact_c_spare_matches": true,
+  "deterministic_missing_cell_aa": true,
+  "aa_ttft_ms": 2947.1479180266456
+}

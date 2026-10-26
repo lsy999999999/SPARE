@@ -1,0 +1,106 @@
+{
+  "complete": true,
+  "expected": 216,
+  "runs": 216,
+  "summary": [
+    {
+      "profile": "resource",
+      "reference": "srp",
+      "scenarios": 18,
+      "mean_reduction_pct": 32.30153157765048,
+      "wins": 14,
+      "ties": 4,
+      "losses": 0,
+      "min_reduction_pct": 0.0,
+      "max_reduction_pct": 67.48145370778037
+    },
+    {
+      "profile": "resource",
+      "reference": "fixed256",
+      "scenarios": 18,
+      "mean_reduction_pct": -7.7323248271659315,
+      "wins": 1,
+      "ties": 0,
+      "losses": 17,
+      "min_reduction_pct": -21.70314137715328,
+      "max_reduction_pct": 1.5737168944094382
+    },
+    {
+      "profile": "resource",
+      "reference": "fixed512",
+      "scenarios": 18,
+      "mean_reduction_pct": 14.710519209788803,
+      "wins": 10,
+      "ties": 0,
+      "losses": 8,
+      "min_reduction_pct": -15.594704933066495,
+      "max_reduction_pct": 49.62835677011939
+    },
+    {
+      "profile": "resource_staircase",
+      "reference": "srp",
+      "scenarios": 18,
+      "mean_reduction_pct": 32.406958078817674,
+      "wins": 17,
+      "ties": 1,
+      "losses": 0,
+      "min_reduction_pct": 0.0,
+      "max_reduction_pct": 65.15468903420944
+    },
+    {
+      "profile": "resource_staircase",
+      "reference": "fixed256",
+      "scenarios": 18,
+      "mean_reduction_pct": -7.05726632699703,
+      "wins": 1,
+      "ties": 0,
+      "losses": 17,
+      "min_reduction_pct": -22.442347724998513,
+      "max_reduction_pct": 1.1302177637575683
+    },
+    {
+      "profile": "resource_staircase",
+      "reference": "fixed512",
+      "scenarios": 18,
+      "mean_reduction_pct": 12.385890108953479,
+      "wins": 9,
+      "ties": 0,
+      "losses": 9,
+      "min_reduction_pct": -11.391534510647737,
+      "max_reduction_pct": 46.2605647140924
+    },
+    {
+      "profile": "gpu_fitted",
+      "reference": "srp",
+      "scenarios": 18,
+      "mean_reduction_pct": 19.087593283527244,
+      "wins": 12,
+      "ties": 1,
+      "losses": 5,
+      "min_reduction_pct": -29.60035975185655,
+      "max_reduction_pct": 52.656557661885394
+    },
+    {
+      "profile": "gpu_fitted",
+      "reference": "fixed256",
+      "scenarios": 18,
+      "mean_reduction_pct": 9.317461175775897,
+      "wins": 13,
+      "ties": 0,
+      "losses": 5,
+      "min_reduction_pct": -5.193988982364739,
+      "max_reduction_pct": 29.642084696012304
+    },
+    {
+      "profile": "gpu_fitted",
+      "reference": "fixed512",
+      "scenarios": 18,
+      "mean_reduction_pct": 6.511393266887804,
+      "wins": 12,
+      "ties": 0,
+      "losses": 6,
+      "min_reduction_pct": -24.930156341371855,
+      "max_reduction_pct": 30.839164526552032
+    }
+  ]
+}

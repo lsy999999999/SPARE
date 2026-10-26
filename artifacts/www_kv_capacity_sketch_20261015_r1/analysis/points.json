@@ -1,0 +1,6140 @@
+{
+  "scenes": [
+    {
+      "source": "code",
+      "kv_blocks": 512,
+      "arm": "arrival",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 512,
+      "arm": "native",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 512,
+      "arm": "sarathi",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 512,
+      "arm": "past_future",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 512,
+      "arm": "past_future_multi",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 512,
+      "arm": "orca_max",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 351.2222963350016,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 512,
+      "arm": "s3_proxy",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 512,
+      "arm": "ltr_proxy",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 512,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 512,
+      "arm": "sola_rule",
+      "capacity_qps": 0.75,
+      "next_failed_qps": 1.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 512,
+      "arm": "sola_calibrated",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 350.0925509199278,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 512,
+      "arm": "uniboost_static",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 347.6216672694038,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 640,
+      "arm": "arrival",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 640,
+      "arm": "native",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 640,
+      "arm": "sarathi",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 640,
+      "arm": "past_future",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 640,
+      "arm": "past_future_multi",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 640,
+      "arm": "orca_max",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 351.2222963350016,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 640,
+      "arm": "s3_proxy",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 640,
+      "arm": "ltr_proxy",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 640,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 640,
+      "arm": "sola_rule",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 640,
+      "arm": "sola_calibrated",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 350.0925509199278,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 640,
+      "arm": "uniboost_static",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 347.6216672694038,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 768,
+      "arm": "arrival",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 768,
+      "arm": "native",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 768,
+      "arm": "sarathi",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 768,
+      "arm": "past_future",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 768,
+      "arm": "past_future_multi",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 768,
+      "arm": "orca_max",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 768,
+      "arm": "s3_proxy",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 768,
+      "arm": "ltr_proxy",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 768,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 768,
+      "arm": "sola_rule",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 768,
+      "arm": "sola_calibrated",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 350.0925509199278,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 768,
+      "arm": "uniboost_static",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 347.6216672694038,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 896,
+      "arm": "arrival",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 896,
+      "arm": "native",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 896,
+      "arm": "sarathi",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 896,
+      "arm": "past_future",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 896,
+      "arm": "past_future_multi",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 896,
+      "arm": "orca_max",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 896,
+      "arm": "s3_proxy",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 896,
+      "arm": "ltr_proxy",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 896,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 896,
+      "arm": "sola_rule",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 896,
+      "arm": "sola_calibrated",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 350.0925509199278,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 896,
+      "arm": "uniboost_static",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 347.6216672694038,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1024,
+      "arm": "arrival",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1024,
+      "arm": "native",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1024,
+      "arm": "sarathi",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1024,
+      "arm": "past_future",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1024,
+      "arm": "past_future_multi",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1024,
+      "arm": "orca_max",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1024,
+      "arm": "s3_proxy",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1024,
+      "arm": "ltr_proxy",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1024,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1024,
+      "arm": "sola_rule",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1024,
+      "arm": "sola_calibrated",
+      "capacity_qps": 2.5,
+      "next_failed_qps": 3.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 350.0925509199278,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1024,
+      "arm": "uniboost_static",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 347.6216672694038,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1280,
+      "arm": "arrival",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1280,
+      "arm": "native",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1280,
+      "arm": "sarathi",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1280,
+      "arm": "past_future",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1280,
+      "arm": "past_future_multi",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1280,
+      "arm": "orca_max",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1280,
+      "arm": "s3_proxy",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1280,
+      "arm": "ltr_proxy",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1280,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1280,
+      "arm": "sola_rule",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1280,
+      "arm": "sola_calibrated",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 350.0925509199278,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1280,
+      "arm": "uniboost_static",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 347.6216672694038,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1536,
+      "arm": "arrival",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1536,
+      "arm": "native",
+      "capacity_qps": 2.5,
+      "next_failed_qps": 3.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1536,
+      "arm": "sarathi",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1536,
+      "arm": "past_future",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1536,
+      "arm": "past_future_multi",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1536,
+      "arm": "orca_max",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1536,
+      "arm": "s3_proxy",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1536,
+      "arm": "ltr_proxy",
+      "capacity_qps": 2.5,
+      "next_failed_qps": 3.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1536,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1536,
+      "arm": "sola_rule",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1536,
+      "arm": "sola_calibrated",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 350.0925509199278,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1536,
+      "arm": "uniboost_static",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 347.6216672694038,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1792,
+      "arm": "arrival",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1792,
+      "arm": "native",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1792,
+      "arm": "sarathi",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1792,
+      "arm": "past_future",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1792,
+      "arm": "past_future_multi",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1792,
+      "arm": "orca_max",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1792,
+      "arm": "s3_proxy",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1792,
+      "arm": "ltr_proxy",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1792,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1792,
+      "arm": "sola_rule",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1792,
+      "arm": "sola_calibrated",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 350.0925509199278,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 1792,
+      "arm": "uniboost_static",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 347.6216672694038,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2048,
+      "arm": "arrival",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2048,
+      "arm": "native",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2048,
+      "arm": "sarathi",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2048,
+      "arm": "past_future",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2048,
+      "arm": "past_future_multi",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2048,
+      "arm": "orca_max",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2048,
+      "arm": "s3_proxy",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2048,
+      "arm": "ltr_proxy",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2048,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2048,
+      "arm": "sola_rule",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2048,
+      "arm": "sola_calibrated",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 350.0925509199278,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2048,
+      "arm": "uniboost_static",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 347.6216672694038,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2560,
+      "arm": "arrival",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2560,
+      "arm": "native",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2560,
+      "arm": "sarathi",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2560,
+      "arm": "past_future",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2560,
+      "arm": "past_future_multi",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2560,
+      "arm": "orca_max",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2560,
+      "arm": "s3_proxy",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2560,
+      "arm": "ltr_proxy",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2560,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2560,
+      "arm": "sola_rule",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2560,
+      "arm": "sola_calibrated",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 350.0925509199278,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2560,
+      "arm": "uniboost_static",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 347.6216672694038,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3072,
+      "arm": "arrival",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3072,
+      "arm": "native",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3072,
+      "arm": "sarathi",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3072,
+      "arm": "past_future",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3072,
+      "arm": "past_future_multi",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3072,
+      "arm": "orca_max",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3072,
+      "arm": "s3_proxy",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3072,
+      "arm": "ltr_proxy",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3072,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3072,
+      "arm": "sola_rule",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3072,
+      "arm": "sola_calibrated",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 350.0925509199278,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3072,
+      "arm": "uniboost_static",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 347.6216672694038,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3584,
+      "arm": "arrival",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3584,
+      "arm": "native",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3584,
+      "arm": "sarathi",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3584,
+      "arm": "past_future",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3584,
+      "arm": "past_future_multi",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3584,
+      "arm": "orca_max",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3584,
+      "arm": "s3_proxy",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3584,
+      "arm": "ltr_proxy",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3584,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3584,
+      "arm": "sola_rule",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3584,
+      "arm": "sola_calibrated",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 350.0925509199278,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 3584,
+      "arm": "uniboost_static",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 347.6216672694038,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 4096,
+      "arm": "arrival",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 4096,
+      "arm": "native",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 4096,
+      "arm": "sarathi",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 4096,
+      "arm": "past_future",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 4096,
+      "arm": "past_future_multi",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 4096,
+      "arm": "orca_max",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 4096,
+      "arm": "s3_proxy",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 4096,
+      "arm": "ltr_proxy",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 4096,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 4096,
+      "arm": "sola_rule",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 4096,
+      "arm": "sola_calibrated",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 350.0925509199278,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 4096,
+      "arm": "uniboost_static",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 347.6216672694038,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 5120,
+      "arm": "arrival",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 5120,
+      "arm": "native",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 5120,
+      "arm": "sarathi",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 5120,
+      "arm": "past_future",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 5120,
+      "arm": "past_future_multi",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 5120,
+      "arm": "orca_max",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 5120,
+      "arm": "s3_proxy",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 5120,
+      "arm": "ltr_proxy",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 5120,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 5120,
+      "arm": "sola_rule",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 342.9586196396076,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 5120,
+      "arm": "sola_calibrated",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 350.0925509199278,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "code",
+      "kv_blocks": 5120,
+      "arm": "uniboost_static",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 347.6216672694038,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 512,
+      "arm": "arrival",
+      "capacity_qps": 0.75,
+      "next_failed_qps": 1.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 1588.1719521686603,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 512,
+      "arm": "native",
+      "capacity_qps": 0.0,
+      "next_failed_qps": 0.25,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 18163.221653586133,
+      "reference_feasible": false,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 512,
+      "arm": "sarathi",
+      "capacity_qps": 0.0,
+      "next_failed_qps": 0.25,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 24089.712714931615,
+      "reference_feasible": false,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 512,
+      "arm": "past_future",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 1011.3021260379742,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 512,
+      "arm": "past_future_multi",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 1010.9528553745074,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 512,
+      "arm": "orca_max",
+      "capacity_qps": 0.25,
+      "next_failed_qps": 0.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 13580.053228285571,
+      "reference_feasible": false,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 512,
+      "arm": "s3_proxy",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 662.1940089136798,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 512,
+      "arm": "ltr_proxy",
+      "capacity_qps": 0.0,
+      "next_failed_qps": 0.25,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 8832.160545498555,
+      "reference_feasible": false,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 512,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 0.25,
+      "next_failed_qps": 0.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 4760.487974834478,
+      "reference_feasible": false,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 512,
+      "arm": "sola_rule",
+      "capacity_qps": 0.25,
+      "next_failed_qps": 0.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 14561.203062894474,
+      "reference_feasible": false,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 512,
+      "arm": "sola_calibrated",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 796.3191537770886,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 512,
+      "arm": "uniboost_static",
+      "capacity_qps": 0.25,
+      "next_failed_qps": 0.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 7286.330570557225,
+      "reference_feasible": false,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 640,
+      "arm": "arrival",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 1183.3593486345753,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 640,
+      "arm": "native",
+      "capacity_qps": 0.0,
+      "next_failed_qps": 0.25,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 7274.635183312957,
+      "reference_feasible": false,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 640,
+      "arm": "sarathi",
+      "capacity_qps": 0.25,
+      "next_failed_qps": 0.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 10978.276317418537,
+      "reference_feasible": false,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 640,
+      "arm": "past_future",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 469.5812120211398,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 640,
+      "arm": "past_future_multi",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 469.5812120211398,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 640,
+      "arm": "orca_max",
+      "capacity_qps": 0.5,
+      "next_failed_qps": 0.75,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 6025.4688167592685,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 640,
+      "arm": "s3_proxy",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 350.59721937813083,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 640,
+      "arm": "ltr_proxy",
+      "capacity_qps": 0.0,
+      "next_failed_qps": 0.25,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 5230.929924003349,
+      "reference_feasible": false,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 640,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 0.25,
+      "next_failed_qps": 0.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 2343.8839798196213,
+      "reference_feasible": false,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 640,
+      "arm": "sola_rule",
+      "capacity_qps": 0.5,
+      "next_failed_qps": 0.75,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 5525.57680983526,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 640,
+      "arm": "sola_calibrated",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 710.6381957688559,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 640,
+      "arm": "uniboost_static",
+      "capacity_qps": 0.25,
+      "next_failed_qps": 0.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 2975.4285101373857,
+      "reference_feasible": false,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 768,
+      "arm": "arrival",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 485.1664123810514,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 768,
+      "arm": "native",
+      "capacity_qps": 0.25,
+      "next_failed_qps": 0.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 7834.921454162641,
+      "reference_feasible": false,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 768,
+      "arm": "sarathi",
+      "capacity_qps": 0.25,
+      "next_failed_qps": 0.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 8640.20164360878,
+      "reference_feasible": false,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 768,
+      "arm": "past_future",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 352.2193450144321,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 768,
+      "arm": "past_future_multi",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 352.2193450144321,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 768,
+      "arm": "orca_max",
+      "capacity_qps": 0.75,
+      "next_failed_qps": 1.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 1590.3174640597445,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 768,
+      "arm": "s3_proxy",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 292.0746580917206,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 768,
+      "arm": "ltr_proxy",
+      "capacity_qps": 0.25,
+      "next_failed_qps": 0.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 5155.115453008982,
+      "reference_feasible": false,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 768,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 1724.1811868439638,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 768,
+      "arm": "sola_rule",
+      "capacity_qps": 0.25,
+      "next_failed_qps": 0.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 3129.4010461614685,
+      "reference_feasible": false,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 768,
+      "arm": "sola_calibrated",
+      "capacity_qps": 2.5,
+      "next_failed_qps": 3.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 591.6410293644902,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 768,
+      "arm": "uniboost_static",
+      "capacity_qps": 0.75,
+      "next_failed_qps": 1.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 2103.6924370507495,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 896,
+      "arm": "arrival",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 368.3833627797379,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 896,
+      "arm": "native",
+      "capacity_qps": 0.25,
+      "next_failed_qps": 0.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 2927.8787724419376,
+      "reference_feasible": false,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 896,
+      "arm": "sarathi",
+      "capacity_qps": 0.75,
+      "next_failed_qps": 1.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 2888.864623999557,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 896,
+      "arm": "past_future",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 268.5631760290905,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 896,
+      "arm": "past_future_multi",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 268.5631760290905,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 896,
+      "arm": "orca_max",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 814.1417536121781,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 896,
+      "arm": "s3_proxy",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 282.04145447811817,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 896,
+      "arm": "ltr_proxy",
+      "capacity_qps": 0.5,
+      "next_failed_qps": 0.75,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 2715.8738879960474,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 896,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 612.772475102906,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 896,
+      "arm": "sola_rule",
+      "capacity_qps": 0.75,
+      "next_failed_qps": 1.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 254.5250638877131,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 896,
+      "arm": "sola_calibrated",
+      "capacity_qps": 2.5,
+      "next_failed_qps": 3.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 605.2600695801628,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 896,
+      "arm": "uniboost_static",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 1799.9835149420442,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1024,
+      "arm": "arrival",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 278.4145921557557,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1024,
+      "arm": "native",
+      "capacity_qps": 0.5,
+      "next_failed_qps": 0.75,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 2274.8783857314675,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1024,
+      "arm": "sarathi",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 2141.0533974034656,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1024,
+      "arm": "past_future",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 255.70364073779774,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1024,
+      "arm": "past_future_multi",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 255.33798424921793,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1024,
+      "arm": "orca_max",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 504.84715435732267,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1024,
+      "arm": "s3_proxy",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 253.55572199320665,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1024,
+      "arm": "ltr_proxy",
+      "capacity_qps": 0.5,
+      "next_failed_qps": 0.75,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 2634.726448304221,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1024,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 266.2323230351263,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1024,
+      "arm": "sola_rule",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 345.2472138049685,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1024,
+      "arm": "sola_calibrated",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 541.5793369203265,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1024,
+      "arm": "uniboost_static",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 774.8221984724706,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1280,
+      "arm": "arrival",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 253.0863479193321,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1280,
+      "arm": "native",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 253.3981995166019,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1280,
+      "arm": "sarathi",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 253.3981995166019,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1280,
+      "arm": "past_future",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 253.1521337009247,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1280,
+      "arm": "past_future_multi",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 253.1521337009247,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1280,
+      "arm": "orca_max",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 299.1802740253481,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1280,
+      "arm": "s3_proxy",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 253.15213370092488,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1280,
+      "arm": "ltr_proxy",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 253.3981995166019,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1280,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.77977540708207,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1280,
+      "arm": "sola_rule",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 253.3981995166019,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1280,
+      "arm": "sola_calibrated",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 540.1271133724206,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1280,
+      "arm": "uniboost_static",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 287.9477520972285,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1536,
+      "arm": "arrival",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1536,
+      "arm": "native",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1536,
+      "arm": "sarathi",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1536,
+      "arm": "past_future",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1536,
+      "arm": "past_future_multi",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1536,
+      "arm": "orca_max",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 253.0721644860946,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1536,
+      "arm": "s3_proxy",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1536,
+      "arm": "ltr_proxy",
+      "capacity_qps": 1.5,
+      "next_failed_qps": 2.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1536,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 2.5,
+      "next_failed_qps": 3.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1536,
+      "arm": "sola_rule",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1536,
+      "arm": "sola_calibrated",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 540.4675466186536,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1536,
+      "arm": "uniboost_static",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 287.63823100941624,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1792,
+      "arm": "arrival",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1792,
+      "arm": "native",
+      "capacity_qps": 2.5,
+      "next_failed_qps": 3.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1792,
+      "arm": "sarathi",
+      "capacity_qps": 2.5,
+      "next_failed_qps": 3.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1792,
+      "arm": "past_future",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1792,
+      "arm": "past_future_multi",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1792,
+      "arm": "orca_max",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 253.15213370092502,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1792,
+      "arm": "s3_proxy",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1792,
+      "arm": "ltr_proxy",
+      "capacity_qps": 2.0,
+      "next_failed_qps": 2.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1792,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 2.5,
+      "next_failed_qps": 3.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1792,
+      "arm": "sola_rule",
+      "capacity_qps": 2.5,
+      "next_failed_qps": 3.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1792,
+      "arm": "sola_calibrated",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 540.4675466186536,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 1792,
+      "arm": "uniboost_static",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 287.63823100941624,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2048,
+      "arm": "arrival",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2048,
+      "arm": "native",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2048,
+      "arm": "sarathi",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2048,
+      "arm": "past_future",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2048,
+      "arm": "past_future_multi",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2048,
+      "arm": "orca_max",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.78600320382793,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2048,
+      "arm": "s3_proxy",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2048,
+      "arm": "ltr_proxy",
+      "capacity_qps": 2.5,
+      "next_failed_qps": 3.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2048,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2048,
+      "arm": "sola_rule",
+      "capacity_qps": 2.5,
+      "next_failed_qps": 3.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2048,
+      "arm": "sola_calibrated",
+      "capacity_qps": 2.5,
+      "next_failed_qps": 3.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 540.4675466186536,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2048,
+      "arm": "uniboost_static",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 287.63823100941624,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2560,
+      "arm": "arrival",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2560,
+      "arm": "native",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2560,
+      "arm": "sarathi",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2560,
+      "arm": "past_future",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2560,
+      "arm": "past_future_multi",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2560,
+      "arm": "orca_max",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2560,
+      "arm": "s3_proxy",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2560,
+      "arm": "ltr_proxy",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2560,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2560,
+      "arm": "sola_rule",
+      "capacity_qps": 3.0,
+      "next_failed_qps": 4.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2560,
+      "arm": "sola_calibrated",
+      "capacity_qps": 2.5,
+      "next_failed_qps": 3.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 540.4675466186536,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2560,
+      "arm": "uniboost_static",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 287.63823100941624,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3072,
+      "arm": "arrival",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3072,
+      "arm": "native",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3072,
+      "arm": "sarathi",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3072,
+      "arm": "past_future",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3072,
+      "arm": "past_future_multi",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3072,
+      "arm": "orca_max",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3072,
+      "arm": "s3_proxy",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3072,
+      "arm": "ltr_proxy",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3072,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3072,
+      "arm": "sola_rule",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3072,
+      "arm": "sola_calibrated",
+      "capacity_qps": 2.5,
+      "next_failed_qps": 3.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 540.4675466186536,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3072,
+      "arm": "uniboost_static",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 287.63823100941624,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3584,
+      "arm": "arrival",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3584,
+      "arm": "native",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3584,
+      "arm": "sarathi",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3584,
+      "arm": "past_future",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3584,
+      "arm": "past_future_multi",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3584,
+      "arm": "orca_max",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3584,
+      "arm": "s3_proxy",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3584,
+      "arm": "ltr_proxy",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3584,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3584,
+      "arm": "sola_rule",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3584,
+      "arm": "sola_calibrated",
+      "capacity_qps": 2.5,
+      "next_failed_qps": 3.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 540.4675466186536,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 3584,
+      "arm": "uniboost_static",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 287.63823100941624,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 4096,
+      "arm": "arrival",
+      "capacity_qps": 6.0,
+      "next_failed_qps": 8.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 4096,
+      "arm": "native",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 4096,
+      "arm": "sarathi",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 4096,
+      "arm": "past_future",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 4096,
+      "arm": "past_future_multi",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 4096,
+      "arm": "orca_max",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 4096,
+      "arm": "s3_proxy",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 4096,
+      "arm": "ltr_proxy",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 4096,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 4096,
+      "arm": "sola_rule",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 4096,
+      "arm": "sola_calibrated",
+      "capacity_qps": 2.5,
+      "next_failed_qps": 3.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 540.4675466186536,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 4096,
+      "arm": "uniboost_static",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 287.63823100941624,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 5120,
+      "arm": "arrival",
+      "capacity_qps": 6.0,
+      "next_failed_qps": 8.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 5120,
+      "arm": "native",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 5120,
+      "arm": "sarathi",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 5120,
+      "arm": "past_future",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 5120,
+      "arm": "past_future_multi",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 5120,
+      "arm": "orca_max",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 5120,
+      "arm": "s3_proxy",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 5120,
+      "arm": "ltr_proxy",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 5120,
+      "arm": "apt_serve_kv_rule",
+      "capacity_qps": 5.0,
+      "next_failed_qps": 6.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 5120,
+      "arm": "sola_rule",
+      "capacity_qps": 4.0,
+      "next_failed_qps": 5.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 252.7860032038261,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 5120,
+      "arm": "sola_calibrated",
+      "capacity_qps": 2.5,
+      "next_failed_qps": 3.0,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 540.4675466186536,
+      "reference_feasible": true,
+      "n_windows": 2
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 5120,
+      "arm": "uniboost_static",
+      "capacity_qps": 1.0,
+      "next_failed_qps": 1.5,
+      "capacity_is_lower_bound": false,
+      "mean_ttft_ms": 287.63823100941624,
+      "reference_feasible": true,
+      "n_windows": 2
+    }
+  ],
+  "means": [
+    {
+      "kv_blocks": 512,
+      "arm": "arrival",
+      "method": "SPARE",
+      "capacity_qps": 1.375,
+      "mean_ttft_ms": 965.5652859041339,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 512,
+      "arm": "native",
+      "method": "vLLM V1",
+      "capacity_qps": 0.5,
+      "mean_ttft_ms": 9253.090136612871,
+      "reference_feasible": false,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 512,
+      "arm": "sarathi",
+      "method": "Sarathi rule",
+      "capacity_qps": 0.5,
+      "mean_ttft_ms": 12216.335667285612,
+      "reference_feasible": false,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 512,
+      "arm": "past_future",
+      "method": "Past-Future rule",
+      "capacity_qps": 1.25,
+      "mean_ttft_ms": 677.1303728387909,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 512,
+      "arm": "past_future_multi",
+      "method": "Past-Future multi",
+      "capacity_qps": 1.25,
+      "mean_ttft_ms": 676.9557375070575,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 512,
+      "arm": "orca_max",
+      "method": "Orca reservation",
+      "capacity_qps": 0.625,
+      "mean_ttft_ms": 6965.637762310286,
+      "reference_feasible": false,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 512,
+      "arm": "s3_proxy",
+      "method": "S3 proxy",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 502.5763142766437,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 512,
+      "arm": "ltr_proxy",
+      "method": "LTR proxy",
+      "capacity_qps": 0.5,
+      "mean_ttft_ms": 4587.559582569082,
+      "reference_feasible": false,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 512,
+      "arm": "apt_serve_kv_rule",
+      "method": "Apt-Serve KV rule",
+      "capacity_qps": 0.625,
+      "mean_ttft_ms": 2551.723297237043,
+      "reference_feasible": false,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 512,
+      "arm": "sola_rule",
+      "method": "SOLA risk rule",
+      "capacity_qps": 0.5,
+      "mean_ttft_ms": 7452.080841267041,
+      "reference_feasible": false,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 512,
+      "arm": "sola_calibrated",
+      "method": "SOLA calibrated",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 573.2058523485082,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 512,
+      "arm": "uniboost_static",
+      "method": "UniBoost rule",
+      "capacity_qps": 0.625,
+      "mean_ttft_ms": 3816.976118913314,
+      "reference_feasible": false,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 640,
+      "arm": "arrival",
+      "method": "SPARE",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 763.1589841370915,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 640,
+      "arm": "native",
+      "method": "vLLM V1",
+      "capacity_qps": 0.5,
+      "mean_ttft_ms": 3808.7969014762825,
+      "reference_feasible": false,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 640,
+      "arm": "sarathi",
+      "method": "Sarathi rule",
+      "capacity_qps": 0.625,
+      "mean_ttft_ms": 5660.617468529072,
+      "reference_feasible": false,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 640,
+      "arm": "past_future",
+      "method": "Past-Future rule",
+      "capacity_qps": 1.25,
+      "mean_ttft_ms": 406.2699158303737,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 640,
+      "arm": "past_future_multi",
+      "method": "Past-Future multi",
+      "capacity_qps": 1.25,
+      "mean_ttft_ms": 406.2699158303737,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 640,
+      "arm": "orca_max",
+      "method": "Orca reservation",
+      "capacity_qps": 1.0,
+      "mean_ttft_ms": 3188.345556547135,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 640,
+      "arm": "s3_proxy",
+      "method": "S3 proxy",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 346.7779195088692,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 640,
+      "arm": "ltr_proxy",
+      "method": "LTR proxy",
+      "capacity_qps": 0.5,
+      "mean_ttft_ms": 2786.944271821478,
+      "reference_feasible": false,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 640,
+      "arm": "apt_serve_kv_rule",
+      "method": "Apt-Serve KV rule",
+      "capacity_qps": 0.625,
+      "mean_ttft_ms": 1343.4212997296145,
+      "reference_feasible": false,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 640,
+      "arm": "sola_rule",
+      "method": "SOLA risk rule",
+      "capacity_qps": 0.75,
+      "mean_ttft_ms": 2934.267714737434,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 640,
+      "arm": "sola_calibrated",
+      "method": "SOLA calibrated",
+      "capacity_qps": 2.0,
+      "mean_ttft_ms": 530.3653733443919,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 640,
+      "arm": "uniboost_static",
+      "method": "UniBoost rule",
+      "capacity_qps": 0.625,
+      "mean_ttft_ms": 1661.5250887033949,
+      "reference_feasible": false,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 768,
+      "arm": "arrival",
+      "method": "SPARE",
+      "capacity_qps": 1.75,
+      "mean_ttft_ms": 414.0625160103295,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 768,
+      "arm": "native",
+      "method": "vLLM V1",
+      "capacity_qps": 0.875,
+      "mean_ttft_ms": 4088.940036901124,
+      "reference_feasible": false,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 768,
+      "arm": "sarathi",
+      "method": "Sarathi rule",
+      "capacity_qps": 0.875,
+      "mean_ttft_ms": 4491.580131624194,
+      "reference_feasible": false,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 768,
+      "arm": "past_future",
+      "method": "Past-Future rule",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 347.58898232701983,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 768,
+      "arm": "past_future_multi",
+      "method": "Past-Future multi",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 347.58898232701983,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 768,
+      "arm": "orca_max",
+      "method": "Orca reservation",
+      "capacity_qps": 1.125,
+      "mean_ttft_ms": 966.638041849676,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 768,
+      "arm": "s3_proxy",
+      "method": "S3 proxy",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 317.5166388656641,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 768,
+      "arm": "ltr_proxy",
+      "method": "LTR proxy",
+      "capacity_qps": 0.875,
+      "mean_ttft_ms": 2749.0370363242946,
+      "reference_feasible": false,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 768,
+      "arm": "apt_serve_kv_rule",
+      "method": "Apt-Serve KV rule",
+      "capacity_qps": 1.0,
+      "mean_ttft_ms": 1033.5699032417856,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 768,
+      "arm": "sola_rule",
+      "method": "SOLA risk rule",
+      "capacity_qps": 0.625,
+      "mean_ttft_ms": 1736.179832900538,
+      "reference_feasible": false,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 768,
+      "arm": "sola_calibrated",
+      "method": "SOLA calibrated",
+      "capacity_qps": 2.25,
+      "mean_ttft_ms": 470.866790142209,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 768,
+      "arm": "uniboost_static",
+      "method": "UniBoost rule",
+      "capacity_qps": 0.875,
+      "mean_ttft_ms": 1225.6570521600765,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 896,
+      "arm": "arrival",
+      "method": "SPARE",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 355.67099120967276,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 896,
+      "arm": "native",
+      "method": "vLLM V1",
+      "capacity_qps": 0.875,
+      "mean_ttft_ms": 1635.4186960407726,
+      "reference_feasible": false,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 896,
+      "arm": "sarathi",
+      "method": "Sarathi rule",
+      "capacity_qps": 1.125,
+      "mean_ttft_ms": 1615.9116218195823,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 896,
+      "arm": "past_future",
+      "method": "Past-Future rule",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 305.76089783434907,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 896,
+      "arm": "past_future_multi",
+      "method": "Past-Future multi",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 305.76089783434907,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 896,
+      "arm": "orca_max",
+      "method": "Orca reservation",
+      "capacity_qps": 1.25,
+      "mean_ttft_ms": 578.5501866258928,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 896,
+      "arm": "s3_proxy",
+      "method": "S3 proxy",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 312.50003705886286,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 896,
+      "arm": "ltr_proxy",
+      "method": "LTR proxy",
+      "capacity_qps": 1.0,
+      "mean_ttft_ms": 1529.4162538178275,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 896,
+      "arm": "apt_serve_kv_rule",
+      "method": "Apt-Serve KV rule",
+      "capacity_qps": 1.25,
+      "mean_ttft_ms": 477.8655473712568,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 896,
+      "arm": "sola_rule",
+      "method": "SOLA risk rule",
+      "capacity_qps": 0.875,
+      "mean_ttft_ms": 298.7418417636603,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 896,
+      "arm": "sola_calibrated",
+      "method": "SOLA calibrated",
+      "capacity_qps": 2.25,
+      "mean_ttft_ms": 477.67631025004533,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 896,
+      "arm": "uniboost_static",
+      "method": "UniBoost rule",
+      "capacity_qps": 1.25,
+      "mean_ttft_ms": 1073.8025911057239,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1024,
+      "arm": "arrival",
+      "method": "SPARE",
+      "capacity_qps": 2.0,
+      "mean_ttft_ms": 310.68660589768166,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1024,
+      "arm": "native",
+      "method": "vLLM V1",
+      "capacity_qps": 1.0,
+      "mean_ttft_ms": 1308.9185026855375,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1024,
+      "arm": "sarathi",
+      "method": "Sarathi rule",
+      "capacity_qps": 1.25,
+      "mean_ttft_ms": 1242.0060085215366,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1024,
+      "arm": "past_future",
+      "method": "Past-Future rule",
+      "capacity_qps": 2.5,
+      "mean_ttft_ms": 299.3311301887027,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1024,
+      "arm": "past_future_multi",
+      "method": "Past-Future multi",
+      "capacity_qps": 2.5,
+      "mean_ttft_ms": 299.14830194441276,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1024,
+      "arm": "orca_max",
+      "method": "Orca reservation",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 423.90288699846514,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1024,
+      "arm": "s3_proxy",
+      "method": "S3 proxy",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 298.2571708164071,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1024,
+      "arm": "ltr_proxy",
+      "method": "LTR proxy",
+      "capacity_qps": 1.0,
+      "mean_ttft_ms": 1488.8425339719142,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1024,
+      "arm": "apt_serve_kv_rule",
+      "method": "Apt-Serve KV rule",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 304.5954713373669,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1024,
+      "arm": "sola_rule",
+      "method": "SOLA risk rule",
+      "capacity_qps": 1.25,
+      "mean_ttft_ms": 344.10291672228806,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1024,
+      "arm": "sola_calibrated",
+      "method": "SOLA calibrated",
+      "capacity_qps": 2.75,
+      "mean_ttft_ms": 445.83594392012714,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1024,
+      "arm": "uniboost_static",
+      "method": "UniBoost rule",
+      "capacity_qps": 1.25,
+      "mean_ttft_ms": 561.2219328709373,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1280,
+      "arm": "arrival",
+      "method": "SPARE",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 298.02248377946984,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1280,
+      "arm": "native",
+      "method": "vLLM V1",
+      "capacity_qps": 1.75,
+      "mean_ttft_ms": 298.1784095781047,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1280,
+      "arm": "sarathi",
+      "method": "Sarathi rule",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 298.1784095781047,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1280,
+      "arm": "past_future",
+      "method": "Past-Future rule",
+      "capacity_qps": 2.5,
+      "mean_ttft_ms": 298.0553766702661,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1280,
+      "arm": "past_future_multi",
+      "method": "Past-Future multi",
+      "capacity_qps": 2.5,
+      "mean_ttft_ms": 298.0553766702661,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1280,
+      "arm": "orca_max",
+      "method": "Orca reservation",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 321.06944683247787,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1280,
+      "arm": "s3_proxy",
+      "method": "S3 proxy",
+      "capacity_qps": 2.5,
+      "mean_ttft_ms": 298.05537667026624,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1280,
+      "arm": "ltr_proxy",
+      "method": "LTR proxy",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 298.1784095781047,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1280,
+      "arm": "apt_serve_kv_rule",
+      "method": "Apt-Serve KV rule",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 297.86919752334484,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1280,
+      "arm": "sola_rule",
+      "method": "SOLA risk rule",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 298.1784095781047,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1280,
+      "arm": "sola_calibrated",
+      "method": "SOLA calibrated",
+      "capacity_qps": 2.5,
+      "mean_ttft_ms": 445.1098321461742,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1280,
+      "arm": "uniboost_static",
+      "method": "UniBoost rule",
+      "capacity_qps": 1.25,
+      "mean_ttft_ms": 317.7847096833161,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1536,
+      "arm": "arrival",
+      "method": "SPARE",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1536,
+      "arm": "native",
+      "method": "vLLM V1",
+      "capacity_qps": 2.25,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1536,
+      "arm": "sarathi",
+      "method": "Sarathi rule",
+      "capacity_qps": 1.75,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1536,
+      "arm": "past_future",
+      "method": "Past-Future rule",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1536,
+      "arm": "past_future_multi",
+      "method": "Past-Future multi",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1536,
+      "arm": "orca_max",
+      "method": "Orca reservation",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 298.0153920628511,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1536,
+      "arm": "s3_proxy",
+      "method": "S3 proxy",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1536,
+      "arm": "ltr_proxy",
+      "method": "LTR proxy",
+      "capacity_qps": 2.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1536,
+      "arm": "apt_serve_kv_rule",
+      "method": "Apt-Serve KV rule",
+      "capacity_qps": 2.25,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1536,
+      "arm": "sola_rule",
+      "method": "SOLA risk rule",
+      "capacity_qps": 2.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1536,
+      "arm": "sola_calibrated",
+      "method": "SOLA calibrated",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 445.2800487692907,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1536,
+      "arm": "uniboost_static",
+      "method": "UniBoost rule",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 317.62994913941003,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1792,
+      "arm": "arrival",
+      "method": "SPARE",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1792,
+      "arm": "native",
+      "method": "vLLM V1",
+      "capacity_qps": 2.25,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1792,
+      "arm": "sarathi",
+      "method": "Sarathi rule",
+      "capacity_qps": 2.25,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1792,
+      "arm": "past_future",
+      "method": "Past-Future rule",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1792,
+      "arm": "past_future_multi",
+      "method": "Past-Future multi",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1792,
+      "arm": "orca_max",
+      "method": "Orca reservation",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 298.0553766702663,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1792,
+      "arm": "s3_proxy",
+      "method": "S3 proxy",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1792,
+      "arm": "ltr_proxy",
+      "method": "LTR proxy",
+      "capacity_qps": 2.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1792,
+      "arm": "apt_serve_kv_rule",
+      "method": "Apt-Serve KV rule",
+      "capacity_qps": 2.25,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1792,
+      "arm": "sola_rule",
+      "method": "SOLA risk rule",
+      "capacity_qps": 2.25,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1792,
+      "arm": "sola_calibrated",
+      "method": "SOLA calibrated",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 445.2800487692907,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 1792,
+      "arm": "uniboost_static",
+      "method": "UniBoost rule",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 317.62994913941003,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2048,
+      "arm": "arrival",
+      "method": "SPARE",
+      "capacity_qps": 4.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2048,
+      "arm": "native",
+      "method": "vLLM V1",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2048,
+      "arm": "sarathi",
+      "method": "Sarathi rule",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2048,
+      "arm": "past_future",
+      "method": "Past-Future rule",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2048,
+      "arm": "past_future_multi",
+      "method": "Past-Future multi",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2048,
+      "arm": "orca_max",
+      "method": "Orca reservation",
+      "capacity_qps": 2.5,
+      "mean_ttft_ms": 297.87231142171777,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2048,
+      "arm": "s3_proxy",
+      "method": "S3 proxy",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2048,
+      "arm": "ltr_proxy",
+      "method": "LTR proxy",
+      "capacity_qps": 2.75,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2048,
+      "arm": "apt_serve_kv_rule",
+      "method": "Apt-Serve KV rule",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2048,
+      "arm": "sola_rule",
+      "method": "SOLA risk rule",
+      "capacity_qps": 2.25,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2048,
+      "arm": "sola_calibrated",
+      "method": "SOLA calibrated",
+      "capacity_qps": 2.0,
+      "mean_ttft_ms": 445.2800487692907,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2048,
+      "arm": "uniboost_static",
+      "method": "UniBoost rule",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 317.62994913941003,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2560,
+      "arm": "arrival",
+      "method": "SPARE",
+      "capacity_qps": 4.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2560,
+      "arm": "native",
+      "method": "vLLM V1",
+      "capacity_qps": 2.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2560,
+      "arm": "sarathi",
+      "method": "Sarathi rule",
+      "capacity_qps": 2.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2560,
+      "arm": "past_future",
+      "method": "Past-Future rule",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2560,
+      "arm": "past_future_multi",
+      "method": "Past-Future multi",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2560,
+      "arm": "orca_max",
+      "method": "Orca reservation",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2560,
+      "arm": "s3_proxy",
+      "method": "S3 proxy",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2560,
+      "arm": "ltr_proxy",
+      "method": "LTR proxy",
+      "capacity_qps": 2.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2560,
+      "arm": "apt_serve_kv_rule",
+      "method": "Apt-Serve KV rule",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2560,
+      "arm": "sola_rule",
+      "method": "SOLA risk rule",
+      "capacity_qps": 2.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2560,
+      "arm": "sola_calibrated",
+      "method": "SOLA calibrated",
+      "capacity_qps": 2.0,
+      "mean_ttft_ms": 445.2800487692907,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 2560,
+      "arm": "uniboost_static",
+      "method": "UniBoost rule",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 317.62994913941003,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3072,
+      "arm": "arrival",
+      "method": "SPARE",
+      "capacity_qps": 4.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3072,
+      "arm": "native",
+      "method": "vLLM V1",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3072,
+      "arm": "sarathi",
+      "method": "Sarathi rule",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3072,
+      "arm": "past_future",
+      "method": "Past-Future rule",
+      "capacity_qps": 4.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3072,
+      "arm": "past_future_multi",
+      "method": "Past-Future multi",
+      "capacity_qps": 4.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3072,
+      "arm": "orca_max",
+      "method": "Orca reservation",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3072,
+      "arm": "s3_proxy",
+      "method": "S3 proxy",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3072,
+      "arm": "ltr_proxy",
+      "method": "LTR proxy",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3072,
+      "arm": "apt_serve_kv_rule",
+      "method": "Apt-Serve KV rule",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3072,
+      "arm": "sola_rule",
+      "method": "SOLA risk rule",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3072,
+      "arm": "sola_calibrated",
+      "method": "SOLA calibrated",
+      "capacity_qps": 2.0,
+      "mean_ttft_ms": 445.2800487692907,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3072,
+      "arm": "uniboost_static",
+      "method": "UniBoost rule",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 317.62994913941003,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3584,
+      "arm": "arrival",
+      "method": "SPARE",
+      "capacity_qps": 4.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3584,
+      "arm": "native",
+      "method": "vLLM V1",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3584,
+      "arm": "sarathi",
+      "method": "Sarathi rule",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3584,
+      "arm": "past_future",
+      "method": "Past-Future rule",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3584,
+      "arm": "past_future_multi",
+      "method": "Past-Future multi",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3584,
+      "arm": "orca_max",
+      "method": "Orca reservation",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3584,
+      "arm": "s3_proxy",
+      "method": "S3 proxy",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3584,
+      "arm": "ltr_proxy",
+      "method": "LTR proxy",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3584,
+      "arm": "apt_serve_kv_rule",
+      "method": "Apt-Serve KV rule",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3584,
+      "arm": "sola_rule",
+      "method": "SOLA risk rule",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3584,
+      "arm": "sola_calibrated",
+      "method": "SOLA calibrated",
+      "capacity_qps": 2.0,
+      "mean_ttft_ms": 445.2800487692907,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 3584,
+      "arm": "uniboost_static",
+      "method": "UniBoost rule",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 317.62994913941003,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 4096,
+      "arm": "arrival",
+      "method": "SPARE",
+      "capacity_qps": 4.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 4096,
+      "arm": "native",
+      "method": "vLLM V1",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 4096,
+      "arm": "sarathi",
+      "method": "Sarathi rule",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 4096,
+      "arm": "past_future",
+      "method": "Past-Future rule",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 4096,
+      "arm": "past_future_multi",
+      "method": "Past-Future multi",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 4096,
+      "arm": "orca_max",
+      "method": "Orca reservation",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 4096,
+      "arm": "s3_proxy",
+      "method": "S3 proxy",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 4096,
+      "arm": "ltr_proxy",
+      "method": "LTR proxy",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 4096,
+      "arm": "apt_serve_kv_rule",
+      "method": "Apt-Serve KV rule",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 4096,
+      "arm": "sola_rule",
+      "method": "SOLA risk rule",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 4096,
+      "arm": "sola_calibrated",
+      "method": "SOLA calibrated",
+      "capacity_qps": 2.0,
+      "mean_ttft_ms": 445.2800487692907,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 4096,
+      "arm": "uniboost_static",
+      "method": "UniBoost rule",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 317.62994913941003,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 5120,
+      "arm": "arrival",
+      "method": "SPARE",
+      "capacity_qps": 4.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 5120,
+      "arm": "native",
+      "method": "vLLM V1",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 5120,
+      "arm": "sarathi",
+      "method": "Sarathi rule",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 5120,
+      "arm": "past_future",
+      "method": "Past-Future rule",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 5120,
+      "arm": "past_future_multi",
+      "method": "Past-Future multi",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 5120,
+      "arm": "orca_max",
+      "method": "Orca reservation",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 5120,
+      "arm": "s3_proxy",
+      "method": "S3 proxy",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 5120,
+      "arm": "ltr_proxy",
+      "method": "LTR proxy",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 5120,
+      "arm": "apt_serve_kv_rule",
+      "method": "Apt-Serve KV rule",
+      "capacity_qps": 3.5,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 5120,
+      "arm": "sola_rule",
+      "method": "SOLA risk rule",
+      "capacity_qps": 3.0,
+      "mean_ttft_ms": 297.87231142171686,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 5120,
+      "arm": "sola_calibrated",
+      "method": "SOLA calibrated",
+      "capacity_qps": 2.0,
+      "mean_ttft_ms": 445.2800487692907,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    },
+    {
+      "kv_blocks": 5120,
+      "arm": "uniboost_static",
+      "method": "UniBoost rule",
+      "capacity_qps": 1.5,
+      "mean_ttft_ms": 317.62994913941003,
+      "reference_feasible": true,
+      "n_windows_per_source": 2
+    }
+  ],
+  "comparisons": [
+    {
+      "kv_blocks": 512,
+      "baseline": "native",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 512,
+      "baseline": "sarathi",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 512,
+      "baseline": "past_future",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 512,
+      "baseline": "past_future_multi",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 512,
+      "baseline": "orca_max",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 512,
+      "baseline": "s3_proxy",
+      "baseline_dominates": true,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 512,
+      "baseline": "ltr_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 512,
+      "baseline": "apt_serve_kv_rule",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 512,
+      "baseline": "sola_rule",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 512,
+      "baseline": "sola_calibrated",
+      "baseline_dominates": true,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 512,
+      "baseline": "uniboost_static",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 640,
+      "baseline": "native",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 640,
+      "baseline": "sarathi",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 640,
+      "baseline": "past_future",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 640,
+      "baseline": "past_future_multi",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 640,
+      "baseline": "orca_max",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 640,
+      "baseline": "s3_proxy",
+      "baseline_dominates": true,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 640,
+      "baseline": "ltr_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 640,
+      "baseline": "apt_serve_kv_rule",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 640,
+      "baseline": "sola_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 640,
+      "baseline": "sola_calibrated",
+      "baseline_dominates": true,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 640,
+      "baseline": "uniboost_static",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 768,
+      "baseline": "native",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 768,
+      "baseline": "sarathi",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 768,
+      "baseline": "past_future",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 768,
+      "baseline": "past_future_multi",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 768,
+      "baseline": "orca_max",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 768,
+      "baseline": "s3_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 768,
+      "baseline": "ltr_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 768,
+      "baseline": "apt_serve_kv_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 768,
+      "baseline": "sola_rule",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 768,
+      "baseline": "sola_calibrated",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 768,
+      "baseline": "uniboost_static",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 896,
+      "baseline": "native",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 896,
+      "baseline": "sarathi",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 896,
+      "baseline": "past_future",
+      "baseline_dominates": true,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 896,
+      "baseline": "past_future_multi",
+      "baseline_dominates": true,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 896,
+      "baseline": "orca_max",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 896,
+      "baseline": "s3_proxy",
+      "baseline_dominates": true,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 896,
+      "baseline": "ltr_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 896,
+      "baseline": "apt_serve_kv_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 896,
+      "baseline": "sola_rule",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 896,
+      "baseline": "sola_calibrated",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 896,
+      "baseline": "uniboost_static",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1024,
+      "baseline": "native",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1024,
+      "baseline": "sarathi",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1024,
+      "baseline": "past_future",
+      "baseline_dominates": true,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 1024,
+      "baseline": "past_future_multi",
+      "baseline_dominates": true,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 1024,
+      "baseline": "orca_max",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1024,
+      "baseline": "s3_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 1024,
+      "baseline": "ltr_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1024,
+      "baseline": "apt_serve_kv_rule",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 1024,
+      "baseline": "sola_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1024,
+      "baseline": "sola_calibrated",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 1024,
+      "baseline": "uniboost_static",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1280,
+      "baseline": "native",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1280,
+      "baseline": "sarathi",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1280,
+      "baseline": "past_future",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1280,
+      "baseline": "past_future_multi",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1280,
+      "baseline": "orca_max",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1280,
+      "baseline": "s3_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1280,
+      "baseline": "ltr_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1280,
+      "baseline": "apt_serve_kv_rule",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 1280,
+      "baseline": "sola_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1280,
+      "baseline": "sola_calibrated",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1280,
+      "baseline": "uniboost_static",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1536,
+      "baseline": "native",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1536,
+      "baseline": "sarathi",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1536,
+      "baseline": "past_future",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1536,
+      "baseline": "past_future_multi",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1536,
+      "baseline": "orca_max",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1536,
+      "baseline": "s3_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1536,
+      "baseline": "ltr_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1536,
+      "baseline": "apt_serve_kv_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1536,
+      "baseline": "sola_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1536,
+      "baseline": "sola_calibrated",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1536,
+      "baseline": "uniboost_static",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1792,
+      "baseline": "native",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1792,
+      "baseline": "sarathi",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1792,
+      "baseline": "past_future",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1792,
+      "baseline": "past_future_multi",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1792,
+      "baseline": "orca_max",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1792,
+      "baseline": "s3_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 1792,
+      "baseline": "ltr_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1792,
+      "baseline": "apt_serve_kv_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1792,
+      "baseline": "sola_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1792,
+      "baseline": "sola_calibrated",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 1792,
+      "baseline": "uniboost_static",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2048,
+      "baseline": "native",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2048,
+      "baseline": "sarathi",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2048,
+      "baseline": "past_future",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2048,
+      "baseline": "past_future_multi",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2048,
+      "baseline": "orca_max",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2048,
+      "baseline": "s3_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2048,
+      "baseline": "ltr_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2048,
+      "baseline": "apt_serve_kv_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2048,
+      "baseline": "sola_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2048,
+      "baseline": "sola_calibrated",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2048,
+      "baseline": "uniboost_static",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2560,
+      "baseline": "native",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2560,
+      "baseline": "sarathi",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2560,
+      "baseline": "past_future",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2560,
+      "baseline": "past_future_multi",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2560,
+      "baseline": "orca_max",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2560,
+      "baseline": "s3_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2560,
+      "baseline": "ltr_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2560,
+      "baseline": "apt_serve_kv_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2560,
+      "baseline": "sola_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2560,
+      "baseline": "sola_calibrated",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 2560,
+      "baseline": "uniboost_static",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 3072,
+      "baseline": "native",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 3072,
+      "baseline": "sarathi",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 3072,
+      "baseline": "past_future",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 3072,
+      "baseline": "past_future_multi",
+      "baseline_dominates": false,
+      "spare_dominates": false
+    },
+    {
+      "kv_blocks": 3072,
+      "baseline": "orca_max",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 3072,
+      "baseline": "s3_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 3072,
+      "baseline": "ltr_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 3072,
+      "baseline": "apt_serve_kv_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 3072,
+      "baseline": "sola_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 3072,
+      "baseline": "sola_calibrated",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 3072,
+      "baseline": "uniboost_static",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 3584,
+      "baseline": "native",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 3584,
+      "baseline": "sarathi",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 3584,
+      "baseline": "past_future",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 3584,
+      "baseline": "past_future_multi",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 3584,
+      "baseline": "orca_max",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 3584,
+      "baseline": "s3_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 3584,
+      "baseline": "ltr_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 3584,
+      "baseline": "apt_serve_kv_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 3584,
+      "baseline": "sola_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 3584,
+      "baseline": "sola_calibrated",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 3584,
+      "baseline": "uniboost_static",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 4096,
+      "baseline": "native",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 4096,
+      "baseline": "sarathi",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 4096,
+      "baseline": "past_future",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 4096,
+      "baseline": "past_future_multi",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 4096,
+      "baseline": "orca_max",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 4096,
+      "baseline": "s3_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 4096,
+      "baseline": "ltr_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 4096,
+      "baseline": "apt_serve_kv_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 4096,
+      "baseline": "sola_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 4096,
+      "baseline": "sola_calibrated",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 4096,
+      "baseline": "uniboost_static",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 5120,
+      "baseline": "native",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 5120,
+      "baseline": "sarathi",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 5120,
+      "baseline": "past_future",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 5120,
+      "baseline": "past_future_multi",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 5120,
+      "baseline": "orca_max",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 5120,
+      "baseline": "s3_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 5120,
+      "baseline": "ltr_proxy",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 5120,
+      "baseline": "apt_serve_kv_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 5120,
+      "baseline": "sola_rule",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 5120,
+      "baseline": "sola_calibrated",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    },
+    {
+      "kv_blocks": 5120,
+      "baseline": "uniboost_static",
+      "baseline_dominates": false,
+      "spare_dominates": true
+    }
+  ]
+}

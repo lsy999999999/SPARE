@@ -1,0 +1,644 @@
+{
+  "date": "2026-10-10",
+  "groups": 18,
+  "formal_runs": 288,
+  "request_records": 36864,
+  "round_records": 377401,
+  "design_and_raw_hashes_verified": true,
+  "ttft_recomputed_from_request_timestamps": true,
+  "archived_effects_and_ci_match": true,
+  "effects": [
+    {
+      "reference": "srp",
+      "improvement_pct": 18.24197998979956,
+      "ci_low": 5.8934077385811685,
+      "ci_high": 29.966253575489947,
+      "wins": 12,
+      "losses": 6
+    },
+    {
+      "reference": "fixed256",
+      "improvement_pct": 8.81923284472772,
+      "ci_low": 7.33707693916335,
+      "ci_high": 10.01088759392805,
+      "wins": 12,
+      "losses": 6
+    },
+    {
+      "reference": "fixed512",
+      "improvement_pct": 2.8152632779341378,
+      "ci_low": -5.879676025400972,
+      "ci_high": 11.084948243426757,
+      "wins": 8,
+      "losses": 10
+    }
+  ],
+  "code_diagnosis": [
+    {
+      "cell": "code_new0_burst_background_c768",
+      "improvement_pct": 35.5284874989868,
+      "spare": {
+        "ttft_ms": 2964.9561208144796,
+        "interventions": 886.5,
+        "preemptions": 10.0,
+        "schedule_ms": 0.49415808083529045
+      },
+      "srp": {
+        "ttft_ms": 4598.862359197613,
+        "interventions": 0.0,
+        "preemptions": 229.0,
+        "schedule_ms": 0.3092183828936942
+      }
+    },
+    {
+      "cell": "code_new0_burst_background_c2048",
+      "improvement_pct": -14.720657036812796,
+      "spare": {
+        "ttft_ms": 2486.9321423385763,
+        "interventions": 329.0,
+        "preemptions": 0.0,
+        "schedule_ms": 0.5777560505988093
+      },
+      "srp": {
+        "ttft_ms": 2167.815462859965,
+        "interventions": 0.0,
+        "preemptions": 6.0,
+        "schedule_ms": 0.2938130197072364
+      }
+    },
+    {
+      "cell": "code_new0_burst_background_c4096",
+      "improvement_pct": -1.0119298183563477,
+      "spare": {
+        "ttft_ms": 2154.3690555037238,
+        "interventions": 0.0,
+        "preemptions": 0.0,
+        "schedule_ms": 0.6038528294211394
+      },
+      "srp": {
+        "ttft_ms": 2132.786750414328,
+        "interventions": 0.0,
+        "preemptions": 0.0,
+        "schedule_ms": 0.2857324237169427
+      }
+    },
+    {
+      "cell": "code_new1_burst_background_c768",
+      "improvement_pct": 33.00565551426524,
+      "spare": {
+        "ttft_ms": 5549.298475419294,
+        "interventions": 1218.0,
+        "preemptions": 19.0,
+        "schedule_ms": 0.5610798687422683
+      },
+      "srp": {
+        "ttft_ms": 8283.23423121323,
+        "interventions": 0.0,
+        "preemptions": 309.0,
+        "schedule_ms": 0.3229178135607426
+      }
+    },
+    {
+      "cell": "code_new1_burst_background_c2048",
+      "improvement_pct": -31.980101266065176,
+      "spare": {
+        "ttft_ms": 5096.308032639302,
+        "interventions": 933.5,
+        "preemptions": 1.0,
+        "schedule_ms": 0.6050136760729632
+      },
+      "srp": {
+        "ttft_ms": 3861.4215201770485,
+        "interventions": 0.0,
+        "preemptions": 17.75,
+        "schedule_ms": 0.37471763129453156
+      }
+    },
+    {
+      "cell": "code_new1_burst_background_c4096",
+      "improvement_pct": -0.7693737631640504,
+      "spare": {
+        "ttft_ms": 3813.011408773621,
+        "interventions": 4.5,
+        "preemptions": 0.0,
+        "schedule_ms": 0.8328537142687553
+      },
+      "srp": {
+        "ttft_ms": 3783.8990820120152,
+        "interventions": 0.0,
+        "preemptions": 0.0,
+        "schedule_ms": 0.38770484861347393
+      }
+    },
+    {
+      "cell": "code_new2_burst_background_c768",
+      "improvement_pct": 39.75351608229651,
+      "spare": {
+        "ttft_ms": 9684.337171837926,
+        "interventions": 1905.0,
+        "preemptions": 78.0,
+        "schedule_ms": 0.5691028261107617
+      },
+      "srp": {
+        "ttft_ms": 16074.526747596921,
+        "interventions": 0.0,
+        "preemptions": 626.25,
+        "schedule_ms": 0.3045520919969982
+      }
+    },
+    {
+      "cell": "code_new2_burst_background_c2048",
+      "improvement_pct": -28.11617780141907,
+      "spare": {
+        "ttft_ms": 8835.326390982247,
+        "interventions": 1275.0,
+        "preemptions": 3.0,
+        "schedule_ms": 0.6099418815189417
+      },
+      "srp": {
+        "ttft_ms": 6896.339355890762,
+        "interventions": 0.0,
+        "preemptions": 32.75,
+        "schedule_ms": 0.28911615437147525
+      }
+    },
+    {
+      "cell": "code_new2_burst_background_c4096",
+      "improvement_pct": -12.097229863052522,
+      "spare": {
+        "ttft_ms": 7442.40308701332,
+        "interventions": 422.0,
+        "preemptions": 0.0,
+        "schedule_ms": 0.6275692001530185
+      },
+      "srp": {
+        "ttft_ms": 6639.239074958044,
+        "interventions": 0.0,
+        "preemptions": 0.0,
+        "schedule_ms": 0.27684956862718507
+      }
+    }
+  ],
+  "g4_from_archived_run_csv": [
+    {
+      "capacity": 512,
+      "source": "all",
+      "cells": 12,
+      "improvement_pct": 45.7856260519651,
+      "wins": 12,
+      "arrival": {
+        "preemptions": 363.0625,
+        "schedule_ms_mean": 0.5791121426522847,
+        "ttft_ms_mean": 12971.15908601653
+      },
+      "srp": {
+        "preemptions": 1588.7708333333333,
+        "schedule_ms_mean": 0.2790581158306064,
+        "ttft_ms_mean": 23020.54611068963
+      }
+    },
+    {
+      "capacity": 512,
+      "source": "code",
+      "cells": 6,
+      "improvement_pct": 48.515719463779845,
+      "wins": 6,
+      "arrival": {
+        "preemptions": 141.375,
+        "schedule_ms_mean": 0.5902108753239832,
+        "ttft_ms_mean": 8862.156839947516
+      },
+      "srp": {
+        "preemptions": 720.75,
+        "schedule_ms_mean": 0.3000809783045783,
+        "ttft_ms_mean": 16282.884008077936
+      }
+    },
+    {
+      "capacity": 512,
+      "source": "conversation",
+      "cells": 6,
+      "improvement_pct": 43.05553264015037,
+      "wins": 6,
+      "arrival": {
+        "preemptions": 584.75,
+        "schedule_ms_mean": 0.5680134099805862,
+        "ttft_ms_mean": 17080.161332085547
+      },
+      "srp": {
+        "preemptions": 2456.7916666666665,
+        "schedule_ms_mean": 0.25803525335663463,
+        "ttft_ms_mean": 29758.20821330132
+      }
+    },
+    {
+      "capacity": 768,
+      "source": "all",
+      "cells": 12,
+      "improvement_pct": 39.54188602452721,
+      "wins": 12,
+      "arrival": {
+        "preemptions": 188.02083333333334,
+        "schedule_ms_mean": 0.5931910361812927,
+        "ttft_ms_mean": 8943.391633335057
+      },
+      "srp": {
+        "preemptions": 892.875,
+        "schedule_ms_mean": 0.2876311768130057,
+        "ttft_ms_mean": 14539.164855117471
+      }
+    },
+    {
+      "capacity": 768,
+      "source": "code",
+      "cells": 6,
+      "improvement_pct": 35.4672486286018,
+      "wins": 6,
+      "arrival": {
+        "preemptions": 33.625,
+        "schedule_ms_mean": 0.6022694682631661,
+        "ttft_ms_mean": 7538.6494602218945
+      },
+      "srp": {
+        "preemptions": 380.5833333333333,
+        "schedule_ms_mean": 0.31284502795952135,
+        "ttft_ms_mean": 11113.456303802564
+      }
+    },
+    {
+      "capacity": 768,
+      "source": "conversation",
+      "cells": 6,
+      "improvement_pct": 43.61652342045261,
+      "wins": 6,
+      "arrival": {
+        "preemptions": 342.4166666666667,
+        "schedule_ms_mean": 0.5841126040994192,
+        "ttft_ms_mean": 10348.13380644822
+      },
+      "srp": {
+        "preemptions": 1405.1666666666667,
+        "schedule_ms_mean": 0.26241732566649,
+        "ttft_ms_mean": 17964.873406432376
+      }
+    },
+    {
+      "capacity": 1024,
+      "source": "all",
+      "cells": 12,
+      "improvement_pct": 32.4004375370347,
+      "wins": 12,
+      "arrival": {
+        "preemptions": 119.5,
+        "schedule_ms_mean": 0.6168137342062164,
+        "ttft_ms_mean": 7386.537759143558
+      },
+      "srp": {
+        "preemptions": 583.7291666666666,
+        "schedule_ms_mean": 0.29908759118159706,
+        "ttft_ms_mean": 10784.466334727378
+      }
+    },
+    {
+      "capacity": 1024,
+      "source": "code",
+      "cells": 6,
+      "improvement_pct": 21.253970761942732,
+      "wins": 6,
+      "arrival": {
+        "preemptions": 10.708333333333334,
+        "schedule_ms_mean": 0.6313384325764216,
+        "ttft_ms_mean": 7217.362501578074
+      },
+      "srp": {
+        "preemptions": 187.875,
+        "schedule_ms_mean": 0.325791422784752,
+        "ttft_ms_mean": 8726.183313370473
+      }
+    },
+    {
+      "capacity": 1024,
+      "source": "conversation",
+      "cells": 6,
+      "improvement_pct": 43.546904312126664,
+      "wins": 6,
+      "arrival": {
+        "preemptions": 228.29166666666666,
+        "schedule_ms_mean": 0.6022890358360112,
+        "ttft_ms_mean": 7555.713016709044
+      },
+      "srp": {
+        "preemptions": 979.5833333333334,
+        "schedule_ms_mean": 0.272383759578442,
+        "ttft_ms_mean": 12842.749356084283
+      }
+    },
+    {
+      "capacity": 1536,
+      "source": "all",
+      "cells": 12,
+      "improvement_pct": 18.043153305296794,
+      "wins": 8,
+      "arrival": {
+        "preemptions": 51.041666666666664,
+        "schedule_ms_mean": 0.642226030914581,
+        "ttft_ms_mean": 6135.330626194889
+      },
+      "srp": {
+        "preemptions": 293.0416666666667,
+        "schedule_ms_mean": 0.3041580928198075,
+        "ttft_ms_mean": 7195.420413865188
+      }
+    },
+    {
+      "capacity": 1536,
+      "source": "code",
+      "cells": 6,
+      "improvement_pct": -4.368959172955178,
+      "wins": 2,
+      "arrival": {
+        "preemptions": 1.9583333333333333,
+        "schedule_ms_mean": 0.651002269960122,
+        "ttft_ms_mean": 6999.296615087046
+      },
+      "srp": {
+        "preemptions": 51.5,
+        "schedule_ms_mean": 0.32484344496896667,
+        "ttft_ms_mean": 6322.4956258144675
+      }
+    },
+    {
+      "capacity": 1536,
+      "source": "conversation",
+      "cells": 6,
+      "improvement_pct": 40.45526578354877,
+      "wins": 6,
+      "arrival": {
+        "preemptions": 100.125,
+        "schedule_ms_mean": 0.6334497918690399,
+        "ttft_ms_mean": 5271.364637302732
+      },
+      "srp": {
+        "preemptions": 534.5833333333334,
+        "schedule_ms_mean": 0.28347274067064837,
+        "ttft_ms_mean": 8068.345201915906
+      }
+    },
+    {
+      "capacity": 2048,
+      "source": "all",
+      "cells": 12,
+      "improvement_pct": 11.059321825645382,
+      "wins": 6,
+      "arrival": {
+        "preemptions": 26.645833333333332,
+        "schedule_ms_mean": 0.6711656549973205,
+        "ttft_ms_mean": 5607.598309026864
+      },
+      "srp": {
+        "preemptions": 199.08333333333334,
+        "schedule_ms_mean": 0.31012955624116784,
+        "ttft_ms_mean": 5979.32971196109
+      }
+    },
+    {
+      "capacity": 2048,
+      "source": "code",
+      "cells": 6,
+      "improvement_pct": -15.870075875673031,
+      "wins": 0,
+      "arrival": {
+        "preemptions": 0.75,
+        "schedule_ms_mean": 0.681413003209804,
+        "ttft_ms_mean": 6822.897776484362
+      },
+      "srp": {
+        "preemptions": 13.75,
+        "schedule_ms_mean": 0.32785176739957844,
+        "ttft_ms_mean": 5721.615713543456
+      }
+    },
+    {
+      "capacity": 2048,
+      "source": "conversation",
+      "cells": 6,
+      "improvement_pct": 37.9887195269638,
+      "wins": 6,
+      "arrival": {
+        "preemptions": 52.541666666666664,
+        "schedule_ms_mean": 0.6609183067848369,
+        "ttft_ms_mean": 4392.298841569364
+      },
+      "srp": {
+        "preemptions": 384.4166666666667,
+        "schedule_ms_mean": 0.2924073450827573,
+        "ttft_ms_mean": 6237.043710378722
+      }
+    },
+    {
+      "capacity": 3072,
+      "source": "all",
+      "cells": 12,
+      "improvement_pct": 2.1953536301774577,
+      "wins": 7,
+      "arrival": {
+        "preemptions": 6.666666666666667,
+        "schedule_ms_mean": 0.7309864816852946,
+        "ttft_ms_mean": 5227.072117147134
+      },
+      "srp": {
+        "preemptions": 81.29166666666667,
+        "schedule_ms_mean": 0.3129610141644062,
+        "ttft_ms_mean": 4902.713512269645
+      }
+    },
+    {
+      "capacity": 3072,
+      "source": "code",
+      "cells": 6,
+      "improvement_pct": -11.832356497373977,
+      "wins": 1,
+      "arrival": {
+        "preemptions": 0.0,
+        "schedule_ms_mean": 0.741825513254268,
+        "ttft_ms_mean": 6681.031179804818
+      },
+      "srp": {
+        "preemptions": 0.0,
+        "schedule_ms_mean": 0.3256446214845253,
+        "ttft_ms_mean": 5696.17601425647
+      }
+    },
+    {
+      "capacity": 3072,
+      "source": "conversation",
+      "cells": 6,
+      "improvement_pct": 16.22306375772889,
+      "wins": 6,
+      "arrival": {
+        "preemptions": 13.333333333333334,
+        "schedule_ms_mean": 0.7201474501163211,
+        "ttft_ms_mean": 3773.113054489451
+      },
+      "srp": {
+        "preemptions": 162.58333333333334,
+        "schedule_ms_mean": 0.30027740684428705,
+        "ttft_ms_mean": 4109.251010282822
+      }
+    },
+    {
+      "capacity": 4096,
+      "source": "all",
+      "cells": 12,
+      "improvement_pct": -4.122956805587998,
+      "wins": 5,
+      "arrival": {
+        "preemptions": 3.0625,
+        "schedule_ms_mean": 0.7726985247084844,
+        "ttft_ms_mean": 4797.949734945773
+      },
+      "srp": {
+        "preemptions": 29.1875,
+        "schedule_ms_mean": 0.31598780981980085,
+        "ttft_ms_mean": 4422.074043342859
+      }
+    },
+    {
+      "capacity": 4096,
+      "source": "code",
+      "cells": 6,
+      "improvement_pct": -9.11068018672259,
+      "wins": 0,
+      "arrival": {
+        "preemptions": 0.0,
+        "schedule_ms_mean": 0.7991402918137877,
+        "ttft_ms_mean": 6391.646766503441
+      },
+      "srp": {
+        "preemptions": 0.0,
+        "schedule_ms_mean": 0.33459730300845353,
+        "ttft_ms_mean": 5577.647557877819
+      }
+    },
+    {
+      "capacity": 4096,
+      "source": "conversation",
+      "cells": 6,
+      "improvement_pct": 0.8647665755465934,
+      "wins": 5,
+      "arrival": {
+        "preemptions": 6.125,
+        "schedule_ms_mean": 0.7462567576031814,
+        "ttft_ms_mean": 3204.2527033881056
+      },
+      "srp": {
+        "preemptions": 58.375,
+        "schedule_ms_mean": 0.29737831663114817,
+        "ttft_ms_mean": 3266.500528807899
+      }
+    },
+    {
+      "capacity": 5120,
+      "source": "all",
+      "cells": 12,
+      "improvement_pct": -3.661428433589785,
+      "wins": 2,
+      "arrival": {
+        "preemptions": 1.3333333333333333,
+        "schedule_ms_mean": 0.790028093899139,
+        "ttft_ms_mean": 4677.235358804474
+      },
+      "srp": {
+        "preemptions": 3.5833333333333335,
+        "schedule_ms_mean": 0.3132457056652023,
+        "ttft_ms_mean": 4369.827196536854
+      }
+    },
+    {
+      "capacity": 5120,
+      "source": "code",
+      "cells": 6,
+      "improvement_pct": -5.985190940961336,
+      "wins": 1,
+      "arrival": {
+        "preemptions": 0.0,
+        "schedule_ms_mean": 0.8188284805527192,
+        "ttft_ms_mean": 6268.918521425262
+      },
+      "srp": {
+        "preemptions": 0.0,
+        "schedule_ms_mean": 0.3272292976013194,
+        "ttft_ms_mean": 5696.060062542139
+      }
+    },
+    {
+      "capacity": 5120,
+      "source": "conversation",
+      "cells": 6,
+      "improvement_pct": -1.337665926218233,
+      "wins": 1,
+      "arrival": {
+        "preemptions": 2.6666666666666665,
+        "schedule_ms_mean": 0.7612277072455588,
+        "ttft_ms_mean": 3085.5521961836876
+      },
+      "srp": {
+        "preemptions": 7.166666666666667,
+        "schedule_ms_mean": 0.29926211372908523,
+        "ttft_ms_mean": 3043.59433053157
+      }
+    },
+    {
+      "capacity": 6144,
+      "source": "all",
+      "cells": 12,
+      "improvement_pct": -3.211198655218841,
+      "wins": 0,
+      "arrival": {
+        "preemptions": 0.0,
+        "schedule_ms_mean": 0.786696694524513,
+        "ttft_ms_mean": 4529.470462461696
+      },
+      "srp": {
+        "preemptions": 0.0,
+        "schedule_ms_mean": 0.31325165524571036,
+        "ttft_ms_mean": 4301.484494338324
+      }
+    },
+    {
+      "capacity": 6144,
+      "source": "code",
+      "cells": 6,
+      "improvement_pct": -4.41961590714065,
+      "wins": 0,
+      "arrival": {
+        "preemptions": 0.0,
+        "schedule_ms_mean": 0.8160782118197178,
+        "ttft_ms_mean": 6012.5434538654845
+      },
+      "srp": {
+        "preemptions": 0.0,
+        "schedule_ms_mean": 0.32862531579873694,
+        "ttft_ms_mean": 5609.414126785613
+      }
+    },
+    {
+      "capacity": 6144,
+      "source": "conversation",
+      "cells": 6,
+      "improvement_pct": -2.0027814032970324,
+      "wins": 0,
+      "arrival": {
+        "preemptions": 0.0,
+        "schedule_ms_mean": 0.7573151772293082,
+        "ttft_ms_mean": 3046.397471057909
+      },
+      "srp": {
+        "preemptions": 0.0,
+        "schedule_ms_mean": 0.2978779946926839,
+        "ttft_ms_mean": 2993.5548618910357
+      }
+    }
+  ],
+  "scope": "Accepted formal runs, chosen group A/A results and round files. No GPU rerun. G4 checked from archived runs.csv, not raw request files. Overhead attribution is observational."
+}

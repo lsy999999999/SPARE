@@ -1,0 +1,61 @@
+{
+  "model": "qwen3_8b",
+  "kv_blocks": 2048,
+  "arms": [
+    "arrival",
+    "srp",
+    "sarathi"
+  ],
+  "sources": {
+    "code": [
+      0.5,
+      1.0,
+      1.25,
+      1.5,
+      1.75,
+      2.0,
+      2.25,
+      2.5
+    ],
+    "conversation": [
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0
+    ]
+  },
+  "windows": [
+    "d1_w02",
+    "d1_w20",
+    "d2_w02",
+    "d2_w20"
+  ],
+  "slo": {
+    "mean_ttft_ms": 2000,
+    "p99_tbt_ms": 200,
+    "backlog_limit": "max(2, rate_qps)",
+    "arrivals_ms": [
+      0,
+      60000
+    ],
+    "observed_arrivals_ms": [
+      20000,
+      60000
+    ],
+    "backlog_ms": [
+      40000,
+      60000
+    ]
+  },
+  "comparison": "same sample, model, KV and common QPS grid for all policies",
+  "selection": "Qwen3-8B 2048 KV: Conversation predicted separation; Code tie control",
+  "gpu_existing": "artifacts/www_cross_model_20261021_r1/runs",
+  "timing_profile": "artifacts/www_cross_model_timing_20261022_r1/profiles/qwen3_8b.json"
+}

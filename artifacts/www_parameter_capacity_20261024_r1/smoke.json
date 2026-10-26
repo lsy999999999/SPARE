@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "parity": [
+    {
+      "source": "code",
+      "kv": 1024,
+      "sample": "code_d1_w00",
+      "parity": true
+    },
+    {
+      "source": "conversation",
+      "kv": 2048,
+      "sample": "conversation_d1_w00",
+      "parity": true
+    },
+    {
+      "source": "conversation",
+      "kv": 4096,
+      "sample": "conversation_d1_w00",
+      "parity": true
+    }
+  ],
+  "options": [
+    {
+      "arm": "spare",
+      "options": {},
+      "horizon": 1.0
+    },
+    {
+      "arm": "n0_4",
+      "options": {
+        "n0": 4
+      },
+      "horizon": 1.0
+    },
+    {
+      "arm": "n0_16",
+      "options": {
+        "n0": 16
+      },
+      "horizon": 1.0
+    },
+    {
+      "arm": "alpha64",
+      "options": {
+        "alpha": 64
+      },
+      "horizon": 1.0
+    },
+    {
+      "arm": "alpha256",
+      "options": {
+        "alpha": 256
+      },
+      "horizon": 1.0
+    },
+    {
+      "arm": "H05",
+      "options": {
+        "H": 0.5
+      },
+      "horizon": 0.5
+    },
+    {
+      "arm": "H2",
+      "options": {
+        "H": 2
+      },
+      "horizon": 2
+    },
+    {
+      "arm": "tau05",
+      "options": {
+        "tau": 0.5
+      },
+      "horizon": 1.0
+    },
+    {
+      "arm": "tau2",
+      "options": {
+        "tau": 2
+      },
+      "horizon": 1.0
+    }
+  ]
+}

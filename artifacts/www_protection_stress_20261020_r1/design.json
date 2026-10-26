@@ -1,0 +1,45 @@
+{
+  "capacity_blocks": 112,
+  "motif": [
+    {
+      "id": "m000:background_a",
+      "prompt": 400,
+      "output": 64,
+      "arrival_ms": 0.0
+    },
+    {
+      "id": "m000:background_b",
+      "prompt": 400,
+      "output": 64,
+      "arrival_ms": 0.0
+    },
+    {
+      "id": "m000:background_c",
+      "prompt": 400,
+      "output": 64,
+      "arrival_ms": 0.0
+    },
+    {
+      "id": "m000:target",
+      "prompt": 480,
+      "output": 16,
+      "arrival_ms": 0.0
+    },
+    {
+      "id": "m000:heavy_a",
+      "prompt": 1200,
+      "output": 64,
+      "arrival_ms": 65.0
+    },
+    {
+      "id": "m000:heavy_b",
+      "prompt": 1200,
+      "output": 64,
+      "arrival_ms": 65.0
+    }
+  ],
+  "fitted_timing_sha256": "e73a97338fe7beb9883b86e3bd46b7f44742e70026796262993858b351a44cc8",
+  "policy_sha256": "6a021a378dcc4513001030843d37d8df18ddb0f9eb0442a34cf913b5c8cc8366",
+  "runner_sha256": "97d441662ac775fe6582dd6d74a47e8a19487e4e1db38fa0cf0db40fc47fd3b4",
+  "simulator_only": true
+}

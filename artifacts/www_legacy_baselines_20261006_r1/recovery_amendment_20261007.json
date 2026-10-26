@@ -1,0 +1,12 @@
+{
+  "reason": "prior attempts interrupted by external GPU users; last A/A TTFT spread 21.15% exceeded unchanged 5% gate",
+  "additional_attempts": [
+    3,
+    4,
+    5
+  ],
+  "methods_changed": false,
+  "acceptance_changed": false,
+  "created": 1791302960.7712092,
+  "pid": 819344
+}

@@ -1,0 +1,101 @@
+{
+  "capacity_blocks": 112,
+  "control_capacity_blocks": 512,
+  "motif": [
+    {
+      "id": "m000:background_a",
+      "prompt": 400,
+      "output": 64,
+      "arrival_ms": 0.0
+    },
+    {
+      "id": "m000:background_b",
+      "prompt": 400,
+      "output": 64,
+      "arrival_ms": 0.0
+    },
+    {
+      "id": "m000:background_c",
+      "prompt": 400,
+      "output": 64,
+      "arrival_ms": 0.0
+    },
+    {
+      "id": "m000:target",
+      "prompt": 480,
+      "output": 16,
+      "arrival_ms": 0.0
+    },
+    {
+      "id": "m000:heavy_a",
+      "prompt": 1200,
+      "output": 64,
+      "arrival_ms": 65.0
+    },
+    {
+      "id": "m000:heavy_b",
+      "prompt": 1200,
+      "output": 64,
+      "arrival_ms": 65.0
+    }
+  ],
+  "background_prompts": [
+    384,
+    400,
+    416
+  ],
+  "micro_arms": {
+    "full": {},
+    "no_finish_guard": {
+      "protect_finish": false
+    },
+    "no_decode_guard": {
+      "protect_decode": false
+    },
+    "no_protection": {
+      "protect_finish": false,
+      "protect_decode": false
+    }
+  },
+  "capacity_arms": {
+    "full": {},
+    "no_finish_guard": {
+      "protect_finish": false
+    }
+  },
+  "rates_qps": [
+    0.8,
+    1.0,
+    1.1,
+    1.14,
+    1.16,
+    1.18,
+    1.2,
+    1.22,
+    1.24,
+    1.26,
+    1.28,
+    1.3,
+    1.32,
+    1.4
+  ],
+  "heavy_offset_ms": 65.0,
+  "horizon_ms": 300000.0,
+  "warm_ms": 100000.0,
+  "mid_ms": 200000.0,
+  "mean_ttft_limit_ms": 2000.0,
+  "theta_grid_ms": [
+    1000.0,
+    1500.0,
+    2000.0,
+    4000.0,
+    8000.0
+  ],
+  "p99_tbt_limit_ms": 200,
+  "backlog_limit": "max(2, offered_qps)",
+  "capacity_rule": "all valid; mean of 3 motif conditions meets all limits; ascending grid until first failure",
+  "fitted_timing_sha256": "e73a97338fe7beb9883b86e3bd46b7f44742e70026796262993858b351a44cc8",
+  "policy_sha256": "6a021a378dcc4513001030843d37d8df18ddb0f9eb0442a34cf913b5c8cc8366",
+  "runner_sha256": "83afad7f33e961576410266bb713c7f67fa43d9c9e575c9b76ad88d474efa113",
+  "simulator_only": true
+}

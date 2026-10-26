@@ -1,0 +1,26 @@
+{
+  "expected_points": 228,
+  "paired_points": 228,
+  "missing": [],
+  "point_decision_match": 214,
+  "bracket_reasons": {
+    "nonmonotonic": 19,
+    "closed": 5
+  },
+  "bracket_match": 3,
+  "gpu_closed_brackets": 5,
+  "ranking_pairs": 3,
+  "gpu_strict_pairs": 2,
+  "strict_direction_match": 2,
+  "false_spare_win": 1,
+  "false_spare_loss": 0,
+  "ties_both": 0,
+  "improvement_groups": 1,
+  "improvement_mae_pp": 12.5,
+  "improvement_bias_pp": 12.5,
+  "pooled_ranking_pairs": 6,
+  "pooled_gpu_strict_pairs": 0,
+  "pooled_strict_direction_match": 0,
+  "pooled_false_spare_win": 2,
+  "pooled_improvement_groups": 2
+}

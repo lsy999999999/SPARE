@@ -1,0 +1,55 @@
+{
+  "completed": 5600,
+  "expected": 5600,
+  "validation_runs": 1600,
+  "test_runs": 4000,
+  "verdicts": [
+    {
+      "source": "code",
+      "capacity": 768,
+      "spare_nondominated_budgets": [
+        256
+      ],
+      "default_dominated_by": "arrival:256;srp:256",
+      "baseline_points_covered": 16,
+      "baseline_points_total": 16,
+      "weighted_test_wins": 11
+    },
+    {
+      "source": "code",
+      "capacity": 4096,
+      "spare_nondominated_budgets": [
+        512,
+        1024
+      ],
+      "default_dominated_by": "",
+      "baseline_points_covered": 14,
+      "baseline_points_total": 16,
+      "weighted_test_wins": 11
+    },
+    {
+      "source": "conversation",
+      "capacity": 768,
+      "spare_nondominated_budgets": [
+        256
+      ],
+      "default_dominated_by": "arrival:256;arrival:512;srp:256",
+      "baseline_points_covered": 12,
+      "baseline_points_total": 16,
+      "weighted_test_wins": 8
+    },
+    {
+      "source": "conversation",
+      "capacity": 4096,
+      "spare_nondominated_budgets": [
+        512
+      ],
+      "default_dominated_by": "arrival:512;srp:512",
+      "baseline_points_covered": 15,
+      "baseline_points_total": 16,
+      "weighted_test_wins": 10
+    }
+  ],
+  "uncertainty": "Paired window bootstrap stratified by two fixed test dates; exploratory pointwise 95% intervals, no multiplicity adjustment.",
+  "performance_validated": false
+}

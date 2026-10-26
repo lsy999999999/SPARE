@@ -1,0 +1,56 @@
+{
+  "state": "complete",
+  "seed": 8057,
+  "selected_episode": 256,
+  "completed_cells": [
+    {
+      "source": "conversation",
+      "kv_blocks": 2048,
+      "arm": "spare",
+      "capacity_qps": 3.84
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2048,
+      "arm": "rl_standalone",
+      "capacity_qps": 3.97
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2048,
+      "arm": "spare",
+      "capacity_qps": 3.32
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2048,
+      "arm": "rl_standalone",
+      "capacity_qps": 3.06
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 4096,
+      "arm": "spare",
+      "capacity_qps": 4.98
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 4096,
+      "arm": "rl_standalone",
+      "capacity_qps": 4.68
+    },
+    {
+      "source": "code",
+      "kv_blocks": 4096,
+      "arm": "spare",
+      "capacity_qps": 3.53
+    },
+    {
+      "source": "code",
+      "kv_blocks": 4096,
+      "arm": "rl_standalone",
+      "capacity_qps": 3.06
+    }
+  ],
+  "completed_at": 1792406593.0295439
+}

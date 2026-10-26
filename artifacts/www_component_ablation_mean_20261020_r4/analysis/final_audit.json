@@ -1,0 +1,14 @@
+{
+  "capacity_groups": 84,
+  "capacity_points": 336,
+  "verified_boundary_endpoints": 672,
+  "capacity_window_records": 48480,
+  "reused_window_records_verified": 41040,
+  "new_window_simulations_this_run": 7440,
+  "behavioral_replays_vs_completed_capacity": 4968,
+  "behavioral_replays_without_matching_capacity_rate": 216,
+  "main_2qps_replays_verified": 1296,
+  "input_hashes_verified": true,
+  "frozen_policy_hash_verified": true,
+  "errors": []
+}

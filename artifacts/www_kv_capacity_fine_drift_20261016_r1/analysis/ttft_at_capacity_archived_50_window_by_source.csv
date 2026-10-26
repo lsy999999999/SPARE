@@ -1,0 +1,513 @@
+source,kv_blocks,arm,method,capacity_qps,mean_ttft_at_capacity_ms,measured_qps,ttft_available,windows
+code,672,arrival,SPARE,2.0,1772.7220239003873,2.0,True,50
+code,672,native,vLLM V1,1.0,2739.317947546195,1.0,True,50
+code,672,sarathi,Sarathi rule,1.0,2981.5481483353888,1.0,True,50
+code,672,sola_rule,SOLA rule,0.5,457.16830008322876,0.5,True,50
+code,672,uniboost_static,UniBoost rule,1.0,1954.0391661817514,1.0,True,50
+code,672,past_future,Past-Future rule,2.0,2994.7426813533452,2.0,True,50
+code,672,s3_proxy,S3 proxy,2.0,1604.7870694263413,2.0,True,50
+code,672,apt_serve_kv_rule,Apt-Serve rule,1.0,1263.397142651008,1.0,True,50
+code,768,arrival,SPARE,2.5,2190.709253394339,2.5,True,50
+code,768,native,vLLM V1,1.0,1390.21806469861,1.0,True,50
+code,768,sarathi,Sarathi rule,1.0,1433.2119093100785,1.0,True,50
+code,768,sola_rule,SOLA rule,0.75,654.9278044847229,0.75,True,50
+code,768,uniboost_static,UniBoost rule,1.0,1397.861624270521,1.0,True,50
+code,768,past_future,Past-Future rule,2.0,2157.6258047906467,2.0,True,50
+code,768,s3_proxy,S3 proxy,2.5,2861.7368998828874,2.5,True,50
+code,768,apt_serve_kv_rule,Apt-Serve rule,1.0,890.7530099288373,1.0,True,50
+code,896,arrival,SPARE,2.5,1805.0126645407443,2.5,True,50
+code,896,native,vLLM V1,1.0,801.1970009649159,1.0,True,50
+code,896,sarathi,Sarathi rule,1.5,3386.9893605354255,1.5,True,50
+code,896,sola_rule,SOLA rule,1.0,744.2604488084189,1.0,True,50
+code,896,uniboost_static,UniBoost rule,1.0,957.333496272016,1.0,True,50
+code,896,past_future,Past-Future rule,2.5,3682.3372867191088,2.5,True,50
+code,896,s3_proxy,S3 proxy,2.5,2296.206390400729,2.5,True,50
+code,896,apt_serve_kv_rule,Apt-Serve rule,1.5,1605.9385952782707,1.5,True,50
+code,1024,arrival,SPARE,3.0,2308.089590911011,3.0,True,50
+code,1024,native,vLLM V1,1.5,1327.638985743391,1.5,True,50
+code,1024,sarathi,Sarathi rule,1.5,1508.9711018726102,1.5,True,50
+code,1024,sola_rule,SOLA rule,1.0,561.4345016878759,1.0,True,50
+code,1024,uniboost_static,UniBoost rule,1.5,1843.6532704090982,1.5,True,50
+code,1024,past_future,Past-Future rule,2.5,2620.783485583182,2.5,True,50
+code,1024,s3_proxy,S3 proxy,2.5,1922.487888314287,2.5,True,50
+code,1024,apt_serve_kv_rule,Apt-Serve rule,1.5,1075.483835917411,1.5,True,50
+code,1280,arrival,SPARE,3.0,1889.9576913683863,3.0,True,50
+code,1280,native,vLLM V1,1.5,729.3099556412718,1.5,True,50
+code,1280,sarathi,Sarathi rule,1.5,742.7434114730112,1.5,True,50
+code,1280,sola_rule,SOLA rule,1.5,824.8721565305542,1.5,True,50
+code,1280,uniboost_static,UniBoost rule,2.0,2690.4851212632475,2.0,True,50
+code,1280,past_future,Past-Future rule,3.0,4034.3105723795825,3.0,True,50
+code,1280,s3_proxy,S3 proxy,3.0,2866.830492397011,3.0,True,50
+code,1280,apt_serve_kv_rule,Apt-Serve rule,2.0,1474.8846897859717,2.0,True,50
+code,1536,arrival,SPARE,3.0,1633.315569375036,3.0,True,50
+code,1536,native,vLLM V1,2.5,2660.7227871473274,2.5,True,50
+code,1536,sarathi,Sarathi rule,2.5,2908.8994626955555,2.5,True,50
+code,1536,sola_rule,SOLA rule,1.5,661.1164761149751,1.5,True,50
+code,1536,uniboost_static,UniBoost rule,2.0,1760.872720357989,2.0,True,50
+code,1536,past_future,Past-Future rule,3.0,2956.590128870398,3.0,True,50
+code,1536,s3_proxy,S3 proxy,3.0,2272.439756357993,3.0,True,50
+code,1536,apt_serve_kv_rule,Apt-Serve rule,2.5,1787.5131824379632,2.5,True,50
+code,1792,arrival,SPARE,3.0,1504.3813459920048,3.0,True,50
+code,1792,native,vLLM V1,3.0,3786.273371017775,3.0,True,50
+code,1792,sarathi,Sarathi rule,3.0,4124.685410264387,3.0,True,50
+code,1792,sola_rule,SOLA rule,2.0,935.891045347767,2.0,True,50
+code,1792,uniboost_static,UniBoost rule,2.0,1437.3746983109131,2.0,True,50
+code,1792,past_future,Past-Future rule,3.0,2357.9145437684706,3.0,True,50
+code,1792,s3_proxy,S3 proxy,3.0,2036.9570124229538,3.0,True,50
+code,1792,apt_serve_kv_rule,Apt-Serve rule,3.0,2330.2758870904086,3.0,True,50
+code,2048,arrival,SPARE,3.0,1408.5228412299784,3.0,True,50
+code,2048,native,vLLM V1,3.0,2669.9446921756003,3.0,True,50
+code,2048,sarathi,Sarathi rule,3.0,2787.155324027232,3.0,True,50
+code,2048,sola_rule,SOLA rule,2.0,821.4895380697152,2.0,True,50
+code,2048,uniboost_static,UniBoost rule,2.5,2350.813129744084,2.5,True,50
+code,2048,past_future,Past-Future rule,3.0,2000.286930032201,3.0,True,50
+code,2048,s3_proxy,S3 proxy,3.0,1893.340891294434,3.0,True,50
+code,2048,apt_serve_kv_rule,Apt-Serve rule,3.0,1904.626779312017,3.0,True,50
+code,2304,arrival,SPARE,3.0,1332.398756836924,3.0,True,50
+code,2304,native,vLLM V1,3.0,2097.8663148473856,3.0,True,50
+code,2304,sarathi,Sarathi rule,3.0,2153.3680417300425,3.0,True,50
+code,2304,sola_rule,SOLA rule,2.0,773.470193722606,2.0,True,50
+code,2304,uniboost_static,UniBoost rule,2.5,2200.850799534192,2.5,True,50
+code,2304,past_future,Past-Future rule,3.0,1788.9276085791416,3.0,True,50
+code,2304,s3_proxy,S3 proxy,3.0,1781.6274122280147,3.0,True,50
+code,2304,apt_serve_kv_rule,Apt-Serve rule,3.0,1558.2391094681163,3.0,True,50
+code,2560,arrival,SPARE,3.0,1281.1476128336685,3.0,True,50
+code,2560,native,vLLM V1,3.0,1830.0698686770002,3.0,True,50
+code,2560,sarathi,Sarathi rule,3.0,1860.3313632104785,3.0,True,50
+code,2560,sola_rule,SOLA rule,2.5,1093.0255489670933,2.5,True,50
+code,2560,uniboost_static,UniBoost rule,2.5,2061.1635124211084,2.5,True,50
+code,2560,past_future,Past-Future rule,3.0,1661.7229704020565,3.0,True,50
+code,2560,s3_proxy,S3 proxy,3.0,1829.8641693247891,3.0,True,50
+code,2560,apt_serve_kv_rule,Apt-Serve rule,3.0,1419.4538836464694,3.0,True,50
+code,2816,arrival,SPARE,3.0,1274.681941988333,3.0,True,50
+code,2816,native,vLLM V1,3.0,1635.0796601488516,3.0,True,50
+code,2816,sarathi,Sarathi rule,3.0,1652.8076276121874,3.0,True,50
+code,2816,sola_rule,SOLA rule,2.5,1019.1450431435707,2.5,True,50
+code,2816,uniboost_static,UniBoost rule,2.5,2027.289956338874,2.5,True,50
+code,2816,past_future,Past-Future rule,3.0,1579.5041004214231,3.0,True,50
+code,2816,s3_proxy,S3 proxy,3.0,1894.918312689009,3.0,True,50
+code,2816,apt_serve_kv_rule,Apt-Serve rule,3.0,1351.7548701006592,3.0,True,50
+code,3072,arrival,SPARE,3.0,1257.943392668112,3.0,True,50
+code,3072,native,vLLM V1,3.0,1549.4154763841373,3.0,True,50
+code,3072,sarathi,Sarathi rule,3.0,1553.0188472726056,3.0,True,50
+code,3072,sola_rule,SOLA rule,2.5,982.7713982020209,2.5,True,50
+code,3072,uniboost_static,UniBoost rule,2.5,2011.1681208503887,2.5,True,50
+code,3072,past_future,Past-Future rule,3.0,1512.8878556833868,3.0,True,50
+code,3072,s3_proxy,S3 proxy,3.0,1896.1366961304766,3.0,True,50
+code,3072,apt_serve_kv_rule,Apt-Serve rule,3.0,1310.910266279377,3.0,True,50
+code,3328,arrival,SPARE,3.0,1246.1822732507824,3.0,True,50
+code,3328,native,vLLM V1,3.0,1502.3261582408782,3.0,True,50
+code,3328,sarathi,Sarathi rule,3.0,1509.3486042197726,3.0,True,50
+code,3328,sola_rule,SOLA rule,2.5,978.4326861897005,2.5,True,50
+code,3328,uniboost_static,UniBoost rule,2.5,1997.0110771601883,2.5,True,50
+code,3328,past_future,Past-Future rule,3.0,1487.8830216248143,3.0,True,50
+code,3328,s3_proxy,S3 proxy,3.0,1920.060585477103,3.0,True,50
+code,3328,apt_serve_kv_rule,Apt-Serve rule,3.0,1290.3876633499187,3.0,True,50
+code,3584,arrival,SPARE,3.0,1246.0207621458408,3.0,True,50
+code,3584,native,vLLM V1,3.0,1490.0178664472253,3.0,True,50
+code,3584,sarathi,Sarathi rule,3.0,1483.5441214681425,3.0,True,50
+code,3584,sola_rule,SOLA rule,2.5,978.2963546371097,2.5,True,50
+code,3584,uniboost_static,UniBoost rule,2.5,1993.2981481995237,2.5,True,50
+code,3584,past_future,Past-Future rule,3.0,1471.8071744078063,3.0,True,50
+code,3584,s3_proxy,S3 proxy,3.0,1966.6295746565927,3.0,True,50
+code,3584,apt_serve_kv_rule,Apt-Serve rule,3.0,1282.5860030714553,3.0,True,50
+code,3840,arrival,SPARE,3.0,1240.2521465975387,3.0,True,50
+code,3840,native,vLLM V1,3.0,1474.668800324506,3.0,True,50
+code,3840,sarathi,Sarathi rule,3.0,1474.5617746831458,3.0,True,50
+code,3840,sola_rule,SOLA rule,2.5,975.8311675247232,2.5,True,50
+code,3840,uniboost_static,UniBoost rule,2.5,1990.0875916997504,2.5,True,50
+code,3840,past_future,Past-Future rule,3.0,1465.5587981362091,3.0,True,50
+code,3840,s3_proxy,S3 proxy,3.0,1997.4903177288982,3.0,True,50
+code,3840,apt_serve_kv_rule,Apt-Serve rule,3.0,1277.8327999119508,3.0,True,50
+code,4096,arrival,SPARE,3.0,1239.6787662674612,3.0,True,50
+code,4096,native,vLLM V1,3.0,1463.9363664183911,3.0,True,50
+code,4096,sarathi,Sarathi rule,3.0,1463.9363664183911,3.0,True,50
+code,4096,sola_rule,SOLA rule,2.5,975.8311675247232,2.5,True,50
+code,4096,uniboost_static,UniBoost rule,2.5,1990.4876310758732,2.5,True,50
+code,4096,past_future,Past-Future rule,3.0,1460.0231718528125,3.0,True,50
+code,4096,s3_proxy,S3 proxy,3.0,2001.2122097693232,3.0,True,50
+code,4096,apt_serve_kv_rule,Apt-Serve rule,3.0,1269.3711448236377,3.0,True,50
+code,4352,arrival,SPARE,3.0,1236.4954743518333,3.0,True,50
+code,4352,native,vLLM V1,3.0,1463.4323408406415,3.0,True,50
+code,4352,sarathi,Sarathi rule,3.0,1457.9641142043993,3.0,True,50
+code,4352,sola_rule,SOLA rule,2.5,975.8311675247232,2.5,True,50
+code,4352,uniboost_static,UniBoost rule,2.5,1990.4490031174075,2.5,True,50
+code,4352,past_future,Past-Future rule,3.0,1457.945224533267,3.0,True,50
+code,4352,s3_proxy,S3 proxy,3.0,2006.9560206713213,3.0,True,50
+code,4352,apt_serve_kv_rule,Apt-Serve rule,3.0,1265.2348421030192,3.0,True,50
+code,4608,arrival,SPARE,3.0,1234.9484040401774,3.0,True,50
+code,4608,native,vLLM V1,3.0,1453.1803835485841,3.0,True,50
+code,4608,sarathi,Sarathi rule,3.0,1453.1803835485841,3.0,True,50
+code,4608,sola_rule,SOLA rule,2.5,975.8311675247232,2.5,True,50
+code,4608,uniboost_static,UniBoost rule,2.5,1989.867508453688,2.5,True,50
+code,4608,past_future,Past-Future rule,3.0,1455.4105558072679,3.0,True,50
+code,4608,s3_proxy,S3 proxy,3.0,2004.3336283654717,3.0,True,50
+code,4608,apt_serve_kv_rule,Apt-Serve rule,3.0,1264.8332318218238,3.0,True,50
+code,4864,arrival,SPARE,3.0,1235.2092283340614,3.0,True,50
+code,4864,native,vLLM V1,3.0,1453.1803835485841,3.0,True,50
+code,4864,sarathi,Sarathi rule,3.0,1453.1803835485841,3.0,True,50
+code,4864,sola_rule,SOLA rule,2.5,975.8311675247232,2.5,True,50
+code,4864,uniboost_static,UniBoost rule,2.5,1989.5359712184695,2.5,True,50
+code,4864,past_future,Past-Future rule,3.0,1454.923078531277,3.0,True,50
+code,4864,s3_proxy,S3 proxy,3.0,2005.6213219990668,3.0,True,50
+code,4864,apt_serve_kv_rule,Apt-Serve rule,3.0,1264.8332318218238,3.0,True,50
+code,5120,arrival,SPARE,3.0,1236.2166695171961,3.0,True,50
+code,5120,native,vLLM V1,3.0,1453.1803835485841,3.0,True,50
+code,5120,sarathi,Sarathi rule,3.0,1453.1803835485841,3.0,True,50
+code,5120,sola_rule,SOLA rule,2.5,975.8311675247232,2.5,True,50
+code,5120,uniboost_static,UniBoost rule,2.5,1989.3482364752024,2.5,True,50
+code,5120,past_future,Past-Future rule,3.0,1453.4888447498734,3.0,True,50
+code,5120,s3_proxy,S3 proxy,3.0,2004.2576077579306,3.0,True,50
+code,5120,apt_serve_kv_rule,Apt-Serve rule,3.0,1264.8332318218238,3.0,True,50
+code,5376,arrival,SPARE,3.0,1234.992909032636,3.0,True,50
+code,5376,native,vLLM V1,3.0,1453.1803835485841,3.0,True,50
+code,5376,sarathi,Sarathi rule,3.0,1453.1803835485841,3.0,True,50
+code,5376,sola_rule,SOLA rule,2.5,975.8311675247232,2.5,True,50
+code,5376,uniboost_static,UniBoost rule,2.5,1989.3482364752024,2.5,True,50
+code,5376,past_future,Past-Future rule,3.0,1453.1803835485841,3.0,True,50
+code,5376,s3_proxy,S3 proxy,3.0,2002.1057871271564,3.0,True,50
+code,5376,apt_serve_kv_rule,Apt-Serve rule,3.0,1264.8332318218238,3.0,True,50
+code,5632,arrival,SPARE,4.0,2796.0217377583745,4.0,True,50
+code,5632,native,vLLM V1,3.0,1453.1803835485841,3.0,True,50
+code,5632,sarathi,Sarathi rule,3.0,1453.1803835485841,3.0,True,50
+code,5632,sola_rule,SOLA rule,2.5,975.8311675247232,2.5,True,50
+code,5632,uniboost_static,UniBoost rule,2.5,1989.3482364752024,2.5,True,50
+code,5632,past_future,Past-Future rule,3.0,1453.1803835485841,3.0,True,50
+code,5632,s3_proxy,S3 proxy,3.0,2002.9719929420066,3.0,True,50
+code,5632,apt_serve_kv_rule,Apt-Serve rule,3.0,1264.8332318218238,3.0,True,50
+code,5888,arrival,SPARE,4.0,2788.4388853282244,4.0,True,50
+code,5888,native,vLLM V1,3.0,1453.1803835485841,3.0,True,50
+code,5888,sarathi,Sarathi rule,3.0,1453.1803835485841,3.0,True,50
+code,5888,sola_rule,SOLA rule,2.5,975.8311675247232,2.5,True,50
+code,5888,uniboost_static,UniBoost rule,2.5,1989.3482364752024,2.5,True,50
+code,5888,past_future,Past-Future rule,3.0,1453.1803835485841,3.0,True,50
+code,5888,s3_proxy,S3 proxy,3.0,2003.175264158153,3.0,True,50
+code,5888,apt_serve_kv_rule,Apt-Serve rule,3.0,1264.8332318218238,3.0,True,50
+code,6144,arrival,SPARE,4.0,2788.020126481671,4.0,True,50
+code,6144,native,vLLM V1,3.0,1453.1803835485841,3.0,True,50
+code,6144,sarathi,Sarathi rule,3.0,1453.1803835485841,3.0,True,50
+code,6144,sola_rule,SOLA rule,2.5,975.8311675247232,2.5,True,50
+code,6144,uniboost_static,UniBoost rule,2.5,1989.3482364752024,2.5,True,50
+code,6144,past_future,Past-Future rule,3.0,1453.1803835485841,3.0,True,50
+code,6144,s3_proxy,S3 proxy,3.0,2003.175264158153,3.0,True,50
+code,6144,apt_serve_kv_rule,Apt-Serve rule,3.0,1264.8332318218238,3.0,True,50
+code,6400,arrival,SPARE,4.0,2786.2378522845324,4.0,True,50
+code,6400,native,vLLM V1,3.0,1453.1803835485841,3.0,True,50
+code,6400,sarathi,Sarathi rule,3.0,1453.1803835485841,3.0,True,50
+code,6400,sola_rule,SOLA rule,2.5,975.8311675247232,2.5,True,50
+code,6400,uniboost_static,UniBoost rule,2.5,1989.3482364752024,2.5,True,50
+code,6400,past_future,Past-Future rule,3.0,1453.1803835485841,3.0,True,50
+code,6400,s3_proxy,S3 proxy,3.0,2003.175264158153,3.0,True,50
+code,6400,apt_serve_kv_rule,Apt-Serve rule,3.0,1264.8332318218238,3.0,True,50
+code,6656,arrival,SPARE,4.0,2782.786249409528,4.0,True,50
+code,6656,native,vLLM V1,3.0,1453.1803835485841,3.0,True,50
+code,6656,sarathi,Sarathi rule,3.0,1453.1803835485841,3.0,True,50
+code,6656,sola_rule,SOLA rule,2.5,975.8311675247232,2.5,True,50
+code,6656,uniboost_static,UniBoost rule,2.5,1989.3482364752024,2.5,True,50
+code,6656,past_future,Past-Future rule,3.0,1453.1803835485841,3.0,True,50
+code,6656,s3_proxy,S3 proxy,3.0,2003.175264158153,3.0,True,50
+code,6656,apt_serve_kv_rule,Apt-Serve rule,3.0,1264.8332318218238,3.0,True,50
+code,6912,arrival,SPARE,4.0,2780.311562489506,4.0,True,50
+code,6912,native,vLLM V1,3.0,1453.1803835485841,3.0,True,50
+code,6912,sarathi,Sarathi rule,3.0,1453.1803835485841,3.0,True,50
+code,6912,sola_rule,SOLA rule,2.5,975.8311675247232,2.5,True,50
+code,6912,uniboost_static,UniBoost rule,2.5,1989.3482364752024,2.5,True,50
+code,6912,past_future,Past-Future rule,3.0,1453.1803835485841,3.0,True,50
+code,6912,s3_proxy,S3 proxy,3.0,2003.175264158153,3.0,True,50
+code,6912,apt_serve_kv_rule,Apt-Serve rule,3.0,1264.8332318218238,3.0,True,50
+code,7168,arrival,SPARE,4.0,2780.711759911752,4.0,True,50
+code,7168,native,vLLM V1,3.0,1453.1803835485841,3.0,True,50
+code,7168,sarathi,Sarathi rule,3.0,1453.1803835485841,3.0,True,50
+code,7168,sola_rule,SOLA rule,2.5,975.8311675247232,2.5,True,50
+code,7168,uniboost_static,UniBoost rule,2.5,1989.3482364752024,2.5,True,50
+code,7168,past_future,Past-Future rule,3.0,1453.1803835485841,3.0,True,50
+code,7168,s3_proxy,S3 proxy,3.0,2003.175264158153,3.0,True,50
+code,7168,apt_serve_kv_rule,Apt-Serve rule,3.0,1264.8332318218238,3.0,True,50
+code,7424,arrival,SPARE,4.0,2779.9793322464957,4.0,True,50
+code,7424,native,vLLM V1,3.0,1453.1803835485841,3.0,True,50
+code,7424,sarathi,Sarathi rule,3.0,1453.1803835485841,3.0,True,50
+code,7424,sola_rule,SOLA rule,2.5,975.8311675247232,2.5,True,50
+code,7424,uniboost_static,UniBoost rule,2.5,1989.3482364752024,2.5,True,50
+code,7424,past_future,Past-Future rule,3.0,1453.1803835485841,3.0,True,50
+code,7424,s3_proxy,S3 proxy,3.0,2003.175264158153,3.0,True,50
+code,7424,apt_serve_kv_rule,Apt-Serve rule,3.0,1264.8332318218238,3.0,True,50
+code,7680,arrival,SPARE,4.0,2779.665335914093,4.0,True,50
+code,7680,native,vLLM V1,3.0,1453.1803835485841,3.0,True,50
+code,7680,sarathi,Sarathi rule,3.0,1453.1803835485841,3.0,True,50
+code,7680,sola_rule,SOLA rule,2.5,975.8311675247232,2.5,True,50
+code,7680,uniboost_static,UniBoost rule,2.5,1989.3482364752024,2.5,True,50
+code,7680,past_future,Past-Future rule,3.0,1453.1803835485841,3.0,True,50
+code,7680,s3_proxy,S3 proxy,3.0,2003.175264158153,3.0,True,50
+code,7680,apt_serve_kv_rule,Apt-Serve rule,3.0,1264.8332318218238,3.0,True,50
+code,7936,arrival,SPARE,4.0,2779.5272513906534,4.0,True,50
+code,7936,native,vLLM V1,3.0,1453.1803835485841,3.0,True,50
+code,7936,sarathi,Sarathi rule,3.0,1453.1803835485841,3.0,True,50
+code,7936,sola_rule,SOLA rule,2.5,975.8311675247232,2.5,True,50
+code,7936,uniboost_static,UniBoost rule,2.5,1989.3482364752024,2.5,True,50
+code,7936,past_future,Past-Future rule,3.0,1453.1803835485841,3.0,True,50
+code,7936,s3_proxy,S3 proxy,3.0,2003.175264158153,3.0,True,50
+code,7936,apt_serve_kv_rule,Apt-Serve rule,3.0,1264.8332318218238,3.0,True,50
+code,8192,arrival,SPARE,4.0,2779.4384495293793,4.0,True,50
+code,8192,native,vLLM V1,3.0,1453.1803835485841,3.0,True,50
+code,8192,sarathi,Sarathi rule,3.0,1453.1803835485841,3.0,True,50
+code,8192,sola_rule,SOLA rule,2.5,975.8311675247232,2.5,True,50
+code,8192,uniboost_static,UniBoost rule,2.5,1989.3482364752024,2.5,True,50
+code,8192,past_future,Past-Future rule,3.0,1453.1803835485841,3.0,True,50
+code,8192,s3_proxy,S3 proxy,3.0,2003.175264158153,3.0,True,50
+code,8192,apt_serve_kv_rule,Apt-Serve rule,3.0,1264.8332318218238,3.0,True,50
+conversation,672,arrival,SPARE,1.0,1095.2684003141646,1.0,True,50
+conversation,672,native,vLLM V1,0.75,3099.320427852234,0.75,True,50
+conversation,672,sarathi,Sarathi rule,0.75,4246.713888665381,0.75,True,50
+conversation,672,sola_rule,SOLA rule,0.75,2666.0662759485404,0.75,True,50
+conversation,672,uniboost_static,UniBoost rule,0.75,1437.7959371004713,0.75,True,50
+conversation,672,past_future,Past-Future rule,1.0,845.5859356279901,1.0,True,50
+conversation,672,s3_proxy,S3 proxy,1.5,1719.6577843190184,1.5,True,50
+conversation,672,apt_serve_kv_rule,Apt-Serve rule,0.75,1041.6551307287602,0.75,True,50
+conversation,768,arrival,SPARE,1.5,1776.5511729089358,1.5,True,50
+conversation,768,native,vLLM V1,1.0,4157.963550365792,1.0,True,50
+conversation,768,sarathi,Sarathi rule,0.75,2202.2082480594613,0.75,True,50
+conversation,768,sola_rule,SOLA rule,0.75,1643.2304744714522,0.75,True,50
+conversation,768,uniboost_static,UniBoost rule,1.0,2303.3455118289053,1.0,True,50
+conversation,768,past_future,Past-Future rule,1.5,1917.0349361090398,1.5,True,50
+conversation,768,s3_proxy,S3 proxy,1.5,1179.9740209573852,1.5,True,50
+conversation,768,apt_serve_kv_rule,Apt-Serve rule,1.0,1370.2677106836625,1.0,True,50
+conversation,896,arrival,SPARE,1.5,1150.3807248890405,1.5,True,50
+conversation,896,native,vLLM V1,1.0,2588.070191237788,1.0,True,50
+conversation,896,sarathi,Sarathi rule,1.0,2811.0066196269527,1.0,True,50
+conversation,896,sola_rule,SOLA rule,1.0,1978.836744080639,1.0,True,50
+conversation,896,uniboost_static,UniBoost rule,1.0,1341.3734203340696,1.0,True,50
+conversation,896,past_future,Past-Future rule,1.5,1079.9113141548896,1.5,True,50
+conversation,896,s3_proxy,S3 proxy,2.0,1941.478586028399,2.0,True,50
+conversation,896,apt_serve_kv_rule,Apt-Serve rule,1.0,850.362508307946,1.0,True,50
+conversation,1024,arrival,SPARE,2.0,1689.9623832259272,2.0,True,50
+conversation,1024,native,vLLM V1,1.0,1507.3294100833477,1.0,True,50
+conversation,1024,sarathi,Sarathi rule,1.0,1670.7410222909384,1.0,True,50
+conversation,1024,sola_rule,SOLA rule,1.0,976.553825596384,1.0,True,50
+conversation,1024,uniboost_static,UniBoost rule,1.0,777.4539687225521,1.0,True,50
+conversation,1024,past_future,Past-Future rule,2.0,2169.0128412014355,2.0,True,50
+conversation,1024,s3_proxy,S3 proxy,2.0,1291.1573431042218,2.0,True,50
+conversation,1024,apt_serve_kv_rule,Apt-Serve rule,1.5,1878.5474941192513,1.5,True,50
+conversation,1280,arrival,SPARE,2.5,1712.6836156304114,2.5,True,50
+conversation,1280,native,vLLM V1,1.5,1993.5705135695541,1.5,True,50
+conversation,1280,sarathi,Sarathi rule,1.0,456.0813927347062,1.0,True,50
+conversation,1280,sola_rule,SOLA rule,1.5,1623.2866774792585,1.5,True,50
+conversation,1280,uniboost_static,UniBoost rule,1.5,1399.6750120785416,1.5,True,50
+conversation,1280,past_future,Past-Future rule,2.5,2700.550768049056,2.5,True,50
+conversation,1280,s3_proxy,S3 proxy,2.5,1639.9501460580962,2.5,True,50
+conversation,1280,apt_serve_kv_rule,Apt-Serve rule,1.5,792.4611660820996,1.5,True,50
+conversation,1536,arrival,SPARE,3.0,1817.534515678842,3.0,True,50
+conversation,1536,native,vLLM V1,1.5,1105.7144749507147,1.5,True,50
+conversation,1536,sarathi,Sarathi rule,1.5,1172.792615777033,1.5,True,50
+conversation,1536,sola_rule,SOLA rule,2.0,2501.6553322275954,2.0,True,50
+conversation,1536,uniboost_static,UniBoost rule,1.5,900.2315940775875,1.5,True,50
+conversation,1536,past_future,Past-Future rule,2.5,1554.0407566194876,2.5,True,50
+conversation,1536,s3_proxy,S3 proxy,3.0,2330.780207621888,3.0,True,50
+conversation,1536,apt_serve_kv_rule,Apt-Serve rule,2.0,1254.9413299093808,2.0,True,50
+conversation,1792,arrival,SPARE,3.0,1301.5699753538513,3.0,True,50
+conversation,1792,native,vLLM V1,2.0,1775.9625824198533,2.0,True,50
+conversation,1792,sarathi,Sarathi rule,2.0,2483.096889845344,2.0,True,50
+conversation,1792,sola_rule,SOLA rule,2.0,1432.7353543261345,2.0,True,50
+conversation,1792,uniboost_static,UniBoost rule,2.0,1400.9187803512,2.0,True,50
+conversation,1792,past_future,Past-Future rule,3.0,2448.794862747261,3.0,True,50
+conversation,1792,s3_proxy,S3 proxy,3.0,1622.3048836693686,3.0,True,50
+conversation,1792,apt_serve_kv_rule,Apt-Serve rule,2.5,1939.0845861138525,2.5,True,50
+conversation,2048,arrival,SPARE,3.0,955.7417920522923,3.0,True,50
+conversation,2048,native,vLLM V1,2.0,1125.2367124693528,2.0,True,50
+conversation,2048,sarathi,Sarathi rule,2.0,1421.6813292031643,2.0,True,50
+conversation,2048,sola_rule,SOLA rule,2.0,942.5934499195814,2.0,True,50
+conversation,2048,uniboost_static,UniBoost rule,2.0,1103.362860117013,2.0,True,50
+conversation,2048,past_future,Past-Future rule,3.0,1708.323563841104,3.0,True,50
+conversation,2048,s3_proxy,S3 proxy,3.0,1250.7927390093084,3.0,True,50
+conversation,2048,apt_serve_kv_rule,Apt-Serve rule,2.5,1392.5190605532857,2.5,True,50
+conversation,2304,arrival,SPARE,4.0,1806.5675058718668,4.0,True,50
+conversation,2304,native,vLLM V1,2.0,596.0277035036194,2.0,True,50
+conversation,2304,sarathi,Sarathi rule,2.0,654.4856033274806,2.0,True,50
+conversation,2304,sola_rule,SOLA rule,2.5,1684.2567524646352,2.5,True,50
+conversation,2304,uniboost_static,UniBoost rule,2.5,1960.4923277522598,2.5,True,50
+conversation,2304,past_future,Past-Future rule,3.0,1269.9859360061555,3.0,True,50
+conversation,2304,s3_proxy,S3 proxy,3.0,985.8805412562963,3.0,True,50
+conversation,2304,apt_serve_kv_rule,Apt-Serve rule,2.5,1034.113504089088,2.5,True,50
+conversation,2560,arrival,SPARE,4.0,1556.0065813380124,4.0,True,50
+conversation,2560,native,vLLM V1,2.5,1514.254890218931,2.5,True,50
+conversation,2560,sarathi,Sarathi rule,2.0,476.36377419257803,2.0,True,50
+conversation,2560,sola_rule,SOLA rule,2.5,1136.069359849355,2.5,True,50
+conversation,2560,uniboost_static,UniBoost rule,2.5,1554.0227826650425,2.5,True,50
+conversation,2560,past_future,Past-Future rule,3.0,969.564796234071,3.0,True,50
+conversation,2560,s3_proxy,S3 proxy,4.0,3207.786925311203,4.0,True,50
+conversation,2560,apt_serve_kv_rule,Apt-Serve rule,3.0,1581.3796239241374,3.0,True,50
+conversation,2816,arrival,SPARE,4.0,1336.918837932871,4.0,True,50
+conversation,2816,native,vLLM V1,2.5,858.0323986240394,2.5,True,50
+conversation,2816,sarathi,Sarathi rule,2.5,960.1915910409905,2.5,True,50
+conversation,2816,sola_rule,SOLA rule,2.5,772.7506474935902,2.5,True,50
+conversation,2816,uniboost_static,UniBoost rule,2.5,1312.7814249508767,2.5,True,50
+conversation,2816,past_future,Past-Future rule,3.0,797.9361716090131,3.0,True,50
+conversation,2816,s3_proxy,S3 proxy,4.0,2774.7600770339286,4.0,True,50
+conversation,2816,apt_serve_kv_rule,Apt-Serve rule,3.0,1322.7136027711606,3.0,True,50
+conversation,3072,arrival,SPARE,4.0,1209.5878605977427,4.0,True,50
+conversation,3072,native,vLLM V1,3.0,1830.7637669331202,3.0,True,50
+conversation,3072,sarathi,Sarathi rule,3.0,2045.4268751708244,3.0,True,50
+conversation,3072,sola_rule,SOLA rule,3.0,1604.207074935338,3.0,True,50
+conversation,3072,uniboost_static,UniBoost rule,3.0,2169.208856110129,3.0,True,50
+conversation,3072,past_future,Past-Future rule,3.0,664.2901526635376,3.0,True,50
+conversation,3072,s3_proxy,S3 proxy,4.0,2279.387394772556,4.0,True,50
+conversation,3072,apt_serve_kv_rule,Apt-Serve rule,3.0,1021.928485869301,3.0,True,50
+conversation,3328,arrival,SPARE,4.0,1091.993413321142,4.0,True,50
+conversation,3328,native,vLLM V1,3.0,1334.3526654666007,3.0,True,50
+conversation,3328,sarathi,Sarathi rule,3.0,1447.127648814578,3.0,True,50
+conversation,3328,sola_rule,SOLA rule,3.0,1209.3298366781235,3.0,True,50
+conversation,3328,uniboost_static,UniBoost rule,3.0,1765.698160591742,3.0,True,50
+conversation,3328,past_future,Past-Future rule,4.0,2578.0904328750735,4.0,True,50
+conversation,3328,s3_proxy,S3 proxy,4.0,1927.161771061896,4.0,True,50
+conversation,3328,apt_serve_kv_rule,Apt-Serve rule,3.0,837.138873629763,3.0,True,50
+conversation,3584,arrival,SPARE,4.0,1018.2380126223037,4.0,True,50
+conversation,3584,native,vLLM V1,3.0,1120.8136346208248,3.0,True,50
+conversation,3584,sarathi,Sarathi rule,3.0,1224.72031826709,3.0,True,50
+conversation,3584,sola_rule,SOLA rule,3.0,999.172203350567,3.0,True,50
+conversation,3584,uniboost_static,UniBoost rule,3.0,1561.179773278452,3.0,True,50
+conversation,3584,past_future,Past-Future rule,4.0,2208.7717606004267,4.0,True,50
+conversation,3584,s3_proxy,S3 proxy,4.0,1671.8292973694718,4.0,True,50
+conversation,3584,apt_serve_kv_rule,Apt-Serve rule,3.0,754.7533508366837,3.0,True,50
+conversation,3840,arrival,SPARE,5.0,2124.337259678927,5.0,True,50
+conversation,3840,native,vLLM V1,3.0,781.5880916783914,3.0,True,50
+conversation,3840,sarathi,Sarathi rule,3.0,821.5711994211716,3.0,True,50
+conversation,3840,sola_rule,SOLA rule,3.0,777.5312915931379,3.0,True,50
+conversation,3840,uniboost_static,UniBoost rule,3.0,1347.7811108355652,3.0,True,50
+conversation,3840,past_future,Past-Future rule,4.0,1961.9304585884943,4.0,True,50
+conversation,3840,s3_proxy,S3 proxy,4.0,1547.7329766003886,4.0,True,50
+conversation,3840,apt_serve_kv_rule,Apt-Serve rule,4.0,1988.923589633707,4.0,True,50
+conversation,4096,arrival,SPARE,5.0,2015.1035437330488,5.0,True,50
+conversation,4096,native,vLLM V1,3.0,672.6578086010658,3.0,True,50
+conversation,4096,sarathi,Sarathi rule,3.0,726.5150422425163,3.0,True,50
+conversation,4096,sola_rule,SOLA rule,3.0,664.5505971583028,3.0,True,50
+conversation,4096,uniboost_static,UniBoost rule,3.0,1258.1063152334268,3.0,True,50
+conversation,4096,past_future,Past-Future rule,4.0,1734.1482630835003,4.0,True,50
+conversation,4096,s3_proxy,S3 proxy,4.0,1496.4262817079145,4.0,True,50
+conversation,4096,apt_serve_kv_rule,Apt-Serve rule,4.0,1670.095195264176,4.0,True,50
+conversation,4352,arrival,SPARE,5.0,1971.3214969396886,5.0,True,50
+conversation,4352,native,vLLM V1,3.0,610.1336612188558,3.0,True,50
+conversation,4352,sarathi,Sarathi rule,3.0,638.545106293261,3.0,True,50
+conversation,4352,sola_rule,SOLA rule,3.0,578.6654540400347,3.0,True,50
+conversation,4352,uniboost_static,UniBoost rule,3.0,1156.9541395558447,3.0,True,50
+conversation,4352,past_future,Past-Future rule,4.0,1578.0961693960207,4.0,True,50
+conversation,4352,s3_proxy,S3 proxy,4.0,1363.8788148984522,4.0,True,50
+conversation,4352,apt_serve_kv_rule,Apt-Serve rule,4.0,1429.518257899073,4.0,True,50
+conversation,4608,arrival,SPARE,5.0,1905.418628856293,5.0,True,50
+conversation,4608,native,vLLM V1,3.0,518.2312245314189,3.0,True,50
+conversation,4608,sarathi,Sarathi rule,3.0,521.3715486551048,3.0,True,50
+conversation,4608,sola_rule,SOLA rule,3.0,517.8697676316501,3.0,True,50
+conversation,4608,uniboost_static,UniBoost rule,3.0,1064.8134822997083,3.0,True,50
+conversation,4608,past_future,Past-Future rule,4.0,1436.8085663036131,4.0,True,50
+conversation,4608,s3_proxy,S3 proxy,4.0,1317.7852867027186,4.0,True,50
+conversation,4608,apt_serve_kv_rule,Apt-Serve rule,4.0,1228.1415854677882,4.0,True,50
+conversation,4864,arrival,SPARE,5.0,1912.4616514340735,5.0,True,50
+conversation,4864,native,vLLM V1,3.0,483.83402661995615,3.0,True,50
+conversation,4864,sarathi,Sarathi rule,3.0,484.0862100214415,3.0,True,50
+conversation,4864,sola_rule,SOLA rule,4.0,1877.3671276035489,4.0,True,50
+conversation,4864,uniboost_static,UniBoost rule,3.0,999.0439020077763,3.0,True,50
+conversation,4864,past_future,Past-Future rule,4.0,1309.2359616614065,4.0,True,50
+conversation,4864,s3_proxy,S3 proxy,4.0,1206.2909464450534,4.0,True,50
+conversation,4864,apt_serve_kv_rule,Apt-Serve rule,4.0,1091.1945980701282,4.0,True,50
+conversation,5120,arrival,SPARE,5.0,1921.2506388206093,5.0,True,50
+conversation,5120,native,vLLM V1,4.0,1699.8158668652804,4.0,True,50
+conversation,5120,sarathi,Sarathi rule,4.0,1781.5380664829825,4.0,True,50
+conversation,5120,sola_rule,SOLA rule,4.0,1619.8883621867824,4.0,True,50
+conversation,5120,uniboost_static,UniBoost rule,3.0,962.583250530583,3.0,True,50
+conversation,5120,past_future,Past-Future rule,4.0,1201.1707433222473,4.0,True,50
+conversation,5120,s3_proxy,S3 proxy,4.0,1191.8225302342626,4.0,True,50
+conversation,5120,apt_serve_kv_rule,Apt-Serve rule,4.0,976.8615444010093,4.0,True,50
+conversation,5376,arrival,SPARE,5.0,1898.9767782720419,5.0,True,50
+conversation,5376,native,vLLM V1,4.0,1399.7764465906885,4.0,True,50
+conversation,5376,sarathi,Sarathi rule,4.0,1439.9781610358013,4.0,True,50
+conversation,5376,sola_rule,SOLA rule,4.0,1390.0520611996167,4.0,True,50
+conversation,5376,uniboost_static,UniBoost rule,4.0,2133.290177146793,4.0,True,50
+conversation,5376,past_future,Past-Future rule,4.0,1148.2914304321175,4.0,True,50
+conversation,5376,s3_proxy,S3 proxy,4.0,1266.7337121064324,4.0,True,50
+conversation,5376,apt_serve_kv_rule,Apt-Serve rule,4.0,903.9453482518425,4.0,True,50
+conversation,5632,arrival,SPARE,5.0,1889.3776951529,5.0,True,50
+conversation,5632,native,vLLM V1,4.0,1245.7552460851202,4.0,True,50
+conversation,5632,sarathi,Sarathi rule,4.0,1262.8910831073806,4.0,True,50
+conversation,5632,sola_rule,SOLA rule,4.0,1264.1608764197679,4.0,True,50
+conversation,5632,uniboost_static,UniBoost rule,4.0,2106.7563649605327,4.0,True,50
+conversation,5632,past_future,Past-Future rule,4.0,1111.1189971564313,4.0,True,50
+conversation,5632,s3_proxy,S3 proxy,4.0,1302.6320666571298,4.0,True,50
+conversation,5632,apt_serve_kv_rule,Apt-Serve rule,4.0,867.1482253817338,4.0,True,50
+conversation,5888,arrival,SPARE,5.0,1892.550254960932,5.0,True,50
+conversation,5888,native,vLLM V1,4.0,1145.4253234595653,4.0,True,50
+conversation,5888,sarathi,Sarathi rule,4.0,1147.6665266765012,4.0,True,50
+conversation,5888,sola_rule,SOLA rule,4.0,1187.8640220457896,4.0,True,50
+conversation,5888,uniboost_static,UniBoost rule,4.0,2094.7962752494745,4.0,True,50
+conversation,5888,past_future,Past-Future rule,4.0,1095.4795364273334,4.0,True,50
+conversation,5888,s3_proxy,S3 proxy,4.0,1503.387605033183,4.0,True,50
+conversation,5888,apt_serve_kv_rule,Apt-Serve rule,4.0,853.3791858038654,4.0,True,50
+conversation,6144,arrival,SPARE,5.0,1894.673889516589,5.0,True,50
+conversation,6144,native,vLLM V1,4.0,1112.4399250693373,4.0,True,50
+conversation,6144,sarathi,Sarathi rule,4.0,1117.626943634604,4.0,True,50
+conversation,6144,sola_rule,SOLA rule,4.0,1156.1931029937891,4.0,True,50
+conversation,6144,uniboost_static,UniBoost rule,4.0,2084.236690537234,4.0,True,50
+conversation,6144,past_future,Past-Future rule,4.0,1093.6255965943326,4.0,True,50
+conversation,6144,s3_proxy,S3 proxy,4.0,1536.2671546979484,4.0,True,50
+conversation,6144,apt_serve_kv_rule,Apt-Serve rule,4.0,849.2194652725469,4.0,True,50
+conversation,6400,arrival,SPARE,5.0,1886.7975498711605,5.0,True,50
+conversation,6400,native,vLLM V1,4.0,1099.4146008268203,4.0,True,50
+conversation,6400,sarathi,Sarathi rule,4.0,1100.2976461469218,4.0,True,50
+conversation,6400,sola_rule,SOLA rule,4.0,1146.432929159386,4.0,True,50
+conversation,6400,uniboost_static,UniBoost rule,4.0,2078.7906113983204,4.0,True,50
+conversation,6400,past_future,Past-Future rule,4.0,1089.080238134851,4.0,True,50
+conversation,6400,s3_proxy,S3 proxy,4.0,1654.4365228270708,4.0,True,50
+conversation,6400,apt_serve_kv_rule,Apt-Serve rule,4.0,844.1682137033791,4.0,True,50
+conversation,6656,arrival,SPARE,5.0,1883.2423585423642,5.0,True,50
+conversation,6656,native,vLLM V1,4.0,1084.911378603514,4.0,True,50
+conversation,6656,sarathi,Sarathi rule,4.0,1084.911378603514,4.0,True,50
+conversation,6656,sola_rule,SOLA rule,4.0,1136.3301145652533,4.0,True,50
+conversation,6656,uniboost_static,UniBoost rule,4.0,2076.266434944653,4.0,True,50
+conversation,6656,past_future,Past-Future rule,4.0,1085.2666925793012,4.0,True,50
+conversation,6656,s3_proxy,S3 proxy,4.0,1703.8216881895146,4.0,True,50
+conversation,6656,apt_serve_kv_rule,Apt-Serve rule,4.0,846.8580406386998,4.0,True,50
+conversation,6912,arrival,SPARE,4.0,799.7266557367159,4.0,True,50
+conversation,6912,native,vLLM V1,4.0,1084.911378603514,4.0,True,50
+conversation,6912,sarathi,Sarathi rule,4.0,1084.911378603514,4.0,True,50
+conversation,6912,sola_rule,SOLA rule,4.0,1136.3301145652533,4.0,True,50
+conversation,6912,uniboost_static,UniBoost rule,4.0,2075.1008599178763,4.0,True,50
+conversation,6912,past_future,Past-Future rule,4.0,1084.911378603514,4.0,True,50
+conversation,6912,s3_proxy,S3 proxy,4.0,1729.2399052319636,4.0,True,50
+conversation,6912,apt_serve_kv_rule,Apt-Serve rule,4.0,843.6316421701517,4.0,True,50
+conversation,7168,arrival,SPARE,4.0,800.8848263334736,4.0,True,50
+conversation,7168,native,vLLM V1,4.0,1084.911378603514,4.0,True,50
+conversation,7168,sarathi,Sarathi rule,4.0,1084.911378603514,4.0,True,50
+conversation,7168,sola_rule,SOLA rule,4.0,1136.3301145652533,4.0,True,50
+conversation,7168,uniboost_static,UniBoost rule,4.0,2074.1240940626953,4.0,True,50
+conversation,7168,past_future,Past-Future rule,4.0,1084.911378603514,4.0,True,50
+conversation,7168,s3_proxy,S3 proxy,4.0,1766.5250106125975,4.0,True,50
+conversation,7168,apt_serve_kv_rule,Apt-Serve rule,4.0,843.6316421701517,4.0,True,50
+conversation,7424,arrival,SPARE,4.0,800.8848263334736,4.0,True,50
+conversation,7424,native,vLLM V1,4.0,1084.911378603514,4.0,True,50
+conversation,7424,sarathi,Sarathi rule,4.0,1084.911378603514,4.0,True,50
+conversation,7424,sola_rule,SOLA rule,4.0,1136.3301145652533,4.0,True,50
+conversation,7424,uniboost_static,UniBoost rule,4.0,2073.845406602664,4.0,True,50
+conversation,7424,past_future,Past-Future rule,4.0,1084.911378603514,4.0,True,50
+conversation,7424,s3_proxy,S3 proxy,4.0,1767.2720220976664,4.0,True,50
+conversation,7424,apt_serve_kv_rule,Apt-Serve rule,4.0,843.6316421701517,4.0,True,50
+conversation,7680,arrival,SPARE,4.0,800.8848263334736,4.0,True,50
+conversation,7680,native,vLLM V1,4.0,1084.911378603514,4.0,True,50
+conversation,7680,sarathi,Sarathi rule,4.0,1084.911378603514,4.0,True,50
+conversation,7680,sola_rule,SOLA rule,4.0,1136.3301145652533,4.0,True,50
+conversation,7680,uniboost_static,UniBoost rule,4.0,2073.8323463028587,4.0,True,50
+conversation,7680,past_future,Past-Future rule,4.0,1084.911378603514,4.0,True,50
+conversation,7680,s3_proxy,S3 proxy,4.0,1767.2720220976664,4.0,True,50
+conversation,7680,apt_serve_kv_rule,Apt-Serve rule,4.0,843.6316421701517,4.0,True,50
+conversation,7936,arrival,SPARE,4.0,800.8848263334736,4.0,True,50
+conversation,7936,native,vLLM V1,4.0,1084.911378603514,4.0,True,50
+conversation,7936,sarathi,Sarathi rule,4.0,1084.911378603514,4.0,True,50
+conversation,7936,sola_rule,SOLA rule,4.0,1136.3301145652533,4.0,True,50
+conversation,7936,uniboost_static,UniBoost rule,4.0,2073.8323463028587,4.0,True,50
+conversation,7936,past_future,Past-Future rule,4.0,1084.911378603514,4.0,True,50
+conversation,7936,s3_proxy,S3 proxy,4.0,1767.2720220976664,4.0,True,50
+conversation,7936,apt_serve_kv_rule,Apt-Serve rule,4.0,843.6316421701517,4.0,True,50
+conversation,8192,arrival,SPARE,4.0,800.8848263334736,4.0,True,50
+conversation,8192,native,vLLM V1,4.0,1084.911378603514,4.0,True,50
+conversation,8192,sarathi,Sarathi rule,4.0,1084.911378603514,4.0,True,50
+conversation,8192,sola_rule,SOLA rule,4.0,1136.3301145652533,4.0,True,50
+conversation,8192,uniboost_static,UniBoost rule,4.0,2073.8323463028587,4.0,True,50
+conversation,8192,past_future,Past-Future rule,4.0,1084.911378603514,4.0,True,50
+conversation,8192,s3_proxy,S3 proxy,4.0,1767.2720220976664,4.0,True,50
+conversation,8192,apt_serve_kv_rule,Apt-Serve rule,4.0,843.6316421701517,4.0,True,50

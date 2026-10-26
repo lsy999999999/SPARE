@@ -1,0 +1,60 @@
+{
+  "background_prompts": [
+    384,
+    400,
+    416
+  ],
+  "heavy_prompts": [
+    1200,
+    1400,
+    1600
+  ],
+  "heavy_counts": [
+    1,
+    2
+  ],
+  "rates_qps": {
+    "1": [
+      0.6,
+      0.8,
+      1.0,
+      1.1,
+      1.1666666666666667,
+      1.2,
+      1.2166666666666666,
+      1.2333333333333334,
+      1.3,
+      1.4,
+      1.5,
+      1.6,
+      1.7,
+      1.8,
+      2.0,
+      2.2
+    ],
+    "2": [
+      0.6,
+      0.8,
+      1.0,
+      1.1,
+      1.16,
+      1.2,
+      1.22,
+      1.24,
+      1.3,
+      1.4,
+      1.5
+    ]
+  },
+  "arms": [
+    "full",
+    "no_finish_guard"
+  ],
+  "capacity_blocks": 112,
+  "heavy_offset_ms": 65.0,
+  "horizon_ms": 300000.0,
+  "warm_ms": 100000.0,
+  "motif": "three background, one target, one or two heavy requests",
+  "qps": "exact request count / 300 s",
+  "simulator_only": true
+}

@@ -1,0 +1,1081 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "source": "code",
+      "name": "code_d1_w02",
+      "day": "2024-05-13",
+      "capacity": 1024,
+      "arm": "spare",
+      "budget": 1024,
+      "rate": 2.0,
+      "valid": true,
+      "measured_requests": 63,
+      "mean_ttft_ms": 481.4250341174002,
+      "p95_ttft_ms": 1408.3432920415366,
+      "p99_tbt_ms": 81.92049263278321,
+      "pending_mid": 0,
+      "pending_end": 2,
+      "backlog_drift": 2,
+      "completed_by_end": 105,
+      "arrivals_by_end": 107,
+      "preemptions": 0,
+      "recomputed_tokens": 0,
+      "trajectory_sha256": "a09bcd293aa3553509012ee670be8e93174dcf906ca117fcc5b8bedde4c0ec38",
+      "counters": {
+        "rounds": 962,
+        "preemptions": 0,
+        "recomputed_tokens": 0,
+        "free_blocks_sum": 758355,
+        "executed_tokens": 157388,
+        "pending_prefill_tokens_sum": 1274725,
+        "feasible_base_rounds": 962,
+        "finish_eligible_rounds": 62,
+        "finish_eligible_instances": 64,
+        "finish_conflict_rounds": 0,
+        "finish_conflict_instances": 0,
+        "decode_eligible_rounds": 766,
+        "decode_eligible_instances": 1212,
+        "decode_conflict_rounds": 0,
+        "decode_conflict_instances": 0,
+        "intervention_rounds": 0,
+        "deferred_tokens": 0,
+        "deferred_request_rounds": 0,
+        "saved_blocks": 0,
+        "candidate1_evaluations": 962,
+        "candidate1_acceptance_eligible": 0,
+        "candidate1_guard_rejections": 2,
+        "candidate2_evaluations": 962,
+        "candidate2_acceptance_eligible": 0,
+        "candidate2_guard_rejections": 0,
+        "candidate3_evaluations": 962,
+        "candidate3_acceptance_eligible": 0,
+        "candidate3_guard_rejections": 53,
+        "candidate4_evaluations": 962,
+        "candidate4_acceptance_eligible": 0,
+        "candidate4_guard_rejections": 53,
+        "finish_potential_rounds": 0,
+        "decode_potential_rounds": 0,
+        "selected_base_rounds": 962,
+        "finish_toggle_changed_rounds": 0,
+        "decode_toggle_changed_rounds": 0
+      },
+      "events": [],
+      "request_prompt_mean": 2422.1111111111113,
+      "request_output_mean": 15.412698412698413,
+      "parity_sources": [
+        "artifacts/www_component_ablation_mean_20261020_r4/rates/code_c1024_spare_r2.json"
+      ]
+    },
+    {
+      "source": "code",
+      "name": "code_d1_w02",
+      "day": "2024-05-13",
+      "capacity": 1024,
+      "arm": "no_savings_condition",
+      "budget": 1024,
+      "rate": 2.0,
+      "valid": true,
+      "measured_requests": 63,
+      "mean_ttft_ms": 430.56269287646455,
+      "p95_ttft_ms": 1167.2670249832902,
+      "p99_tbt_ms": 33.791453278893236,
+      "pending_mid": 0,
+      "pending_end": 2,
+      "backlog_drift": 2,
+      "completed_by_end": 105,
+      "arrivals_by_end": 107,
+      "preemptions": 0,
+      "recomputed_tokens": 0,
+      "trajectory_sha256": "eae8c7181402333f78fbd859f0460cab301a4b44ca380ac6ca0c78d24d756f5d",
+      "counters": {
+        "rounds": 1080,
+        "preemptions": 0,
+        "recomputed_tokens": 0,
+        "free_blocks_sum": 876681,
+        "executed_tokens": 156654,
+        "pending_prefill_tokens_sum": 1862401,
+        "feasible_base_rounds": 1080,
+        "finish_eligible_rounds": 64,
+        "finish_eligible_instances": 64,
+        "finish_conflict_rounds": 0,
+        "finish_conflict_instances": 0,
+        "decode_eligible_rounds": 825,
+        "decode_eligible_instances": 1230,
+        "decode_conflict_rounds": 0,
+        "decode_conflict_instances": 0,
+        "intervention_rounds": 434,
+        "deferred_tokens": 56405,
+        "deferred_request_rounds": 567,
+        "saved_blocks": 3504,
+        "candidate1_evaluations": 1080,
+        "candidate1_acceptance_eligible": 481,
+        "candidate1_guard_rejections": 1,
+        "candidate2_evaluations": 1080,
+        "candidate2_acceptance_eligible": 481,
+        "candidate2_guard_rejections": 0,
+        "candidate3_evaluations": 1080,
+        "candidate3_acceptance_eligible": 481,
+        "candidate3_guard_rejections": 49,
+        "candidate4_evaluations": 1080,
+        "candidate4_acceptance_eligible": 481,
+        "candidate4_guard_rejections": 49,
+        "finish_potential_rounds": 38,
+        "decode_potential_rounds": 0,
+        "selected_candidate1_rounds": 480,
+        "selected_positive_saving_rounds": 197,
+        "selected_zero_saving_rounds": 284,
+        "selected_negative_saving_rounds": 0,
+        "selected_below_dynamic_threshold_rounds": 481,
+        "selected_noop_rounds": 47,
+        "finish_toggle_changed_rounds": 1,
+        "decode_toggle_changed_rounds": 0,
+        "selected_base_rounds": 599,
+        "selected_candidate2_rounds": 1
+      },
+      "events": [
+        {
+          "at_ms": 20031.9029380195,
+          "kind": "nonpositive_saving_accepted",
+          "selected_candidate": 1,
+          "saving_blocks": 0,
+          "unused_dynamic_threshold": 183,
+          "selected_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:43": 255
+          },
+          "baseline_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:43": 256
+          }
+        },
+        {
+          "at_ms": 20065.34005334625,
+          "kind": "nonpositive_saving_accepted",
+          "selected_candidate": 1,
+          "saving_blocks": 0,
+          "unused_dynamic_threshold": 188,
+          "selected_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:43": 255
+          },
+          "baseline_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:43": 256
+          }
+        },
+        {
+          "at_ms": 20099.019074760487,
+          "kind": "nonpositive_saving_accepted",
+          "selected_candidate": 1,
+          "saving_blocks": 0,
+          "unused_dynamic_threshold": 194,
+          "selected_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:43": 255
+          },
+          "baseline_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:43": 256
+          }
+        },
+        {
+          "at_ms": 20132.940002262203,
+          "kind": "nonpositive_saving_accepted",
+          "selected_candidate": 1,
+          "saving_blocks": 0,
+          "unused_dynamic_threshold": 200,
+          "selected_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:43": 255
+          },
+          "baseline_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:43": 256
+          }
+        },
+        {
+          "at_ms": 20167.102835851398,
+          "kind": "nonpositive_saving_accepted",
+          "selected_candidate": 1,
+          "saving_blocks": 0,
+          "unused_dynamic_threshold": 208,
+          "selected_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:43": 255
+          },
+          "baseline_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:43": 256
+          }
+        },
+        {
+          "at_ms": 20201.507575528074,
+          "kind": "nonpositive_saving_accepted",
+          "selected_candidate": 1,
+          "saving_blocks": 0,
+          "unused_dynamic_threshold": 216,
+          "selected_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:43": 255
+          },
+          "baseline_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:43": 256
+          }
+        },
+        {
+          "at_ms": 20236.154221292232,
+          "kind": "nonpositive_saving_accepted",
+          "selected_candidate": 1,
+          "saving_blocks": 0,
+          "unused_dynamic_threshold": 225,
+          "selected_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:43": 255
+          },
+          "baseline_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:43": 256
+          }
+        },
+        {
+          "at_ms": 20271.04277314387,
+          "kind": "nonpositive_saving_accepted",
+          "selected_candidate": 1,
+          "saving_blocks": 0,
+          "unused_dynamic_threshold": 235,
+          "selected_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:43": 255
+          },
+          "baseline_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:43": 256
+          }
+        }
+      ],
+      "request_prompt_mean": 2422.1111111111113,
+      "request_output_mean": 15.412698412698413,
+      "parity_sources": []
+    },
+    {
+      "source": "code",
+      "name": "code_d1_w02",
+      "day": "2024-05-13",
+      "capacity": 1024,
+      "arm": "constant1",
+      "budget": 1024,
+      "rate": 2.0,
+      "valid": true,
+      "measured_requests": 63,
+      "mean_ttft_ms": 593.8528632761027,
+      "p95_ttft_ms": 1604.7324956571958,
+      "p99_tbt_ms": 33.23599393022632,
+      "pending_mid": 0,
+      "pending_end": 3,
+      "backlog_drift": 3,
+      "completed_by_end": 104,
+      "arrivals_by_end": 107,
+      "preemptions": 0,
+      "recomputed_tokens": 0,
+      "trajectory_sha256": "5f720eef6c763d6f13cd5e6335aafd94c5af5a057614cc7fad1e5ea342e03f53",
+      "counters": {
+        "rounds": 1163,
+        "preemptions": 0,
+        "recomputed_tokens": 0,
+        "free_blocks_sum": 933276,
+        "executed_tokens": 156981,
+        "pending_prefill_tokens_sum": 3255612,
+        "feasible_base_rounds": 1163,
+        "finish_eligible_rounds": 63,
+        "finish_eligible_instances": 63,
+        "finish_conflict_rounds": 0,
+        "finish_conflict_instances": 0,
+        "decode_eligible_rounds": 879,
+        "decode_eligible_instances": 1224,
+        "decode_conflict_rounds": 0,
+        "decode_conflict_instances": 0,
+        "intervention_rounds": 761,
+        "deferred_tokens": 186129,
+        "deferred_request_rounds": 1048,
+        "saved_blocks": 11618,
+        "candidate1_evaluations": 1163,
+        "candidate1_acceptance_eligible": 303,
+        "candidate1_guard_rejections": 2,
+        "candidate2_evaluations": 1163,
+        "candidate2_acceptance_eligible": 85,
+        "candidate2_guard_rejections": 0,
+        "candidate3_evaluations": 1163,
+        "candidate3_acceptance_eligible": 768,
+        "candidate3_guard_rejections": 50,
+        "candidate4_evaluations": 1163,
+        "candidate4_acceptance_eligible": 768,
+        "candidate4_guard_rejections": 50,
+        "finish_potential_rounds": 36,
+        "decode_potential_rounds": 0,
+        "selected_candidate3_rounds": 460,
+        "selected_positive_saving_rounds": 761,
+        "selected_zero_saving_rounds": 0,
+        "selected_negative_saving_rounds": 0,
+        "selected_below_dynamic_threshold_rounds": 0,
+        "selected_noop_rounds": 0,
+        "finish_toggle_changed_rounds": 7,
+        "decode_toggle_changed_rounds": 0,
+        "selected_candidate1_rounds": 301,
+        "selected_base_rounds": 402
+      },
+      "events": [
+        {
+          "at_ms": 26939.058193954956,
+          "kind": "finish",
+          "selected_candidate": 0,
+          "alternate_candidate": 3,
+          "threshold": 1,
+          "free_blocks": 688,
+          "base_growth": 13,
+          "selected_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:52": 1,
+            "code_d1_w02:56": 195
+          },
+          "alternate_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:52": 1,
+            "code_d1_w02:56": 64
+          },
+          "finish_quotas": {
+            "code_d1_w02:56": 195
+          },
+          "decode_quotas": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:52": 1
+          }
+        },
+        {
+          "at_ms": 28297.513917511493,
+          "kind": "finish",
+          "selected_candidate": 0,
+          "alternate_candidate": 3,
+          "threshold": 1,
+          "free_blocks": 807,
+          "base_growth": 15,
+          "selected_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:57": 1,
+            "code_d1_w02:58": 230
+          },
+          "alternate_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:57": 1,
+            "code_d1_w02:58": 64
+          },
+          "finish_quotas": {
+            "code_d1_w02:58": 230
+          },
+          "decode_quotas": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:57": 1
+          }
+        },
+        {
+          "at_ms": 28584.57610598488,
+          "kind": "finish",
+          "selected_candidate": 0,
+          "alternate_candidate": 3,
+          "threshold": 1,
+          "free_blocks": 935,
+          "base_growth": 7,
+          "selected_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:59": 108
+          },
+          "alternate_tokens": {
+            "code_d1_w02:40": 1,
+            "code_d1_w02:59": 64
+          },
+          "finish_quotas": {
+            "code_d1_w02:59": 108
+          },
+          "decode_quotas": {
+            "code_d1_w02:40": 1
+          }
+        },
+        {
+          "at_ms": 41744.805546961026,
+          "kind": "finish",
+          "selected_candidate": 0,
+          "alternate_candidate": 1,
+          "threshold": 1,
+          "free_blocks": 860,
+          "base_growth": 23,
+          "selected_tokens": {
+            "code_d1_w02:70": 1,
+            "code_d1_w02:72": 256,
+            "code_d1_w02:73": 108
+          },
+          "alternate_tokens": {
+            "code_d1_w02:70": 1,
+            "code_d1_w02:72": 255
+          },
+          "finish_quotas": {
+            "code_d1_w02:73": 108
+          },
+          "decode_quotas": {
+            "code_d1_w02:70": 1
+          }
+        },
+        {
+          "at_ms": 41907.08163635815,
+          "kind": "finish",
+          "selected_candidate": 0,
+          "alternate_candidate": 3,
+          "threshold": 1,
+          "free_blocks": 820,
+          "base_growth": 13,
+          "selected_tokens": {
+            "code_d1_w02:70": 1,
+            "code_d1_w02:72": 204
+          },
+          "alternate_tokens": {
+            "code_d1_w02:70": 1,
+            "code_d1_w02:72": 64
+          },
+          "finish_quotas": {
+            "code_d1_w02:72": 204
+          },
+          "decode_quotas": {
+            "code_d1_w02:70": 1
+          }
+        },
+        {
+          "at_ms": 48042.562182371206,
+          "kind": "finish",
+          "selected_candidate": 0,
+          "alternate_candidate": 1,
+          "threshold": 1,
+          "free_blocks": 671,
+          "base_growth": 23,
+          "selected_tokens": {
+            "code_d1_w02:80": 256,
+            "code_d1_w02:81": 108
+          },
+          "alternate_tokens": {
+            "code_d1_w02:80": 256
+          },
+          "finish_quotas": {
+            "code_d1_w02:81": 108
+          },
+          "decode_quotas": {}
+        },
+        {
+          "at_ms": 55755.44632625876,
+          "kind": "finish",
+          "selected_candidate": 0,
+          "alternate_candidate": 3,
+          "threshold": 1,
+          "free_blocks": 726,
+          "base_growth": 15,
+          "selected_tokens": {
+            "code_d1_w02:94": 1,
+            "code_d1_w02:96": 1,
+            "code_d1_w02:98": 234
+          },
+          "alternate_tokens": {
+            "code_d1_w02:94": 1,
+            "code_d1_w02:96": 1,
+            "code_d1_w02:98": 64
+          },
+          "finish_quotas": {
+            "code_d1_w02:98": 234
+          },
+          "decode_quotas": {
+            "code_d1_w02:94": 1,
+            "code_d1_w02:96": 1
+          }
+        }
+      ],
+      "request_prompt_mean": 2422.1111111111113,
+      "request_output_mean": 15.412698412698413,
+      "parity_sources": [
+        "artifacts/www_component_ablation_mean_20261020_r4/rates/code_c1024_constant1_r2.json"
+      ]
+    },
+    {
+      "source": "conversation",
+      "name": "conversation_d1_w02",
+      "day": "2024-05-15",
+      "capacity": 2048,
+      "arm": "spare",
+      "budget": 1024,
+      "rate": 2.0,
+      "valid": true,
+      "measured_requests": 92,
+      "mean_ttft_ms": 221.44253920877134,
+      "p95_ttft_ms": 511.7564169099116,
+      "p99_tbt_ms": 61.36808486794959,
+      "pending_mid": 4,
+      "pending_end": 3,
+      "backlog_drift": -1,
+      "completed_by_end": 129,
+      "arrivals_by_end": 132,
+      "preemptions": 0,
+      "recomputed_tokens": 0,
+      "trajectory_sha256": "7958034b4d42b3a232967d8c17fabf1d14980af589f4704c2c763c0098a546ca",
+      "counters": {
+        "rounds": 1828,
+        "preemptions": 0,
+        "recomputed_tokens": 0,
+        "free_blocks_sum": 3026002,
+        "executed_tokens": 112529,
+        "pending_prefill_tokens_sum": 465784,
+        "feasible_base_rounds": 1828,
+        "finish_eligible_rounds": 89,
+        "finish_eligible_instances": 93,
+        "finish_conflict_rounds": 0,
+        "finish_conflict_instances": 0,
+        "decode_eligible_rounds": 1794,
+        "decode_eligible_instances": 5558,
+        "decode_conflict_rounds": 0,
+        "decode_conflict_instances": 0,
+        "intervention_rounds": 0,
+        "deferred_tokens": 0,
+        "deferred_request_rounds": 0,
+        "saved_blocks": 0,
+        "candidate1_evaluations": 1828,
+        "candidate1_acceptance_eligible": 0,
+        "candidate1_guard_rejections": 3,
+        "candidate2_evaluations": 1828,
+        "candidate2_acceptance_eligible": 0,
+        "candidate2_guard_rejections": 1,
+        "candidate3_evaluations": 1828,
+        "candidate3_acceptance_eligible": 0,
+        "candidate3_guard_rejections": 56,
+        "candidate4_evaluations": 1828,
+        "candidate4_acceptance_eligible": 0,
+        "candidate4_guard_rejections": 56,
+        "finish_potential_rounds": 0,
+        "decode_potential_rounds": 0,
+        "selected_base_rounds": 1828,
+        "finish_toggle_changed_rounds": 0,
+        "decode_toggle_changed_rounds": 0
+      },
+      "events": [],
+      "request_prompt_mean": 1150.3260869565217,
+      "request_output_mean": 61.59782608695652,
+      "parity_sources": [
+        "artifacts/www_component_ablation_mean_20261020_r4/rates/conversation_c2048_spare_r2.json"
+      ]
+    },
+    {
+      "source": "conversation",
+      "name": "conversation_d1_w02",
+      "day": "2024-05-15",
+      "capacity": 2048,
+      "arm": "no_savings_condition",
+      "budget": 1024,
+      "rate": 2.0,
+      "valid": true,
+      "measured_requests": 92,
+      "mean_ttft_ms": 190.1906788658003,
+      "p95_ttft_ms": 428.2507631660177,
+      "p99_tbt_ms": 33.41870211252535,
+      "pending_mid": 4,
+      "pending_end": 3,
+      "backlog_drift": -1,
+      "completed_by_end": 129,
+      "arrivals_by_end": 132,
+      "preemptions": 0,
+      "recomputed_tokens": 0,
+      "trajectory_sha256": "7388ccf4353b93c4819e1e71a23cff7f92abdf6abbdbed71cfd6e22da8c8e783",
+      "counters": {
+        "rounds": 1968,
+        "preemptions": 0,
+        "recomputed_tokens": 0,
+        "free_blocks_sum": 3308008,
+        "executed_tokens": 112563,
+        "pending_prefill_tokens_sum": 557267,
+        "feasible_base_rounds": 1968,
+        "finish_eligible_rounds": 93,
+        "finish_eligible_instances": 93,
+        "finish_conflict_rounds": 0,
+        "finish_conflict_instances": 0,
+        "decode_eligible_rounds": 1934,
+        "decode_eligible_instances": 5592,
+        "decode_conflict_rounds": 0,
+        "decode_conflict_instances": 0,
+        "intervention_rounds": 358,
+        "deferred_tokens": 21257,
+        "deferred_request_rounds": 423,
+        "saved_blocks": 1293,
+        "candidate1_evaluations": 1968,
+        "candidate1_acceptance_eligible": 641,
+        "candidate1_guard_rejections": 2,
+        "candidate2_evaluations": 1968,
+        "candidate2_acceptance_eligible": 641,
+        "candidate2_guard_rejections": 0,
+        "candidate3_evaluations": 1968,
+        "candidate3_acceptance_eligible": 641,
+        "candidate3_guard_rejections": 67,
+        "candidate4_evaluations": 1968,
+        "candidate4_acceptance_eligible": 641,
+        "candidate4_guard_rejections": 67,
+        "finish_potential_rounds": 63,
+        "decode_potential_rounds": 0,
+        "selected_base_rounds": 1327,
+        "finish_toggle_changed_rounds": 2,
+        "decode_toggle_changed_rounds": 0,
+        "selected_candidate1_rounds": 639,
+        "selected_positive_saving_rounds": 121,
+        "selected_zero_saving_rounds": 520,
+        "selected_negative_saving_rounds": 0,
+        "selected_below_dynamic_threshold_rounds": 641,
+        "selected_noop_rounds": 283,
+        "selected_candidate2_rounds": 2
+      },
+      "events": [
+        {
+          "at_ms": 21300.587024186647,
+          "kind": "nonpositive_saving_accepted",
+          "selected_candidate": 1,
+          "saving_blocks": 0,
+          "unused_dynamic_threshold": 608,
+          "selected_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:40": 255
+          },
+          "baseline_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:40": 256
+          }
+        },
+        {
+          "at_ms": 21330.50075363908,
+          "kind": "nonpositive_saving_accepted",
+          "selected_candidate": 1,
+          "saving_blocks": 0,
+          "unused_dynamic_threshold": 639,
+          "selected_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:40": 255
+          },
+          "baseline_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:40": 256
+          }
+        },
+        {
+          "at_ms": 21642.4811659728,
+          "kind": "nonpositive_saving_accepted",
+          "selected_candidate": 1,
+          "saving_blocks": 0,
+          "unused_dynamic_threshold": 632,
+          "selected_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:40": 1,
+            "conversation_d1_w02:41": 254
+          },
+          "baseline_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:40": 1,
+            "conversation_d1_w02:41": 256
+          }
+        },
+        {
+          "at_ms": 21672.902297837478,
+          "kind": "nonpositive_saving_accepted",
+          "selected_candidate": 1,
+          "saving_blocks": 0,
+          "unused_dynamic_threshold": 670,
+          "selected_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:40": 1,
+            "conversation_d1_w02:41": 254
+          },
+          "baseline_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:40": 1,
+            "conversation_d1_w02:41": 256
+          }
+        },
+        {
+          "at_ms": 21703.563617384272,
+          "kind": "nonpositive_saving_accepted",
+          "selected_candidate": 1,
+          "saving_blocks": 0,
+          "unused_dynamic_threshold": 787,
+          "selected_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:41": 255
+          },
+          "baseline_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:41": 256
+          }
+        },
+        {
+          "at_ms": 21734.003833689705,
+          "kind": "nonpositive_saving_accepted",
+          "selected_candidate": 1,
+          "saving_blocks": 0,
+          "unused_dynamic_threshold": 844,
+          "selected_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:41": 255
+          },
+          "baseline_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:41": 256
+          }
+        },
+        {
+          "at_ms": 21764.68595608262,
+          "kind": "nonpositive_saving_accepted",
+          "selected_candidate": 1,
+          "saving_blocks": 0,
+          "unused_dynamic_threshold": 910,
+          "selected_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:41": 255
+          },
+          "baseline_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:41": 256
+          }
+        },
+        {
+          "at_ms": 21887.706019818517,
+          "kind": "nonpositive_saving_accepted",
+          "selected_candidate": 1,
+          "saving_blocks": 0,
+          "unused_dynamic_threshold": 872,
+          "selected_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:41": 1,
+            "conversation_d1_w02:43": 1,
+            "conversation_d1_w02:42": 253
+          },
+          "baseline_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:41": 1,
+            "conversation_d1_w02:43": 1,
+            "conversation_d1_w02:42": 256
+          }
+        }
+      ],
+      "request_prompt_mean": 1150.3260869565217,
+      "request_output_mean": 61.59782608695652,
+      "parity_sources": []
+    },
+    {
+      "source": "conversation",
+      "name": "conversation_d1_w02",
+      "day": "2024-05-15",
+      "capacity": 2048,
+      "arm": "constant1",
+      "budget": 1024,
+      "rate": 2.0,
+      "valid": true,
+      "measured_requests": 92,
+      "mean_ttft_ms": 316.3953699412259,
+      "p95_ttft_ms": 764.9642778740807,
+      "p99_tbt_ms": 33.31881522601907,
+      "pending_mid": 4,
+      "pending_end": 3,
+      "backlog_drift": -1,
+      "completed_by_end": 129,
+      "arrivals_by_end": 132,
+      "preemptions": 0,
+      "recomputed_tokens": 0,
+      "trajectory_sha256": "d5dadcc070df5db13884209c46c058a8376ee76b00a67b4e3f7081fabfc850b2",
+      "counters": {
+        "rounds": 2004,
+        "preemptions": 0,
+        "recomputed_tokens": 0,
+        "free_blocks_sum": 3362440,
+        "executed_tokens": 112540,
+        "pending_prefill_tokens_sum": 1314649,
+        "feasible_base_rounds": 2004,
+        "finish_eligible_rounds": 93,
+        "finish_eligible_instances": 93,
+        "finish_conflict_rounds": 0,
+        "finish_conflict_instances": 0,
+        "decode_eligible_rounds": 1970,
+        "decode_eligible_instances": 5569,
+        "decode_conflict_rounds": 0,
+        "decode_conflict_instances": 0,
+        "intervention_rounds": 834,
+        "deferred_tokens": 173382,
+        "deferred_request_rounds": 1001,
+        "saved_blocks": 10811,
+        "candidate1_evaluations": 2004,
+        "candidate1_acceptance_eligible": 186,
+        "candidate1_guard_rejections": 6,
+        "candidate2_evaluations": 2004,
+        "candidate2_acceptance_eligible": 35,
+        "candidate2_guard_rejections": 0,
+        "candidate3_evaluations": 2004,
+        "candidate3_acceptance_eligible": 878,
+        "candidate3_guard_rejections": 75,
+        "candidate4_evaluations": 2004,
+        "candidate4_acceptance_eligible": 878,
+        "candidate4_guard_rejections": 75,
+        "finish_potential_rounds": 71,
+        "decode_potential_rounds": 0,
+        "selected_base_rounds": 1170,
+        "finish_toggle_changed_rounds": 45,
+        "decode_toggle_changed_rounds": 0,
+        "selected_candidate3_rounds": 650,
+        "selected_positive_saving_rounds": 834,
+        "selected_zero_saving_rounds": 0,
+        "selected_negative_saving_rounds": 0,
+        "selected_below_dynamic_threshold_rounds": 0,
+        "selected_noop_rounds": 0,
+        "selected_candidate1_rounds": 183,
+        "selected_candidate2_rounds": 1
+      },
+      "events": [
+        {
+          "at_ms": 22025.508691259893,
+          "kind": "finish",
+          "selected_candidate": 0,
+          "alternate_candidate": 3,
+          "threshold": 1,
+          "free_blocks": 1717,
+          "base_growth": 16,
+          "selected_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:41": 1,
+            "conversation_d1_w02:43": 1,
+            "conversation_d1_w02:42": 254
+          },
+          "alternate_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:41": 1,
+            "conversation_d1_w02:43": 1,
+            "conversation_d1_w02:42": 64
+          },
+          "finish_quotas": {
+            "conversation_d1_w02:42": 254
+          },
+          "decode_quotas": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:41": 1,
+            "conversation_d1_w02:43": 1
+          }
+        },
+        {
+          "at_ms": 22601.2466574657,
+          "kind": "finish",
+          "selected_candidate": 0,
+          "alternate_candidate": 3,
+          "threshold": 1,
+          "free_blocks": 1613,
+          "base_growth": 12,
+          "selected_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:43": 1,
+            "conversation_d1_w02:42": 1,
+            "conversation_d1_w02:44": 1,
+            "conversation_d1_w02:46": 1,
+            "conversation_d1_w02:45": 193
+          },
+          "alternate_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:43": 1,
+            "conversation_d1_w02:42": 1,
+            "conversation_d1_w02:44": 1,
+            "conversation_d1_w02:46": 1,
+            "conversation_d1_w02:45": 64
+          },
+          "finish_quotas": {
+            "conversation_d1_w02:45": 193
+          },
+          "decode_quotas": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:43": 1,
+            "conversation_d1_w02:42": 1,
+            "conversation_d1_w02:44": 1,
+            "conversation_d1_w02:46": 1
+          }
+        },
+        {
+          "at_ms": 23746.20813391005,
+          "kind": "finish",
+          "selected_candidate": 0,
+          "alternate_candidate": 3,
+          "threshold": 1,
+          "free_blocks": 1670,
+          "base_growth": 7,
+          "selected_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:47": 1,
+            "conversation_d1_w02:48": 1,
+            "conversation_d1_w02:49": 1,
+            "conversation_d1_w02:50": 100
+          },
+          "alternate_tokens": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:47": 1,
+            "conversation_d1_w02:48": 1,
+            "conversation_d1_w02:49": 1,
+            "conversation_d1_w02:50": 64
+          },
+          "finish_quotas": {
+            "conversation_d1_w02:50": 100
+          },
+          "decode_quotas": {
+            "conversation_d1_w02:39": 1,
+            "conversation_d1_w02:47": 1,
+            "conversation_d1_w02:48": 1,
+            "conversation_d1_w02:49": 1
+          }
+        },
+        {
+          "at_ms": 24597.368793316404,
+          "kind": "finish",
+          "selected_candidate": 0,
+          "alternate_candidate": 3,
+          "threshold": 1,
+          "free_blocks": 1772,
+          "base_growth": 14,
+          "selected_tokens": {
+            "conversation_d1_w02:48": 1,
+            "conversation_d1_w02:49": 1,
+            "conversation_d1_w02:50": 1,
+            "conversation_d1_w02:51": 1,
+            "conversation_d1_w02:52": 215
+          },
+          "alternate_tokens": {
+            "conversation_d1_w02:48": 1,
+            "conversation_d1_w02:49": 1,
+            "conversation_d1_w02:50": 1,
+            "conversation_d1_w02:51": 1,
+            "conversation_d1_w02:52": 64
+          },
+          "finish_quotas": {
+            "conversation_d1_w02:52": 215
+          },
+          "decode_quotas": {
+            "conversation_d1_w02:48": 1,
+            "conversation_d1_w02:49": 1,
+            "conversation_d1_w02:50": 1,
+            "conversation_d1_w02:51": 1
+          }
+        },
+        {
+          "at_ms": 25296.892632288844,
+          "kind": "finish",
+          "selected_candidate": 0,
+          "alternate_candidate": 3,
+          "threshold": 1,
+          "free_blocks": 1820,
+          "base_growth": 15,
+          "selected_tokens": {
+            "conversation_d1_w02:48": 1,
+            "conversation_d1_w02:51": 1,
+            "conversation_d1_w02:53": 231
+          },
+          "alternate_tokens": {
+            "conversation_d1_w02:48": 1,
+            "conversation_d1_w02:51": 1,
+            "conversation_d1_w02:53": 64
+          },
+          "finish_quotas": {
+            "conversation_d1_w02:53": 231
+          },
+          "decode_quotas": {
+            "conversation_d1_w02:48": 1,
+            "conversation_d1_w02:51": 1
+          }
+        },
+        {
+          "at_ms": 27882.814431654686,
+          "kind": "finish",
+          "selected_candidate": 0,
+          "alternate_candidate": 3,
+          "threshold": 1,
+          "free_blocks": 1755,
+          "base_growth": 13,
+          "selected_tokens": {
+            "conversation_d1_w02:48": 1,
+            "conversation_d1_w02:57": 1,
+            "conversation_d1_w02:59": 1,
+            "conversation_d1_w02:58": 205
+          },
+          "alternate_tokens": {
+            "conversation_d1_w02:48": 1,
+            "conversation_d1_w02:57": 1,
+            "conversation_d1_w02:59": 1,
+            "conversation_d1_w02:58": 64
+          },
+          "finish_quotas": {
+            "conversation_d1_w02:58": 205
+          },
+          "decode_quotas": {
+            "conversation_d1_w02:48": 1,
+            "conversation_d1_w02:57": 1,
+            "conversation_d1_w02:59": 1
+          }
+        },
+        {
+          "at_ms": 29855.89838762921,
+          "kind": "finish",
+          "selected_candidate": 0,
+          "alternate_candidate": 3,
+          "threshold": 1,
+          "free_blocks": 1711,
+          "base_growth": 14,
+          "selected_tokens": {
+            "conversation_d1_w02:48": 1,
+            "conversation_d1_w02:58": 1,
+            "conversation_d1_w02:63": 201
+          },
+          "alternate_tokens": {
+            "conversation_d1_w02:48": 1,
+            "conversation_d1_w02:58": 1,
+            "conversation_d1_w02:63": 64
+          },
+          "finish_quotas": {
+            "conversation_d1_w02:63": 201
+          },
+          "decode_quotas": {
+            "conversation_d1_w02:48": 1,
+            "conversation_d1_w02:58": 1
+          }
+        },
+        {
+          "at_ms": 30283.947668286353,
+          "kind": "finish",
+          "selected_candidate": 0,
+          "alternate_candidate": 3,
+          "threshold": 1,
+          "free_blocks": 1763,
+          "base_growth": 15,
+          "selected_tokens": {
+            "conversation_d1_w02:48": 1,
+            "conversation_d1_w02:58": 1,
+            "conversation_d1_w02:64": 233
+          },
+          "alternate_tokens": {
+            "conversation_d1_w02:48": 1,
+            "conversation_d1_w02:58": 1,
+            "conversation_d1_w02:64": 64
+          },
+          "finish_quotas": {
+            "conversation_d1_w02:64": 233
+          },
+          "decode_quotas": {
+            "conversation_d1_w02:48": 1,
+            "conversation_d1_w02:58": 1
+          }
+        }
+      ],
+      "request_prompt_mean": 1150.3260869565217,
+      "request_output_mean": 61.59782608695652,
+      "parity_sources": [
+        "artifacts/www_component_ablation_mean_20261020_r4/rates/conversation_c2048_constant1_r2.json"
+      ]
+    }
+  ]
+}

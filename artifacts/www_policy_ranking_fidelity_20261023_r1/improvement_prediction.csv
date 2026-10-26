@@ -1,0 +1,2 @@
+source,sample,gpu_best_baseline,simulator_best_baseline,gpu_gain_pct,simulator_gain_pct,error_pp,gpu_min_pct,gpu_max_pct,simulator_min_pct,simulator_max_pct
+code,code_d2_w02,SRP,SRP,0.0,12.5,12.5,-11.111111111111116,12.5,0.0,25.0

@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "source": "code",
+      "kv": 1024,
+      "rate": 1.0,
+      "trajectory_sha256": "2f1d9775c8cef1150ebeadae1e2dedf278f265c23f25201f3618530ed48fcf2e"
+    },
+    {
+      "source": "conversation",
+      "kv": 2048,
+      "rate": 3.0,
+      "trajectory_sha256": "3d79778331a55d4347337049deae0b5edcd204f03fff76d9be007a7a39ee5a2f"
+    },
+    {
+      "source": "conversation",
+      "kv": 4096,
+      "rate": 4.0,
+      "trajectory_sha256": "003f66ac2f2afa8ab43a9d106ab4ba2fedbcfdd2dcca0074be3f54e711dc693f"
+    }
+  ],
+  "variants": {
+    "budget_only": {
+      "trajectory_sha256": "69e4404feee77c75e810f3fdca77d7e10e07b056f20e566dbd49cd5dc959bd3f",
+      "interventions": 9
+    },
+    "chunk_only": {
+      "trajectory_sha256": "f6b891fa8530d36d734fe205f057df134322539f81bab9c8841a80e2c6a98d7a",
+      "interventions": 8
+    },
+    "token_proxy": {
+      "trajectory_sha256": "3d79778331a55d4347337049deae0b5edcd204f03fff76d9be007a7a39ee5a2f",
+      "interventions": 9
+    },
+    "no_decode_guard": {
+      "trajectory_sha256": "3d79778331a55d4347337049deae0b5edcd204f03fff76d9be007a7a39ee5a2f",
+      "interventions": 9
+    }
+  }
+}

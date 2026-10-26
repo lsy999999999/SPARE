@@ -1,0 +1,386 @@
+[
+  {
+    "id": "conversation:raw:8709000",
+    "prompt": 2395,
+    "output": 528,
+    "arrival_ms": 0.0
+  },
+  {
+    "id": "conversation:raw:8709031",
+    "prompt": 4969,
+    "output": 513,
+    "arrival_ms": 0.0
+  },
+  {
+    "id": "conversation:raw:8709060",
+    "prompt": 2186,
+    "output": 545,
+    "arrival_ms": 0.0
+  },
+  {
+    "id": "conversation:raw:8709078",
+    "prompt": 1882,
+    "output": 514,
+    "arrival_ms": 0.0
+  },
+  {
+    "id": "conversation:raw:8709081",
+    "prompt": 4948,
+    "output": 867,
+    "arrival_ms": 0.0
+  },
+  {
+    "id": "conversation:raw:8709082",
+    "prompt": 4308,
+    "output": 574,
+    "arrival_ms": 0.0
+  },
+  {
+    "id": "conversation:raw:8709093",
+    "prompt": 3491,
+    "output": 552,
+    "arrival_ms": 0.0
+  },
+  {
+    "id": "conversation:raw:8709109",
+    "prompt": 2038,
+    "output": 527,
+    "arrival_ms": 0.0
+  },
+  {
+    "id": "conversation:raw:8709120",
+    "prompt": 2149,
+    "output": 513,
+    "arrival_ms": 0.0
+  },
+  {
+    "id": "conversation:raw:8709122",
+    "prompt": 5418,
+    "output": 842,
+    "arrival_ms": 0.0
+  },
+  {
+    "id": "conversation:raw:8709164",
+    "prompt": 2448,
+    "output": 561,
+    "arrival_ms": 0.0
+  },
+  {
+    "id": "conversation:raw:8709202",
+    "prompt": 4508,
+    "output": 661,
+    "arrival_ms": 0.0
+  },
+  {
+    "id": "conversation:raw:8709241",
+    "prompt": 4138,
+    "output": 580,
+    "arrival_ms": 0.0
+  },
+  {
+    "id": "conversation:raw:8709274",
+    "prompt": 4690,
+    "output": 895,
+    "arrival_ms": 0.0
+  },
+  {
+    "id": "conversation:raw:8709281",
+    "prompt": 4367,
+    "output": 668,
+    "arrival_ms": 0.0
+  },
+  {
+    "id": "conversation:raw:8709309",
+    "prompt": 5265,
+    "output": 537,
+    "arrival_ms": 0.0
+  },
+  {
+    "id": "conversation:raw:8709328",
+    "prompt": 3867,
+    "output": 542,
+    "arrival_ms": 190.47619047619048
+  },
+  {
+    "id": "conversation:raw:8709330",
+    "prompt": 3265,
+    "output": 608,
+    "arrival_ms": 380.95238095238096
+  },
+  {
+    "id": "conversation:raw:8709333",
+    "prompt": 4876,
+    "output": 883,
+    "arrival_ms": 571.4285714285714
+  },
+  {
+    "id": "conversation:raw:8709346",
+    "prompt": 4052,
+    "output": 671,
+    "arrival_ms": 761.9047619047619
+  },
+  {
+    "id": "conversation:raw:8709359",
+    "prompt": 2079,
+    "output": 515,
+    "arrival_ms": 952.3809523809524
+  },
+  {
+    "id": "conversation:raw:8709374",
+    "prompt": 1852,
+    "output": 529,
+    "arrival_ms": 1142.857142857143
+  },
+  {
+    "id": "conversation:raw:8709375",
+    "prompt": 5225,
+    "output": 701,
+    "arrival_ms": 1333.3333333333333
+  },
+  {
+    "id": "conversation:raw:8709391",
+    "prompt": 5759,
+    "output": 1005,
+    "arrival_ms": 1523.8095238095239
+  },
+  {
+    "id": "conversation:raw:8709405",
+    "prompt": 2990,
+    "output": 607,
+    "arrival_ms": 1714.2857142857142
+  },
+  {
+    "id": "conversation:raw:8709420",
+    "prompt": 6838,
+    "output": 531,
+    "arrival_ms": 1904.7619047619048
+  },
+  {
+    "id": "conversation:raw:8709421",
+    "prompt": 2395,
+    "output": 614,
+    "arrival_ms": 2095.2380952380954
+  },
+  {
+    "id": "conversation:raw:8709447",
+    "prompt": 3576,
+    "output": 1024,
+    "arrival_ms": 2285.714285714286
+  },
+  {
+    "id": "conversation:raw:8709460",
+    "prompt": 3886,
+    "output": 554,
+    "arrival_ms": 2476.190476190476
+  },
+  {
+    "id": "conversation:raw:8709466",
+    "prompt": 2198,
+    "output": 569,
+    "arrival_ms": 2666.6666666666665
+  },
+  {
+    "id": "conversation:raw:8709493",
+    "prompt": 2611,
+    "output": 542,
+    "arrival_ms": 2857.1428571428573
+  },
+  {
+    "id": "conversation:raw:8709516",
+    "prompt": 4760,
+    "output": 645,
+    "arrival_ms": 3047.6190476190477
+  },
+  {
+    "id": "conversation:raw:8709528",
+    "prompt": 4997,
+    "output": 862,
+    "arrival_ms": 3238.095238095238
+  },
+  {
+    "id": "conversation:raw:8709546",
+    "prompt": 3207,
+    "output": 604,
+    "arrival_ms": 3428.5714285714284
+  },
+  {
+    "id": "conversation:raw:8709575",
+    "prompt": 4516,
+    "output": 908,
+    "arrival_ms": 3619.0476190476193
+  },
+  {
+    "id": "conversation:raw:8709606",
+    "prompt": 4800,
+    "output": 531,
+    "arrival_ms": 3809.5238095238096
+  },
+  {
+    "id": "conversation:raw:8709627",
+    "prompt": 3348,
+    "output": 565,
+    "arrival_ms": 4000.0
+  },
+  {
+    "id": "conversation:raw:8709642",
+    "prompt": 3041,
+    "output": 616,
+    "arrival_ms": 4190.476190476191
+  },
+  {
+    "id": "conversation:raw:8709727",
+    "prompt": 4828,
+    "output": 580,
+    "arrival_ms": 4380.952380952381
+  },
+  {
+    "id": "conversation:raw:8709807",
+    "prompt": 4330,
+    "output": 575,
+    "arrival_ms": 4571.428571428572
+  },
+  {
+    "id": "conversation:raw:8709828",
+    "prompt": 5089,
+    "output": 565,
+    "arrival_ms": 4761.9047619047615
+  },
+  {
+    "id": "conversation:raw:8709830",
+    "prompt": 2018,
+    "output": 600,
+    "arrival_ms": 4952.380952380952
+  },
+  {
+    "id": "conversation:raw:8709872",
+    "prompt": 5921,
+    "output": 629,
+    "arrival_ms": 5142.857142857143
+  },
+  {
+    "id": "conversation:raw:8709957",
+    "prompt": 3947,
+    "output": 861,
+    "arrival_ms": 5333.333333333333
+  },
+  {
+    "id": "conversation:raw:8709959",
+    "prompt": 5180,
+    "output": 1024,
+    "arrival_ms": 5523.809523809524
+  },
+  {
+    "id": "conversation:raw:8709966",
+    "prompt": 4473,
+    "output": 834,
+    "arrival_ms": 5714.285714285715
+  },
+  {
+    "id": "conversation:raw:8709975",
+    "prompt": 4144,
+    "output": 540,
+    "arrival_ms": 5904.761904761905
+  },
+  {
+    "id": "conversation:raw:8710051",
+    "prompt": 5867,
+    "output": 518,
+    "arrival_ms": 6095.238095238095
+  },
+  {
+    "id": "conversation:raw:8710075",
+    "prompt": 4710,
+    "output": 770,
+    "arrival_ms": 6285.714285714285
+  },
+  {
+    "id": "conversation:raw:8710095",
+    "prompt": 2988,
+    "output": 565,
+    "arrival_ms": 6476.190476190476
+  },
+  {
+    "id": "conversation:raw:8710117",
+    "prompt": 2351,
+    "output": 529,
+    "arrival_ms": 6666.666666666667
+  },
+  {
+    "id": "conversation:raw:8710152",
+    "prompt": 1331,
+    "output": 568,
+    "arrival_ms": 6857.142857142857
+  },
+  {
+    "id": "conversation:raw:8710154",
+    "prompt": 1065,
+    "output": 648,
+    "arrival_ms": 7047.619047619048
+  },
+  {
+    "id": "conversation:raw:8710163",
+    "prompt": 2643,
+    "output": 734,
+    "arrival_ms": 7238.0952380952385
+  },
+  {
+    "id": "conversation:raw:8710174",
+    "prompt": 2503,
+    "output": 783,
+    "arrival_ms": 7428.571428571428
+  },
+  {
+    "id": "conversation:raw:8710183",
+    "prompt": 2608,
+    "output": 576,
+    "arrival_ms": 7619.047619047619
+  },
+  {
+    "id": "conversation:raw:8710185",
+    "prompt": 2715,
+    "output": 576,
+    "arrival_ms": 7809.523809523809
+  },
+  {
+    "id": "conversation:raw:8710259",
+    "prompt": 2082,
+    "output": 525,
+    "arrival_ms": 8000.0
+  },
+  {
+    "id": "conversation:raw:8710285",
+    "prompt": 2816,
+    "output": 518,
+    "arrival_ms": 8190.476190476191
+  },
+  {
+    "id": "conversation:raw:8710305",
+    "prompt": 3205,
+    "output": 896,
+    "arrival_ms": 8380.952380952382
+  },
+  {
+    "id": "conversation:raw:8710370",
+    "prompt": 2236,
+    "output": 565,
+    "arrival_ms": 8571.42857142857
+  },
+  {
+    "id": "conversation:raw:8710394",
+    "prompt": 5204,
+    "output": 533,
+    "arrival_ms": 8761.904761904761
+  },
+  {
+    "id": "conversation:raw:8710405",
+    "prompt": 6659,
+    "output": 800,
+    "arrival_ms": 8952.380952380952
+  },
+  {
+    "id": "conversation:raw:8710432",
+    "prompt": 6086,
+    "output": 717,
+    "arrival_ms": 9142.857142857143
+  }
+]

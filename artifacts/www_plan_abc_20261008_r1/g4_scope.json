@@ -1,0 +1,54 @@
+{
+  "source": "G4 completed audited summary and runs.csv",
+  "interpretation": "Same six G2 source windows; capacity and load cells are separate correlated families",
+  "effects": [
+    {
+      "family": "capacity",
+      "reference": "srp",
+      "cells": 108,
+      "improvement_pct": 15.336688275583336,
+      "window_bootstrap_95ci_pct": [
+        8.064765466861205,
+        21.999782493521067
+      ],
+      "wins": 64,
+      "losses": 44
+    },
+    {
+      "family": "capacity",
+      "reference": "fixed256",
+      "cells": 108,
+      "improvement_pct": 3.7076063449460452,
+      "window_bootstrap_95ci_pct": [
+        1.1664390423929725,
+        5.990445627123404
+      ],
+      "wins": 58,
+      "losses": 50
+    },
+    {
+      "family": "load",
+      "reference": "srp",
+      "cells": 24,
+      "improvement_pct": 3.628211622590985,
+      "window_bootstrap_95ci_pct": [
+        -20.129088436993197,
+        26.742692921482078
+      ],
+      "wins": 9,
+      "losses": 15
+    },
+    {
+      "family": "load",
+      "reference": "fixed256",
+      "cells": 24,
+      "improvement_pct": -3.2179603191960564,
+      "window_bootstrap_95ci_pct": [
+        -9.203978574663136,
+        3.282999666016066
+      ],
+      "wins": 8,
+      "losses": 16
+    }
+  ]
+}

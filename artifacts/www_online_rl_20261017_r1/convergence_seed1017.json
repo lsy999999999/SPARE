@@ -1,0 +1,161 @@
+{
+  "seed": 1017,
+  "train_episodes": 512,
+  "heldout_windows_per_source": 4,
+  "points": [
+    {
+      "training_episodes": 0,
+      "td_updates": 0,
+      "summary": [
+        {
+          "kv_blocks": 1024,
+          "rate": 0.5,
+          "windows": 8,
+          "mean_ttft_ms": 296.1782559069892
+        },
+        {
+          "kv_blocks": 1024,
+          "rate": 4.0,
+          "windows": 8,
+          "mean_ttft_ms": 4013.752803760409
+        },
+        {
+          "kv_blocks": 4096,
+          "rate": 0.5,
+          "windows": 8,
+          "mean_ttft_ms": 296.1782559069892
+        },
+        {
+          "kv_blocks": 4096,
+          "rate": 4.0,
+          "windows": 8,
+          "mean_ttft_ms": 1165.5267835767356
+        }
+      ]
+    },
+    {
+      "training_episodes": 128,
+      "td_updates": 260776,
+      "summary": [
+        {
+          "kv_blocks": 1024,
+          "rate": 0.5,
+          "windows": 8,
+          "mean_ttft_ms": 312.8333604950765
+        },
+        {
+          "kv_blocks": 1024,
+          "rate": 4.0,
+          "windows": 8,
+          "mean_ttft_ms": 4411.883060600874
+        },
+        {
+          "kv_blocks": 4096,
+          "rate": 0.5,
+          "windows": 8,
+          "mean_ttft_ms": 314.71880271771494
+        },
+        {
+          "kv_blocks": 4096,
+          "rate": 4.0,
+          "windows": 8,
+          "mean_ttft_ms": 1669.2631661197338
+        }
+      ]
+    },
+    {
+      "training_episodes": 256,
+      "td_updates": 524423,
+      "summary": [
+        {
+          "kv_blocks": 1024,
+          "rate": 0.5,
+          "windows": 8,
+          "mean_ttft_ms": 291.28697545550654
+        },
+        {
+          "kv_blocks": 1024,
+          "rate": 4.0,
+          "windows": 8,
+          "mean_ttft_ms": 4314.209356840378
+        },
+        {
+          "kv_blocks": 4096,
+          "rate": 0.5,
+          "windows": 8,
+          "mean_ttft_ms": 290.77417873768667
+        },
+        {
+          "kv_blocks": 4096,
+          "rate": 4.0,
+          "windows": 8,
+          "mean_ttft_ms": 1639.1671347072306
+        }
+      ]
+    },
+    {
+      "training_episodes": 384,
+      "td_updates": 774006,
+      "summary": [
+        {
+          "kv_blocks": 1024,
+          "rate": 0.5,
+          "windows": 8,
+          "mean_ttft_ms": 293.11444419516505
+        },
+        {
+          "kv_blocks": 1024,
+          "rate": 4.0,
+          "windows": 8,
+          "mean_ttft_ms": 4027.7123382462805
+        },
+        {
+          "kv_blocks": 4096,
+          "rate": 0.5,
+          "windows": 8,
+          "mean_ttft_ms": 292.00875411371646
+        },
+        {
+          "kv_blocks": 4096,
+          "rate": 4.0,
+          "windows": 8,
+          "mean_ttft_ms": 1288.1655034591986
+        }
+      ]
+    },
+    {
+      "training_episodes": 512,
+      "td_updates": 1015321,
+      "summary": [
+        {
+          "kv_blocks": 1024,
+          "rate": 0.5,
+          "windows": 8,
+          "mean_ttft_ms": 294.82988793115123
+        },
+        {
+          "kv_blocks": 1024,
+          "rate": 4.0,
+          "windows": 8,
+          "mean_ttft_ms": 3975.6662150910956
+        },
+        {
+          "kv_blocks": 4096,
+          "rate": 0.5,
+          "windows": 8,
+          "mean_ttft_ms": 295.92571692900884
+        },
+        {
+          "kv_blocks": 4096,
+          "rate": 4.0,
+          "windows": 8,
+          "mean_ttft_ms": 1700.0798081797848
+        }
+      ]
+    }
+  ],
+  "final_q_table_sha256": "c712c62f7c9257677893f3e0902cfa706935c8681b157b36279837e7e5adb018",
+  "matches_original_checkpoint": true,
+  "wall_s": 399.00315971300006,
+  "cpu_s": 398.86329731499995
+}

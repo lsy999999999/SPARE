@@ -1,0 +1,21 @@
+{
+  "capacity_groups": 18,
+  "new_arm_groups": 6,
+  "capacity_points": 72,
+  "boundary_endpoints_checked": 144,
+  "new_capacity_window_simulations": 3504,
+  "reused_capacity_window_records": 7104,
+  "new_behavior_replays": 576,
+  "reused_behavior_replays": 1152,
+  "behavior_capacity_parity": 1704,
+  "main_2qps_parity": 432,
+  "actual_new_arm_selection_counts": {
+    "zero": 130158,
+    "negative": 433,
+    "below_dynamic": 347383,
+    "positive": 342605
+  },
+  "sole_policy_change_verified": true,
+  "input_pairing_verified": true,
+  "errors": []
+}

@@ -1,0 +1,193 @@
+% Input after \appendix in the host manuscript.
+\section{Supporting Scheduling Details}
+\label{app:spare-details}
+
+\subsection{Plan Projection and Execution}
+\label{app:spare-projection}
+
+$S_k$ contains the running and waiting requests ordered as in Section~\ref{sec:spare-protection}, each request's computed prefix length and held KV block count, and the free block count $F_k$. Projection also uses the block size $B$, the running concurrency limit $M$, and the context length limit $L$. It returns a projected plan $a=(x,G)$.
+
+\paragraph{Projection procedure $\operatorname{Project}(S_k,b,c)$.}
+\begingroup
+\algtext*{EndFor}
+\small
+\begin{algorithmic}[1]
+\State Initialize all $x_i\gets0$ and the total additional block demand $G\gets0$
+\State $u\gets b$; $f\gets F_k$; $r\gets$ number of requests in the running queue
+\For{each running request, then each waiting request, in priority order}
+    \State \textbf{if} $u\le0$: \textbf{break}
+    \State \textbf{if} $i$ is waiting and $r\ge M$: \textbf{break}
+    \State $x\gets\min\{\ell_{i,k},c,u\}$
+    \Statex \hspace{\algorithmicindent}\textbf{if} $i$ is running: $x\gets\min\{x,L-1-c_{i,k}\}$
+    \State \textbf{if} $x\le0$: \textbf{continue}
+    \State $g\gets\max\{0,\lceil(c_{i,k}+x)/B\rceil-b_{i,k}\}$
+    \State \textbf{if} $g>f$ and $i$ is running: \Return $\bot$
+    \State \textbf{if} $g>f$ and $i$ is waiting: \textbf{break}
+    \State $x_i\gets x$; $u\gets u-x$; $f\gets f-g$; $G\gets G+g$
+    \State \textbf{if} $i$ is waiting: $r\gets r+1$
+\EndFor
+\State \Return projected plan $a=(x,G)$
+\end{algorithmic}
+\endgroup
+
+If a running request needs more additional KV blocks than remain free, projection returns $\bot$. If a waiting request cannot be admitted, projection retains the plan constructed so far and stops admitting requests. All candidates are projected from the same initial state for the round, and projection itself leaves the actual KV allocation unchanged.
+
+The default implementation continues projecting the remaining candidates after recording the first qualifying candidate to collect diagnostic data, while retaining the selected configuration. The native \texttt{Scheduler.schedule()} performs the actual allocation. The implementation temporarily sets the total budget and chunk limit before the call and restores the defaults in a \texttt{finally} block. When the selected plan can be projected, it also verifies that the actual token allocations and additional block demand match the projection and that no preemption occurs. These checks leave the candidate acceptance rule unchanged.
+
+\subsection{Time Normalization of the Arrival-Rate Estimate}
+\label{app:spare-normalization}
+
+In Equation~\eqref{eq:spare-arrival-rate}, $H>0$ is the decay time scale. The exponential kernel integrates to $H$, so the factor $1/H$ normalizes each request's rate contribution. For a request with input length $P_j$,
+\begin{equation*}
+\int_{s_j}^{\infty}\frac{P_j}{H}
+\exp\!\left(-\frac{t-s_j}{H}\right)\,\mathrm dt=P_j.
+\end{equation*}
+Thus, $A_k$ has units of tokens/s, and its integral preserves the total number of input tokens while the rate reflects both recent arrival counts and input lengths. The implementation initializes the estimate to zero. After an elapsed interval $\Delta t$, it multiplies the current value by $e^{-\Delta t/H}$; on receiving a request with input length $P_j$, it adds $P_j/H$. The quantity $W_k+\tau A_k$ combines unfinished input work and recent arrivals into a short-term input pressure signal.
+
+% Insert after the manuscript has entered appendix mode; do not add a second \appendix.
+\section{Experimental Details}
+\label{app:experimental-details}
+
+
+\subsection{Execution configuration and simulator}
+\label{app:experimental-simulator}
+
+GPU measurements use FP16 and single-GPU eager execution. Chunked prefill is enabled; prefix caching and speculative decoding are disabled. The default running concurrency is 32 and the maximum model context length in the main simulator is 8,176 tokens. Each physical KV block holds 16 token positions. The engine reserves one block, so usable capacity is one block below the reported configured count. The token budget $T$ and chunk limit $K$ apply separately in each scheduling iteration; KV states persist across iterations until completion or preemption.
+
+The simulator executes the V1 scheduling and allocation logic on CPU, including request admission, per-iteration token allocation, preemption, recomputation, and KV release. It advances the clock with a nonnegative affine timing model fitted to measured GPU iteration times. The features are a constant term, prefill token count, prefill attention work, decode request count, accumulated decode context length, the number of 256-token tiles, and indicators for prefill and mixed batches. For a prefill chunk of $n$ tokens following $c$ cached tokens, the attention-work term is $nc+n(n+1)/2$. Features are scaled before fitting by nonnegative least squares.
+
+The frozen timing profile uses 25,747 iterations from 48 GPU runs of SPARE, SRP, and native V1 on the calibration cohort. The target is measured engine-step wall time, including instrumentation. Timing validation uses a separate cohort with disjoint request identities, and the main test inputs are also checked against calibration request identities. The simulated clock uses the fitted batch costs; policy-specific CPU decision time, including RL inference time, is not added to that clock. Direct scheduling-time measurements are reported with their measurement scope.
+
+GPU replay constructs repeated-token prompts with the selected input lengths and fixes generation to the selected output lengths. Paired simulator/GPU comparisons use matching request arrivals, lengths, KV capacities, and policy configurations.
+% ADDED CITATIONS: spare_qwen, yang2025qwen3, jiang2023mistral.
+For Qwen2.5-3B, Qwen3-8B, and Mistral-7B~\cite{spare_qwen,yang2025qwen3,jiang2023mistral}, we fit the same timing-model features separately to GPU iterations from a pilot window of each workload, then freeze each profile before replaying four disjoint windows per workload. The cross-model validation compares SPARE, SRP, and Sarathi under model-specific KV-block settings; the scheduler and replay procedure are shared across models.
+
+The Qwen2.5-7B aggregate in Table~\ref{tab:simulator-validation} covers SPARE, native V1, Sarathi, Past-Future, S$^3$, UniBoost, and Apt-Serve. 
+
+\subsection{Dataset construction and measurement protocol}
+\label{app:experimental-protocol}
+
+The one-week Azure traces contain 16,803,695 Code and 27,303,999 Conversation requests. The filters in Section~\ref{sec:setup} retain 16,743,157 and 26,380,101 intact requests, respectively. Median prompt/output lengths in the 3,200 test requests per workload are 1,981/8 tokens for Code and 873.5/40.5 for Conversation.
+
+Each workload uses 25 segments from each of two dates. Starting 512 eligible requests after each date anchor, we alternate taking and skipping 64 requests. An earlier date supplies 20 development segments and initial output-length history; their identities are disjoint from the test set. Each replay samples intact pairs with replacement from its segment's 64-request pool and draws exponential interarrival times. Seeds are fixed by segment, streams are shared across policies, and changing QPS rescales arrival intervals. Length-history updates use completed requests.
+
+Arrivals span 0--60~s; requests arriving during 20--60~s are followed through completion for mean TTFT. Each run's P99 TBT pools their valid consecutive-token intervals. Backlog growth is the unfinished-request count at 60~s minus that at 40~s. Metrics are averaged equally over the 50 segments, so the TBT criterion applies to mean per-window P99. Every replay must be valid for a rate to pass.
+
+Configured KV counts are 1,024, 1,792, 2,048, 2,560, then every 256 blocks through 8,192, plus 12,032. For each mean-TTFT limit $\theta$ in 0.25--16~s, passing rates must also meet P99 TBT $\le200$~ms and mean backlog growth $\le\max(2,\lambda)$, with $\lambda$ in QPS. We refine the contiguous passing region from low rates to a 0.01--0.02-QPS passing--failing bracket, stopping at the first observed failure and retaining local nonmonotonic observations. Bracket width measures search resolution. Horizontal plot extensions retain the last measured capacity and are marked in source data.
+
+Summary curves plot the mean-TTFT limit against the equal-weight mean of independently estimated Code and Conversation capacities. Attained TTFT can differ between workloads and is recorded separately; breakpoints occur at measured TTFT values where capacity increases.
+
+\subsection{Parameter sensitivity}
+\label{app:parameter-sensitivity}
+
+Table~\ref{tab:parameter-sensitivity-full} reports the one-at-a-time sweep over 24 paired windows per workload, drawn from the 50-window main evaluation. Each parameter is halved or doubled around its default. All settings share the same 2-QPS streams for mean TTFT; capacity is scanned separately under 2-s and 4-s mean-TTFT limits, mean window P99 TBT $\le200$~ms, and mean backlog growth $\le\max(2,\lambda)$. Capacity brackets are 0.01--0.02 QPS wide, describing search resolution.
+
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\caption{Parameter sensitivity. $C_2$/$C_4$: capacity (QPS) at 2-s/4-s mean-TTFT limits; $L$: mean TTFT (ms) at 2 QPS.}
+\label{tab:parameter-sensitivity-full}
+\begin{tabular*}{0.90\textwidth}{@{\extracolsep{\fill}}lrrrrrrrrr@{}}
+\toprule
+& \multicolumn{3}{c}{KV=1,024} & \multicolumn{3}{c}{KV=2,048} & \multicolumn{3}{c}{KV=4,096} \\
+Setting & $C_2$ & $C_4$ & $L$ & $C_2$ & $C_4$ & $L$ & $C_2$ & $C_4$ & $L$ \\
+\midrule
+\multicolumn{10}{@{}l}{\textit{Code}} \\
+\textbf{Default} & 2.86 & 3.36 & 942.7 & 3.38 & 3.46 & 738.9 & 3.54 & 3.76 & 733.7 \\
+$n_0=4$ & 2.84 & 3.36 & 929.3 & 3.35 & 3.46 & 739.0 & 3.54 & 3.76 & 733.7 \\
+$n_0=16$ & 2.80 & 3.10 & 983.9 & 3.41 & 3.56 & 734.9 & 3.54 & 4.14 & 733.7 \\
+$\alpha=64$ & 2.92 & 3.38 & 941.8 & 3.22 & 3.22 & 742.0 & 3.47 & 3.54 & 733.7 \\
+$\alpha=256$ & 2.82 & 3.40 & 1030.0 & 3.46 & 3.60 & 737.0 & 3.56 & 3.60 & 733.7 \\
+$H=0.5$ s & 2.86 & 3.20 & 943.0 & 3.36 & 3.56 & 734.5 & 3.54 & 3.78 & 733.7 \\
+$H=2$ s & 2.88 & 3.41 & 917.9 & 3.36 & 3.51 & 734.0 & 3.54 & 3.76 & 733.7 \\
+$\tau=0.5$ s & 2.86 & 3.36 & 925.4 & 3.38 & 3.51 & 734.2 & 3.54 & 3.68 & 733.7 \\
+$\tau=2$ s & 2.86 & 3.35 & 924.0 & 3.32 & 3.46 & 735.9 & 3.54 & 3.76 & 733.7 \\
+\midrule
+\multicolumn{10}{@{}l}{\textit{Conversation}} \\
+\textbf{Default} & 2.20 & 2.72 & 1511.3 & 3.88 & 4.39 & 352.9 & 4.96 & 5.91 & 332.0 \\
+$n_0=4$ & 2.24 & 2.75 & 1395.4 & 3.88 & 4.39 & 348.5 & 4.97 & 5.91 & 332.0 \\
+$n_0=16$ & 2.04 & 2.37 & 1849.9 & 3.70 & 4.32 & 379.6 & 4.94 & 6.00 & 332.0 \\
+$\alpha=64$ & 2.30 & 2.75 & 1362.2 & 4.00 & 4.34 & 344.1 & 4.94 & 5.86 & 332.0 \\
+$\alpha=256$ & 2.08 & 2.49 & 1818.7 & 3.68 & 4.41 & 384.0 & 4.96 & 5.98 & 332.0 \\
+$H=0.5$ s & 2.20 & 2.72 & 1466.8 & 3.90 & 4.39 & 353.6 & 4.96 & 5.91 & 332.0 \\
+$H=2$ s & 2.20 & 2.82 & 1518.7 & 3.92 & 4.39 & 353.5 & 4.97 & 5.93 & 332.0 \\
+$\tau=0.5$ s & 2.18 & 2.75 & 1542.8 & 3.88 & 4.39 & 359.4 & 4.94 & 5.91 & 332.0 \\
+$\tau=2$ s & 2.26 & 2.76 & 1406.6 & 3.94 & 4.39 & 351.0 & 4.98 & 5.91 & 332.0 \\
+\bottomrule
+\end{tabular*}
+\end{table*}
+
+\subsection{Output protection}
+\label{app:output-protection}
+
+We separately disable prefill-completion protection and normal-decode protection, retaining SPARE's candidates, threshold, and request order. The GPU-fitted simulator uses 24 paired windows for each workload at 1,024/2,048/4,096 KV blocks. A completion conflict occurs when the selected plan reduces a prefill allocation that would produce a first token under the feasible base plan. Conflict rates average the fraction of eligible rounds within each window over decisions made during 20--60~s.
+
+At 2 QPS and 1,024 blocks, disabling completion protection produces 179 conflict rounds on Code and 249 on Conversation, with rates of 6.88\% and 10.53\%; full SPARE has zero conflicts. The rates fall to 0.24\% and 0.77\% at 2,048 blocks and zero at 4,096. At 1,024 blocks, disabling protection changes mean TTFT by $+0.95$~ms (paired 95\% interval: $[-7.40,7.44]$) and $-23.16$~ms ($[-68.64,8.40]$), respectively. Across all six workload--KV settings, capacity changes range from $-0.02$ to $+0.04$ QPS under the 2-s limit. Completion protection therefore preserves immediate output opportunities, with small aggregate performance changes in these workloads.
+
+Disabling normal-decode protection leaves all 576 paired trajectories unchanged across 1/2/3/4 QPS. In this configuration, decode runs first and the minimum candidate budget of 256 tokens exceeds the concurrency limit of 32.
+
+\subsection{Baseline adaptations and controls}
+\label{app:experimental-baselines}
+
+The external comparison comprises nine method families and 11 implementations: Past-Future and SOLA each contribute two variants. All use the common V1 execution backend. The following descriptions specify the behavior evaluated under each label and the main adaptation choices.
+
+\begin{description}
+\item[Native vLLM V1.] Default V1 scheduling with chunked prefill.
+vLLM 0.9.2 with the common token, concurrency, and KV limits.
+
+\item[Sarathi rule~\cite{intro_sarathi}.] Prioritizes running decode, then partial prefill, then new requests in arrival order.
+Uses V1 incremental physical KV allocation, total budget 1,024 and per-request chunk limit 256; the original kernels and parallel execution are outside this adaptation.
+
+\item[Orca reservation~\cite{intro_orca}.] Uses iteration-level FCFS scheduling and reserves space from the prompt length plus an output bound.
+The visible output bound is 2,048 tokens; batching, execution and recovery use V1.
+
+\item[Past-Future rule~\cite{intro_pastfuture}.] Samples output lengths conditional on generated progress and admits requests when the predicted future KV peak fits.
+Uses the latest 1,000 completed lengths, physical-block rounding, and FIFO admission that stops at an unsafe request.
+
+\item[Past-Future multi.] Uses multiple conditional samples to estimate the future KV peak.
+For batches below 16 requests, takes 32 draws and uses their mean peak; the batch threshold, draw count, and aggregation are local implementation choices.
+
+\item[S$^3$ packing proxy~\cite{intro_s3}.] Packs requests by predicted KV demand using first-fit placement and expands reservations when needed.
+Historical median length estimates, quantized into ten buckets, replace the learned length predictor; recovery uses recomputation.
+
+\item[LTR scoring proxy~\cite{intro_ltr}.] Ranks requests by estimated output length with a starvation adjustment.
+Historical length scores replace the OPT/ListMLE predictor; recovery uses V1 recomputation.
+
+\item[Apt-Serve KV rule~\cite{intro_aptserve}.] Uses waiting/running pending-time signals and ranks requests by pending time per required KV block.
+Implements the KV-only, $\beta=0$ allocation case with a 1 s pending-time target; the evaluated cache path is V1 paged KV.
+
+\item[SOLA risk rule~\cite{intro_sola}.] Uses predicted TTFT and token-generation latency pressure to prioritize prefill or decode.
+Uses a fixed internal cost formula and internal targets of 1 s for TTFT and 200 ms for TPOT.
+
+\item[SOLA calibrated.] Uses calibrated phase costs, online timing feedback, and phase/budget selection.
+Uses GPU-fitted prefill/decode cost models, an EMA correction, and internal targets of 5 s for TTFT and 200 ms for TPOT.
+
+\item[UniBoost rule~\cite{intro_uniboost}.] Uses prompt length for prefill and attained output length for decode to adjust priority.
+Uses geometric quantization with bin size 16 and fixed $\gamma=10^{-4}$. The main simulator includes priority-based victim replacement with recomputation; the historical GPU sorting adaptation applies priority within queues.
+
+\end{description}
+
+SOLA's internal controller targets are part of the evaluated implementations; the capacity evaluator applies the common external TTFT, TBT, and backlog criteria. Rule and proxy labels identify the implemented policies. S$^3$ and LTR use observed length statistics in place of their original learned predictors. Oracle variants that consume realized future output lengths belong to separate diagnostic comparisons.
+
+SRP uses SPARE's request ordering with the default budget and deferral disabled. Fixed256 and Fixed512 retain that ordering and the 256-token chunk limit, while setting the total per-iteration budget to 256 or 512. Component ablations separately alter the candidate set, savings threshold, arrival term, or allocation protection.
+
+\subsection{Independent RL comparison}
+\label{app:experimental-rl}
+
+The Double DQN observes KV availability, queue and prompt-work statistics, request ages, decode contexts, and arrival history. Twelve actions combine token budgets of 128/256/384/512/768/1,024 with chunk limits of 64/256; a thirteenth sets the budget from the running decode count, falling back to the default when no decode is present. Effective chunks are bounded by the budget. Native V1 executes the selected action without SPARE's threshold or protection guard.
+
+Hidden layers contain 256/256/128 units. Training runs for 1,536 episodes on 16 Conversation development windows at KV=2,048; four additional windows select checkpoints. Rewards penalize first-token waiting, waits beyond 2~s, skipped decode rounds, and long decode iterations. Evaluation freezes weights and uses the same 50 test windows as SPARE; simulated time excludes policy inference.
+
+ KV varies over 1,024/2,048/3,072/4,096/6,144 blocks. Mixtures at KV=2,048 use Code shares of 0/25/50/75/100\%, shared Conversation arrival streams, nested replacement of intact length pairs in groups of four, and Conversation initial history. Each mixture receives its own capacity search, including the pure-Code endpoint. 
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/appendix_cropped.pdf}
+\caption{Frozen RL transfer across KV budgets (seed 7047, episode 256). Rows: Conversation and Code. Columns: mean TTFT at 2 QPS and capacity under a 2-s mean-TTFT limit.}
+\label{fig:rl-kv-transfer}
+\end{figure}
+
+Figure~\ref{fig:rl-kv-transfer} shows that RL leads on both capacity and matched-2-QPS TTFT at 1,024 blocks for both workloads. On Conversation, capacity ties at 3,072 blocks and favors SPARE at 4,096/6,144; on Code, SPARE leads from 2,048 onward. Capacity uses a 2-s mean-TTFT limit and the common TBT/backlog constraints.
+
+

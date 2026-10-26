@@ -1,0 +1,300 @@
+{
+  "schema": 1,
+  "purpose": "CPU simulator capacity versus independent RTX 4090 replay",
+  "gpu_execution": true,
+  "model": "Qwen2.5-7B-Instruct",
+  "gpu": "RTX 4090",
+  "samples": [
+    {
+      "name": "code_d1_w07",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 7,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w07.json"
+    },
+    {
+      "name": "code_d2_w07",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 7,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w07.json"
+    },
+    {
+      "name": "conversation_d1_w07",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 7,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w07.json"
+    },
+    {
+      "name": "conversation_d2_w07",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 7,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w07.json"
+    }
+  ],
+  "methods_by_kv": {
+    "2048": [
+      "arrival",
+      "s3_proxy"
+    ],
+    "6144": [
+      "arrival",
+      "apt_serve_kv_rule"
+    ]
+  },
+  "plans": [
+    {
+      "source": "code",
+      "kv_blocks": 2048,
+      "arm": "arrival",
+      "simulator_bracket": [
+        {
+          "rate_qps": 1.5,
+          "passed": true,
+          "valid": true,
+          "mean_ttft_ms": 513.6077876110326,
+          "p99_tbt_ms": 78.02947628633159,
+          "backlog_drift": 0.5,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/code_c2048_arrival_r1.5.json"
+        },
+        {
+          "rate_qps": 2.0,
+          "passed": false,
+          "valid": true,
+          "mean_ttft_ms": 597.3163545231562,
+          "p99_tbt_ms": 96.41125128004569,
+          "backlog_drift": 2.5,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/code_c2048_arrival_r2.json"
+        }
+      ]
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2048,
+      "arm": "s3_proxy",
+      "simulator_bracket": [
+        {
+          "rate_qps": 1.5,
+          "passed": true,
+          "valid": true,
+          "mean_ttft_ms": 513.6077876110326,
+          "p99_tbt_ms": 78.02947628633159,
+          "backlog_drift": 0.5,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/code_c2048_s3_proxy_r1.5.json"
+        },
+        {
+          "rate_qps": 2.0,
+          "passed": false,
+          "valid": true,
+          "mean_ttft_ms": 599.3324844723957,
+          "p99_tbt_ms": 95.4958719585093,
+          "backlog_drift": 2.5,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/code_c2048_s3_proxy_r2.json"
+        }
+      ]
+    },
+    {
+      "source": "code",
+      "kv_blocks": 6144,
+      "arm": "arrival",
+      "simulator_bracket": [
+        {
+          "rate_qps": 1.5,
+          "passed": true,
+          "valid": true,
+          "mean_ttft_ms": 513.6077876110326,
+          "p99_tbt_ms": 78.02947628633159,
+          "backlog_drift": 0.5,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/code_c6144_arrival_r1.5.json"
+        },
+        {
+          "rate_qps": 2.0,
+          "passed": false,
+          "valid": true,
+          "mean_ttft_ms": 597.6277124059536,
+          "p99_tbt_ms": 96.46510851612766,
+          "backlog_drift": 2.5,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/code_c6144_arrival_r2.json"
+        }
+      ]
+    },
+    {
+      "source": "code",
+      "kv_blocks": 6144,
+      "arm": "apt_serve_kv_rule",
+      "simulator_bracket": [
+        {
+          "rate_qps": 1.5,
+          "passed": true,
+          "valid": true,
+          "mean_ttft_ms": 513.6077876110326,
+          "p99_tbt_ms": 78.02947628633159,
+          "backlog_drift": 0.5,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/code_c6144_apt_serve_kv_rule_r1.5.json"
+        },
+        {
+          "rate_qps": 2.0,
+          "passed": false,
+          "valid": true,
+          "mean_ttft_ms": 598.1486187367107,
+          "p99_tbt_ms": 96.46510851612766,
+          "backlog_drift": 2.5,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/code_c6144_apt_serve_kv_rule_r2.json"
+        }
+      ]
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2048,
+      "arm": "arrival",
+      "simulator_bracket": [
+        {
+          "rate_qps": 1.5,
+          "passed": true,
+          "valid": true,
+          "mean_ttft_ms": 255.68731702266112,
+          "p99_tbt_ms": 52.964147611675614,
+          "backlog_drift": -1.5,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/conversation_c2048_arrival_r1.5.json"
+        },
+        {
+          "rate_qps": 2.0,
+          "passed": false,
+          "valid": true,
+          "mean_ttft_ms": 288.0014134484332,
+          "p99_tbt_ms": 68.22048964653368,
+          "backlog_drift": 2.5,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/conversation_c2048_arrival_r2.json"
+        }
+      ]
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2048,
+      "arm": "s3_proxy",
+      "simulator_bracket": [
+        {
+          "rate_qps": 1.5,
+          "passed": true,
+          "valid": true,
+          "mean_ttft_ms": 255.68731702266112,
+          "p99_tbt_ms": 52.964147611675614,
+          "backlog_drift": -1.5,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/conversation_c2048_s3_proxy_r1.5.json"
+        },
+        {
+          "rate_qps": 2.0,
+          "passed": false,
+          "valid": true,
+          "mean_ttft_ms": 288.0014134484332,
+          "p99_tbt_ms": 68.22048964653368,
+          "backlog_drift": 2.5,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/conversation_c2048_s3_proxy_r2.json"
+        }
+      ]
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 6144,
+      "arm": "arrival",
+      "simulator_bracket": [
+        {
+          "rate_qps": 1.5,
+          "passed": true,
+          "valid": true,
+          "mean_ttft_ms": 255.68731702266112,
+          "p99_tbt_ms": 52.964147611675614,
+          "backlog_drift": -1.5,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/conversation_c6144_arrival_r1.5.json"
+        },
+        {
+          "rate_qps": 2.0,
+          "passed": false,
+          "valid": true,
+          "mean_ttft_ms": 288.0014134484332,
+          "p99_tbt_ms": 68.22048964653368,
+          "backlog_drift": 2.5,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/conversation_c6144_arrival_r2.json"
+        }
+      ]
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 6144,
+      "arm": "apt_serve_kv_rule",
+      "simulator_bracket": [
+        {
+          "rate_qps": 1.5,
+          "passed": true,
+          "valid": true,
+          "mean_ttft_ms": 255.68731702266112,
+          "p99_tbt_ms": 52.964147611675614,
+          "backlog_drift": -1.5,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/conversation_c6144_apt_serve_kv_rule_r1.5.json"
+        },
+        {
+          "rate_qps": 2.0,
+          "passed": false,
+          "valid": true,
+          "mean_ttft_ms": 288.0014134484332,
+          "p99_tbt_ms": 68.22048964653368,
+          "backlog_drift": 2.5,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/conversation_c6144_apt_serve_kv_rule_r2.json"
+        }
+      ]
+    }
+  ],
+  "repeats": 2,
+  "input_hashes": {
+    "inputs/code_d1_w07_r1.5.json": "dbb702fb609ce9ff8e1a466543e61fc73cf797ca05d603e60b9e3c50da8b074d",
+    "inputs/code_d1_w07_r2.json": "673ed690a52e89a9b9b52c8a9a324261012e0f3b183f9f1ffd5cad9c06d39483",
+    "inputs/code_d2_w07_r1.5.json": "bdc33567e0265e26d232f53b214325745f36b2ce4d688057618453ea6ed6314e",
+    "inputs/code_d2_w07_r2.json": "964d364a19c7c9e3d7ef631bca4e0b2c25e0cfa570370498db792c355b0d7c22",
+    "inputs/conversation_d1_w07_r1.5.json": "5eeeb83a054cfc9b1266f83cdec0724fb322875d832568a9254cf052c8f78a57",
+    "inputs/conversation_d1_w07_r2.json": "b4164dffde6ee35185de2f307f2c6f9d8f9dcf2d97ce8f7ef46635c22fc9b3bd",
+    "inputs/conversation_d2_w07_r1.5.json": "42a21a18bd90dd5982a89ac5a3c47b96155f436ebb85a474c03894616c0ad418",
+    "inputs/conversation_d2_w07_r2.json": "cbb1ad79077a1f65754662599752b53fe9f3509d3b24e0a806572302ca4bfedb"
+  },
+  "history_hashes": {
+    "code": "3a264551ae459dea9848b9be5baee3941a606d3159c9a643d42c2c206a4fb8ba",
+    "conversation": "82961b668d10af3b713b524308286c71813a31804a73e12a482c3e77f3387065"
+  },
+  "source_hashes": {
+    "research/www_simulator_gpu_validation_20261018/prepare.py": "c4ac249e3859e381ab5f57fe850710bec5574370d09b94aba643a6011ec7124b",
+    "research/www_simulator_gpu_validation_20261018/run.py": "f5af5de3d4cbe61d8bbbfabcd7b76b67f4bf5760b9f3c84d639cd1af2a6fce7d",
+    "research/www_simulator_gpu_validation_20261018/analyze.py": "d53e7adf74fbd69b321c922454c4676c65d5cd4777f8f2358ca67cd26d46654a",
+    "research/www_idea1_gpu_pilot_20261016/run.py": "f12bb37c6b20d9af93acac545758ee9b305f10816d84cd82ee0d16cabcabcafe",
+    "research/www_idea1_gpu_pilot_20261016/scheduler.py": "04552f20a80a928a29deb70f04555e8a1aa517d2e7f0620d0d9ab917a03f006a",
+    "research/www_evaluation_gpu_completion_20261003/run.py": "199bdb2b6d2aa994b07788227ca83a294f35a9b2ff91d1e5f4f579a978937427",
+    "research/www_evaluation_gpu_completion_20261003/scheduler.py": "a7f604fe9b7d0b8c2eba6f87360956c685e9ebf81f4a8460dfc10e623b41c418",
+    "research/www_legacy_baselines_20261006/scheduler.py": "4b38d5e20b119b7e623b81d425892def37ce610d92486319396b2a730f71eba7"
+  },
+  "source_design_sha256": "e3bd94199fe148c93d35b37cdc479acebeffc1819be4779f3ea028372e36d55c",
+  "source_audit_sha256": "3d2b7e9b8340ec26b9e6865a3399083b0a0696c9c8d7cec59cc3db7de1050e16",
+  "timing_profile_sha256": "e73a97338fe7beb9883b86e3bd46b7f44742e70026796262993858b351a44cc8",
+  "horizon_ms": 60000,
+  "warm_ms": 20000,
+  "backlog_interval_ms": [
+    40000,
+    60000
+  ],
+  "mean_ttft_limit_ms": 2000,
+  "p99_tbt_limit_ms": 200,
+  "backlog_limit": "max(2, offered QPS) requests",
+  "budget": 1024,
+  "chunk": 256,
+  "concurrency": 32,
+  "block_size": 16,
+  "max_num_seqs": 64,
+  "max_num_batched_tokens": 2048,
+  "qps_rule": "two archived simulator rates bracketing each paired-window 2 s boundary",
+  "gpu_candidates": [
+    4
+  ]
+}

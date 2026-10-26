@@ -1,0 +1,460 @@
+{
+  "complete": true,
+  "calibration_runs": 288,
+  "test_runs": 384,
+  "total_runs": 672,
+  "selection": {
+    "resource": {
+      "fixed": 128,
+      "guarded": 256,
+      "scores": {
+        "fixed_128": 4498.317724133834,
+        "fixed_256": 4713.294578250047,
+        "fixed_384": 5333.260619111373,
+        "fixed_512": 5995.432938697318,
+        "fixed_768": 7358.732666742233,
+        "fixed_1024": 8286.013599710983,
+        "guarded_128": 4781.018493537161,
+        "guarded_256": 4755.866864415087,
+        "guarded_384": 5404.369805055707,
+        "guarded_512": 6032.574957439506,
+        "guarded_768": 7321.0589333818825,
+        "guarded_1024": 8286.013599710983
+      }
+    },
+    "resource_staircase": {
+      "fixed": 256,
+      "guarded": 256,
+      "scores": {
+        "fixed_128": 7270.465912763712,
+        "fixed_256": 6208.688294518605,
+        "fixed_384": 7658.2023509502515,
+        "fixed_512": 8166.044271107473,
+        "fixed_768": 9746.932275601612,
+        "fixed_1024": 11208.198373884816,
+        "guarded_128": 7046.782827791056,
+        "guarded_256": 6305.159449138721,
+        "guarded_384": 7707.2590575400955,
+        "guarded_512": 8131.438588008841,
+        "guarded_768": 9822.012410280322,
+        "guarded_1024": 11208.198373884816
+      }
+    },
+    "gpu_fitted": {
+      "fixed": 256,
+      "guarded": 256,
+      "scores": {
+        "fixed_128": 11328.013445627554,
+        "fixed_256": 7601.616454982967,
+        "fixed_384": 8731.679380824415,
+        "fixed_512": 8620.567283361019,
+        "fixed_768": 9905.205497006144,
+        "fixed_1024": 11048.634728006731,
+        "guarded_128": 9139.077358506494,
+        "guarded_256": 7646.03325220278,
+        "guarded_384": 8765.564371390667,
+        "guarded_512": 8704.306533650704,
+        "guarded_768": 9924.71635593,
+        "guarded_1024": 11048.634728006731
+      }
+    }
+  },
+  "summary": [
+    {
+      "profile": "resource",
+      "scope": "full24",
+      "reference": "srp",
+      "n": 24,
+      "ttft_reduction_pct": 34.245095308469836,
+      "e2e_reduction_pct": 36.347140038141845,
+      "wins": 21,
+      "ties": 2,
+      "losses": 1
+    },
+    {
+      "profile": "resource",
+      "scope": "full24",
+      "reference": "fixed_selected",
+      "n": 24,
+      "ttft_reduction_pct": -42.207920402381156,
+      "e2e_reduction_pct": -43.429154597705946,
+      "wins": 6,
+      "ties": 0,
+      "losses": 18
+    },
+    {
+      "profile": "resource",
+      "scope": "full24",
+      "reference": "guarded_selected",
+      "n": 24,
+      "ttft_reduction_pct": -6.4418325968310555,
+      "e2e_reduction_pct": -9.43688564695604,
+      "wins": 2,
+      "ties": 0,
+      "losses": 22
+    },
+    {
+      "profile": "resource",
+      "scope": "full24",
+      "reference": "budget_only",
+      "n": 24,
+      "ttft_reduction_pct": 1.5943863968682603,
+      "e2e_reduction_pct": 1.3262978569375907,
+      "wins": 10,
+      "ties": 11,
+      "losses": 3
+    },
+    {
+      "profile": "resource",
+      "scope": "full24",
+      "reference": "fixed_gpu256",
+      "n": 24,
+      "ttft_reduction_pct": -10.880733302852727,
+      "e2e_reduction_pct": -13.173608531197862,
+      "wins": 0,
+      "ties": 0,
+      "losses": 24
+    },
+    {
+      "profile": "resource",
+      "scope": "full24",
+      "reference": "guarded_gpu256",
+      "n": 24,
+      "ttft_reduction_pct": -6.4418325968310555,
+      "e2e_reduction_pct": -9.43688564695604,
+      "wins": 2,
+      "ties": 0,
+      "losses": 22
+    },
+    {
+      "profile": "resource",
+      "scope": "gpu_accepted23",
+      "reference": "srp",
+      "n": 23,
+      "ttft_reduction_pct": 35.73401249579461,
+      "e2e_reduction_pct": 37.92745047458279,
+      "wins": 21,
+      "ties": 1,
+      "losses": 1
+    },
+    {
+      "profile": "resource",
+      "scope": "gpu_accepted23",
+      "reference": "fixed_selected",
+      "n": 23,
+      "ttft_reduction_pct": -44.17364195271514,
+      "e2e_reduction_pct": -44.42757391747818,
+      "wins": 5,
+      "ties": 0,
+      "losses": 18
+    },
+    {
+      "profile": "resource",
+      "scope": "gpu_accepted23",
+      "reference": "guarded_selected",
+      "n": 23,
+      "ttft_reduction_pct": -6.4461954744237495,
+      "e2e_reduction_pct": -9.714493782657678,
+      "wins": 2,
+      "ties": 0,
+      "losses": 21
+    },
+    {
+      "profile": "resource",
+      "scope": "gpu_accepted23",
+      "reference": "budget_only",
+      "n": 23,
+      "ttft_reduction_pct": 1.6637075445581848,
+      "e2e_reduction_pct": 1.3839629811522685,
+      "wins": 10,
+      "ties": 10,
+      "losses": 3
+    },
+    {
+      "profile": "resource",
+      "scope": "gpu_accepted23",
+      "reference": "fixed_gpu256",
+      "n": 23,
+      "ttft_reduction_pct": -11.126656530809324,
+      "e2e_reduction_pct": -13.614587017642412,
+      "wins": 0,
+      "ties": 0,
+      "losses": 23
+    },
+    {
+      "profile": "resource",
+      "scope": "gpu_accepted23",
+      "reference": "guarded_gpu256",
+      "n": 23,
+      "ttft_reduction_pct": -6.4461954744237495,
+      "e2e_reduction_pct": -9.714493782657678,
+      "wins": 2,
+      "ties": 0,
+      "losses": 21
+    },
+    {
+      "profile": "resource_staircase",
+      "scope": "full24",
+      "reference": "srp",
+      "n": 24,
+      "ttft_reduction_pct": 39.45004156378599,
+      "e2e_reduction_pct": 41.74254013280021,
+      "wins": 24,
+      "ties": 0,
+      "losses": 0
+    },
+    {
+      "profile": "resource_staircase",
+      "scope": "full24",
+      "reference": "fixed_selected",
+      "n": 24,
+      "ttft_reduction_pct": -19.169290182830345,
+      "e2e_reduction_pct": -15.108106664218619,
+      "wins": 0,
+      "ties": 0,
+      "losses": 24
+    },
+    {
+      "profile": "resource_staircase",
+      "scope": "full24",
+      "reference": "guarded_selected",
+      "n": 24,
+      "ttft_reduction_pct": -15.272497931799412,
+      "e2e_reduction_pct": -11.052344924672807,
+      "wins": 1,
+      "ties": 0,
+      "losses": 23
+    },
+    {
+      "profile": "resource_staircase",
+      "scope": "full24",
+      "reference": "budget_only",
+      "n": 24,
+      "ttft_reduction_pct": 0.9356056009386137,
+      "e2e_reduction_pct": 0.5968063226580449,
+      "wins": 12,
+      "ties": 9,
+      "losses": 3
+    },
+    {
+      "profile": "resource_staircase",
+      "scope": "full24",
+      "reference": "fixed_gpu256",
+      "n": 24,
+      "ttft_reduction_pct": -19.169290182830345,
+      "e2e_reduction_pct": -15.108106664218619,
+      "wins": 0,
+      "ties": 0,
+      "losses": 24
+    },
+    {
+      "profile": "resource_staircase",
+      "scope": "full24",
+      "reference": "guarded_gpu256",
+      "n": 24,
+      "ttft_reduction_pct": -15.272497931799412,
+      "e2e_reduction_pct": -11.052344924672807,
+      "wins": 1,
+      "ties": 0,
+      "losses": 23
+    },
+    {
+      "profile": "resource_staircase",
+      "scope": "gpu_accepted23",
+      "reference": "srp",
+      "n": 23,
+      "ttft_reduction_pct": 40.04378231987723,
+      "e2e_reduction_pct": 42.824215081639736,
+      "wins": 23,
+      "ties": 0,
+      "losses": 0
+    },
+    {
+      "profile": "resource_staircase",
+      "scope": "gpu_accepted23",
+      "reference": "fixed_selected",
+      "n": 23,
+      "ttft_reduction_pct": -17.391457150528318,
+      "e2e_reduction_pct": -14.207665587905707,
+      "wins": 0,
+      "ties": 0,
+      "losses": 23
+    },
+    {
+      "profile": "resource_staircase",
+      "scope": "gpu_accepted23",
+      "reference": "guarded_selected",
+      "n": 23,
+      "ttft_reduction_pct": -13.044814469271696,
+      "e2e_reduction_pct": -9.973461970692886,
+      "wins": 1,
+      "ties": 0,
+      "losses": 22
+    },
+    {
+      "profile": "resource_staircase",
+      "scope": "gpu_accepted23",
+      "reference": "budget_only",
+      "n": 23,
+      "ttft_reduction_pct": 0.8375798615728334,
+      "e2e_reduction_pct": 0.5400805989105306,
+      "wins": 11,
+      "ties": 9,
+      "losses": 3
+    },
+    {
+      "profile": "resource_staircase",
+      "scope": "gpu_accepted23",
+      "reference": "fixed_gpu256",
+      "n": 23,
+      "ttft_reduction_pct": -17.391457150528318,
+      "e2e_reduction_pct": -14.207665587905707,
+      "wins": 0,
+      "ties": 0,
+      "losses": 23
+    },
+    {
+      "profile": "resource_staircase",
+      "scope": "gpu_accepted23",
+      "reference": "guarded_gpu256",
+      "n": 23,
+      "ttft_reduction_pct": -13.044814469271696,
+      "e2e_reduction_pct": -9.973461970692886,
+      "wins": 1,
+      "ties": 0,
+      "losses": 22
+    },
+    {
+      "profile": "gpu_fitted",
+      "scope": "full24",
+      "reference": "srp",
+      "n": 24,
+      "ttft_reduction_pct": 29.84581132634321,
+      "e2e_reduction_pct": 32.91032970547294,
+      "wins": 19,
+      "ties": 0,
+      "losses": 5
+    },
+    {
+      "profile": "gpu_fitted",
+      "scope": "full24",
+      "reference": "fixed_selected",
+      "n": 24,
+      "ttft_reduction_pct": -6.744903280983995,
+      "e2e_reduction_pct": -5.552731482180103,
+      "wins": 9,
+      "ties": 0,
+      "losses": 15
+    },
+    {
+      "profile": "gpu_fitted",
+      "scope": "full24",
+      "reference": "guarded_selected",
+      "n": 24,
+      "ttft_reduction_pct": -5.23084489673085,
+      "e2e_reduction_pct": -4.144907087355333,
+      "wins": 5,
+      "ties": 0,
+      "losses": 19
+    },
+    {
+      "profile": "gpu_fitted",
+      "scope": "full24",
+      "reference": "budget_only",
+      "n": 24,
+      "ttft_reduction_pct": 0.06525092923320154,
+      "e2e_reduction_pct": 0.15102317256654593,
+      "wins": 9,
+      "ties": 9,
+      "losses": 6
+    },
+    {
+      "profile": "gpu_fitted",
+      "scope": "full24",
+      "reference": "fixed_gpu256",
+      "n": 24,
+      "ttft_reduction_pct": -6.744903280983995,
+      "e2e_reduction_pct": -5.552731482180103,
+      "wins": 9,
+      "ties": 0,
+      "losses": 15
+    },
+    {
+      "profile": "gpu_fitted",
+      "scope": "full24",
+      "reference": "guarded_gpu256",
+      "n": 24,
+      "ttft_reduction_pct": -5.23084489673085,
+      "e2e_reduction_pct": -4.144907087355333,
+      "wins": 5,
+      "ties": 0,
+      "losses": 19
+    },
+    {
+      "profile": "gpu_fitted",
+      "scope": "gpu_accepted23",
+      "reference": "srp",
+      "n": 23,
+      "ttft_reduction_pct": 28.246983416690288,
+      "e2e_reduction_pct": 32.28079365551514,
+      "wins": 18,
+      "ties": 0,
+      "losses": 5
+    },
+    {
+      "profile": "gpu_fitted",
+      "scope": "gpu_accepted23",
+      "reference": "fixed_selected",
+      "n": 23,
+      "ttft_reduction_pct": -2.5172970167075515,
+      "e2e_reduction_pct": -4.315314627931161,
+      "wins": 9,
+      "ties": 0,
+      "losses": 14
+    },
+    {
+      "profile": "gpu_fitted",
+      "scope": "gpu_accepted23",
+      "reference": "guarded_selected",
+      "n": 23,
+      "ttft_reduction_pct": -1.3837428528696123,
+      "e2e_reduction_pct": -2.9683078233731295,
+      "wins": 5,
+      "ties": 0,
+      "losses": 18
+    },
+    {
+      "profile": "gpu_fitted",
+      "scope": "gpu_accepted23",
+      "reference": "budget_only",
+      "n": 23,
+      "ttft_reduction_pct": -0.25944129490644263,
+      "e2e_reduction_pct": 0.07243557923233329,
+      "wins": 8,
+      "ties": 9,
+      "losses": 6
+    },
+    {
+      "profile": "gpu_fitted",
+      "scope": "gpu_accepted23",
+      "reference": "fixed_gpu256",
+      "n": 23,
+      "ttft_reduction_pct": -2.5172970167075515,
+      "e2e_reduction_pct": -4.315314627931161,
+      "wins": 9,
+      "ties": 0,
+      "losses": 14
+    },
+    {
+      "profile": "gpu_fitted",
+      "scope": "gpu_accepted23",
+      "reference": "guarded_gpu256",
+      "n": 23,
+      "ttft_reduction_pct": -1.3837428528696123,
+      "e2e_reduction_pct": -2.9683078233731295,
+      "wins": 5,
+      "ties": 0,
+      "losses": 18
+    }
+  ]
+}

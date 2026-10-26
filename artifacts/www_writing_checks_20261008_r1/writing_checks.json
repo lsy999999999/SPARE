@@ -1,0 +1,17 @@
+{
+  "question_answer_pairs": 12,
+  "uncommented_chinese": 0,
+  "main_table_values_verified": 130,
+  "missing_main_table_cells": 0,
+  "simulation_runs": 216,
+  "simulation_failures": 0,
+  "branch_states_checked": 24,
+  "cites_resolve": 15,
+  "all_labels_and_assets_resolve": true,
+  "pending_items": [
+    "author systems",
+    "calibrated independent controls"
+  ],
+  "setting_method_unchanged": true,
+  "compiled": false
+}

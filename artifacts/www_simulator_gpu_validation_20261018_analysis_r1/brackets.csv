@@ -1,0 +1,13 @@
+source,kv_blocks,arm,simulator_last_pass_qps,simulator_first_fail_qps,gpu_lower_passed,gpu_upper_passed,category
+code,2048,arrival,2.5,3.0,True,True,gpu_higher
+code,2048,s3_proxy,3.0,3.25,False,False,gpu_lower
+code,6144,arrival,2.5,3.0,True,False,confirmed
+code,6144,apt_serve_kv_rule,2.5,3.0,True,False,confirmed
+conversation,2048,arrival,3.0,3.5,True,False,confirmed
+conversation,2048,s3_proxy,3.0,3.5,True,False,confirmed
+conversation,6144,arrival,4.0,5.0,True,False,confirmed
+conversation,6144,apt_serve_kv_rule,4.0,4.5,True,False,confirmed
+code,2048,sarathi,2.5,3.0,True,False,confirmed
+code,6144,sarathi,2.5,3.0,True,False,confirmed
+conversation,2048,sarathi,2.12,2.25,True,False,confirmed
+conversation,6144,sarathi,4.0,4.25,True,False,confirmed

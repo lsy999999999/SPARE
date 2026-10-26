@@ -1,0 +1,22 @@
+{
+  "source_design": "./artifacts/www_pareto_papers_20261014_r1/design.json",
+  "capacity": 2048,
+  "budget": 1024,
+  "test_windows": 100,
+  "methods": [
+    "arrival",
+    "native",
+    "sarathi",
+    "past_future",
+    "past_future_multi",
+    "orca_max",
+    "s3_proxy",
+    "ltr_proxy",
+    "apt_serve_kv_rule",
+    "sola_rule",
+    "sola_calibrated",
+    "uniboost_static"
+  ],
+  "parity_check": "All 12 methods matched archived KV=768 trajectory hashes and table metrics on one test window.",
+  "timing": "Frozen Qwen2.5-7B fitted-time CPU simulation; no GPU execution in this batch."
+}

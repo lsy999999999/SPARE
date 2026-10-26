@@ -1,0 +1,13 @@
+kv_blocks,method,arm,capacity_qps_4s,offered_qps,mean_ttft_ms,p99_tbt_ms,backlog_drift,serviceable_at_2_qps,windows,source
+1024,SPARE (Ours),spare,2.72,2.0,1511.2530488984103,72.33416503898688,0.08333333333333333,True,24,artifacts/www_component_ablation_mean_20261020_r4/rates/conversation_c1024_spare_r2.json
+1024,w/o Deferral,srp,1.52,2.0,4899.048104566017,94.05390913332319,3.625,False,24,artifacts/www_component_ablation_mean_20261020_r4/rates/conversation_c1024_srp_r2.json
+1024,w/o Adaptive Threshold,constant8,2.76,2.0,1176.3709942318774,40.08726123589418,-0.3333333333333333,True,24,artifacts/www_component_ablation_mean_20261020_r4/rates/conversation_c1024_constant8_r2.json
+1024,w/o Arrival Extrapolation,no_arrival,2.49,2.0,1595.8225036338536,73.58578207581225,0.125,True,24,artifacts/www_component_ablation_mean_20261020_r4/rates/conversation_c1024_no_arrival_r2.json
+3584,SPARE (Ours),spare,5.91,2.0,332.017499298094,72.94536901253366,-0.9583333333333334,True,24,artifacts/www_ablation_shared_settings_20261023_r1/rates/conversation_c3584_spare_r2.json
+3584,w/o Deferral,srp,3.34,2.0,332.017499298094,72.94536901253366,-0.9583333333333334,True,24,artifacts/www_ablation_shared_settings_20261023_r1/rates/conversation_c3584_srp_r2.json
+3584,w/o Adaptive Threshold,constant8,4.96,2.0,461.3070199597212,36.9042689110765,-0.7083333333333334,True,24,artifacts/www_ablation_shared_settings_20261023_r1/rates/conversation_c3584_constant8_r2.json
+3584,w/o Arrival Extrapolation,no_arrival,5.88,2.0,332.017499298094,72.94536901253366,-0.9583333333333334,True,24,artifacts/www_ablation_shared_settings_20261023_r1/rates/conversation_c3584_no_arrival_r2.json
+5120,SPARE (Ours),spare,5.98,2.0,332.017499298094,72.94536901253366,-0.9583333333333334,True,24,artifacts/www_ablation_shared_settings_20261023_r1/rates/conversation_c5120_spare_r2.json
+5120,w/o Deferral,srp,5.64,2.0,332.017499298094,72.94536901253366,-0.9583333333333334,True,24,artifacts/www_ablation_shared_settings_20261023_r1/rates/conversation_c5120_srp_r2.json
+5120,w/o Adaptive Threshold,constant8,4.98,2.0,461.3070199597212,36.9042689110765,-0.7083333333333334,True,24,artifacts/www_ablation_shared_settings_20261023_r1/rates/conversation_c5120_constant8_r2.json
+5120,w/o Arrival Extrapolation,no_arrival,6.02,2.0,332.017499298094,72.94536901253366,-0.9583333333333334,True,24,artifacts/www_ablation_shared_settings_20261023_r1/rates/conversation_c5120_no_arrival_r2.json

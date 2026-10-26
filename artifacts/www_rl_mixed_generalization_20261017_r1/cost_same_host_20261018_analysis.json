@@ -1,0 +1,41 @@
+{
+  "metric": "cpu_schedule_including_audit_ms_mean",
+  "kv_blocks": 2048,
+  "rate_qps": 3.0,
+  "rl_seed": 1017,
+  "bootstrap_seed": 1018,
+  "bootstrap_draws": 10000,
+  "inference_scope": "paired test windows, not repeated host timing runs",
+  "results": {
+    "code": {
+      "windows": 50,
+      "spare_mean_schedule_ms": 0.12467734184482145,
+      "rl_mean_schedule_ms": 0.12390366166644917,
+      "rl_over_spare": 0.9937945406364596,
+      "paired_bootstrap_ratio_95": [
+        0.9721247869366993,
+        1.0188394608192792
+      ]
+    },
+    "conversation": {
+      "windows": 50,
+      "spare_mean_schedule_ms": 0.14424990812522595,
+      "rl_mean_schedule_ms": 0.1481492069226766,
+      "rl_over_spare": 1.0270315513412016,
+      "paired_bootstrap_ratio_95": [
+        1.0123963169720729,
+        1.045801680575111
+      ]
+    },
+    "all": {
+      "windows": 100,
+      "spare_mean_schedule_ms": 0.13446362498502373,
+      "rl_mean_schedule_ms": 0.13602643429456285,
+      "rl_over_spare": 1.0116225433436974,
+      "paired_bootstrap_ratio_95": [
+        0.9977539399615091,
+        1.0272885342979432
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+source,policy_a,policy_b,gpu_relation,simulator_relation
+code,SPARE,SRP,0,0
+code,SPARE,Sarathi,0,0
+code,SRP,Sarathi,0,0
+conversation,SPARE,SRP,0,1
+conversation,SPARE,Sarathi,0,1
+conversation,SRP,Sarathi,0,0

@@ -1,0 +1,43 @@
+{
+  "cell": {
+    "key": "conversation_test1_steady_c2048",
+    "window": "conversation_test1",
+    "stage": "test",
+    "source": "conversation",
+    "date": "2024-05-14",
+    "shape": "steady",
+    "capacity": 2048,
+    "budget": 1024,
+    "chunk": 256,
+    "requests": 128,
+    "input": "inputs/conversation_test1_steady.json",
+    "input_sha256": "b0218b97d47b678249a0a1e10dfdb9ec9cfaf9e2086ddc798be873cec576e46b",
+    "history": "history/conversation.json",
+    "history_sha256": "69533e10fdb5ffb386291a9fe2cca87f7e60c80ba81757b748f205aaee5ee307"
+  },
+  "scales": [
+    0.98,
+    0.99,
+    1.0,
+    1.01,
+    1.02
+  ],
+  "options": {
+    "srp": {},
+    "spare": {},
+    "fixed256": {
+      "mode": "fixed",
+      "fixed_budget": 256
+    },
+    "guarded256": {
+      "mode": "fixed_guarded",
+      "fixed_budget": 256
+    },
+    "budget_only": {
+      "candidate_axes": "budget"
+    }
+  },
+  "protocol_sha256": "bcee4af8702663eb409ff0511ad1d3dd331a56eb789eda5ab43721dc06615c33",
+  "runner_sha256": "0c07990f242df3f23ff136c1261c4f71c5dbccdce52fe5b1f06f1355f6b278ac",
+  "timing_sha256": "e73a97338fe7beb9883b86e3bd46b7f44742e70026796262993858b351a44cc8"
+}

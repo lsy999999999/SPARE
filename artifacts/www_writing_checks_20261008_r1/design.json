@@ -1,0 +1,1331 @@
+{
+  "tasks": [
+    {
+      "window": "code_new0",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new0",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new1",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "fixed512"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "spare"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "srp"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "fixed256"
+    },
+    {
+      "window": "code_new2",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new0",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new1",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 768,
+      "profile": "resource",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 768,
+      "profile": "resource_staircase",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 768,
+      "profile": "gpu_fitted",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 2048,
+      "profile": "resource",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 2048,
+      "profile": "resource_staircase",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 2048,
+      "profile": "gpu_fitted",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 4096,
+      "profile": "resource",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 4096,
+      "profile": "resource_staircase",
+      "arm": "fixed512"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "spare"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "srp"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "fixed256"
+    },
+    {
+      "window": "conversation_new2",
+      "capacity": 4096,
+      "profile": "gpu_fitted",
+      "arm": "fixed512"
+    }
+  ],
+  "profiles": [
+    "resource",
+    "resource_staircase",
+    "gpu_fitted"
+  ],
+  "shape": "32 requests at zero, then 96 at 5.25 req/s; 128 per window",
+  "timing_sha256": "e73a97338fe7beb9883b86e3bd46b7f44742e70026796262993858b351a44cc8",
+  "protocol_sha256": "0d7730a87bd5a51c60f993b7475a033ace9c0eeada00229ff426151b646a81f9",
+  "runner_sha256": "5ebdfeaf4934c4e1b729376cfd9bb01226f9977fd5a4dd3fffd9a2cd91b57338",
+  "source_sha256": {
+    "research/www_evaluation_completion_20261003/simulate.py": "7c600588d0a6fcd5c5c26d7719fac80db2159169fa69065816ca01f2f3fd9fc0",
+    "research/www_evaluation_completion_20261003/scheduler.py": "04280f49c250965638b590295a47edef80582d824c8783fc38dcc2d3be2b4ecb",
+    "research/www_evaluation_completion_20261003/policy.py": "42003dee07b34d840c9e09fb78fc47629d486c08c73023cfc6699320e90f186f",
+    "writing/www/code/run_simulator.py": "d9e95dfebfee825a2202c751ad16a44550e128c094f05d5ea450f2985ad8c246",
+    "simulator_core/timing.py": "f1cd3e9e99bbc75879222cd50e7e2cf0f793d5383e424c737c8e150ddd18da6a",
+    "research/v1_broad12h_20260925/policy.py": "9d79b2fc7978338f3f6b4633d3895a9b3e21aaa00aa23237df63d112e76865e0",
+    "research/v1_broad12h_20260925/scheduler.py": "18ece913c6cb7553e46a28ea0d3ad19c180899ae410cefa1df68ae964f7f327c",
+    "research/v1_saving_threshold_20260924/policy.py": "91be5c6b341ff81728ba3a60571bd927eb26b096f3302bc52d54718271454ab2",
+    "research/v1_budget_20260922/policy.py": "7a47e70bcde98f3e4924e1c395d593531cd580601ff81f1a2d9da89b227d6ebe",
+    "research/v1_budget_20260922/scheduler.py": "541d9b46947369229699f3d16a2a6557435e1eb3a67a0fd0c5cdaa75f4615ae3",
+    "research/v1_paper_comparison_20260922/scheduler.py": "0ec9cfbe361377fb1d1a54151eeab56589536f203c756f5e63cd318719a04636",
+    "research/v1_paper_comparison_20260922/rules.py": "37d514ed46828e67a186ce85854c84b30757ac68fac4a3d37f45709fe8186b86"
+  },
+  "input_sha256": {
+    "code_new0.json": "62d80ad0f583df9bc70dcb4d0b9c59180ee2ff7aa95d18bc0a4272607d7fe472",
+    "code_new1.json": "5e1a20d49c732cb431fef50d1b6c7c7130d72b8b1e36bad87c777ec449d36f1c",
+    "code_new2.json": "27d45f36d03ec058e904803d7ce7ef26491c3e57ee40c97ff184e433ae4559b2",
+    "conversation_new0.json": "78a7888e1eaa8fceda6fa7012f2afcfd38eef4f9170362657f81dfa00266b447",
+    "conversation_new1.json": "7090a4add1062e9d579b6757f455311ade44dac9bfd2da52e620aba765d1fa02",
+    "conversation_new2.json": "2a4feadfe5b2c49478031211c4407ff18fd5c5f66c7c0bb5b66d0a026821cb35"
+  }
+}

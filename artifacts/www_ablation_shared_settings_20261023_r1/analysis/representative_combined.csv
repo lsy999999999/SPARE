@@ -1,0 +1,13 @@
+kv_blocks,arm,capacity_qps,capacity_ttft_limit_s,ttft_offered_qps,mean_ttft_ms,p99_tbt_ms,backlog_drift,windows,source_file
+1024,spare,2.72,4,1.5,624.7978340567387,66.28284130674047,0.9166666666666666,24,artifacts/www_component_ablation_mean_20261020_r4/rates/conversation_c1024_spare_r1.5.json
+1024,srp,1.52,4,1.5,1544.5816101495427,77.94915785955041,1.1666666666666667,24,artifacts/www_component_ablation_mean_20261020_r4/rates/conversation_c1024_srp_r1.5.json
+1024,constant8,2.76,4,1.5,635.6235792301723,36.56835562478166,0.6666666666666666,24,artifacts/www_component_ablation_mean_20261020_r4/rates/conversation_c1024_constant8_r1.5.json
+1024,no_arrival,2.49,4,1.5,697.9724674334753,70.43972330774686,0.5416666666666666,24,artifacts/www_component_ablation_mean_20261020_r4/rates/conversation_c1024_no_arrival_r1.5.json
+3584,spare,5.91,4,3.0,452.6372227194,96.79093523096356,-0.5833333333333334,24,artifacts/www_ablation_shared_settings_20261023_r1/rates/conversation_c3584_spare_r3.json
+3584,srp,3.34,4,3.0,584.3855742796538,96.92054082896736,0.08333333333333333,24,artifacts/www_ablation_shared_settings_20261023_r1/rates/conversation_c3584_srp_r3.json
+3584,constant8,4.96,4,3.0,584.89958921715,43.12231942127668,0.125,24,artifacts/www_ablation_shared_settings_20261023_r1/rates/conversation_c3584_constant8_r3.json
+3584,no_arrival,5.88,4,3.0,453.7434546530319,96.8299434404202,-0.7083333333333334,24,artifacts/www_ablation_shared_settings_20261023_r1/rates/conversation_c3584_no_arrival_r3.json
+5120,spare,5.98,4,4.0,760.0356047153346,105.83364554968573,0.4583333333333333,24,artifacts/www_ablation_shared_settings_20261023_r1/rates/conversation_c5120_spare_r4.json
+5120,srp,5.64,4,4.0,860.4041321190193,105.96017237218227,1.5,24,artifacts/www_ablation_shared_settings_20261023_r1/rates/conversation_c5120_srp_r4.json
+5120,constant8,4.98,4,4.0,1032.7890039335,51.39008124979879,2.0416666666666665,24,artifacts/www_ablation_shared_settings_20261023_r1/rates/conversation_c5120_constant8_r4.json
+5120,no_arrival,6.02,4,4.0,774.307293860087,105.8669954567763,0.8333333333333334,24,artifacts/www_ablation_shared_settings_20261023_r1/rates/conversation_c5120_no_arrival_r4.json

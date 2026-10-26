@@ -1,0 +1,7 @@
+source,arm,gpu_closed,gpu_lower_qps,gpu_upper_qps,gpu_nonmonotonic,gpu_reason,simulator_closed,simulator_lower_qps,simulator_upper_qps,simulator_nonmonotonic,simulator_reason
+code,arrival,True,1.25,1.5,True,,True,1.25,1.5,True,
+code,sarathi,True,1.25,1.5,False,,True,1.25,1.5,False,
+code,srp,True,1.25,1.5,True,,True,1.25,1.5,True,
+conversation,arrival,True,1.5,2.0,True,,True,3.5,4.0,False,
+conversation,sarathi,True,1.5,2.0,False,,True,1.5,2.0,False,
+conversation,srp,True,1.5,2.0,True,,True,1.5,2.0,False,

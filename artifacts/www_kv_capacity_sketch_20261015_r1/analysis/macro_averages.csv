@@ -1,0 +1,169 @@
+kv_blocks,arm,method,capacity_qps,mean_ttft_ms,reference_feasible,n_windows_per_source
+512,arrival,SPARE,1.375,965.5652859041339,True,2
+512,native,vLLM V1,0.5,9253.090136612871,False,2
+512,sarathi,Sarathi rule,0.5,12216.335667285612,False,2
+512,past_future,Past-Future rule,1.25,677.1303728387909,True,2
+512,past_future_multi,Past-Future multi,1.25,676.9557375070575,True,2
+512,orca_max,Orca reservation,0.625,6965.637762310286,False,2
+512,s3_proxy,S3 proxy,1.5,502.5763142766437,True,2
+512,ltr_proxy,LTR proxy,0.5,4587.559582569082,False,2
+512,apt_serve_kv_rule,Apt-Serve KV rule,0.625,2551.723297237043,False,2
+512,sola_rule,SOLA risk rule,0.5,7452.080841267041,False,2
+512,sola_calibrated,SOLA calibrated,1.5,573.2058523485082,True,2
+512,uniboost_static,UniBoost rule,0.625,3816.976118913314,False,2
+640,arrival,SPARE,1.5,763.1589841370915,True,2
+640,native,vLLM V1,0.5,3808.7969014762825,False,2
+640,sarathi,Sarathi rule,0.625,5660.617468529072,False,2
+640,past_future,Past-Future rule,1.25,406.2699158303737,True,2
+640,past_future_multi,Past-Future multi,1.25,406.2699158303737,True,2
+640,orca_max,Orca reservation,1.0,3188.345556547135,True,2
+640,s3_proxy,S3 proxy,1.5,346.7779195088692,True,2
+640,ltr_proxy,LTR proxy,0.5,2786.944271821478,False,2
+640,apt_serve_kv_rule,Apt-Serve KV rule,0.625,1343.4212997296145,False,2
+640,sola_rule,SOLA risk rule,0.75,2934.267714737434,True,2
+640,sola_calibrated,SOLA calibrated,2.0,530.3653733443919,True,2
+640,uniboost_static,UniBoost rule,0.625,1661.5250887033949,False,2
+768,arrival,SPARE,1.75,414.0625160103295,True,2
+768,native,vLLM V1,0.875,4088.940036901124,False,2
+768,sarathi,Sarathi rule,0.875,4491.580131624194,False,2
+768,past_future,Past-Future rule,1.5,347.58898232701983,True,2
+768,past_future_multi,Past-Future multi,1.5,347.58898232701983,True,2
+768,orca_max,Orca reservation,1.125,966.638041849676,True,2
+768,s3_proxy,S3 proxy,1.5,317.5166388656641,True,2
+768,ltr_proxy,LTR proxy,0.875,2749.0370363242946,False,2
+768,apt_serve_kv_rule,Apt-Serve KV rule,1.0,1033.5699032417856,True,2
+768,sola_rule,SOLA risk rule,0.625,1736.179832900538,False,2
+768,sola_calibrated,SOLA calibrated,2.25,470.866790142209,True,2
+768,uniboost_static,UniBoost rule,0.875,1225.6570521600765,True,2
+896,arrival,SPARE,1.5,355.67099120967276,True,2
+896,native,vLLM V1,0.875,1635.4186960407726,False,2
+896,sarathi,Sarathi rule,1.125,1615.9116218195823,True,2
+896,past_future,Past-Future rule,1.5,305.76089783434907,True,2
+896,past_future_multi,Past-Future multi,1.5,305.76089783434907,True,2
+896,orca_max,Orca reservation,1.25,578.5501866258928,True,2
+896,s3_proxy,S3 proxy,1.5,312.50003705886286,True,2
+896,ltr_proxy,LTR proxy,1.0,1529.4162538178275,True,2
+896,apt_serve_kv_rule,Apt-Serve KV rule,1.25,477.8655473712568,True,2
+896,sola_rule,SOLA risk rule,0.875,298.7418417636603,True,2
+896,sola_calibrated,SOLA calibrated,2.25,477.67631025004533,True,2
+896,uniboost_static,UniBoost rule,1.25,1073.8025911057239,True,2
+1024,arrival,SPARE,2.0,310.68660589768166,True,2
+1024,native,vLLM V1,1.0,1308.9185026855375,True,2
+1024,sarathi,Sarathi rule,1.25,1242.0060085215366,True,2
+1024,past_future,Past-Future rule,2.5,299.3311301887027,True,2
+1024,past_future_multi,Past-Future multi,2.5,299.14830194441276,True,2
+1024,orca_max,Orca reservation,1.5,423.90288699846514,True,2
+1024,s3_proxy,S3 proxy,1.5,298.2571708164071,True,2
+1024,ltr_proxy,LTR proxy,1.0,1488.8425339719142,True,2
+1024,apt_serve_kv_rule,Apt-Serve KV rule,1.5,304.5954713373669,True,2
+1024,sola_rule,SOLA risk rule,1.25,344.10291672228806,True,2
+1024,sola_calibrated,SOLA calibrated,2.75,445.83594392012714,True,2
+1024,uniboost_static,UniBoost rule,1.25,561.2219328709373,True,2
+1280,arrival,SPARE,3.0,298.02248377946984,True,2
+1280,native,vLLM V1,1.75,298.1784095781047,True,2
+1280,sarathi,Sarathi rule,1.5,298.1784095781047,True,2
+1280,past_future,Past-Future rule,2.5,298.0553766702661,True,2
+1280,past_future_multi,Past-Future multi,2.5,298.0553766702661,True,2
+1280,orca_max,Orca reservation,1.5,321.06944683247787,True,2
+1280,s3_proxy,S3 proxy,2.5,298.05537667026624,True,2
+1280,ltr_proxy,LTR proxy,1.5,298.1784095781047,True,2
+1280,apt_serve_kv_rule,Apt-Serve KV rule,1.5,297.86919752334484,True,2
+1280,sola_rule,SOLA risk rule,1.5,298.1784095781047,True,2
+1280,sola_calibrated,SOLA calibrated,2.5,445.1098321461742,True,2
+1280,uniboost_static,UniBoost rule,1.25,317.7847096833161,True,2
+1536,arrival,SPARE,3.5,297.87231142171686,True,2
+1536,native,vLLM V1,2.25,297.87231142171686,True,2
+1536,sarathi,Sarathi rule,1.75,297.87231142171686,True,2
+1536,past_future,Past-Future rule,3.0,297.87231142171686,True,2
+1536,past_future_multi,Past-Future multi,3.0,297.87231142171686,True,2
+1536,orca_max,Orca reservation,1.5,298.0153920628511,True,2
+1536,s3_proxy,S3 proxy,3.0,297.87231142171686,True,2
+1536,ltr_proxy,LTR proxy,2.0,297.87231142171686,True,2
+1536,apt_serve_kv_rule,Apt-Serve KV rule,2.25,297.87231142171686,True,2
+1536,sola_rule,SOLA risk rule,2.0,297.87231142171686,True,2
+1536,sola_calibrated,SOLA calibrated,3.0,445.2800487692907,True,2
+1536,uniboost_static,UniBoost rule,1.5,317.62994913941003,True,2
+1792,arrival,SPARE,3.5,297.87231142171686,True,2
+1792,native,vLLM V1,2.25,297.87231142171686,True,2
+1792,sarathi,Sarathi rule,2.25,297.87231142171686,True,2
+1792,past_future,Past-Future rule,3.0,297.87231142171686,True,2
+1792,past_future_multi,Past-Future multi,3.0,297.87231142171686,True,2
+1792,orca_max,Orca reservation,1.5,298.0553766702663,True,2
+1792,s3_proxy,S3 proxy,3.5,297.87231142171686,True,2
+1792,ltr_proxy,LTR proxy,2.0,297.87231142171686,True,2
+1792,apt_serve_kv_rule,Apt-Serve KV rule,2.25,297.87231142171686,True,2
+1792,sola_rule,SOLA risk rule,2.25,297.87231142171686,True,2
+1792,sola_calibrated,SOLA calibrated,3.0,445.2800487692907,True,2
+1792,uniboost_static,UniBoost rule,1.5,317.62994913941003,True,2
+2048,arrival,SPARE,4.0,297.87231142171686,True,2
+2048,native,vLLM V1,3.0,297.87231142171686,True,2
+2048,sarathi,Sarathi rule,3.0,297.87231142171686,True,2
+2048,past_future,Past-Future rule,3.5,297.87231142171686,True,2
+2048,past_future_multi,Past-Future multi,3.5,297.87231142171686,True,2
+2048,orca_max,Orca reservation,2.5,297.87231142171777,True,2
+2048,s3_proxy,S3 proxy,3.5,297.87231142171686,True,2
+2048,ltr_proxy,LTR proxy,2.75,297.87231142171686,True,2
+2048,apt_serve_kv_rule,Apt-Serve KV rule,3.0,297.87231142171686,True,2
+2048,sola_rule,SOLA risk rule,2.25,297.87231142171686,True,2
+2048,sola_calibrated,SOLA calibrated,2.0,445.2800487692907,True,2
+2048,uniboost_static,UniBoost rule,1.5,317.62994913941003,True,2
+2560,arrival,SPARE,4.0,297.87231142171686,True,2
+2560,native,vLLM V1,2.5,297.87231142171686,True,2
+2560,sarathi,Sarathi rule,2.5,297.87231142171686,True,2
+2560,past_future,Past-Future rule,3.5,297.87231142171686,True,2
+2560,past_future_multi,Past-Future multi,3.5,297.87231142171686,True,2
+2560,orca_max,Orca reservation,3.0,297.87231142171686,True,2
+2560,s3_proxy,S3 proxy,3.0,297.87231142171686,True,2
+2560,ltr_proxy,LTR proxy,2.5,297.87231142171686,True,2
+2560,apt_serve_kv_rule,Apt-Serve KV rule,3.0,297.87231142171686,True,2
+2560,sola_rule,SOLA risk rule,2.5,297.87231142171686,True,2
+2560,sola_calibrated,SOLA calibrated,2.0,445.2800487692907,True,2
+2560,uniboost_static,UniBoost rule,1.5,317.62994913941003,True,2
+3072,arrival,SPARE,4.0,297.87231142171686,True,2
+3072,native,vLLM V1,3.0,297.87231142171686,True,2
+3072,sarathi,Sarathi rule,3.0,297.87231142171686,True,2
+3072,past_future,Past-Future rule,4.0,297.87231142171686,True,2
+3072,past_future_multi,Past-Future multi,4.0,297.87231142171686,True,2
+3072,orca_max,Orca reservation,3.0,297.87231142171686,True,2
+3072,s3_proxy,S3 proxy,3.5,297.87231142171686,True,2
+3072,ltr_proxy,LTR proxy,3.0,297.87231142171686,True,2
+3072,apt_serve_kv_rule,Apt-Serve KV rule,3.0,297.87231142171686,True,2
+3072,sola_rule,SOLA risk rule,3.0,297.87231142171686,True,2
+3072,sola_calibrated,SOLA calibrated,2.0,445.2800487692907,True,2
+3072,uniboost_static,UniBoost rule,1.5,317.62994913941003,True,2
+3584,arrival,SPARE,4.0,297.87231142171686,True,2
+3584,native,vLLM V1,3.5,297.87231142171686,True,2
+3584,sarathi,Sarathi rule,3.5,297.87231142171686,True,2
+3584,past_future,Past-Future rule,3.5,297.87231142171686,True,2
+3584,past_future_multi,Past-Future multi,3.5,297.87231142171686,True,2
+3584,orca_max,Orca reservation,3.0,297.87231142171686,True,2
+3584,s3_proxy,S3 proxy,3.5,297.87231142171686,True,2
+3584,ltr_proxy,LTR proxy,3.5,297.87231142171686,True,2
+3584,apt_serve_kv_rule,Apt-Serve KV rule,3.0,297.87231142171686,True,2
+3584,sola_rule,SOLA risk rule,3.0,297.87231142171686,True,2
+3584,sola_calibrated,SOLA calibrated,2.0,445.2800487692907,True,2
+3584,uniboost_static,UniBoost rule,1.5,317.62994913941003,True,2
+4096,arrival,SPARE,4.5,297.87231142171686,True,2
+4096,native,vLLM V1,3.5,297.87231142171686,True,2
+4096,sarathi,Sarathi rule,3.5,297.87231142171686,True,2
+4096,past_future,Past-Future rule,3.5,297.87231142171686,True,2
+4096,past_future_multi,Past-Future multi,3.5,297.87231142171686,True,2
+4096,orca_max,Orca reservation,3.5,297.87231142171686,True,2
+4096,s3_proxy,S3 proxy,3.5,297.87231142171686,True,2
+4096,ltr_proxy,LTR proxy,3.5,297.87231142171686,True,2
+4096,apt_serve_kv_rule,Apt-Serve KV rule,3.5,297.87231142171686,True,2
+4096,sola_rule,SOLA risk rule,3.0,297.87231142171686,True,2
+4096,sola_calibrated,SOLA calibrated,2.0,445.2800487692907,True,2
+4096,uniboost_static,UniBoost rule,1.5,317.62994913941003,True,2
+5120,arrival,SPARE,4.5,297.87231142171686,True,2
+5120,native,vLLM V1,3.5,297.87231142171686,True,2
+5120,sarathi,Sarathi rule,3.5,297.87231142171686,True,2
+5120,past_future,Past-Future rule,3.5,297.87231142171686,True,2
+5120,past_future_multi,Past-Future multi,3.5,297.87231142171686,True,2
+5120,orca_max,Orca reservation,3.5,297.87231142171686,True,2
+5120,s3_proxy,S3 proxy,3.5,297.87231142171686,True,2
+5120,ltr_proxy,LTR proxy,3.5,297.87231142171686,True,2
+5120,apt_serve_kv_rule,Apt-Serve KV rule,3.5,297.87231142171686,True,2
+5120,sola_rule,SOLA risk rule,3.0,297.87231142171686,True,2
+5120,sola_calibrated,SOLA calibrated,2.0,445.2800487692907,True,2
+5120,uniboost_static,UniBoost rule,1.5,317.62994913941003,True,2

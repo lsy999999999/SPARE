@@ -1,0 +1,27 @@
+{
+  "prefill_coefficients": [
+    3.3247517683387783e-06,
+    3.1100852630329645e-06,
+    0.07835337049445582,
+    7.3299992053780585
+  ],
+  "prefill_training_rows": 144,
+  "decode_coefficients": [
+    0.051966292877597894,
+    7.684868485995586e-05,
+    16.84283040435878
+  ],
+  "decode_training_rows": 736,
+  "validation_rows": 514,
+  "validation_mape": 0.03113002165191391,
+  "validation_mae_ms": 2.07619607876757,
+  "alpha": 0.1,
+  "calibration": "fresh RTX 4090 synthetic inputs, repeat 0/1 train, repeat 2 validation",
+  "equations": "SOLA Eq.3/4; nonnegative coefficients; Eq.5 online EMA",
+  "feature_units": "tokens, milliseconds",
+  "target_slos_ms": {
+    "ttft": 5000,
+    "tpot": 200
+  },
+  "profile_sha256": "6342319b5acb4db600fa4239ccc03b61feeabf9cc072673b1ed3917be773d212"
+}

@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "source": "code",
+      "kv": 1024,
+      "arm": "spare",
+      "name": "code_d1_w02",
+      "parity": true
+    },
+    {
+      "source": "conversation",
+      "kv": 2048,
+      "arm": "drop_candidate2",
+      "name": "conversation_d1_w02",
+      "parity": true
+    },
+    {
+      "source": "code",
+      "kv": 4096,
+      "arm": "drop_candidate3",
+      "name": "code_d1_w02",
+      "parity": true
+    },
+    {
+      "source": "conversation",
+      "kv": 1024,
+      "arm": "drop_candidate4",
+      "name": "conversation_d1_w02",
+      "parity": true
+    }
+  ]
+}

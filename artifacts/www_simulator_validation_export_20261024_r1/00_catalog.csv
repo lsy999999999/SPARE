@@ -1,0 +1,18 @@
+file,rows,source,meaning
+01_qwen25_7b_wide_pairs.csv,1836,artifacts/www_simulator_gpu_validation_pilot_analysis_20261019/pairs.csv,All 29 KV levels and eight policies; paper_kv_2048_7424 selects the reported 22 levels.
+02_cross_model_pairs.csv,596,artifacts/www_cross_model_simulator_validation_20261022_r3/paired.csv,"All three new models and all four measured policies, including fixed256."
+03_qwen25_7b_four_window_points.csv,24,artifacts/www_simulator_gpu_validation_20261018_analysis_r1/points.csv,"Separate four-window, two-repeat Qwen2.5-7B boundary confirmation batch."
+04_qwen3_8b_ranking_pairs.csv,228,artifacts/www_policy_ranking_fidelity_20261023_r1/paired.csv,Earlier four-window Qwen3-8B ranking and fine-grid paired replays.
+05_accuracy_by_model_policy.csv,28,01 and 02,"Agreement, false positives/negatives, TTFT and TBT MAPE for every model and policy."
+06_accuracy_by_model_workload_kv_policy.csv,888,01 and 02,Same metrics broken out by workload and KV budget.
+07_capacity_search_points.csv,2318,artifacts/www_policy_ranking_bisect_20261024_r1/gpu/search and artifacts/www_policy_ranking_bisect_20261024_r1/sim/search,"Every locally recorded GPU and simulator QPS search point, including unfinished groups."
+08_capacity_brackets.csv,156,artifacts/www_policy_ranking_bisect_20261024_r1/capacity_brackets.csv,GPU and simulator capacity intervals with complete/running/missing states.
+09_capacity_gpu_sim_comparison.csv,78,08_capacity_brackets.csv,One row per model/workload/KV/policy; error only for complete GPU/simulator pairs.
+10_capacity_ranking_pairs.csv,42,artifacts/www_policy_ranking_bisect_20261024_r1/ranking_pairs.csv,Published ranking comparison snapshot; see 08 and 09 for incomplete groups.
+11_wide_kv_capacity_brackets.csv,464,artifacts/www_simulator_gpu_validation_pilot_analysis_20261019/capacity_brackets.csv,Earlier coarse-grid capacity intervals across the full Qwen2.5-7B KV scan.
+12_wide_kv_spare_gains.csv,406,artifacts/www_simulator_gpu_validation_pilot_analysis_20261019/capacity_gains.csv,Earlier coarse-grid SPARE capacity comparisons; interval resolution is coarse.
+13_qwen3_8b_fine_pooled_points.csv,57,artifacts/www_policy_ranking_fidelity_20261023_r1/pooled_points.csv,Four-window pooled Qwen3-8B timing and pass/fail at each QPS.
+14_qwen3_8b_fine_improvement.csv,2,artifacts/www_policy_ranking_fidelity_20261023_r1/pooled_improvement_prediction.csv,Earlier Qwen3-8B SPARE-vs-baseline capacity gain predictions.
+15_qwen25_7b_four_window_gpu_runs.csv,192,artifacts/www_simulator_gpu_validation_20261018_r2/runs and Sarathi supplement,All 192 individual GPU replays behind the four-window aggregate table.
+16_cross_model_gpu_runs_all.csv,1069,artifacts/www_cross_model_20261021_r1/runs,All GPU scan/formal runs; formal_simulator_pair marks the 596 held-out comparisons.
+17_capacity_window_runs.csv,9282,artifacts/www_policy_ranking_bisect_20261024_r1/gpu/runs and artifacts/www_policy_ranking_bisect_20261024_r1/sim/runs,All available per-window GPU and simulator runs behind the capacity searches.

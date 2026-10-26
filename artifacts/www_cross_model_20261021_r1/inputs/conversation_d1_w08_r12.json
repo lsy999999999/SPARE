@@ -1,0 +1,4496 @@
+[
+  {
+    "id": "conversation_d1_w08:0",
+    "prompt": 1833,
+    "output": 11,
+    "arrival_ms": 184.32764959267595
+  },
+  {
+    "id": "conversation_d1_w08:1",
+    "prompt": 1044,
+    "output": 40,
+    "arrival_ms": 318.1699853976815
+  },
+  {
+    "id": "conversation_d1_w08:2",
+    "prompt": 386,
+    "output": 55,
+    "arrival_ms": 332.37393276078853
+  },
+  {
+    "id": "conversation_d1_w08:3",
+    "prompt": 254,
+    "output": 66,
+    "arrival_ms": 334.91187645932587
+  },
+  {
+    "id": "conversation_d1_w08:4",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 380.926513369455
+  },
+  {
+    "id": "conversation_d1_w08:5",
+    "prompt": 546,
+    "output": 16,
+    "arrival_ms": 404.53557044050666
+  },
+  {
+    "id": "conversation_d1_w08:6",
+    "prompt": 1414,
+    "output": 17,
+    "arrival_ms": 452.8174717541885
+  },
+  {
+    "id": "conversation_d1_w08:7",
+    "prompt": 322,
+    "output": 54,
+    "arrival_ms": 510.31085719353905
+  },
+  {
+    "id": "conversation_d1_w08:8",
+    "prompt": 2978,
+    "output": 7,
+    "arrival_ms": 617.010072039584
+  },
+  {
+    "id": "conversation_d1_w08:9",
+    "prompt": 447,
+    "output": 38,
+    "arrival_ms": 648.4067512670487
+  },
+  {
+    "id": "conversation_d1_w08:10",
+    "prompt": 1044,
+    "output": 40,
+    "arrival_ms": 657.7347880701731
+  },
+  {
+    "id": "conversation_d1_w08:11",
+    "prompt": 383,
+    "output": 57,
+    "arrival_ms": 772.4122342289223
+  },
+  {
+    "id": "conversation_d1_w08:12",
+    "prompt": 592,
+    "output": 7,
+    "arrival_ms": 961.7247235050372
+  },
+  {
+    "id": "conversation_d1_w08:13",
+    "prompt": 2083,
+    "output": 120,
+    "arrival_ms": 968.1540254887045
+  },
+  {
+    "id": "conversation_d1_w08:14",
+    "prompt": 1341,
+    "output": 3,
+    "arrival_ms": 1192.6714932969219
+  },
+  {
+    "id": "conversation_d1_w08:15",
+    "prompt": 388,
+    "output": 45,
+    "arrival_ms": 1273.7987504786804
+  },
+  {
+    "id": "conversation_d1_w08:16",
+    "prompt": 190,
+    "output": 56,
+    "arrival_ms": 1355.3565098874917
+  },
+  {
+    "id": "conversation_d1_w08:17",
+    "prompt": 384,
+    "output": 65,
+    "arrival_ms": 1462.2485346171115
+  },
+  {
+    "id": "conversation_d1_w08:18",
+    "prompt": 546,
+    "output": 16,
+    "arrival_ms": 1558.3454179911507
+  },
+  {
+    "id": "conversation_d1_w08:19",
+    "prompt": 1044,
+    "output": 40,
+    "arrival_ms": 1573.790424894537
+  },
+  {
+    "id": "conversation_d1_w08:20",
+    "prompt": 701,
+    "output": 38,
+    "arrival_ms": 1578.1193539615049
+  },
+  {
+    "id": "conversation_d1_w08:21",
+    "prompt": 764,
+    "output": 97,
+    "arrival_ms": 1731.3160458026352
+  },
+  {
+    "id": "conversation_d1_w08:22",
+    "prompt": 554,
+    "output": 20,
+    "arrival_ms": 2007.978518454306
+  },
+  {
+    "id": "conversation_d1_w08:23",
+    "prompt": 2758,
+    "output": 11,
+    "arrival_ms": 2120.584061727706
+  },
+  {
+    "id": "conversation_d1_w08:24",
+    "prompt": 1973,
+    "output": 164,
+    "arrival_ms": 2307.3957184328424
+  },
+  {
+    "id": "conversation_d1_w08:25",
+    "prompt": 2758,
+    "output": 11,
+    "arrival_ms": 2508.511935475151
+  },
+  {
+    "id": "conversation_d1_w08:26",
+    "prompt": 322,
+    "output": 54,
+    "arrival_ms": 2532.898595104227
+  },
+  {
+    "id": "conversation_d1_w08:27",
+    "prompt": 701,
+    "output": 38,
+    "arrival_ms": 2544.547014510684
+  },
+  {
+    "id": "conversation_d1_w08:28",
+    "prompt": 248,
+    "output": 35,
+    "arrival_ms": 2583.7773104113135
+  },
+  {
+    "id": "conversation_d1_w08:29",
+    "prompt": 383,
+    "output": 57,
+    "arrival_ms": 2609.927469224924
+  },
+  {
+    "id": "conversation_d1_w08:30",
+    "prompt": 519,
+    "output": 13,
+    "arrival_ms": 2674.9833822901896
+  },
+  {
+    "id": "conversation_d1_w08:31",
+    "prompt": 388,
+    "output": 45,
+    "arrival_ms": 2786.5536772433456
+  },
+  {
+    "id": "conversation_d1_w08:32",
+    "prompt": 592,
+    "output": 7,
+    "arrival_ms": 3125.6229833727484
+  },
+  {
+    "id": "conversation_d1_w08:33",
+    "prompt": 978,
+    "output": 36,
+    "arrival_ms": 3146.0517932853186
+  },
+  {
+    "id": "conversation_d1_w08:34",
+    "prompt": 384,
+    "output": 65,
+    "arrival_ms": 3238.721295992113
+  },
+  {
+    "id": "conversation_d1_w08:35",
+    "prompt": 2190,
+    "output": 161,
+    "arrival_ms": 3277.799581143938
+  },
+  {
+    "id": "conversation_d1_w08:36",
+    "prompt": 4922,
+    "output": 3,
+    "arrival_ms": 3390.2685587536853
+  },
+  {
+    "id": "conversation_d1_w08:37",
+    "prompt": 554,
+    "output": 20,
+    "arrival_ms": 3449.1351444939387
+  },
+  {
+    "id": "conversation_d1_w08:38",
+    "prompt": 447,
+    "output": 38,
+    "arrival_ms": 3467.491019862518
+  },
+  {
+    "id": "conversation_d1_w08:39",
+    "prompt": 2014,
+    "output": 96,
+    "arrival_ms": 3540.4798596989517
+  },
+  {
+    "id": "conversation_d1_w08:40",
+    "prompt": 248,
+    "output": 35,
+    "arrival_ms": 3546.9978643464
+  },
+  {
+    "id": "conversation_d1_w08:41",
+    "prompt": 2224,
+    "output": 3,
+    "arrival_ms": 3614.2164247697933
+  },
+  {
+    "id": "conversation_d1_w08:42",
+    "prompt": 2083,
+    "output": 120,
+    "arrival_ms": 3643.3896812393377
+  },
+  {
+    "id": "conversation_d1_w08:43",
+    "prompt": 2758,
+    "output": 11,
+    "arrival_ms": 4073.396255594787
+  },
+  {
+    "id": "conversation_d1_w08:44",
+    "prompt": 613,
+    "output": 8,
+    "arrival_ms": 4110.928993743147
+  },
+  {
+    "id": "conversation_d1_w08:45",
+    "prompt": 554,
+    "output": 22,
+    "arrival_ms": 4220.296865218966
+  },
+  {
+    "id": "conversation_d1_w08:46",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 4252.049270572514
+  },
+  {
+    "id": "conversation_d1_w08:47",
+    "prompt": 548,
+    "output": 17,
+    "arrival_ms": 4273.66531769498
+  },
+  {
+    "id": "conversation_d1_w08:48",
+    "prompt": 587,
+    "output": 82,
+    "arrival_ms": 4315.4557654894425
+  },
+  {
+    "id": "conversation_d1_w08:49",
+    "prompt": 322,
+    "output": 54,
+    "arrival_ms": 4334.121077692048
+  },
+  {
+    "id": "conversation_d1_w08:50",
+    "prompt": 2264,
+    "output": 88,
+    "arrival_ms": 4423.41987713375
+  },
+  {
+    "id": "conversation_d1_w08:51",
+    "prompt": 2003,
+    "output": 14,
+    "arrival_ms": 4638.7013908219005
+  },
+  {
+    "id": "conversation_d1_w08:52",
+    "prompt": 386,
+    "output": 55,
+    "arrival_ms": 4650.515135159346
+  },
+  {
+    "id": "conversation_d1_w08:53",
+    "prompt": 2758,
+    "output": 11,
+    "arrival_ms": 4836.270170799422
+  },
+  {
+    "id": "conversation_d1_w08:54",
+    "prompt": 2820,
+    "output": 251,
+    "arrival_ms": 4955.38693044084
+  },
+  {
+    "id": "conversation_d1_w08:55",
+    "prompt": 254,
+    "output": 66,
+    "arrival_ms": 5003.77549894737
+  },
+  {
+    "id": "conversation_d1_w08:56",
+    "prompt": 601,
+    "output": 18,
+    "arrival_ms": 5243.821291981386
+  },
+  {
+    "id": "conversation_d1_w08:57",
+    "prompt": 3367,
+    "output": 264,
+    "arrival_ms": 5305.398046751213
+  },
+  {
+    "id": "conversation_d1_w08:58",
+    "prompt": 554,
+    "output": 22,
+    "arrival_ms": 5349.881825194329
+  },
+  {
+    "id": "conversation_d1_w08:59",
+    "prompt": 283,
+    "output": 63,
+    "arrival_ms": 5638.8987540611015
+  },
+  {
+    "id": "conversation_d1_w08:60",
+    "prompt": 566,
+    "output": 22,
+    "arrival_ms": 5669.939113607415
+  },
+  {
+    "id": "conversation_d1_w08:61",
+    "prompt": 2299,
+    "output": 3,
+    "arrival_ms": 5759.695386724822
+  },
+  {
+    "id": "conversation_d1_w08:62",
+    "prompt": 554,
+    "output": 22,
+    "arrival_ms": 5767.102995353369
+  },
+  {
+    "id": "conversation_d1_w08:63",
+    "prompt": 248,
+    "output": 35,
+    "arrival_ms": 5828.167853035399
+  },
+  {
+    "id": "conversation_d1_w08:64",
+    "prompt": 701,
+    "output": 38,
+    "arrival_ms": 5868.877356482339
+  },
+  {
+    "id": "conversation_d1_w08:65",
+    "prompt": 2978,
+    "output": 7,
+    "arrival_ms": 6026.544454567197
+  },
+  {
+    "id": "conversation_d1_w08:66",
+    "prompt": 1414,
+    "output": 17,
+    "arrival_ms": 6104.542968469922
+  },
+  {
+    "id": "conversation_d1_w08:67",
+    "prompt": 1295,
+    "output": 3,
+    "arrival_ms": 6127.365564015649
+  },
+  {
+    "id": "conversation_d1_w08:68",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 6137.7745123569875
+  },
+  {
+    "id": "conversation_d1_w08:69",
+    "prompt": 764,
+    "output": 97,
+    "arrival_ms": 6309.254795285638
+  },
+  {
+    "id": "conversation_d1_w08:70",
+    "prompt": 1973,
+    "output": 164,
+    "arrival_ms": 6336.89463737174
+  },
+  {
+    "id": "conversation_d1_w08:71",
+    "prompt": 4922,
+    "output": 3,
+    "arrival_ms": 6394.303736296867
+  },
+  {
+    "id": "conversation_d1_w08:72",
+    "prompt": 379,
+    "output": 161,
+    "arrival_ms": 6494.875381896865
+  },
+  {
+    "id": "conversation_d1_w08:73",
+    "prompt": 384,
+    "output": 65,
+    "arrival_ms": 6598.046727012024
+  },
+  {
+    "id": "conversation_d1_w08:74",
+    "prompt": 383,
+    "output": 57,
+    "arrival_ms": 6805.1405459345415
+  },
+  {
+    "id": "conversation_d1_w08:75",
+    "prompt": 2003,
+    "output": 14,
+    "arrival_ms": 6818.724387309242
+  },
+  {
+    "id": "conversation_d1_w08:76",
+    "prompt": 2014,
+    "output": 96,
+    "arrival_ms": 6882.216672862734
+  },
+  {
+    "id": "conversation_d1_w08:77",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 6889.652732368129
+  },
+  {
+    "id": "conversation_d1_w08:78",
+    "prompt": 2603,
+    "output": 3,
+    "arrival_ms": 6890.594679502592
+  },
+  {
+    "id": "conversation_d1_w08:79",
+    "prompt": 764,
+    "output": 97,
+    "arrival_ms": 6914.159463421562
+  },
+  {
+    "id": "conversation_d1_w08:80",
+    "prompt": 1060,
+    "output": 3,
+    "arrival_ms": 6965.858518394211
+  },
+  {
+    "id": "conversation_d1_w08:81",
+    "prompt": 2820,
+    "output": 251,
+    "arrival_ms": 7148.750098588265
+  },
+  {
+    "id": "conversation_d1_w08:82",
+    "prompt": 260,
+    "output": 7,
+    "arrival_ms": 7200.550970787071
+  },
+  {
+    "id": "conversation_d1_w08:83",
+    "prompt": 260,
+    "output": 7,
+    "arrival_ms": 7340.077632418462
+  },
+  {
+    "id": "conversation_d1_w08:84",
+    "prompt": 1341,
+    "output": 3,
+    "arrival_ms": 7365.952624326334
+  },
+  {
+    "id": "conversation_d1_w08:85",
+    "prompt": 1833,
+    "output": 11,
+    "arrival_ms": 7488.832518339692
+  },
+  {
+    "id": "conversation_d1_w08:86",
+    "prompt": 386,
+    "output": 55,
+    "arrival_ms": 7525.574536903226
+  },
+  {
+    "id": "conversation_d1_w08:87",
+    "prompt": 386,
+    "output": 55,
+    "arrival_ms": 7548.238880688026
+  },
+  {
+    "id": "conversation_d1_w08:88",
+    "prompt": 592,
+    "output": 7,
+    "arrival_ms": 7550.688113760435
+  },
+  {
+    "id": "conversation_d1_w08:89",
+    "prompt": 554,
+    "output": 22,
+    "arrival_ms": 7685.914389978199
+  },
+  {
+    "id": "conversation_d1_w08:90",
+    "prompt": 2978,
+    "output": 7,
+    "arrival_ms": 7722.362127535039
+  },
+  {
+    "id": "conversation_d1_w08:91",
+    "prompt": 386,
+    "output": 55,
+    "arrival_ms": 7794.058451212892
+  },
+  {
+    "id": "conversation_d1_w08:92",
+    "prompt": 613,
+    "output": 8,
+    "arrival_ms": 7852.196078423115
+  },
+  {
+    "id": "conversation_d1_w08:93",
+    "prompt": 1833,
+    "output": 11,
+    "arrival_ms": 8016.290917690306
+  },
+  {
+    "id": "conversation_d1_w08:94",
+    "prompt": 283,
+    "output": 63,
+    "arrival_ms": 8080.917707348661
+  },
+  {
+    "id": "conversation_d1_w08:95",
+    "prompt": 383,
+    "output": 57,
+    "arrival_ms": 8113.220661892134
+  },
+  {
+    "id": "conversation_d1_w08:96",
+    "prompt": 190,
+    "output": 56,
+    "arrival_ms": 8309.739766125718
+  },
+  {
+    "id": "conversation_d1_w08:97",
+    "prompt": 2083,
+    "output": 120,
+    "arrival_ms": 8373.838531094776
+  },
+  {
+    "id": "conversation_d1_w08:98",
+    "prompt": 3367,
+    "output": 264,
+    "arrival_ms": 8426.048248072811
+  },
+  {
+    "id": "conversation_d1_w08:99",
+    "prompt": 2003,
+    "output": 14,
+    "arrival_ms": 8455.961213289653
+  },
+  {
+    "id": "conversation_d1_w08:100",
+    "prompt": 4922,
+    "output": 3,
+    "arrival_ms": 8627.097879832107
+  },
+  {
+    "id": "conversation_d1_w08:101",
+    "prompt": 457,
+    "output": 10,
+    "arrival_ms": 8677.177874569685
+  },
+  {
+    "id": "conversation_d1_w08:102",
+    "prompt": 3367,
+    "output": 264,
+    "arrival_ms": 8687.619231931005
+  },
+  {
+    "id": "conversation_d1_w08:103",
+    "prompt": 587,
+    "output": 82,
+    "arrival_ms": 8703.090611917354
+  },
+  {
+    "id": "conversation_d1_w08:104",
+    "prompt": 559,
+    "output": 22,
+    "arrival_ms": 8904.337521787495
+  },
+  {
+    "id": "conversation_d1_w08:105",
+    "prompt": 2264,
+    "output": 88,
+    "arrival_ms": 8970.74586960915
+  },
+  {
+    "id": "conversation_d1_w08:106",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 9030.756784525287
+  },
+  {
+    "id": "conversation_d1_w08:107",
+    "prompt": 2014,
+    "output": 96,
+    "arrival_ms": 9068.84321064572
+  },
+  {
+    "id": "conversation_d1_w08:108",
+    "prompt": 2233,
+    "output": 128,
+    "arrival_ms": 9131.199812278823
+  },
+  {
+    "id": "conversation_d1_w08:109",
+    "prompt": 190,
+    "output": 56,
+    "arrival_ms": 9150.984373757747
+  },
+  {
+    "id": "conversation_d1_w08:110",
+    "prompt": 283,
+    "output": 63,
+    "arrival_ms": 9266.09444315869
+  },
+  {
+    "id": "conversation_d1_w08:111",
+    "prompt": 283,
+    "output": 63,
+    "arrival_ms": 9306.942062310822
+  },
+  {
+    "id": "conversation_d1_w08:112",
+    "prompt": 554,
+    "output": 20,
+    "arrival_ms": 9387.852229597136
+  },
+  {
+    "id": "conversation_d1_w08:113",
+    "prompt": 587,
+    "output": 82,
+    "arrival_ms": 9605.220496667878
+  },
+  {
+    "id": "conversation_d1_w08:114",
+    "prompt": 2887,
+    "output": 236,
+    "arrival_ms": 9697.163857722799
+  },
+  {
+    "id": "conversation_d1_w08:115",
+    "prompt": 1295,
+    "output": 3,
+    "arrival_ms": 9807.864287850136
+  },
+  {
+    "id": "conversation_d1_w08:116",
+    "prompt": 379,
+    "output": 161,
+    "arrival_ms": 9817.61339259408
+  },
+  {
+    "id": "conversation_d1_w08:117",
+    "prompt": 554,
+    "output": 22,
+    "arrival_ms": 9877.380645235191
+  },
+  {
+    "id": "conversation_d1_w08:118",
+    "prompt": 506,
+    "output": 61,
+    "arrival_ms": 9918.197569529255
+  },
+  {
+    "id": "conversation_d1_w08:119",
+    "prompt": 379,
+    "output": 161,
+    "arrival_ms": 10353.453323315736
+  },
+  {
+    "id": "conversation_d1_w08:120",
+    "prompt": 2014,
+    "output": 96,
+    "arrival_ms": 10421.737098418846
+  },
+  {
+    "id": "conversation_d1_w08:121",
+    "prompt": 1075,
+    "output": 68,
+    "arrival_ms": 10422.798603317495
+  },
+  {
+    "id": "conversation_d1_w08:122",
+    "prompt": 407,
+    "output": 59,
+    "arrival_ms": 10423.567522840933
+  },
+  {
+    "id": "conversation_d1_w08:123",
+    "prompt": 2887,
+    "output": 236,
+    "arrival_ms": 10491.374574960946
+  },
+  {
+    "id": "conversation_d1_w08:124",
+    "prompt": 764,
+    "output": 97,
+    "arrival_ms": 10563.91126185443
+  },
+  {
+    "id": "conversation_d1_w08:125",
+    "prompt": 1044,
+    "output": 40,
+    "arrival_ms": 10581.517255413803
+  },
+  {
+    "id": "conversation_d1_w08:126",
+    "prompt": 554,
+    "output": 20,
+    "arrival_ms": 10588.663897348311
+  },
+  {
+    "id": "conversation_d1_w08:127",
+    "prompt": 613,
+    "output": 8,
+    "arrival_ms": 10618.988766363751
+  },
+  {
+    "id": "conversation_d1_w08:128",
+    "prompt": 1654,
+    "output": 3,
+    "arrival_ms": 10651.68014673358
+  },
+  {
+    "id": "conversation_d1_w08:129",
+    "prompt": 590,
+    "output": 21,
+    "arrival_ms": 10683.40416505495
+  },
+  {
+    "id": "conversation_d1_w08:130",
+    "prompt": 2224,
+    "output": 3,
+    "arrival_ms": 10734.85784222403
+  },
+  {
+    "id": "conversation_d1_w08:131",
+    "prompt": 601,
+    "output": 18,
+    "arrival_ms": 10759.810657054988
+  },
+  {
+    "id": "conversation_d1_w08:132",
+    "prompt": 447,
+    "output": 38,
+    "arrival_ms": 10808.935166493176
+  },
+  {
+    "id": "conversation_d1_w08:133",
+    "prompt": 2083,
+    "output": 120,
+    "arrival_ms": 10902.087484128466
+  },
+  {
+    "id": "conversation_d1_w08:134",
+    "prompt": 764,
+    "output": 97,
+    "arrival_ms": 10988.01118664493
+  },
+  {
+    "id": "conversation_d1_w08:135",
+    "prompt": 2978,
+    "output": 7,
+    "arrival_ms": 11044.715270846013
+  },
+  {
+    "id": "conversation_d1_w08:136",
+    "prompt": 2300,
+    "output": 13,
+    "arrival_ms": 11235.036901879454
+  },
+  {
+    "id": "conversation_d1_w08:137",
+    "prompt": 383,
+    "output": 57,
+    "arrival_ms": 11281.293801657483
+  },
+  {
+    "id": "conversation_d1_w08:138",
+    "prompt": 4922,
+    "output": 3,
+    "arrival_ms": 11404.02692619274
+  },
+  {
+    "id": "conversation_d1_w08:139",
+    "prompt": 1044,
+    "output": 40,
+    "arrival_ms": 11562.5301328052
+  },
+  {
+    "id": "conversation_d1_w08:140",
+    "prompt": 519,
+    "output": 13,
+    "arrival_ms": 11599.978810968141
+  },
+  {
+    "id": "conversation_d1_w08:141",
+    "prompt": 322,
+    "output": 54,
+    "arrival_ms": 11644.253659760792
+  },
+  {
+    "id": "conversation_d1_w08:142",
+    "prompt": 4922,
+    "output": 3,
+    "arrival_ms": 11662.371942451255
+  },
+  {
+    "id": "conversation_d1_w08:143",
+    "prompt": 2978,
+    "output": 7,
+    "arrival_ms": 11692.112229720471
+  },
+  {
+    "id": "conversation_d1_w08:144",
+    "prompt": 554,
+    "output": 20,
+    "arrival_ms": 11696.832680649728
+  },
+  {
+    "id": "conversation_d1_w08:145",
+    "prompt": 764,
+    "output": 97,
+    "arrival_ms": 11960.615214128016
+  },
+  {
+    "id": "conversation_d1_w08:146",
+    "prompt": 2264,
+    "output": 88,
+    "arrival_ms": 12046.416606964556
+  },
+  {
+    "id": "conversation_d1_w08:147",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 12272.584865333321
+  },
+  {
+    "id": "conversation_d1_w08:148",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 12407.444146166636
+  },
+  {
+    "id": "conversation_d1_w08:149",
+    "prompt": 1973,
+    "output": 164,
+    "arrival_ms": 12428.449858526015
+  },
+  {
+    "id": "conversation_d1_w08:150",
+    "prompt": 2123,
+    "output": 239,
+    "arrival_ms": 12519.445492302062
+  },
+  {
+    "id": "conversation_d1_w08:151",
+    "prompt": 1060,
+    "output": 3,
+    "arrival_ms": 12520.712155217605
+  },
+  {
+    "id": "conversation_d1_w08:152",
+    "prompt": 1833,
+    "output": 11,
+    "arrival_ms": 12525.85213333537
+  },
+  {
+    "id": "conversation_d1_w08:153",
+    "prompt": 2014,
+    "output": 96,
+    "arrival_ms": 12547.764055983891
+  },
+  {
+    "id": "conversation_d1_w08:154",
+    "prompt": 2123,
+    "output": 239,
+    "arrival_ms": 12568.315880102042
+  },
+  {
+    "id": "conversation_d1_w08:155",
+    "prompt": 2300,
+    "output": 13,
+    "arrival_ms": 12581.238573952049
+  },
+  {
+    "id": "conversation_d1_w08:156",
+    "prompt": 566,
+    "output": 22,
+    "arrival_ms": 12652.049002034842
+  },
+  {
+    "id": "conversation_d1_w08:157",
+    "prompt": 4922,
+    "output": 3,
+    "arrival_ms": 12709.895913676415
+  },
+  {
+    "id": "conversation_d1_w08:158",
+    "prompt": 554,
+    "output": 22,
+    "arrival_ms": 12753.03770794868
+  },
+  {
+    "id": "conversation_d1_w08:159",
+    "prompt": 1973,
+    "output": 164,
+    "arrival_ms": 12797.362260370557
+  },
+  {
+    "id": "conversation_d1_w08:160",
+    "prompt": 322,
+    "output": 54,
+    "arrival_ms": 12863.35857522338
+  },
+  {
+    "id": "conversation_d1_w08:161",
+    "prompt": 587,
+    "output": 82,
+    "arrival_ms": 12885.958195948255
+  },
+  {
+    "id": "conversation_d1_w08:162",
+    "prompt": 3367,
+    "output": 264,
+    "arrival_ms": 12903.610501289571
+  },
+  {
+    "id": "conversation_d1_w08:163",
+    "prompt": 546,
+    "output": 16,
+    "arrival_ms": 12919.821167198063
+  },
+  {
+    "id": "conversation_d1_w08:164",
+    "prompt": 550,
+    "output": 2,
+    "arrival_ms": 13097.498679349506
+  },
+  {
+    "id": "conversation_d1_w08:165",
+    "prompt": 3367,
+    "output": 264,
+    "arrival_ms": 13101.453925565822
+  },
+  {
+    "id": "conversation_d1_w08:166",
+    "prompt": 1295,
+    "output": 3,
+    "arrival_ms": 13201.488976022234
+  },
+  {
+    "id": "conversation_d1_w08:167",
+    "prompt": 1075,
+    "output": 68,
+    "arrival_ms": 13233.381381779553
+  },
+  {
+    "id": "conversation_d1_w08:168",
+    "prompt": 379,
+    "output": 161,
+    "arrival_ms": 13388.843209127723
+  },
+  {
+    "id": "conversation_d1_w08:169",
+    "prompt": 556,
+    "output": 13,
+    "arrival_ms": 13557.525902732
+  },
+  {
+    "id": "conversation_d1_w08:170",
+    "prompt": 1295,
+    "output": 3,
+    "arrival_ms": 13714.10086541008
+  },
+  {
+    "id": "conversation_d1_w08:171",
+    "prompt": 764,
+    "output": 97,
+    "arrival_ms": 14022.532436734016
+  },
+  {
+    "id": "conversation_d1_w08:172",
+    "prompt": 260,
+    "output": 7,
+    "arrival_ms": 14062.326259221483
+  },
+  {
+    "id": "conversation_d1_w08:173",
+    "prompt": 506,
+    "output": 61,
+    "arrival_ms": 14220.651176783447
+  },
+  {
+    "id": "conversation_d1_w08:174",
+    "prompt": 550,
+    "output": 2,
+    "arrival_ms": 14303.62804981612
+  },
+  {
+    "id": "conversation_d1_w08:175",
+    "prompt": 978,
+    "output": 36,
+    "arrival_ms": 14454.59162282759
+  },
+  {
+    "id": "conversation_d1_w08:176",
+    "prompt": 457,
+    "output": 10,
+    "arrival_ms": 14490.02852739344
+  },
+  {
+    "id": "conversation_d1_w08:177",
+    "prompt": 2224,
+    "output": 3,
+    "arrival_ms": 14509.75096296962
+  },
+  {
+    "id": "conversation_d1_w08:178",
+    "prompt": 590,
+    "output": 21,
+    "arrival_ms": 14689.259624980674
+  },
+  {
+    "id": "conversation_d1_w08:179",
+    "prompt": 2603,
+    "output": 3,
+    "arrival_ms": 14711.580400593588
+  },
+  {
+    "id": "conversation_d1_w08:180",
+    "prompt": 587,
+    "output": 82,
+    "arrival_ms": 14721.063623193688
+  },
+  {
+    "id": "conversation_d1_w08:181",
+    "prompt": 701,
+    "output": 38,
+    "arrival_ms": 14959.442835711845
+  },
+  {
+    "id": "conversation_d1_w08:182",
+    "prompt": 2190,
+    "output": 161,
+    "arrival_ms": 15125.40247721983
+  },
+  {
+    "id": "conversation_d1_w08:183",
+    "prompt": 1973,
+    "output": 164,
+    "arrival_ms": 15205.570214422914
+  },
+  {
+    "id": "conversation_d1_w08:184",
+    "prompt": 447,
+    "output": 38,
+    "arrival_ms": 15255.258443120763
+  },
+  {
+    "id": "conversation_d1_w08:185",
+    "prompt": 554,
+    "output": 22,
+    "arrival_ms": 15271.360307729643
+  },
+  {
+    "id": "conversation_d1_w08:186",
+    "prompt": 3621,
+    "output": 319,
+    "arrival_ms": 15439.85844582732
+  },
+  {
+    "id": "conversation_d1_w08:187",
+    "prompt": 1060,
+    "output": 3,
+    "arrival_ms": 15458.834474481504
+  },
+  {
+    "id": "conversation_d1_w08:188",
+    "prompt": 384,
+    "output": 65,
+    "arrival_ms": 15459.366675352096
+  },
+  {
+    "id": "conversation_d1_w08:189",
+    "prompt": 322,
+    "output": 54,
+    "arrival_ms": 15471.967551167669
+  },
+  {
+    "id": "conversation_d1_w08:190",
+    "prompt": 1414,
+    "output": 17,
+    "arrival_ms": 15488.235785177252
+  },
+  {
+    "id": "conversation_d1_w08:191",
+    "prompt": 283,
+    "output": 63,
+    "arrival_ms": 15647.902835134873
+  },
+  {
+    "id": "conversation_d1_w08:192",
+    "prompt": 554,
+    "output": 20,
+    "arrival_ms": 15648.718148837623
+  },
+  {
+    "id": "conversation_d1_w08:193",
+    "prompt": 2820,
+    "output": 251,
+    "arrival_ms": 15712.398655243655
+  },
+  {
+    "id": "conversation_d1_w08:194",
+    "prompt": 506,
+    "output": 61,
+    "arrival_ms": 15725.406025709903
+  },
+  {
+    "id": "conversation_d1_w08:195",
+    "prompt": 322,
+    "output": 54,
+    "arrival_ms": 15814.339608147318
+  },
+  {
+    "id": "conversation_d1_w08:196",
+    "prompt": 1973,
+    "output": 164,
+    "arrival_ms": 15857.132060383175
+  },
+  {
+    "id": "conversation_d1_w08:197",
+    "prompt": 1060,
+    "output": 3,
+    "arrival_ms": 15872.305956063754
+  },
+  {
+    "id": "conversation_d1_w08:198",
+    "prompt": 764,
+    "output": 97,
+    "arrival_ms": 15943.368269663071
+  },
+  {
+    "id": "conversation_d1_w08:199",
+    "prompt": 2190,
+    "output": 161,
+    "arrival_ms": 16018.230651631517
+  },
+  {
+    "id": "conversation_d1_w08:200",
+    "prompt": 1060,
+    "output": 3,
+    "arrival_ms": 16137.594139547
+  },
+  {
+    "id": "conversation_d1_w08:201",
+    "prompt": 550,
+    "output": 2,
+    "arrival_ms": 16153.654366776167
+  },
+  {
+    "id": "conversation_d1_w08:202",
+    "prompt": 260,
+    "output": 7,
+    "arrival_ms": 16416.330525707734
+  },
+  {
+    "id": "conversation_d1_w08:203",
+    "prompt": 546,
+    "output": 16,
+    "arrival_ms": 16417.02918275267
+  },
+  {
+    "id": "conversation_d1_w08:204",
+    "prompt": 386,
+    "output": 55,
+    "arrival_ms": 16467.150121193456
+  },
+  {
+    "id": "conversation_d1_w08:205",
+    "prompt": 764,
+    "output": 97,
+    "arrival_ms": 16698.005806115547
+  },
+  {
+    "id": "conversation_d1_w08:206",
+    "prompt": 546,
+    "output": 16,
+    "arrival_ms": 16717.59668331168
+  },
+  {
+    "id": "conversation_d1_w08:207",
+    "prompt": 388,
+    "output": 45,
+    "arrival_ms": 16735.253827701592
+  },
+  {
+    "id": "conversation_d1_w08:208",
+    "prompt": 587,
+    "output": 82,
+    "arrival_ms": 16773.881351789794
+  },
+  {
+    "id": "conversation_d1_w08:209",
+    "prompt": 764,
+    "output": 97,
+    "arrival_ms": 16992.55742834016
+  },
+  {
+    "id": "conversation_d1_w08:210",
+    "prompt": 3367,
+    "output": 264,
+    "arrival_ms": 17041.726061278652
+  },
+  {
+    "id": "conversation_d1_w08:211",
+    "prompt": 559,
+    "output": 22,
+    "arrival_ms": 17079.704425727534
+  },
+  {
+    "id": "conversation_d1_w08:212",
+    "prompt": 592,
+    "output": 7,
+    "arrival_ms": 17089.899621382378
+  },
+  {
+    "id": "conversation_d1_w08:213",
+    "prompt": 2264,
+    "output": 88,
+    "arrival_ms": 17098.681051619245
+  },
+  {
+    "id": "conversation_d1_w08:214",
+    "prompt": 978,
+    "output": 36,
+    "arrival_ms": 17220.7279454114
+  },
+  {
+    "id": "conversation_d1_w08:215",
+    "prompt": 4922,
+    "output": 3,
+    "arrival_ms": 17233.173995798683
+  },
+  {
+    "id": "conversation_d1_w08:216",
+    "prompt": 407,
+    "output": 59,
+    "arrival_ms": 17395.2164845649
+  },
+  {
+    "id": "conversation_d1_w08:217",
+    "prompt": 457,
+    "output": 10,
+    "arrival_ms": 17451.403620850007
+  },
+  {
+    "id": "conversation_d1_w08:218",
+    "prompt": 2233,
+    "output": 128,
+    "arrival_ms": 17627.91506739727
+  },
+  {
+    "id": "conversation_d1_w08:219",
+    "prompt": 548,
+    "output": 17,
+    "arrival_ms": 17650.477545505688
+  },
+  {
+    "id": "conversation_d1_w08:220",
+    "prompt": 592,
+    "output": 7,
+    "arrival_ms": 17683.29822033864
+  },
+  {
+    "id": "conversation_d1_w08:221",
+    "prompt": 407,
+    "output": 59,
+    "arrival_ms": 17856.840369586225
+  },
+  {
+    "id": "conversation_d1_w08:222",
+    "prompt": 1654,
+    "output": 3,
+    "arrival_ms": 17921.108574652728
+  },
+  {
+    "id": "conversation_d1_w08:223",
+    "prompt": 554,
+    "output": 20,
+    "arrival_ms": 18186.552112711714
+  },
+  {
+    "id": "conversation_d1_w08:224",
+    "prompt": 556,
+    "output": 13,
+    "arrival_ms": 18248.39474500628
+  },
+  {
+    "id": "conversation_d1_w08:225",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 18267.958997509064
+  },
+  {
+    "id": "conversation_d1_w08:226",
+    "prompt": 254,
+    "output": 66,
+    "arrival_ms": 18327.804137586718
+  },
+  {
+    "id": "conversation_d1_w08:227",
+    "prompt": 556,
+    "output": 13,
+    "arrival_ms": 18379.515142274893
+  },
+  {
+    "id": "conversation_d1_w08:228",
+    "prompt": 1414,
+    "output": 17,
+    "arrival_ms": 18498.657046787273
+  },
+  {
+    "id": "conversation_d1_w08:229",
+    "prompt": 4922,
+    "output": 3,
+    "arrival_ms": 18546.781670884604
+  },
+  {
+    "id": "conversation_d1_w08:230",
+    "prompt": 2264,
+    "output": 88,
+    "arrival_ms": 18690.96523319181
+  },
+  {
+    "id": "conversation_d1_w08:231",
+    "prompt": 2820,
+    "output": 251,
+    "arrival_ms": 18799.63368097498
+  },
+  {
+    "id": "conversation_d1_w08:232",
+    "prompt": 386,
+    "output": 55,
+    "arrival_ms": 18978.389664803395
+  },
+  {
+    "id": "conversation_d1_w08:233",
+    "prompt": 2820,
+    "output": 251,
+    "arrival_ms": 19014.818789279827
+  },
+  {
+    "id": "conversation_d1_w08:234",
+    "prompt": 2299,
+    "output": 3,
+    "arrival_ms": 19055.5575507672
+  },
+  {
+    "id": "conversation_d1_w08:235",
+    "prompt": 554,
+    "output": 20,
+    "arrival_ms": 19063.320962808917
+  },
+  {
+    "id": "conversation_d1_w08:236",
+    "prompt": 457,
+    "output": 10,
+    "arrival_ms": 19066.77757559345
+  },
+  {
+    "id": "conversation_d1_w08:237",
+    "prompt": 548,
+    "output": 17,
+    "arrival_ms": 19227.350983976587
+  },
+  {
+    "id": "conversation_d1_w08:238",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 19257.72348869567
+  },
+  {
+    "id": "conversation_d1_w08:239",
+    "prompt": 322,
+    "output": 54,
+    "arrival_ms": 19270.668465753817
+  },
+  {
+    "id": "conversation_d1_w08:240",
+    "prompt": 566,
+    "output": 22,
+    "arrival_ms": 19328.952218173163
+  },
+  {
+    "id": "conversation_d1_w08:241",
+    "prompt": 601,
+    "output": 18,
+    "arrival_ms": 19440.768795955402
+  },
+  {
+    "id": "conversation_d1_w08:242",
+    "prompt": 978,
+    "output": 36,
+    "arrival_ms": 19493.554392968625
+  },
+  {
+    "id": "conversation_d1_w08:243",
+    "prompt": 978,
+    "output": 36,
+    "arrival_ms": 19575.89009014946
+  },
+  {
+    "id": "conversation_d1_w08:244",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 19632.29330394841
+  },
+  {
+    "id": "conversation_d1_w08:245",
+    "prompt": 559,
+    "output": 22,
+    "arrival_ms": 19802.88867811545
+  },
+  {
+    "id": "conversation_d1_w08:246",
+    "prompt": 519,
+    "output": 13,
+    "arrival_ms": 19832.00471503774
+  },
+  {
+    "id": "conversation_d1_w08:247",
+    "prompt": 2264,
+    "output": 88,
+    "arrival_ms": 19834.634606841304
+  },
+  {
+    "id": "conversation_d1_w08:248",
+    "prompt": 559,
+    "output": 22,
+    "arrival_ms": 19887.20645864637
+  },
+  {
+    "id": "conversation_d1_w08:249",
+    "prompt": 3621,
+    "output": 319,
+    "arrival_ms": 19969.696639333615
+  },
+  {
+    "id": "conversation_d1_w08:250",
+    "prompt": 2190,
+    "output": 161,
+    "arrival_ms": 20207.99900763178
+  },
+  {
+    "id": "conversation_d1_w08:251",
+    "prompt": 2014,
+    "output": 96,
+    "arrival_ms": 20320.995048106673
+  },
+  {
+    "id": "conversation_d1_w08:252",
+    "prompt": 190,
+    "output": 56,
+    "arrival_ms": 20341.09588157898
+  },
+  {
+    "id": "conversation_d1_w08:253",
+    "prompt": 1044,
+    "output": 40,
+    "arrival_ms": 20350.226919843844
+  },
+  {
+    "id": "conversation_d1_w08:254",
+    "prompt": 2758,
+    "output": 11,
+    "arrival_ms": 20428.75730186604
+  },
+  {
+    "id": "conversation_d1_w08:255",
+    "prompt": 2887,
+    "output": 236,
+    "arrival_ms": 20496.0433968751
+  },
+  {
+    "id": "conversation_d1_w08:256",
+    "prompt": 590,
+    "output": 21,
+    "arrival_ms": 20645.808701860802
+  },
+  {
+    "id": "conversation_d1_w08:257",
+    "prompt": 2224,
+    "output": 3,
+    "arrival_ms": 20713.16330448016
+  },
+  {
+    "id": "conversation_d1_w08:258",
+    "prompt": 519,
+    "output": 13,
+    "arrival_ms": 20860.011517929895
+  },
+  {
+    "id": "conversation_d1_w08:259",
+    "prompt": 519,
+    "output": 13,
+    "arrival_ms": 20925.16423995727
+  },
+  {
+    "id": "conversation_d1_w08:260",
+    "prompt": 388,
+    "output": 45,
+    "arrival_ms": 20936.38521128336
+  },
+  {
+    "id": "conversation_d1_w08:261",
+    "prompt": 2978,
+    "output": 7,
+    "arrival_ms": 21011.84328678097
+  },
+  {
+    "id": "conversation_d1_w08:262",
+    "prompt": 4922,
+    "output": 3,
+    "arrival_ms": 21013.280283835655
+  },
+  {
+    "id": "conversation_d1_w08:263",
+    "prompt": 2083,
+    "output": 120,
+    "arrival_ms": 21025.806861783083
+  },
+  {
+    "id": "conversation_d1_w08:264",
+    "prompt": 2820,
+    "output": 251,
+    "arrival_ms": 21187.7867168069
+  },
+  {
+    "id": "conversation_d1_w08:265",
+    "prompt": 2190,
+    "output": 161,
+    "arrival_ms": 21231.995246207327
+  },
+  {
+    "id": "conversation_d1_w08:266",
+    "prompt": 546,
+    "output": 16,
+    "arrival_ms": 21290.995060898294
+  },
+  {
+    "id": "conversation_d1_w08:267",
+    "prompt": 542,
+    "output": 11,
+    "arrival_ms": 21299.276086498012
+  },
+  {
+    "id": "conversation_d1_w08:268",
+    "prompt": 1654,
+    "output": 3,
+    "arrival_ms": 21322.599098330807
+  },
+  {
+    "id": "conversation_d1_w08:269",
+    "prompt": 601,
+    "output": 18,
+    "arrival_ms": 21469.28998154258
+  },
+  {
+    "id": "conversation_d1_w08:270",
+    "prompt": 613,
+    "output": 8,
+    "arrival_ms": 21601.991498804873
+  },
+  {
+    "id": "conversation_d1_w08:271",
+    "prompt": 5327,
+    "output": 15,
+    "arrival_ms": 22129.075168827185
+  },
+  {
+    "id": "conversation_d1_w08:272",
+    "prompt": 2083,
+    "output": 120,
+    "arrival_ms": 22419.49042002227
+  },
+  {
+    "id": "conversation_d1_w08:273",
+    "prompt": 554,
+    "output": 22,
+    "arrival_ms": 22451.78673922276
+  },
+  {
+    "id": "conversation_d1_w08:274",
+    "prompt": 546,
+    "output": 16,
+    "arrival_ms": 22522.24611965413
+  },
+  {
+    "id": "conversation_d1_w08:275",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 22577.090779708476
+  },
+  {
+    "id": "conversation_d1_w08:276",
+    "prompt": 559,
+    "output": 22,
+    "arrival_ms": 22635.312897368993
+  },
+  {
+    "id": "conversation_d1_w08:277",
+    "prompt": 2224,
+    "output": 3,
+    "arrival_ms": 22703.489977357647
+  },
+  {
+    "id": "conversation_d1_w08:278",
+    "prompt": 1044,
+    "output": 40,
+    "arrival_ms": 22801.555915754798
+  },
+  {
+    "id": "conversation_d1_w08:279",
+    "prompt": 2264,
+    "output": 88,
+    "arrival_ms": 23072.86985263096
+  },
+  {
+    "id": "conversation_d1_w08:280",
+    "prompt": 556,
+    "output": 13,
+    "arrival_ms": 23089.209054126055
+  },
+  {
+    "id": "conversation_d1_w08:281",
+    "prompt": 1973,
+    "output": 164,
+    "arrival_ms": 23105.519983537135
+  },
+  {
+    "id": "conversation_d1_w08:282",
+    "prompt": 566,
+    "output": 22,
+    "arrival_ms": 23289.874284017467
+  },
+  {
+    "id": "conversation_d1_w08:283",
+    "prompt": 546,
+    "output": 16,
+    "arrival_ms": 23352.342612703185
+  },
+  {
+    "id": "conversation_d1_w08:284",
+    "prompt": 3367,
+    "output": 264,
+    "arrival_ms": 23429.639895514414
+  },
+  {
+    "id": "conversation_d1_w08:285",
+    "prompt": 559,
+    "output": 22,
+    "arrival_ms": 23550.797957640127
+  },
+  {
+    "id": "conversation_d1_w08:286",
+    "prompt": 457,
+    "output": 10,
+    "arrival_ms": 23574.61556077137
+  },
+  {
+    "id": "conversation_d1_w08:287",
+    "prompt": 590,
+    "output": 21,
+    "arrival_ms": 23583.80266216227
+  },
+  {
+    "id": "conversation_d1_w08:288",
+    "prompt": 559,
+    "output": 22,
+    "arrival_ms": 23637.093044750054
+  },
+  {
+    "id": "conversation_d1_w08:289",
+    "prompt": 542,
+    "output": 11,
+    "arrival_ms": 23655.470495543505
+  },
+  {
+    "id": "conversation_d1_w08:290",
+    "prompt": 1060,
+    "output": 3,
+    "arrival_ms": 23669.596867907243
+  },
+  {
+    "id": "conversation_d1_w08:291",
+    "prompt": 587,
+    "output": 82,
+    "arrival_ms": 23707.758467385924
+  },
+  {
+    "id": "conversation_d1_w08:292",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 23908.58373614342
+  },
+  {
+    "id": "conversation_d1_w08:293",
+    "prompt": 2190,
+    "output": 161,
+    "arrival_ms": 23998.4335687346
+  },
+  {
+    "id": "conversation_d1_w08:294",
+    "prompt": 254,
+    "output": 66,
+    "arrival_ms": 24143.310644071393
+  },
+  {
+    "id": "conversation_d1_w08:295",
+    "prompt": 283,
+    "output": 63,
+    "arrival_ms": 24170.594225828405
+  },
+  {
+    "id": "conversation_d1_w08:296",
+    "prompt": 254,
+    "output": 66,
+    "arrival_ms": 24210.02908164254
+  },
+  {
+    "id": "conversation_d1_w08:297",
+    "prompt": 388,
+    "output": 45,
+    "arrival_ms": 24217.40185411192
+  },
+  {
+    "id": "conversation_d1_w08:298",
+    "prompt": 2014,
+    "output": 96,
+    "arrival_ms": 24226.21361608325
+  },
+  {
+    "id": "conversation_d1_w08:299",
+    "prompt": 546,
+    "output": 16,
+    "arrival_ms": 24256.65762418903
+  },
+  {
+    "id": "conversation_d1_w08:300",
+    "prompt": 2190,
+    "output": 161,
+    "arrival_ms": 24391.1656869375
+  },
+  {
+    "id": "conversation_d1_w08:301",
+    "prompt": 386,
+    "output": 55,
+    "arrival_ms": 24418.61339740946
+  },
+  {
+    "id": "conversation_d1_w08:302",
+    "prompt": 2083,
+    "output": 120,
+    "arrival_ms": 24816.301094081762
+  },
+  {
+    "id": "conversation_d1_w08:303",
+    "prompt": 978,
+    "output": 36,
+    "arrival_ms": 24838.606592649867
+  },
+  {
+    "id": "conversation_d1_w08:304",
+    "prompt": 1833,
+    "output": 11,
+    "arrival_ms": 24956.296328142937
+  },
+  {
+    "id": "conversation_d1_w08:305",
+    "prompt": 2978,
+    "output": 7,
+    "arrival_ms": 24960.454371019205
+  },
+  {
+    "id": "conversation_d1_w08:306",
+    "prompt": 248,
+    "output": 35,
+    "arrival_ms": 25109.054095260504
+  },
+  {
+    "id": "conversation_d1_w08:307",
+    "prompt": 2014,
+    "output": 96,
+    "arrival_ms": 25230.735895573245
+  },
+  {
+    "id": "conversation_d1_w08:308",
+    "prompt": 379,
+    "output": 161,
+    "arrival_ms": 25242.07788634689
+  },
+  {
+    "id": "conversation_d1_w08:309",
+    "prompt": 457,
+    "output": 10,
+    "arrival_ms": 25296.807352799107
+  },
+  {
+    "id": "conversation_d1_w08:310",
+    "prompt": 2820,
+    "output": 251,
+    "arrival_ms": 25350.952072536562
+  },
+  {
+    "id": "conversation_d1_w08:311",
+    "prompt": 566,
+    "output": 22,
+    "arrival_ms": 25364.324085080705
+  },
+  {
+    "id": "conversation_d1_w08:312",
+    "prompt": 322,
+    "output": 54,
+    "arrival_ms": 25412.953068892966
+  },
+  {
+    "id": "conversation_d1_w08:313",
+    "prompt": 601,
+    "output": 18,
+    "arrival_ms": 25449.460445934703
+  },
+  {
+    "id": "conversation_d1_w08:314",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 25553.584913980976
+  },
+  {
+    "id": "conversation_d1_w08:315",
+    "prompt": 548,
+    "output": 17,
+    "arrival_ms": 25571.727511646677
+  },
+  {
+    "id": "conversation_d1_w08:316",
+    "prompt": 764,
+    "output": 97,
+    "arrival_ms": 25678.10918372251
+  },
+  {
+    "id": "conversation_d1_w08:317",
+    "prompt": 254,
+    "output": 66,
+    "arrival_ms": 25722.79959568812
+  },
+  {
+    "id": "conversation_d1_w08:318",
+    "prompt": 556,
+    "output": 13,
+    "arrival_ms": 25731.924007795908
+  },
+  {
+    "id": "conversation_d1_w08:319",
+    "prompt": 546,
+    "output": 16,
+    "arrival_ms": 25816.287750332547
+  },
+  {
+    "id": "conversation_d1_w08:320",
+    "prompt": 447,
+    "output": 38,
+    "arrival_ms": 26062.88891795254
+  },
+  {
+    "id": "conversation_d1_w08:321",
+    "prompt": 2083,
+    "output": 120,
+    "arrival_ms": 26172.614865121213
+  },
+  {
+    "id": "conversation_d1_w08:322",
+    "prompt": 383,
+    "output": 57,
+    "arrival_ms": 26262.245241044384
+  },
+  {
+    "id": "conversation_d1_w08:323",
+    "prompt": 383,
+    "output": 57,
+    "arrival_ms": 26373.05686347443
+  },
+  {
+    "id": "conversation_d1_w08:324",
+    "prompt": 254,
+    "output": 66,
+    "arrival_ms": 26394.60234317178
+  },
+  {
+    "id": "conversation_d1_w08:325",
+    "prompt": 2299,
+    "output": 3,
+    "arrival_ms": 26431.190596011307
+  },
+  {
+    "id": "conversation_d1_w08:326",
+    "prompt": 283,
+    "output": 63,
+    "arrival_ms": 26447.994619791847
+  },
+  {
+    "id": "conversation_d1_w08:327",
+    "prompt": 1833,
+    "output": 11,
+    "arrival_ms": 26569.074635445926
+  },
+  {
+    "id": "conversation_d1_w08:328",
+    "prompt": 2014,
+    "output": 96,
+    "arrival_ms": 26702.462859124324
+  },
+  {
+    "id": "conversation_d1_w08:329",
+    "prompt": 1044,
+    "output": 40,
+    "arrival_ms": 26728.16891193458
+  },
+  {
+    "id": "conversation_d1_w08:330",
+    "prompt": 2978,
+    "output": 7,
+    "arrival_ms": 26862.864721218415
+  },
+  {
+    "id": "conversation_d1_w08:331",
+    "prompt": 2233,
+    "output": 128,
+    "arrival_ms": 27046.7932055102
+  },
+  {
+    "id": "conversation_d1_w08:332",
+    "prompt": 5327,
+    "output": 15,
+    "arrival_ms": 27079.575303801812
+  },
+  {
+    "id": "conversation_d1_w08:333",
+    "prompt": 2003,
+    "output": 14,
+    "arrival_ms": 27182.58094858949
+  },
+  {
+    "id": "conversation_d1_w08:334",
+    "prompt": 2014,
+    "output": 96,
+    "arrival_ms": 27275.26355341775
+  },
+  {
+    "id": "conversation_d1_w08:335",
+    "prompt": 2300,
+    "output": 13,
+    "arrival_ms": 27375.028610718055
+  },
+  {
+    "id": "conversation_d1_w08:336",
+    "prompt": 388,
+    "output": 45,
+    "arrival_ms": 27562.838955714167
+  },
+  {
+    "id": "conversation_d1_w08:337",
+    "prompt": 554,
+    "output": 20,
+    "arrival_ms": 27598.741753660554
+  },
+  {
+    "id": "conversation_d1_w08:338",
+    "prompt": 388,
+    "output": 45,
+    "arrival_ms": 27664.593601995486
+  },
+  {
+    "id": "conversation_d1_w08:339",
+    "prompt": 2820,
+    "output": 251,
+    "arrival_ms": 27695.056796307104
+  },
+  {
+    "id": "conversation_d1_w08:340",
+    "prompt": 1414,
+    "output": 17,
+    "arrival_ms": 27702.050203492403
+  },
+  {
+    "id": "conversation_d1_w08:341",
+    "prompt": 1973,
+    "output": 164,
+    "arrival_ms": 27798.173165717973
+  },
+  {
+    "id": "conversation_d1_w08:342",
+    "prompt": 590,
+    "output": 21,
+    "arrival_ms": 28106.757230504154
+  },
+  {
+    "id": "conversation_d1_w08:343",
+    "prompt": 550,
+    "output": 2,
+    "arrival_ms": 28252.211999377007
+  },
+  {
+    "id": "conversation_d1_w08:344",
+    "prompt": 383,
+    "output": 57,
+    "arrival_ms": 28279.817690440428
+  },
+  {
+    "id": "conversation_d1_w08:345",
+    "prompt": 1654,
+    "output": 3,
+    "arrival_ms": 28291.233739139065
+  },
+  {
+    "id": "conversation_d1_w08:346",
+    "prompt": 542,
+    "output": 11,
+    "arrival_ms": 28390.563137072546
+  },
+  {
+    "id": "conversation_d1_w08:347",
+    "prompt": 3621,
+    "output": 319,
+    "arrival_ms": 28412.502279104596
+  },
+  {
+    "id": "conversation_d1_w08:348",
+    "prompt": 190,
+    "output": 56,
+    "arrival_ms": 28434.98395330536
+  },
+  {
+    "id": "conversation_d1_w08:349",
+    "prompt": 587,
+    "output": 82,
+    "arrival_ms": 28620.771175169735
+  },
+  {
+    "id": "conversation_d1_w08:350",
+    "prompt": 1654,
+    "output": 3,
+    "arrival_ms": 28816.97144969954
+  },
+  {
+    "id": "conversation_d1_w08:351",
+    "prompt": 552,
+    "output": 21,
+    "arrival_ms": 28971.881683585216
+  },
+  {
+    "id": "conversation_d1_w08:352",
+    "prompt": 2014,
+    "output": 96,
+    "arrival_ms": 29047.793072951576
+  },
+  {
+    "id": "conversation_d1_w08:353",
+    "prompt": 2978,
+    "output": 7,
+    "arrival_ms": 29078.31070963087
+  },
+  {
+    "id": "conversation_d1_w08:354",
+    "prompt": 548,
+    "output": 17,
+    "arrival_ms": 29087.679400704204
+  },
+  {
+    "id": "conversation_d1_w08:355",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 29101.63602744383
+  },
+  {
+    "id": "conversation_d1_w08:356",
+    "prompt": 1044,
+    "output": 40,
+    "arrival_ms": 29133.213136099486
+  },
+  {
+    "id": "conversation_d1_w08:357",
+    "prompt": 283,
+    "output": 63,
+    "arrival_ms": 29470.572152313878
+  },
+  {
+    "id": "conversation_d1_w08:358",
+    "prompt": 506,
+    "output": 61,
+    "arrival_ms": 29523.281525491402
+  },
+  {
+    "id": "conversation_d1_w08:359",
+    "prompt": 1341,
+    "output": 3,
+    "arrival_ms": 29533.28778970508
+  },
+  {
+    "id": "conversation_d1_w08:360",
+    "prompt": 592,
+    "output": 7,
+    "arrival_ms": 29541.638684952934
+  },
+  {
+    "id": "conversation_d1_w08:361",
+    "prompt": 764,
+    "output": 97,
+    "arrival_ms": 29560.834239453423
+  },
+  {
+    "id": "conversation_d1_w08:362",
+    "prompt": 388,
+    "output": 45,
+    "arrival_ms": 29890.315322169783
+  },
+  {
+    "id": "conversation_d1_w08:363",
+    "prompt": 447,
+    "output": 38,
+    "arrival_ms": 29956.304925435426
+  },
+  {
+    "id": "conversation_d1_w08:364",
+    "prompt": 1341,
+    "output": 3,
+    "arrival_ms": 29956.36777598989
+  },
+  {
+    "id": "conversation_d1_w08:365",
+    "prompt": 519,
+    "output": 13,
+    "arrival_ms": 29980.534830963297
+  },
+  {
+    "id": "conversation_d1_w08:366",
+    "prompt": 592,
+    "output": 7,
+    "arrival_ms": 30000.498322503478
+  },
+  {
+    "id": "conversation_d1_w08:367",
+    "prompt": 283,
+    "output": 63,
+    "arrival_ms": 30082.982361732556
+  },
+  {
+    "id": "conversation_d1_w08:368",
+    "prompt": 407,
+    "output": 59,
+    "arrival_ms": 30095.024926649818
+  },
+  {
+    "id": "conversation_d1_w08:369",
+    "prompt": 764,
+    "output": 97,
+    "arrival_ms": 30100.937553049604
+  },
+  {
+    "id": "conversation_d1_w08:370",
+    "prompt": 587,
+    "output": 82,
+    "arrival_ms": 30121.905359030603
+  },
+  {
+    "id": "conversation_d1_w08:371",
+    "prompt": 519,
+    "output": 13,
+    "arrival_ms": 30297.309297884258
+  },
+  {
+    "id": "conversation_d1_w08:372",
+    "prompt": 2887,
+    "output": 236,
+    "arrival_ms": 30429.8493686132
+  },
+  {
+    "id": "conversation_d1_w08:373",
+    "prompt": 1044,
+    "output": 40,
+    "arrival_ms": 30563.94283813398
+  },
+  {
+    "id": "conversation_d1_w08:374",
+    "prompt": 457,
+    "output": 10,
+    "arrival_ms": 30573.056967434557
+  },
+  {
+    "id": "conversation_d1_w08:375",
+    "prompt": 3367,
+    "output": 264,
+    "arrival_ms": 30639.662038084516
+  },
+  {
+    "id": "conversation_d1_w08:376",
+    "prompt": 2003,
+    "output": 14,
+    "arrival_ms": 30714.214291354714
+  },
+  {
+    "id": "conversation_d1_w08:377",
+    "prompt": 447,
+    "output": 38,
+    "arrival_ms": 30768.451935782723
+  },
+  {
+    "id": "conversation_d1_w08:378",
+    "prompt": 978,
+    "output": 36,
+    "arrival_ms": 30792.586843662906
+  },
+  {
+    "id": "conversation_d1_w08:379",
+    "prompt": 2003,
+    "output": 14,
+    "arrival_ms": 30890.659180880695
+  },
+  {
+    "id": "conversation_d1_w08:380",
+    "prompt": 1973,
+    "output": 164,
+    "arrival_ms": 30982.02992299008
+  },
+  {
+    "id": "conversation_d1_w08:381",
+    "prompt": 190,
+    "output": 56,
+    "arrival_ms": 31110.13199050171
+  },
+  {
+    "id": "conversation_d1_w08:382",
+    "prompt": 566,
+    "output": 22,
+    "arrival_ms": 31208.031947629643
+  },
+  {
+    "id": "conversation_d1_w08:383",
+    "prompt": 587,
+    "output": 82,
+    "arrival_ms": 31208.30425993216
+  },
+  {
+    "id": "conversation_d1_w08:384",
+    "prompt": 764,
+    "output": 97,
+    "arrival_ms": 31253.7348201267
+  },
+  {
+    "id": "conversation_d1_w08:385",
+    "prompt": 552,
+    "output": 21,
+    "arrival_ms": 31268.372500564903
+  },
+  {
+    "id": "conversation_d1_w08:386",
+    "prompt": 1833,
+    "output": 11,
+    "arrival_ms": 31447.460976234055
+  },
+  {
+    "id": "conversation_d1_w08:387",
+    "prompt": 2299,
+    "output": 3,
+    "arrival_ms": 31531.386713882614
+  },
+  {
+    "id": "conversation_d1_w08:388",
+    "prompt": 548,
+    "output": 17,
+    "arrival_ms": 31649.062440531226
+  },
+  {
+    "id": "conversation_d1_w08:389",
+    "prompt": 552,
+    "output": 21,
+    "arrival_ms": 31722.676913767093
+  },
+  {
+    "id": "conversation_d1_w08:390",
+    "prompt": 592,
+    "output": 7,
+    "arrival_ms": 31802.448766159694
+  },
+  {
+    "id": "conversation_d1_w08:391",
+    "prompt": 587,
+    "output": 82,
+    "arrival_ms": 31826.26853062106
+  },
+  {
+    "id": "conversation_d1_w08:392",
+    "prompt": 1295,
+    "output": 3,
+    "arrival_ms": 32037.13446872588
+  },
+  {
+    "id": "conversation_d1_w08:393",
+    "prompt": 2233,
+    "output": 128,
+    "arrival_ms": 32070.849447156128
+  },
+  {
+    "id": "conversation_d1_w08:394",
+    "prompt": 5327,
+    "output": 15,
+    "arrival_ms": 32078.016058394747
+  },
+  {
+    "id": "conversation_d1_w08:395",
+    "prompt": 2264,
+    "output": 88,
+    "arrival_ms": 32131.42951539374
+  },
+  {
+    "id": "conversation_d1_w08:396",
+    "prompt": 447,
+    "output": 38,
+    "arrival_ms": 32312.084248408526
+  },
+  {
+    "id": "conversation_d1_w08:397",
+    "prompt": 248,
+    "output": 35,
+    "arrival_ms": 32480.941747954766
+  },
+  {
+    "id": "conversation_d1_w08:398",
+    "prompt": 978,
+    "output": 36,
+    "arrival_ms": 32515.97262365928
+  },
+  {
+    "id": "conversation_d1_w08:399",
+    "prompt": 592,
+    "output": 7,
+    "arrival_ms": 32608.647495773523
+  },
+  {
+    "id": "conversation_d1_w08:400",
+    "prompt": 542,
+    "output": 11,
+    "arrival_ms": 32709.485088787802
+  },
+  {
+    "id": "conversation_d1_w08:401",
+    "prompt": 1060,
+    "output": 3,
+    "arrival_ms": 32738.150093849126
+  },
+  {
+    "id": "conversation_d1_w08:402",
+    "prompt": 2299,
+    "output": 3,
+    "arrival_ms": 32816.21379417514
+  },
+  {
+    "id": "conversation_d1_w08:403",
+    "prompt": 383,
+    "output": 57,
+    "arrival_ms": 32837.867959474446
+  },
+  {
+    "id": "conversation_d1_w08:404",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 33114.5092442883
+  },
+  {
+    "id": "conversation_d1_w08:405",
+    "prompt": 554,
+    "output": 20,
+    "arrival_ms": 33229.69994742982
+  },
+  {
+    "id": "conversation_d1_w08:406",
+    "prompt": 190,
+    "output": 56,
+    "arrival_ms": 33254.04077325351
+  },
+  {
+    "id": "conversation_d1_w08:407",
+    "prompt": 1414,
+    "output": 17,
+    "arrival_ms": 33589.5042858904
+  },
+  {
+    "id": "conversation_d1_w08:408",
+    "prompt": 2758,
+    "output": 11,
+    "arrival_ms": 33702.13184066293
+  },
+  {
+    "id": "conversation_d1_w08:409",
+    "prompt": 554,
+    "output": 20,
+    "arrival_ms": 33740.06643441333
+  },
+  {
+    "id": "conversation_d1_w08:410",
+    "prompt": 1044,
+    "output": 40,
+    "arrival_ms": 33786.314030199814
+  },
+  {
+    "id": "conversation_d1_w08:411",
+    "prompt": 407,
+    "output": 59,
+    "arrival_ms": 34080.57465227767
+  },
+  {
+    "id": "conversation_d1_w08:412",
+    "prompt": 3367,
+    "output": 264,
+    "arrival_ms": 34182.807031057244
+  },
+  {
+    "id": "conversation_d1_w08:413",
+    "prompt": 701,
+    "output": 38,
+    "arrival_ms": 34188.4546375453
+  },
+  {
+    "id": "conversation_d1_w08:414",
+    "prompt": 1833,
+    "output": 11,
+    "arrival_ms": 34226.90263319172
+  },
+  {
+    "id": "conversation_d1_w08:415",
+    "prompt": 407,
+    "output": 59,
+    "arrival_ms": 34478.38185672215
+  },
+  {
+    "id": "conversation_d1_w08:416",
+    "prompt": 1654,
+    "output": 3,
+    "arrival_ms": 34485.921081809545
+  },
+  {
+    "id": "conversation_d1_w08:417",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 34520.58127580849
+  },
+  {
+    "id": "conversation_d1_w08:418",
+    "prompt": 260,
+    "output": 7,
+    "arrival_ms": 34588.48562332591
+  },
+  {
+    "id": "conversation_d1_w08:419",
+    "prompt": 701,
+    "output": 38,
+    "arrival_ms": 34597.55553894274
+  },
+  {
+    "id": "conversation_d1_w08:420",
+    "prompt": 554,
+    "output": 20,
+    "arrival_ms": 34792.29533488818
+  },
+  {
+    "id": "conversation_d1_w08:421",
+    "prompt": 447,
+    "output": 38,
+    "arrival_ms": 34885.07072683721
+  },
+  {
+    "id": "conversation_d1_w08:422",
+    "prompt": 1833,
+    "output": 11,
+    "arrival_ms": 35089.03668119788
+  },
+  {
+    "id": "conversation_d1_w08:423",
+    "prompt": 2603,
+    "output": 3,
+    "arrival_ms": 35347.04714267493
+  },
+  {
+    "id": "conversation_d1_w08:424",
+    "prompt": 383,
+    "output": 57,
+    "arrival_ms": 35366.602992777385
+  },
+  {
+    "id": "conversation_d1_w08:425",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 35393.14377615922
+  },
+  {
+    "id": "conversation_d1_w08:426",
+    "prompt": 260,
+    "output": 7,
+    "arrival_ms": 35552.495392131445
+  },
+  {
+    "id": "conversation_d1_w08:427",
+    "prompt": 1075,
+    "output": 68,
+    "arrival_ms": 35622.45768273351
+  },
+  {
+    "id": "conversation_d1_w08:428",
+    "prompt": 978,
+    "output": 36,
+    "arrival_ms": 35659.3829090876
+  },
+  {
+    "id": "conversation_d1_w08:429",
+    "prompt": 283,
+    "output": 63,
+    "arrival_ms": 35672.544553927386
+  },
+  {
+    "id": "conversation_d1_w08:430",
+    "prompt": 2603,
+    "output": 3,
+    "arrival_ms": 35754.12012571659
+  },
+  {
+    "id": "conversation_d1_w08:431",
+    "prompt": 2014,
+    "output": 96,
+    "arrival_ms": 35808.43234218514
+  },
+  {
+    "id": "conversation_d1_w08:432",
+    "prompt": 550,
+    "output": 2,
+    "arrival_ms": 35944.86831020119
+  },
+  {
+    "id": "conversation_d1_w08:433",
+    "prompt": 322,
+    "output": 54,
+    "arrival_ms": 36010.64591680399
+  },
+  {
+    "id": "conversation_d1_w08:434",
+    "prompt": 2300,
+    "output": 13,
+    "arrival_ms": 36073.90119652185
+  },
+  {
+    "id": "conversation_d1_w08:435",
+    "prompt": 1295,
+    "output": 3,
+    "arrival_ms": 36097.085094906695
+  },
+  {
+    "id": "conversation_d1_w08:436",
+    "prompt": 1654,
+    "output": 3,
+    "arrival_ms": 36264.407162397634
+  },
+  {
+    "id": "conversation_d1_w08:437",
+    "prompt": 613,
+    "output": 8,
+    "arrival_ms": 36347.52128706665
+  },
+  {
+    "id": "conversation_d1_w08:438",
+    "prompt": 4922,
+    "output": 3,
+    "arrival_ms": 36360.172255647376
+  },
+  {
+    "id": "conversation_d1_w08:439",
+    "prompt": 2603,
+    "output": 3,
+    "arrival_ms": 36416.35629001435
+  },
+  {
+    "id": "conversation_d1_w08:440",
+    "prompt": 978,
+    "output": 36,
+    "arrival_ms": 36455.83891952351
+  },
+  {
+    "id": "conversation_d1_w08:441",
+    "prompt": 546,
+    "output": 16,
+    "arrival_ms": 36658.87513794544
+  },
+  {
+    "id": "conversation_d1_w08:442",
+    "prompt": 554,
+    "output": 22,
+    "arrival_ms": 36757.8139262547
+  },
+  {
+    "id": "conversation_d1_w08:443",
+    "prompt": 506,
+    "output": 61,
+    "arrival_ms": 36950.53692151029
+  },
+  {
+    "id": "conversation_d1_w08:444",
+    "prompt": 1060,
+    "output": 3,
+    "arrival_ms": 37038.69395160856
+  },
+  {
+    "id": "conversation_d1_w08:445",
+    "prompt": 2603,
+    "output": 3,
+    "arrival_ms": 37119.55009858261
+  },
+  {
+    "id": "conversation_d1_w08:446",
+    "prompt": 2603,
+    "output": 3,
+    "arrival_ms": 37249.53078634668
+  },
+  {
+    "id": "conversation_d1_w08:447",
+    "prompt": 764,
+    "output": 97,
+    "arrival_ms": 37459.6708726022
+  },
+  {
+    "id": "conversation_d1_w08:448",
+    "prompt": 457,
+    "output": 10,
+    "arrival_ms": 37620.52719415872
+  },
+  {
+    "id": "conversation_d1_w08:449",
+    "prompt": 1060,
+    "output": 3,
+    "arrival_ms": 37623.31033706599
+  },
+  {
+    "id": "conversation_d1_w08:450",
+    "prompt": 2264,
+    "output": 88,
+    "arrival_ms": 37631.51255161553
+  },
+  {
+    "id": "conversation_d1_w08:451",
+    "prompt": 554,
+    "output": 22,
+    "arrival_ms": 37675.91565721157
+  },
+  {
+    "id": "conversation_d1_w08:452",
+    "prompt": 407,
+    "output": 59,
+    "arrival_ms": 37700.03580104914
+  },
+  {
+    "id": "conversation_d1_w08:453",
+    "prompt": 1060,
+    "output": 3,
+    "arrival_ms": 37818.4182472886
+  },
+  {
+    "id": "conversation_d1_w08:454",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 37849.277123359105
+  },
+  {
+    "id": "conversation_d1_w08:455",
+    "prompt": 5327,
+    "output": 15,
+    "arrival_ms": 37853.25657430778
+  },
+  {
+    "id": "conversation_d1_w08:456",
+    "prompt": 1295,
+    "output": 3,
+    "arrival_ms": 37928.256422726525
+  },
+  {
+    "id": "conversation_d1_w08:457",
+    "prompt": 379,
+    "output": 161,
+    "arrival_ms": 37933.04507616271
+  },
+  {
+    "id": "conversation_d1_w08:458",
+    "prompt": 554,
+    "output": 22,
+    "arrival_ms": 38001.08320808768
+  },
+  {
+    "id": "conversation_d1_w08:459",
+    "prompt": 550,
+    "output": 2,
+    "arrival_ms": 38056.67813992933
+  },
+  {
+    "id": "conversation_d1_w08:460",
+    "prompt": 546,
+    "output": 16,
+    "arrival_ms": 38288.50364762685
+  },
+  {
+    "id": "conversation_d1_w08:461",
+    "prompt": 556,
+    "output": 13,
+    "arrival_ms": 38304.3478226908
+  },
+  {
+    "id": "conversation_d1_w08:462",
+    "prompt": 2003,
+    "output": 14,
+    "arrival_ms": 38476.425638765264
+  },
+  {
+    "id": "conversation_d1_w08:463",
+    "prompt": 190,
+    "output": 56,
+    "arrival_ms": 38480.69293747315
+  },
+  {
+    "id": "conversation_d1_w08:464",
+    "prompt": 283,
+    "output": 63,
+    "arrival_ms": 38490.19434656594
+  },
+  {
+    "id": "conversation_d1_w08:465",
+    "prompt": 322,
+    "output": 54,
+    "arrival_ms": 38491.451547209406
+  },
+  {
+    "id": "conversation_d1_w08:466",
+    "prompt": 601,
+    "output": 18,
+    "arrival_ms": 38529.42068927755
+  },
+  {
+    "id": "conversation_d1_w08:467",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 38534.1051579001
+  },
+  {
+    "id": "conversation_d1_w08:468",
+    "prompt": 2820,
+    "output": 251,
+    "arrival_ms": 38584.52285525729
+  },
+  {
+    "id": "conversation_d1_w08:469",
+    "prompt": 283,
+    "output": 63,
+    "arrival_ms": 38639.85514344825
+  },
+  {
+    "id": "conversation_d1_w08:470",
+    "prompt": 283,
+    "output": 63,
+    "arrival_ms": 38660.14516522246
+  },
+  {
+    "id": "conversation_d1_w08:471",
+    "prompt": 2820,
+    "output": 251,
+    "arrival_ms": 38668.62866654578
+  },
+  {
+    "id": "conversation_d1_w08:472",
+    "prompt": 407,
+    "output": 59,
+    "arrival_ms": 38995.640720727526
+  },
+  {
+    "id": "conversation_d1_w08:473",
+    "prompt": 550,
+    "output": 2,
+    "arrival_ms": 39060.87369089209
+  },
+  {
+    "id": "conversation_d1_w08:474",
+    "prompt": 248,
+    "output": 35,
+    "arrival_ms": 39061.96890834762
+  },
+  {
+    "id": "conversation_d1_w08:475",
+    "prompt": 2233,
+    "output": 128,
+    "arrival_ms": 39096.38420525667
+  },
+  {
+    "id": "conversation_d1_w08:476",
+    "prompt": 2758,
+    "output": 11,
+    "arrival_ms": 39313.37386543201
+  },
+  {
+    "id": "conversation_d1_w08:477",
+    "prompt": 260,
+    "output": 7,
+    "arrival_ms": 39332.1175197083
+  },
+  {
+    "id": "conversation_d1_w08:478",
+    "prompt": 384,
+    "output": 65,
+    "arrival_ms": 39381.081829013514
+  },
+  {
+    "id": "conversation_d1_w08:479",
+    "prompt": 383,
+    "output": 57,
+    "arrival_ms": 39453.55589284849
+  },
+  {
+    "id": "conversation_d1_w08:480",
+    "prompt": 550,
+    "output": 2,
+    "arrival_ms": 39469.66050400867
+  },
+  {
+    "id": "conversation_d1_w08:481",
+    "prompt": 384,
+    "output": 65,
+    "arrival_ms": 39510.41312721013
+  },
+  {
+    "id": "conversation_d1_w08:482",
+    "prompt": 1973,
+    "output": 164,
+    "arrival_ms": 39562.760352032434
+  },
+  {
+    "id": "conversation_d1_w08:483",
+    "prompt": 556,
+    "output": 13,
+    "arrival_ms": 39603.567336573025
+  },
+  {
+    "id": "conversation_d1_w08:484",
+    "prompt": 506,
+    "output": 61,
+    "arrival_ms": 39684.06283742098
+  },
+  {
+    "id": "conversation_d1_w08:485",
+    "prompt": 2233,
+    "output": 128,
+    "arrival_ms": 39705.25399209858
+  },
+  {
+    "id": "conversation_d1_w08:486",
+    "prompt": 552,
+    "output": 21,
+    "arrival_ms": 39711.0713202065
+  },
+  {
+    "id": "conversation_d1_w08:487",
+    "prompt": 1341,
+    "output": 3,
+    "arrival_ms": 39798.9092154027
+  },
+  {
+    "id": "conversation_d1_w08:488",
+    "prompt": 587,
+    "output": 82,
+    "arrival_ms": 39905.753119524015
+  },
+  {
+    "id": "conversation_d1_w08:489",
+    "prompt": 2190,
+    "output": 161,
+    "arrival_ms": 39921.94060723908
+  },
+  {
+    "id": "conversation_d1_w08:490",
+    "prompt": 1973,
+    "output": 164,
+    "arrival_ms": 39970.415143189726
+  },
+  {
+    "id": "conversation_d1_w08:491",
+    "prompt": 5327,
+    "output": 15,
+    "arrival_ms": 40136.062530427276
+  },
+  {
+    "id": "conversation_d1_w08:492",
+    "prompt": 2123,
+    "output": 239,
+    "arrival_ms": 40298.24602424005
+  },
+  {
+    "id": "conversation_d1_w08:493",
+    "prompt": 566,
+    "output": 22,
+    "arrival_ms": 40390.323228240806
+  },
+  {
+    "id": "conversation_d1_w08:494",
+    "prompt": 2224,
+    "output": 3,
+    "arrival_ms": 40445.28812273977
+  },
+  {
+    "id": "conversation_d1_w08:495",
+    "prompt": 190,
+    "output": 56,
+    "arrival_ms": 40514.774630549764
+  },
+  {
+    "id": "conversation_d1_w08:496",
+    "prompt": 1295,
+    "output": 3,
+    "arrival_ms": 40518.8535324807
+  },
+  {
+    "id": "conversation_d1_w08:497",
+    "prompt": 2300,
+    "output": 13,
+    "arrival_ms": 40646.89553643774
+  },
+  {
+    "id": "conversation_d1_w08:498",
+    "prompt": 254,
+    "output": 66,
+    "arrival_ms": 40744.70942451541
+  },
+  {
+    "id": "conversation_d1_w08:499",
+    "prompt": 447,
+    "output": 38,
+    "arrival_ms": 40806.305491122745
+  },
+  {
+    "id": "conversation_d1_w08:500",
+    "prompt": 550,
+    "output": 2,
+    "arrival_ms": 40813.91269789932
+  },
+  {
+    "id": "conversation_d1_w08:501",
+    "prompt": 2233,
+    "output": 128,
+    "arrival_ms": 40823.15280139321
+  },
+  {
+    "id": "conversation_d1_w08:502",
+    "prompt": 2299,
+    "output": 3,
+    "arrival_ms": 40832.25890236254
+  },
+  {
+    "id": "conversation_d1_w08:503",
+    "prompt": 322,
+    "output": 54,
+    "arrival_ms": 40862.51458903047
+  },
+  {
+    "id": "conversation_d1_w08:504",
+    "prompt": 2300,
+    "output": 13,
+    "arrival_ms": 41139.94640263619
+  },
+  {
+    "id": "conversation_d1_w08:505",
+    "prompt": 1295,
+    "output": 3,
+    "arrival_ms": 41243.99331739942
+  },
+  {
+    "id": "conversation_d1_w08:506",
+    "prompt": 2603,
+    "output": 3,
+    "arrival_ms": 41334.56412712366
+  },
+  {
+    "id": "conversation_d1_w08:507",
+    "prompt": 542,
+    "output": 11,
+    "arrival_ms": 41364.4513631319
+  },
+  {
+    "id": "conversation_d1_w08:508",
+    "prompt": 2820,
+    "output": 251,
+    "arrival_ms": 41463.500334822864
+  },
+  {
+    "id": "conversation_d1_w08:509",
+    "prompt": 556,
+    "output": 13,
+    "arrival_ms": 41582.897561852544
+  },
+  {
+    "id": "conversation_d1_w08:510",
+    "prompt": 4922,
+    "output": 3,
+    "arrival_ms": 41670.29501185286
+  },
+  {
+    "id": "conversation_d1_w08:511",
+    "prompt": 2758,
+    "output": 11,
+    "arrival_ms": 41689.19430823363
+  },
+  {
+    "id": "conversation_d1_w08:512",
+    "prompt": 613,
+    "output": 8,
+    "arrival_ms": 41689.71638532699
+  },
+  {
+    "id": "conversation_d1_w08:513",
+    "prompt": 506,
+    "output": 61,
+    "arrival_ms": 41810.840957411616
+  },
+  {
+    "id": "conversation_d1_w08:514",
+    "prompt": 550,
+    "output": 2,
+    "arrival_ms": 41899.24408335002
+  },
+  {
+    "id": "conversation_d1_w08:515",
+    "prompt": 613,
+    "output": 8,
+    "arrival_ms": 42039.931257177996
+  },
+  {
+    "id": "conversation_d1_w08:516",
+    "prompt": 254,
+    "output": 66,
+    "arrival_ms": 42304.97424408554
+  },
+  {
+    "id": "conversation_d1_w08:517",
+    "prompt": 386,
+    "output": 55,
+    "arrival_ms": 42319.10558042753
+  },
+  {
+    "id": "conversation_d1_w08:518",
+    "prompt": 548,
+    "output": 17,
+    "arrival_ms": 42343.07947084768
+  },
+  {
+    "id": "conversation_d1_w08:519",
+    "prompt": 546,
+    "output": 16,
+    "arrival_ms": 42419.046678460676
+  },
+  {
+    "id": "conversation_d1_w08:520",
+    "prompt": 4922,
+    "output": 3,
+    "arrival_ms": 42480.865684151475
+  },
+  {
+    "id": "conversation_d1_w08:521",
+    "prompt": 322,
+    "output": 54,
+    "arrival_ms": 42538.56056917292
+  },
+  {
+    "id": "conversation_d1_w08:522",
+    "prompt": 2978,
+    "output": 7,
+    "arrival_ms": 42583.81976579804
+  },
+  {
+    "id": "conversation_d1_w08:523",
+    "prompt": 386,
+    "output": 55,
+    "arrival_ms": 42702.91080207718
+  },
+  {
+    "id": "conversation_d1_w08:524",
+    "prompt": 552,
+    "output": 21,
+    "arrival_ms": 42720.196577433104
+  },
+  {
+    "id": "conversation_d1_w08:525",
+    "prompt": 1044,
+    "output": 40,
+    "arrival_ms": 42730.72557075142
+  },
+  {
+    "id": "conversation_d1_w08:526",
+    "prompt": 2233,
+    "output": 128,
+    "arrival_ms": 42918.30006774903
+  },
+  {
+    "id": "conversation_d1_w08:527",
+    "prompt": 592,
+    "output": 7,
+    "arrival_ms": 42980.78049159113
+  },
+  {
+    "id": "conversation_d1_w08:528",
+    "prompt": 248,
+    "output": 35,
+    "arrival_ms": 43038.77454245043
+  },
+  {
+    "id": "conversation_d1_w08:529",
+    "prompt": 2299,
+    "output": 3,
+    "arrival_ms": 43351.77088174301
+  },
+  {
+    "id": "conversation_d1_w08:530",
+    "prompt": 2300,
+    "output": 13,
+    "arrival_ms": 43371.74478421086
+  },
+  {
+    "id": "conversation_d1_w08:531",
+    "prompt": 322,
+    "output": 54,
+    "arrival_ms": 43469.68187783194
+  },
+  {
+    "id": "conversation_d1_w08:532",
+    "prompt": 587,
+    "output": 82,
+    "arrival_ms": 43488.65959449966
+  },
+  {
+    "id": "conversation_d1_w08:533",
+    "prompt": 5327,
+    "output": 15,
+    "arrival_ms": 43505.8509145209
+  },
+  {
+    "id": "conversation_d1_w08:534",
+    "prompt": 1044,
+    "output": 40,
+    "arrival_ms": 43624.91938874676
+  },
+  {
+    "id": "conversation_d1_w08:535",
+    "prompt": 2083,
+    "output": 120,
+    "arrival_ms": 43698.695533697224
+  },
+  {
+    "id": "conversation_d1_w08:536",
+    "prompt": 447,
+    "output": 38,
+    "arrival_ms": 43765.00208388588
+  },
+  {
+    "id": "conversation_d1_w08:537",
+    "prompt": 548,
+    "output": 17,
+    "arrival_ms": 43788.413224228025
+  },
+  {
+    "id": "conversation_d1_w08:538",
+    "prompt": 2083,
+    "output": 120,
+    "arrival_ms": 43936.185909657506
+  },
+  {
+    "id": "conversation_d1_w08:539",
+    "prompt": 407,
+    "output": 59,
+    "arrival_ms": 43980.93856531135
+  },
+  {
+    "id": "conversation_d1_w08:540",
+    "prompt": 2224,
+    "output": 3,
+    "arrival_ms": 44336.98506675907
+  },
+  {
+    "id": "conversation_d1_w08:541",
+    "prompt": 978,
+    "output": 36,
+    "arrival_ms": 44438.46451164395
+  },
+  {
+    "id": "conversation_d1_w08:542",
+    "prompt": 764,
+    "output": 97,
+    "arrival_ms": 44509.65324633243
+  },
+  {
+    "id": "conversation_d1_w08:543",
+    "prompt": 1414,
+    "output": 17,
+    "arrival_ms": 44514.94802659035
+  },
+  {
+    "id": "conversation_d1_w08:544",
+    "prompt": 3621,
+    "output": 319,
+    "arrival_ms": 44524.207422719854
+  },
+  {
+    "id": "conversation_d1_w08:545",
+    "prompt": 592,
+    "output": 7,
+    "arrival_ms": 44649.6916292012
+  },
+  {
+    "id": "conversation_d1_w08:546",
+    "prompt": 254,
+    "output": 66,
+    "arrival_ms": 44888.322766467776
+  },
+  {
+    "id": "conversation_d1_w08:547",
+    "prompt": 542,
+    "output": 11,
+    "arrival_ms": 44923.289386084296
+  },
+  {
+    "id": "conversation_d1_w08:548",
+    "prompt": 383,
+    "output": 57,
+    "arrival_ms": 44961.91341607988
+  },
+  {
+    "id": "conversation_d1_w08:549",
+    "prompt": 386,
+    "output": 55,
+    "arrival_ms": 44995.7693704996
+  },
+  {
+    "id": "conversation_d1_w08:550",
+    "prompt": 613,
+    "output": 8,
+    "arrival_ms": 45061.75498676302
+  },
+  {
+    "id": "conversation_d1_w08:551",
+    "prompt": 559,
+    "output": 22,
+    "arrival_ms": 45173.532763589414
+  },
+  {
+    "id": "conversation_d1_w08:552",
+    "prompt": 2233,
+    "output": 128,
+    "arrival_ms": 45409.01204810241
+  },
+  {
+    "id": "conversation_d1_w08:553",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 45507.6129545382
+  },
+  {
+    "id": "conversation_d1_w08:554",
+    "prompt": 548,
+    "output": 17,
+    "arrival_ms": 45510.4636606194
+  },
+  {
+    "id": "conversation_d1_w08:555",
+    "prompt": 2233,
+    "output": 128,
+    "arrival_ms": 45636.6764587567
+  },
+  {
+    "id": "conversation_d1_w08:556",
+    "prompt": 764,
+    "output": 97,
+    "arrival_ms": 45787.41267499759
+  },
+  {
+    "id": "conversation_d1_w08:557",
+    "prompt": 1833,
+    "output": 11,
+    "arrival_ms": 45795.730885016914
+  },
+  {
+    "id": "conversation_d1_w08:558",
+    "prompt": 1414,
+    "output": 17,
+    "arrival_ms": 45881.78273590771
+  },
+  {
+    "id": "conversation_d1_w08:559",
+    "prompt": 1414,
+    "output": 17,
+    "arrival_ms": 45885.66645469272
+  },
+  {
+    "id": "conversation_d1_w08:560",
+    "prompt": 701,
+    "output": 38,
+    "arrival_ms": 45909.46660043081
+  },
+  {
+    "id": "conversation_d1_w08:561",
+    "prompt": 592,
+    "output": 7,
+    "arrival_ms": 45936.34315460664
+  },
+  {
+    "id": "conversation_d1_w08:562",
+    "prompt": 2264,
+    "output": 88,
+    "arrival_ms": 46081.10066814008
+  },
+  {
+    "id": "conversation_d1_w08:563",
+    "prompt": 260,
+    "output": 7,
+    "arrival_ms": 46083.064042921884
+  },
+  {
+    "id": "conversation_d1_w08:564",
+    "prompt": 1833,
+    "output": 11,
+    "arrival_ms": 46210.10077306779
+  },
+  {
+    "id": "conversation_d1_w08:565",
+    "prompt": 613,
+    "output": 8,
+    "arrival_ms": 46243.6579032082
+  },
+  {
+    "id": "conversation_d1_w08:566",
+    "prompt": 383,
+    "output": 57,
+    "arrival_ms": 46339.519042003776
+  },
+  {
+    "id": "conversation_d1_w08:567",
+    "prompt": 701,
+    "output": 38,
+    "arrival_ms": 46342.2466571625
+  },
+  {
+    "id": "conversation_d1_w08:568",
+    "prompt": 978,
+    "output": 36,
+    "arrival_ms": 46505.372028265185
+  },
+  {
+    "id": "conversation_d1_w08:569",
+    "prompt": 554,
+    "output": 22,
+    "arrival_ms": 46531.71248607431
+  },
+  {
+    "id": "conversation_d1_w08:570",
+    "prompt": 5327,
+    "output": 15,
+    "arrival_ms": 46594.81398206592
+  },
+  {
+    "id": "conversation_d1_w08:571",
+    "prompt": 2233,
+    "output": 128,
+    "arrival_ms": 46655.30236598729
+  },
+  {
+    "id": "conversation_d1_w08:572",
+    "prompt": 559,
+    "output": 22,
+    "arrival_ms": 46676.38704684309
+  },
+  {
+    "id": "conversation_d1_w08:573",
+    "prompt": 2264,
+    "output": 88,
+    "arrival_ms": 46684.49627413993
+  },
+  {
+    "id": "conversation_d1_w08:574",
+    "prompt": 2264,
+    "output": 88,
+    "arrival_ms": 46688.16709243073
+  },
+  {
+    "id": "conversation_d1_w08:575",
+    "prompt": 5327,
+    "output": 15,
+    "arrival_ms": 46725.21044627569
+  },
+  {
+    "id": "conversation_d1_w08:576",
+    "prompt": 587,
+    "output": 82,
+    "arrival_ms": 46829.49525029181
+  },
+  {
+    "id": "conversation_d1_w08:577",
+    "prompt": 248,
+    "output": 35,
+    "arrival_ms": 46870.3164402262
+  },
+  {
+    "id": "conversation_d1_w08:578",
+    "prompt": 2978,
+    "output": 7,
+    "arrival_ms": 47235.507778317115
+  },
+  {
+    "id": "conversation_d1_w08:579",
+    "prompt": 190,
+    "output": 56,
+    "arrival_ms": 47530.21261534782
+  },
+  {
+    "id": "conversation_d1_w08:580",
+    "prompt": 1654,
+    "output": 3,
+    "arrival_ms": 47615.45393779416
+  },
+  {
+    "id": "conversation_d1_w08:581",
+    "prompt": 1075,
+    "output": 68,
+    "arrival_ms": 47729.38831415263
+  },
+  {
+    "id": "conversation_d1_w08:582",
+    "prompt": 1295,
+    "output": 3,
+    "arrival_ms": 47826.20670907834
+  },
+  {
+    "id": "conversation_d1_w08:583",
+    "prompt": 260,
+    "output": 7,
+    "arrival_ms": 47985.03319880009
+  },
+  {
+    "id": "conversation_d1_w08:584",
+    "prompt": 2887,
+    "output": 236,
+    "arrival_ms": 47986.832566490164
+  },
+  {
+    "id": "conversation_d1_w08:585",
+    "prompt": 407,
+    "output": 59,
+    "arrival_ms": 48030.53965207114
+  },
+  {
+    "id": "conversation_d1_w08:586",
+    "prompt": 5327,
+    "output": 15,
+    "arrival_ms": 48037.06847652398
+  },
+  {
+    "id": "conversation_d1_w08:587",
+    "prompt": 379,
+    "output": 161,
+    "arrival_ms": 48039.870953892736
+  },
+  {
+    "id": "conversation_d1_w08:588",
+    "prompt": 587,
+    "output": 82,
+    "arrival_ms": 48103.122121394816
+  },
+  {
+    "id": "conversation_d1_w08:589",
+    "prompt": 2003,
+    "output": 14,
+    "arrival_ms": 48132.52264788819
+  },
+  {
+    "id": "conversation_d1_w08:590",
+    "prompt": 552,
+    "output": 21,
+    "arrival_ms": 48147.72993844169
+  },
+  {
+    "id": "conversation_d1_w08:591",
+    "prompt": 2014,
+    "output": 96,
+    "arrival_ms": 48153.810051379056
+  },
+  {
+    "id": "conversation_d1_w08:592",
+    "prompt": 2233,
+    "output": 128,
+    "arrival_ms": 48193.47358707789
+  },
+  {
+    "id": "conversation_d1_w08:593",
+    "prompt": 566,
+    "output": 22,
+    "arrival_ms": 48197.96480685595
+  },
+  {
+    "id": "conversation_d1_w08:594",
+    "prompt": 559,
+    "output": 22,
+    "arrival_ms": 48223.82790510464
+  },
+  {
+    "id": "conversation_d1_w08:595",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 48227.5129875537
+  },
+  {
+    "id": "conversation_d1_w08:596",
+    "prompt": 613,
+    "output": 8,
+    "arrival_ms": 48229.22893234546
+  },
+  {
+    "id": "conversation_d1_w08:597",
+    "prompt": 559,
+    "output": 22,
+    "arrival_ms": 48380.12642851311
+  },
+  {
+    "id": "conversation_d1_w08:598",
+    "prompt": 2123,
+    "output": 239,
+    "arrival_ms": 48496.29496207769
+  },
+  {
+    "id": "conversation_d1_w08:599",
+    "prompt": 2123,
+    "output": 239,
+    "arrival_ms": 48536.2742667202
+  },
+  {
+    "id": "conversation_d1_w08:600",
+    "prompt": 546,
+    "output": 16,
+    "arrival_ms": 48642.15640937613
+  },
+  {
+    "id": "conversation_d1_w08:601",
+    "prompt": 548,
+    "output": 17,
+    "arrival_ms": 48723.135666572554
+  },
+  {
+    "id": "conversation_d1_w08:602",
+    "prompt": 554,
+    "output": 20,
+    "arrival_ms": 48771.80145572173
+  },
+  {
+    "id": "conversation_d1_w08:603",
+    "prompt": 548,
+    "output": 17,
+    "arrival_ms": 48819.82679356876
+  },
+  {
+    "id": "conversation_d1_w08:604",
+    "prompt": 2603,
+    "output": 3,
+    "arrival_ms": 48851.45867430026
+  },
+  {
+    "id": "conversation_d1_w08:605",
+    "prompt": 447,
+    "output": 38,
+    "arrival_ms": 48920.44694161156
+  },
+  {
+    "id": "conversation_d1_w08:606",
+    "prompt": 2978,
+    "output": 7,
+    "arrival_ms": 48950.56369921032
+  },
+  {
+    "id": "conversation_d1_w08:607",
+    "prompt": 2123,
+    "output": 239,
+    "arrival_ms": 48965.0660453518
+  },
+  {
+    "id": "conversation_d1_w08:608",
+    "prompt": 3621,
+    "output": 319,
+    "arrival_ms": 49010.667513027605
+  },
+  {
+    "id": "conversation_d1_w08:609",
+    "prompt": 2887,
+    "output": 236,
+    "arrival_ms": 49075.990513050296
+  },
+  {
+    "id": "conversation_d1_w08:610",
+    "prompt": 384,
+    "output": 65,
+    "arrival_ms": 49103.523306269686
+  },
+  {
+    "id": "conversation_d1_w08:611",
+    "prompt": 3367,
+    "output": 264,
+    "arrival_ms": 49183.79384016845
+  },
+  {
+    "id": "conversation_d1_w08:612",
+    "prompt": 554,
+    "output": 22,
+    "arrival_ms": 49211.412504313426
+  },
+  {
+    "id": "conversation_d1_w08:613",
+    "prompt": 2264,
+    "output": 88,
+    "arrival_ms": 49221.153050671644
+  },
+  {
+    "id": "conversation_d1_w08:614",
+    "prompt": 1654,
+    "output": 3,
+    "arrival_ms": 49230.22002443241
+  },
+  {
+    "id": "conversation_d1_w08:615",
+    "prompt": 2003,
+    "output": 14,
+    "arrival_ms": 49312.334810394415
+  },
+  {
+    "id": "conversation_d1_w08:616",
+    "prompt": 2820,
+    "output": 251,
+    "arrival_ms": 49393.83117085805
+  },
+  {
+    "id": "conversation_d1_w08:617",
+    "prompt": 542,
+    "output": 11,
+    "arrival_ms": 49479.29350625963
+  },
+  {
+    "id": "conversation_d1_w08:618",
+    "prompt": 2083,
+    "output": 120,
+    "arrival_ms": 49533.36242962586
+  },
+  {
+    "id": "conversation_d1_w08:619",
+    "prompt": 447,
+    "output": 38,
+    "arrival_ms": 49558.71569688491
+  },
+  {
+    "id": "conversation_d1_w08:620",
+    "prompt": 386,
+    "output": 55,
+    "arrival_ms": 49605.6599987719
+  },
+  {
+    "id": "conversation_d1_w08:621",
+    "prompt": 556,
+    "output": 13,
+    "arrival_ms": 49684.83371101812
+  },
+  {
+    "id": "conversation_d1_w08:622",
+    "prompt": 546,
+    "output": 16,
+    "arrival_ms": 49697.11700523473
+  },
+  {
+    "id": "conversation_d1_w08:623",
+    "prompt": 1295,
+    "output": 3,
+    "arrival_ms": 49764.45106692204
+  },
+  {
+    "id": "conversation_d1_w08:624",
+    "prompt": 2264,
+    "output": 88,
+    "arrival_ms": 49996.950788620314
+  },
+  {
+    "id": "conversation_d1_w08:625",
+    "prompt": 548,
+    "output": 17,
+    "arrival_ms": 50063.275474410475
+  },
+  {
+    "id": "conversation_d1_w08:626",
+    "prompt": 587,
+    "output": 82,
+    "arrival_ms": 50194.117563650834
+  },
+  {
+    "id": "conversation_d1_w08:627",
+    "prompt": 701,
+    "output": 38,
+    "arrival_ms": 50209.35820032159
+  },
+  {
+    "id": "conversation_d1_w08:628",
+    "prompt": 260,
+    "output": 7,
+    "arrival_ms": 50319.82767555671
+  },
+  {
+    "id": "conversation_d1_w08:629",
+    "prompt": 2300,
+    "output": 13,
+    "arrival_ms": 50342.98301513999
+  },
+  {
+    "id": "conversation_d1_w08:630",
+    "prompt": 322,
+    "output": 54,
+    "arrival_ms": 50421.38639930813
+  },
+  {
+    "id": "conversation_d1_w08:631",
+    "prompt": 2603,
+    "output": 3,
+    "arrival_ms": 50446.93452175208
+  },
+  {
+    "id": "conversation_d1_w08:632",
+    "prompt": 554,
+    "output": 20,
+    "arrival_ms": 50641.46969162663
+  },
+  {
+    "id": "conversation_d1_w08:633",
+    "prompt": 2887,
+    "output": 236,
+    "arrival_ms": 50830.953753815644
+  },
+  {
+    "id": "conversation_d1_w08:634",
+    "prompt": 550,
+    "output": 2,
+    "arrival_ms": 51226.885308691046
+  },
+  {
+    "id": "conversation_d1_w08:635",
+    "prompt": 190,
+    "output": 56,
+    "arrival_ms": 51228.38965318384
+  },
+  {
+    "id": "conversation_d1_w08:636",
+    "prompt": 559,
+    "output": 22,
+    "arrival_ms": 51342.009758904635
+  },
+  {
+    "id": "conversation_d1_w08:637",
+    "prompt": 379,
+    "output": 161,
+    "arrival_ms": 51410.825068264494
+  },
+  {
+    "id": "conversation_d1_w08:638",
+    "prompt": 2887,
+    "output": 236,
+    "arrival_ms": 51473.49037374893
+  },
+  {
+    "id": "conversation_d1_w08:639",
+    "prompt": 552,
+    "output": 21,
+    "arrival_ms": 51664.58111268468
+  },
+  {
+    "id": "conversation_d1_w08:640",
+    "prompt": 1414,
+    "output": 17,
+    "arrival_ms": 51669.23699509611
+  },
+  {
+    "id": "conversation_d1_w08:641",
+    "prompt": 2190,
+    "output": 161,
+    "arrival_ms": 51763.03059534085
+  },
+  {
+    "id": "conversation_d1_w08:642",
+    "prompt": 592,
+    "output": 7,
+    "arrival_ms": 51797.721857022676
+  },
+  {
+    "id": "conversation_d1_w08:643",
+    "prompt": 386,
+    "output": 55,
+    "arrival_ms": 51847.62896190935
+  },
+  {
+    "id": "conversation_d1_w08:644",
+    "prompt": 701,
+    "output": 38,
+    "arrival_ms": 51859.29426305095
+  },
+  {
+    "id": "conversation_d1_w08:645",
+    "prompt": 447,
+    "output": 38,
+    "arrival_ms": 51949.68279048784
+  },
+  {
+    "id": "conversation_d1_w08:646",
+    "prompt": 559,
+    "output": 22,
+    "arrival_ms": 52017.52649333227
+  },
+  {
+    "id": "conversation_d1_w08:647",
+    "prompt": 542,
+    "output": 11,
+    "arrival_ms": 52212.75781753366
+  },
+  {
+    "id": "conversation_d1_w08:648",
+    "prompt": 1075,
+    "output": 68,
+    "arrival_ms": 52376.79911489025
+  },
+  {
+    "id": "conversation_d1_w08:649",
+    "prompt": 190,
+    "output": 56,
+    "arrival_ms": 52448.68548291366
+  },
+  {
+    "id": "conversation_d1_w08:650",
+    "prompt": 546,
+    "output": 16,
+    "arrival_ms": 52507.658177103
+  },
+  {
+    "id": "conversation_d1_w08:651",
+    "prompt": 601,
+    "output": 18,
+    "arrival_ms": 52544.65706808824
+  },
+  {
+    "id": "conversation_d1_w08:652",
+    "prompt": 254,
+    "output": 66,
+    "arrival_ms": 52586.06043505486
+  },
+  {
+    "id": "conversation_d1_w08:653",
+    "prompt": 1414,
+    "output": 17,
+    "arrival_ms": 52632.22420864264
+  },
+  {
+    "id": "conversation_d1_w08:654",
+    "prompt": 556,
+    "output": 13,
+    "arrival_ms": 52635.03427505987
+  },
+  {
+    "id": "conversation_d1_w08:655",
+    "prompt": 556,
+    "output": 13,
+    "arrival_ms": 52680.92275364641
+  },
+  {
+    "id": "conversation_d1_w08:656",
+    "prompt": 2003,
+    "output": 14,
+    "arrival_ms": 52697.66611543185
+  },
+  {
+    "id": "conversation_d1_w08:657",
+    "prompt": 283,
+    "output": 63,
+    "arrival_ms": 52701.938692892385
+  },
+  {
+    "id": "conversation_d1_w08:658",
+    "prompt": 384,
+    "output": 65,
+    "arrival_ms": 52756.88699923802
+  },
+  {
+    "id": "conversation_d1_w08:659",
+    "prompt": 386,
+    "output": 55,
+    "arrival_ms": 52767.10000502152
+  },
+  {
+    "id": "conversation_d1_w08:660",
+    "prompt": 554,
+    "output": 20,
+    "arrival_ms": 52803.95792240454
+  },
+  {
+    "id": "conversation_d1_w08:661",
+    "prompt": 386,
+    "output": 55,
+    "arrival_ms": 52882.28965713785
+  },
+  {
+    "id": "conversation_d1_w08:662",
+    "prompt": 322,
+    "output": 54,
+    "arrival_ms": 52943.82274272435
+  },
+  {
+    "id": "conversation_d1_w08:663",
+    "prompt": 457,
+    "output": 10,
+    "arrival_ms": 53006.8976301287
+  },
+  {
+    "id": "conversation_d1_w08:664",
+    "prompt": 3367,
+    "output": 264,
+    "arrival_ms": 53014.80123984832
+  },
+  {
+    "id": "conversation_d1_w08:665",
+    "prompt": 248,
+    "output": 35,
+    "arrival_ms": 53071.87627876727
+  },
+  {
+    "id": "conversation_d1_w08:666",
+    "prompt": 1341,
+    "output": 3,
+    "arrival_ms": 53184.81116386697
+  },
+  {
+    "id": "conversation_d1_w08:667",
+    "prompt": 2300,
+    "output": 13,
+    "arrival_ms": 53196.93821165055
+  },
+  {
+    "id": "conversation_d1_w08:668",
+    "prompt": 4922,
+    "output": 3,
+    "arrival_ms": 53248.32954568389
+  },
+  {
+    "id": "conversation_d1_w08:669",
+    "prompt": 3621,
+    "output": 319,
+    "arrival_ms": 53272.82366780325
+  },
+  {
+    "id": "conversation_d1_w08:670",
+    "prompt": 2978,
+    "output": 7,
+    "arrival_ms": 53351.20711809613
+  },
+  {
+    "id": "conversation_d1_w08:671",
+    "prompt": 2300,
+    "output": 13,
+    "arrival_ms": 53563.940435037046
+  },
+  {
+    "id": "conversation_d1_w08:672",
+    "prompt": 601,
+    "output": 18,
+    "arrival_ms": 53646.11020111931
+  },
+  {
+    "id": "conversation_d1_w08:673",
+    "prompt": 254,
+    "output": 66,
+    "arrival_ms": 53871.66843345403
+  },
+  {
+    "id": "conversation_d1_w08:674",
+    "prompt": 388,
+    "output": 45,
+    "arrival_ms": 53884.21969898592
+  },
+  {
+    "id": "conversation_d1_w08:675",
+    "prompt": 2190,
+    "output": 161,
+    "arrival_ms": 54048.65897745218
+  },
+  {
+    "id": "conversation_d1_w08:676",
+    "prompt": 978,
+    "output": 36,
+    "arrival_ms": 54079.05210240973
+  },
+  {
+    "id": "conversation_d1_w08:677",
+    "prompt": 2233,
+    "output": 128,
+    "arrival_ms": 54120.21258222885
+  },
+  {
+    "id": "conversation_d1_w08:678",
+    "prompt": 2887,
+    "output": 236,
+    "arrival_ms": 54164.67918395349
+  },
+  {
+    "id": "conversation_d1_w08:679",
+    "prompt": 2190,
+    "output": 161,
+    "arrival_ms": 54227.005011517474
+  },
+  {
+    "id": "conversation_d1_w08:680",
+    "prompt": 2003,
+    "output": 14,
+    "arrival_ms": 54249.62599282868
+  },
+  {
+    "id": "conversation_d1_w08:681",
+    "prompt": 2758,
+    "output": 11,
+    "arrival_ms": 54405.52757045735
+  },
+  {
+    "id": "conversation_d1_w08:682",
+    "prompt": 388,
+    "output": 45,
+    "arrival_ms": 54558.95099740781
+  },
+  {
+    "id": "conversation_d1_w08:683",
+    "prompt": 587,
+    "output": 82,
+    "arrival_ms": 54608.323138137115
+  },
+  {
+    "id": "conversation_d1_w08:684",
+    "prompt": 386,
+    "output": 55,
+    "arrival_ms": 54659.19113542756
+  },
+  {
+    "id": "conversation_d1_w08:685",
+    "prompt": 5327,
+    "output": 15,
+    "arrival_ms": 54852.67254641085
+  },
+  {
+    "id": "conversation_d1_w08:686",
+    "prompt": 457,
+    "output": 10,
+    "arrival_ms": 54925.76350080573
+  },
+  {
+    "id": "conversation_d1_w08:687",
+    "prompt": 592,
+    "output": 7,
+    "arrival_ms": 54939.87984861381
+  },
+  {
+    "id": "conversation_d1_w08:688",
+    "prompt": 322,
+    "output": 54,
+    "arrival_ms": 55042.12979449942
+  },
+  {
+    "id": "conversation_d1_w08:689",
+    "prompt": 2299,
+    "output": 3,
+    "arrival_ms": 55110.51917534214
+  },
+  {
+    "id": "conversation_d1_w08:690",
+    "prompt": 542,
+    "output": 11,
+    "arrival_ms": 55210.109401956666
+  },
+  {
+    "id": "conversation_d1_w08:691",
+    "prompt": 2224,
+    "output": 3,
+    "arrival_ms": 55401.48989451986
+  },
+  {
+    "id": "conversation_d1_w08:692",
+    "prompt": 1044,
+    "output": 40,
+    "arrival_ms": 55433.7723934227
+  },
+  {
+    "id": "conversation_d1_w08:693",
+    "prompt": 587,
+    "output": 82,
+    "arrival_ms": 55773.432565008494
+  },
+  {
+    "id": "conversation_d1_w08:694",
+    "prompt": 1060,
+    "output": 3,
+    "arrival_ms": 55870.31886974655
+  },
+  {
+    "id": "conversation_d1_w08:695",
+    "prompt": 556,
+    "output": 13,
+    "arrival_ms": 55909.96856757495
+  },
+  {
+    "id": "conversation_d1_w08:696",
+    "prompt": 519,
+    "output": 13,
+    "arrival_ms": 55924.960752682855
+  },
+  {
+    "id": "conversation_d1_w08:697",
+    "prompt": 587,
+    "output": 82,
+    "arrival_ms": 56171.51709619664
+  },
+  {
+    "id": "conversation_d1_w08:698",
+    "prompt": 260,
+    "output": 7,
+    "arrival_ms": 56179.18513448699
+  },
+  {
+    "id": "conversation_d1_w08:699",
+    "prompt": 386,
+    "output": 55,
+    "arrival_ms": 56194.12974572161
+  },
+  {
+    "id": "conversation_d1_w08:700",
+    "prompt": 506,
+    "output": 61,
+    "arrival_ms": 56216.147035504895
+  },
+  {
+    "id": "conversation_d1_w08:701",
+    "prompt": 2820,
+    "output": 251,
+    "arrival_ms": 56286.21393457966
+  },
+  {
+    "id": "conversation_d1_w08:702",
+    "prompt": 1060,
+    "output": 3,
+    "arrival_ms": 56689.91651986243
+  },
+  {
+    "id": "conversation_d1_w08:703",
+    "prompt": 978,
+    "output": 36,
+    "arrival_ms": 56693.510795495786
+  },
+  {
+    "id": "conversation_d1_w08:704",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 56732.61807192684
+  },
+  {
+    "id": "conversation_d1_w08:705",
+    "prompt": 550,
+    "output": 2,
+    "arrival_ms": 56859.10695446862
+  },
+  {
+    "id": "conversation_d1_w08:706",
+    "prompt": 613,
+    "output": 8,
+    "arrival_ms": 56859.63815463216
+  },
+  {
+    "id": "conversation_d1_w08:707",
+    "prompt": 1973,
+    "output": 164,
+    "arrival_ms": 56961.773197915936
+  },
+  {
+    "id": "conversation_d1_w08:708",
+    "prompt": 590,
+    "output": 21,
+    "arrival_ms": 57055.233689802066
+  },
+  {
+    "id": "conversation_d1_w08:709",
+    "prompt": 554,
+    "output": 22,
+    "arrival_ms": 57234.49907268023
+  },
+  {
+    "id": "conversation_d1_w08:710",
+    "prompt": 190,
+    "output": 56,
+    "arrival_ms": 57258.238779535175
+  },
+  {
+    "id": "conversation_d1_w08:711",
+    "prompt": 552,
+    "output": 21,
+    "arrival_ms": 57283.5231940084
+  },
+  {
+    "id": "conversation_d1_w08:712",
+    "prompt": 3367,
+    "output": 264,
+    "arrival_ms": 57341.67024524643
+  },
+  {
+    "id": "conversation_d1_w08:713",
+    "prompt": 566,
+    "output": 22,
+    "arrival_ms": 57354.89041297647
+  },
+  {
+    "id": "conversation_d1_w08:714",
+    "prompt": 764,
+    "output": 97,
+    "arrival_ms": 57369.994837788574
+  },
+  {
+    "id": "conversation_d1_w08:715",
+    "prompt": 2233,
+    "output": 128,
+    "arrival_ms": 57457.95735292287
+  },
+  {
+    "id": "conversation_d1_w08:716",
+    "prompt": 379,
+    "output": 161,
+    "arrival_ms": 57485.44486183458
+  },
+  {
+    "id": "conversation_d1_w08:717",
+    "prompt": 550,
+    "output": 2,
+    "arrival_ms": 57505.16928887736
+  },
+  {
+    "id": "conversation_d1_w08:718",
+    "prompt": 546,
+    "output": 16,
+    "arrival_ms": 57519.349231597975
+  },
+  {
+    "id": "conversation_d1_w08:719",
+    "prompt": 3367,
+    "output": 264,
+    "arrival_ms": 57610.31753548288
+  },
+  {
+    "id": "conversation_d1_w08:720",
+    "prompt": 2224,
+    "output": 3,
+    "arrival_ms": 57718.995360566165
+  },
+  {
+    "id": "conversation_d1_w08:721",
+    "prompt": 552,
+    "output": 19,
+    "arrival_ms": 57757.984672643266
+  },
+  {
+    "id": "conversation_d1_w08:722",
+    "prompt": 592,
+    "output": 7,
+    "arrival_ms": 57784.00464045513
+  },
+  {
+    "id": "conversation_d1_w08:723",
+    "prompt": 383,
+    "output": 57,
+    "arrival_ms": 57835.06189731895
+  },
+  {
+    "id": "conversation_d1_w08:724",
+    "prompt": 254,
+    "output": 66,
+    "arrival_ms": 57996.083997388305
+  },
+  {
+    "id": "conversation_d1_w08:725",
+    "prompt": 978,
+    "output": 36,
+    "arrival_ms": 58030.94172174011
+  },
+  {
+    "id": "conversation_d1_w08:726",
+    "prompt": 2233,
+    "output": 128,
+    "arrival_ms": 58088.60993228203
+  },
+  {
+    "id": "conversation_d1_w08:727",
+    "prompt": 5327,
+    "output": 15,
+    "arrival_ms": 58151.601617960834
+  },
+  {
+    "id": "conversation_d1_w08:728",
+    "prompt": 379,
+    "output": 161,
+    "arrival_ms": 58239.21725261861
+  },
+  {
+    "id": "conversation_d1_w08:729",
+    "prompt": 254,
+    "output": 66,
+    "arrival_ms": 58243.39034480326
+  },
+  {
+    "id": "conversation_d1_w08:730",
+    "prompt": 248,
+    "output": 35,
+    "arrival_ms": 58249.986553731615
+  },
+  {
+    "id": "conversation_d1_w08:731",
+    "prompt": 1654,
+    "output": 3,
+    "arrival_ms": 58406.64353572289
+  },
+  {
+    "id": "conversation_d1_w08:732",
+    "prompt": 1075,
+    "output": 68,
+    "arrival_ms": 58445.77094651785
+  },
+  {
+    "id": "conversation_d1_w08:733",
+    "prompt": 379,
+    "output": 161,
+    "arrival_ms": 58637.21052003532
+  },
+  {
+    "id": "conversation_d1_w08:734",
+    "prompt": 4922,
+    "output": 3,
+    "arrival_ms": 58694.93211973049
+  },
+  {
+    "id": "conversation_d1_w08:735",
+    "prompt": 2603,
+    "output": 3,
+    "arrival_ms": 58915.98073698313
+  },
+  {
+    "id": "conversation_d1_w08:736",
+    "prompt": 2820,
+    "output": 251,
+    "arrival_ms": 58969.266976205596
+  },
+  {
+    "id": "conversation_d1_w08:737",
+    "prompt": 1414,
+    "output": 17,
+    "arrival_ms": 59111.42147077008
+  },
+  {
+    "id": "conversation_d1_w08:738",
+    "prompt": 2978,
+    "output": 7,
+    "arrival_ms": 59127.194710155345
+  },
+  {
+    "id": "conversation_d1_w08:739",
+    "prompt": 384,
+    "output": 65,
+    "arrival_ms": 59131.638554746845
+  },
+  {
+    "id": "conversation_d1_w08:740",
+    "prompt": 506,
+    "output": 61,
+    "arrival_ms": 59400.09503269036
+  },
+  {
+    "id": "conversation_d1_w08:741",
+    "prompt": 2083,
+    "output": 120,
+    "arrival_ms": 59560.89966902972
+  },
+  {
+    "id": "conversation_d1_w08:742",
+    "prompt": 1044,
+    "output": 40,
+    "arrival_ms": 59632.955020118534
+  },
+  {
+    "id": "conversation_d1_w08:743",
+    "prompt": 542,
+    "output": 11,
+    "arrival_ms": 59669.086561241296
+  },
+  {
+    "id": "conversation_d1_w08:744",
+    "prompt": 388,
+    "output": 45,
+    "arrival_ms": 59727.91139433126
+  },
+  {
+    "id": "conversation_d1_w08:745",
+    "prompt": 1075,
+    "output": 68,
+    "arrival_ms": 59777.85957089488
+  },
+  {
+    "id": "conversation_d1_w08:746",
+    "prompt": 457,
+    "output": 10,
+    "arrival_ms": 59853.63374911756
+  },
+  {
+    "id": "conversation_d1_w08:747",
+    "prompt": 1341,
+    "output": 3,
+    "arrival_ms": 59870.90993130109
+  },
+  {
+    "id": "conversation_d1_w08:748",
+    "prompt": 2233,
+    "output": 128,
+    "arrival_ms": 59993.237642053486
+  }
+]

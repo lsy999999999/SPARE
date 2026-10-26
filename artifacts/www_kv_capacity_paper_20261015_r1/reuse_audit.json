@@ -1,0 +1,389 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "name": "code_d1_w00",
+      "blocks": 768,
+      "arm": "arrival",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.27202720614150167
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 768,
+      "arm": "native",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.1955965340603143
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 768,
+      "arm": "sarathi",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.3529868090990931
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 768,
+      "arm": "past_future",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.21330697601661086
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 768,
+      "arm": "past_future_multi",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.34908499103039503
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 768,
+      "arm": "orca_max",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.17252965201623738
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 768,
+      "arm": "s3_proxy",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.2650510708335787
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 768,
+      "arm": "ltr_proxy",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.1644255940336734
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 768,
+      "arm": "apt_serve_kv_rule",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.3063501277938485
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 768,
+      "arm": "sola_rule",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.21811140002682805
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 768,
+      "arm": "sola_calibrated",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 1.3873340131249279
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 768,
+      "arm": "uniboost_static",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.28422435000538826
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 4096,
+      "arm": "arrival",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.24622963299043477
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 4096,
+      "arm": "native",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.12712347600609064
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 4096,
+      "arm": "sarathi",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.14786327094770968
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 4096,
+      "arm": "past_future",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.2805065461434424
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 4096,
+      "arm": "past_future_multi",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.1762543290387839
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 4096,
+      "arm": "orca_max",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.14942116499878466
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 4096,
+      "arm": "s3_proxy",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.15055021806620061
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 4096,
+      "arm": "ltr_proxy",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.21652497490867972
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 4096,
+      "arm": "apt_serve_kv_rule",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.23454659502021968
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 4096,
+      "arm": "sola_rule",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.21234294679015875
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 4096,
+      "arm": "sola_calibrated",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 1.7766942421440035
+    },
+    {
+      "name": "code_d1_w00",
+      "blocks": 4096,
+      "arm": "uniboost_static",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.17239764798432589
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 768,
+      "arm": "arrival",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 1.1542110559530556
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 768,
+      "arm": "native",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.6210577329620719
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 768,
+      "arm": "sarathi",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.6215300720650703
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 768,
+      "arm": "past_future",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.3754810499958694
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 768,
+      "arm": "past_future_multi",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 1.0873004379682243
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 768,
+      "arm": "orca_max",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.5510313310660422
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 768,
+      "arm": "s3_proxy",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.7601133638527244
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 768,
+      "arm": "ltr_proxy",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.9880683380179107
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 768,
+      "arm": "apt_serve_kv_rule",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.519432561006397
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 768,
+      "arm": "sola_rule",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 1.2564921360462904
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 768,
+      "arm": "sola_calibrated",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 3.6150488150306046
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 768,
+      "arm": "uniboost_static",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 1.0218065339140594
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 4096,
+      "arm": "arrival",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.8580225170589983
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 4096,
+      "arm": "native",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.49592069000937045
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 4096,
+      "arm": "sarathi",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.5017068518791348
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 4096,
+      "arm": "past_future",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.4230749511625618
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 4096,
+      "arm": "past_future_multi",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.9134675310924649
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 4096,
+      "arm": "orca_max",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.7984023729804903
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 4096,
+      "arm": "s3_proxy",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.7101026738528162
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 4096,
+      "arm": "ltr_proxy",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.4848382379859686
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 4096,
+      "arm": "apt_serve_kv_rule",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.8588771938811988
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 4096,
+      "arm": "sola_rule",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.7589362428989261
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 4096,
+      "arm": "sola_calibrated",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 2.1562014401424676
+    },
+    {
+      "name": "conversation_d1_w00",
+      "blocks": 4096,
+      "arm": "uniboost_static",
+      "rate": 1.5,
+      "differences": [],
+      "wall_s": 0.4468734918627888
+    }
+  ]
+}

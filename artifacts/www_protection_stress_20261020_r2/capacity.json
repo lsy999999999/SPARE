@@ -1,0 +1,280 @@
+{
+  "groups": [
+    {
+      "arm": "full",
+      "offered_qps": 0.5,
+      "mean_ttft_ms": 1061.7996708297617,
+      "p99_tbt_ms": 37.40663433742399,
+      "backlog_drift": -1.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "arm": "full",
+      "offered_qps": 1.0,
+      "mean_ttft_ms": 1061.7996708297617,
+      "p99_tbt_ms": 37.40663433742399,
+      "backlog_drift": -1.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "arm": "full",
+      "offered_qps": 1.05,
+      "mean_ttft_ms": 1061.7996708297615,
+      "p99_tbt_ms": 37.40663433742399,
+      "backlog_drift": -2.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "arm": "full",
+      "offered_qps": 1.1,
+      "mean_ttft_ms": 1061.799670829762,
+      "p99_tbt_ms": 37.40663433742399,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "arm": "full",
+      "offered_qps": 1.15,
+      "mean_ttft_ms": 1061.7996708297626,
+      "p99_tbt_ms": 37.40663433742399,
+      "backlog_drift": 0.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "arm": "full",
+      "offered_qps": 1.2,
+      "mean_ttft_ms": 1061.7996708297621,
+      "p99_tbt_ms": 37.40663433742399,
+      "backlog_drift": -4.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "arm": "full",
+      "offered_qps": 1.25,
+      "mean_ttft_ms": 4725.567026782394,
+      "p99_tbt_ms": 58.74584060876155,
+      "backlog_drift": -0.6666666666666666,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "arm": "full",
+      "offered_qps": 1.5,
+      "mean_ttft_ms": 7854.461468755886,
+      "p99_tbt_ms": 58.401044399829495,
+      "backlog_drift": -1.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "arm": "full",
+      "offered_qps": 1.75,
+      "mean_ttft_ms": 11213.928038504091,
+      "p99_tbt_ms": 58.39998991314477,
+      "backlog_drift": 8.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "arm": "full",
+      "offered_qps": 2.0,
+      "mean_ttft_ms": 12788.383982869229,
+      "p99_tbt_ms": 58.39873843443231,
+      "backlog_drift": 1.6666666666666667,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "arm": "full",
+      "offered_qps": 2.5,
+      "mean_ttft_ms": 19829.44709385566,
+      "p99_tbt_ms": 58.398066923406155,
+      "backlog_drift": 9.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "arm": "full",
+      "offered_qps": 3.0,
+      "mean_ttft_ms": 25262.53961167623,
+      "p99_tbt_ms": 58.39779866661411,
+      "backlog_drift": 13.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "arm": "no_finish_guard",
+      "offered_qps": 0.5,
+      "mean_ttft_ms": 1049.930915700456,
+      "p99_tbt_ms": 41.41346268851703,
+      "backlog_drift": -1.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "arm": "no_finish_guard",
+      "offered_qps": 1.0,
+      "mean_ttft_ms": 1049.9309157004561,
+      "p99_tbt_ms": 41.41346268851703,
+      "backlog_drift": -1.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "arm": "no_finish_guard",
+      "offered_qps": 1.05,
+      "mean_ttft_ms": 1049.9309157004561,
+      "p99_tbt_ms": 41.41346268851703,
+      "backlog_drift": -2.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "arm": "no_finish_guard",
+      "offered_qps": 1.1,
+      "mean_ttft_ms": 1049.9309157004568,
+      "p99_tbt_ms": 41.41346268851703,
+      "backlog_drift": -3.3333333333333335,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "arm": "no_finish_guard",
+      "offered_qps": 1.15,
+      "mean_ttft_ms": 1049.9309157004557,
+      "p99_tbt_ms": 41.41346268851703,
+      "backlog_drift": 0.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "arm": "no_finish_guard",
+      "offered_qps": 1.2,
+      "mean_ttft_ms": 1049.9309157004557,
+      "p99_tbt_ms": 41.41346268851703,
+      "backlog_drift": -4.0,
+      "passes": true,
+      "failure_causes": []
+    },
+    {
+      "arm": "no_finish_guard",
+      "offered_qps": 1.25,
+      "mean_ttft_ms": 4132.499876151996,
+      "p99_tbt_ms": 58.62037563843061,
+      "backlog_drift": -0.3333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "arm": "no_finish_guard",
+      "offered_qps": 1.5,
+      "mean_ttft_ms": 7818.988227666147,
+      "p99_tbt_ms": 58.470097770717985,
+      "backlog_drift": -1.3333333333333333,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "arm": "no_finish_guard",
+      "offered_qps": 1.75,
+      "mean_ttft_ms": 11213.528500473441,
+      "p99_tbt_ms": 58.4000478519736,
+      "backlog_drift": 8.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "arm": "no_finish_guard",
+      "offered_qps": 2.0,
+      "mean_ttft_ms": 12791.762809455735,
+      "p99_tbt_ms": 58.39873843443231,
+      "backlog_drift": 1.6666666666666667,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft"
+      ]
+    },
+    {
+      "arm": "no_finish_guard",
+      "offered_qps": 2.5,
+      "mean_ttft_ms": 19805.02088771862,
+      "p99_tbt_ms": 58.39818280106382,
+      "backlog_drift": 9.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    },
+    {
+      "arm": "no_finish_guard",
+      "offered_qps": 3.0,
+      "mean_ttft_ms": 25143.684055635502,
+      "p99_tbt_ms": 58.397740727785276,
+      "backlog_drift": 12.0,
+      "passes": false,
+      "failure_causes": [
+        "mean_ttft",
+        "backlog"
+      ]
+    }
+  ],
+  "capacity": {
+    "full": {
+      "last_pass_qps": 1.2,
+      "first_fail": {
+        "arm": "full",
+        "offered_qps": 1.25,
+        "mean_ttft_ms": 4725.567026782394,
+        "p99_tbt_ms": 58.74584060876155,
+        "backlog_drift": -0.6666666666666666,
+        "passes": false,
+        "failure_causes": [
+          "mean_ttft"
+        ]
+      }
+    },
+    "no_finish_guard": {
+      "last_pass_qps": 1.2,
+      "first_fail": {
+        "arm": "no_finish_guard",
+        "offered_qps": 1.25,
+        "mean_ttft_ms": 4132.499876151996,
+        "p99_tbt_ms": 58.62037563843061,
+        "backlog_drift": -0.3333333333333333,
+        "passes": false,
+        "failure_causes": [
+          "mean_ttft"
+        ]
+      }
+    }
+  }
+}

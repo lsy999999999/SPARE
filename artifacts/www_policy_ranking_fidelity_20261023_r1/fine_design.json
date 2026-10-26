@@ -1,0 +1,22 @@
+{
+  "model": "qwen3_8b",
+  "kv_blocks": 2048,
+  "source": "conversation",
+  "windows": [
+    "d1_w02",
+    "d1_w20",
+    "d2_w02",
+    "d2_w20"
+  ],
+  "arms": [
+    "arrival",
+    "srp"
+  ],
+  "rates_qps": [
+    2.25,
+    2.75,
+    3.25
+  ],
+  "selection": "SPARE versus strongest baseline SRP, where the original simulator predicts separation",
+  "original_design": "design.json"
+}

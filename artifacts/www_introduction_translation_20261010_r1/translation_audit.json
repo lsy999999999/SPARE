@@ -1,0 +1,29 @@
+{
+  "source_sha256_unchanged": "4939e33b84b73debcdf1ee26ce6fb5b920b73363b56d2111f4f41151fec31241",
+  "translated_prose_paragraphs": 11,
+  "contribution_items": 3,
+  "bibliography_entries": 16,
+  "unique_citations": 16,
+  "source_reference_groups_preserved": true,
+  "result_numbers_and_up_to_checked": true,
+  "original_capacity_figure_preserved": true,
+  "latex_static_structure": "passed",
+  "zip_integrity": "passed",
+  "compiled": false,
+  "compiler_availability": {
+    "pdflatex": null,
+    "bibtex": null,
+    "latexmk": null,
+    "tectonic": null
+  },
+  "files": {
+    "introduction.tex": "06925e56fa8c540aefbf04f7d696570965bb442a7c332fe0780ba929dac8c680",
+    "introduction_refs.bib": "5e9ad13ff48d48860680d676f2361a1b30d04f1ae683dad651a4fb0388637780",
+    "introduction_preview.tex": "30f920b00ef8dad6c945878efef07280413d1fb06bce8f033052b9b39527e29d",
+    "INTRODUCTION_README_CN.md": "5241420020f2b5ef06b3e50ea792d977183c5392d6958c954c1bdac888d42776",
+    "figures/introduction/gpu_capacity_nine.pdf": "1a515c97c6322275dc174c2b3be0888a81dc14f813a4ffc2087a86a3593a5625",
+    "acmart.cls": "784c4f2fb07a70d8a797ee9d1c63f441c10fbd2f915c9c615d28cda35c0b742a",
+    "ACM-Reference-Format.bst": "4342d27456645567ef1a027f6474e894715bc31d468f040142fa54540440ad04",
+    "LICENSE-acmart": "ca3227f672053cb608959d7e1d476c7a13efea11be3f6e53758a68b650c918e8"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "kv_blocks": 2048,
+  "baseline_methods": 11,
+  "archived_curve_points": 222,
+  "refined_spare_curve_points": 42,
+  "spare_dominated_points": 4,
+  "spare_nondominated_points": 38,
+  "spare_capacity_at_2s": {
+    "code": 3.32,
+    "conversation": 3.84
+  },
+  "rl_mixed_at_2s": {
+    "code": {
+      "mean": 3.1133333333333333,
+      "seeds": [
+        3.12,
+        3.12,
+        3.1
+      ]
+    },
+    "conversation": {
+      "mean": 3.9933333333333336,
+      "seeds": [
+        3.97,
+        4.02,
+        3.99
+      ]
+    }
+  },
+  "spare_rate_coverage": {
+    "code": {
+      "measured_rates": 24,
+      "first_resource_failure_qps": 3.8
+    },
+    "conversation": {
+      "measured_rates": 25,
+      "first_resource_failure_qps": 4.38
+    }
+  },
+  "note": "Baseline frontiers use archived measured rates; SPARE adds dedicated 2 s rates. RL-Mixed has only a 2 s operating point, not a full frontier."
+}

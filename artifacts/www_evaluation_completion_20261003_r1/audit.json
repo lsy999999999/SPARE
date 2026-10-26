@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "audit_source_sha256": "fadbb1b21958a9a490c0d6200c22c0d069c08aad69d309cfd37649d757357c39",
+  "design_sha256": "ea9ebceb82a6405336ffebe456f41f7e08e73600b1c989385fb32bd2e882045a",
+  "counts": {
+    "trajectories": 2676,
+    "iterations": 8547541,
+    "requests": 657408
+  },
+  "failures": [],
+  "scope": "Independent input/output/timing/queue-area/block-bound/iteration/recompute/source audit. Not proof of GPU prediction accuracy."
+}

@@ -1,0 +1,27 @@
+{
+  "fine_2_windows": {
+    "nondominated": 28,
+    "dominated_kv": [
+      672,
+      896,
+      1024,
+      1792
+    ]
+  },
+  "coarse_2_windows": {
+    "nondominated": 29,
+    "dominated_kv": [
+      672,
+      896,
+      1024
+    ]
+  },
+  "coarse_50_windows": {
+    "nondominated": 29,
+    "dominated_kv": [
+      672,
+      768,
+      896
+    ]
+  }
+}

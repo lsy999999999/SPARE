@@ -1,0 +1,73 @@
+kv_blocks,arm,method,capacity_qps,mean_ttft_ms,reference_feasible,reference_qps,n_windows_per_source
+768,arrival,SPARE,2.0,344.2901223374033,True,0.5,50
+768,native,vLLM V1,1.0,551.8981731980776,True,0.5,50
+768,sarathi,Sarathi rule,0.875,639.0891924452151,True,0.5,50
+768,past_future,Past-Future rule,1.75,316.54348524999233,True,0.5,50
+768,past_future_multi,Past-Future multi,1.75,316.54348524999233,True,0.5,50
+768,orca_max,Orca reservation,1.25,534.3290347852975,True,0.5,50
+768,s3_proxy,S3 proxy,2.0,315.5218871660235,True,0.5,50
+768,ltr_proxy,LTR proxy,0.625,499.25190539143625,True,0.5,50
+768,apt_serve_kv_rule,Apt-Serve KV rule,1.0,384.3256931012368,True,0.5,50
+768,sola_rule,SOLA risk rule,0.75,503.2771020923158,True,0.5,50
+768,sola_calibrated,SOLA calibrated,2.25,448.7101522689943,True,0.5,50
+768,uniboost_static,UniBoost rule,1.0,458.03795349352055,True,0.5,50
+1024,arrival,SPARE,2.5,307.51053598538397,True,0.5,50
+1024,native,vLLM V1,1.25,347.5189293599458,True,0.5,50
+1024,sarathi,Sarathi rule,1.25,344.8386636310172,True,0.5,50
+1024,past_future,Past-Future rule,2.25,306.1777768395324,True,0.5,50
+1024,past_future_multi,Past-Future multi,2.25,306.17046370976084,True,0.5,50
+1024,orca_max,Orca reservation,1.5,337.8008854925363,True,0.5,50
+1024,s3_proxy,S3 proxy,2.25,306.1290547759899,True,0.5,50
+1024,ltr_proxy,LTR proxy,1.125,354.7158906114008,True,0.5,50
+1024,apt_serve_kv_rule,Apt-Serve KV rule,1.5,307.29305026987845,True,0.5,50
+1024,sola_rule,SOLA risk rule,1.0,307.93339330343485,True,0.5,50
+1024,sola_calibrated,SOLA calibrated,2.5,441.0082992581449,True,0.5,50
+1024,uniboost_static,UniBoost rule,1.25,354.42318825451986,True,0.5,50
+1536,arrival,SPARE,3.0,305.7630765992736,True,0.5,50
+1536,native,vLLM V1,2.0,305.7630765992736,True,0.5,50
+1536,sarathi,Sarathi rule,2.0,305.7630765992736,True,0.5,50
+1536,past_future,Past-Future rule,2.75,305.7630765992736,True,0.5,50
+1536,past_future_multi,Past-Future multi,3.0,305.7630765992736,True,0.5,50
+1536,orca_max,Orca reservation,2.25,306.0314060352043,True,0.5,50
+1536,s3_proxy,S3 proxy,3.0,305.7630765992736,True,0.5,50
+1536,ltr_proxy,LTR proxy,1.5,305.7630765992736,True,0.5,50
+1536,apt_serve_kv_rule,Apt-Serve KV rule,2.25,305.7630765992736,True,0.5,50
+1536,sola_rule,SOLA risk rule,1.75,305.7630765992736,True,0.5,50
+1536,sola_calibrated,SOLA calibrated,2.5,441.5740726113413,True,0.5,50
+1536,uniboost_static,UniBoost rule,1.75,341.72280506064317,True,0.5,50
+2048,arrival,SPARE,3.0,305.7630765992736,True,0.5,50
+2048,native,vLLM V1,2.5,305.7630765992736,True,0.5,50
+2048,sarathi,Sarathi rule,2.5,305.7630765992736,True,0.5,50
+2048,past_future,Past-Future rule,3.0,305.7630765992736,True,0.5,50
+2048,past_future_multi,Past-Future multi,3.0,305.7630765992736,True,0.5,50
+2048,orca_max,Orca reservation,2.75,305.76307659927363,True,0.5,50
+2048,s3_proxy,S3 proxy,3.0,305.7630765992736,True,0.5,50
+2048,ltr_proxy,LTR proxy,2.5,305.7630765992736,True,0.5,50
+2048,apt_serve_kv_rule,Apt-Serve KV rule,2.75,305.7630765992736,True,0.5,50
+2048,sola_rule,SOLA risk rule,2.0,305.7630765992736,True,0.5,50
+2048,sola_calibrated,SOLA calibrated,2.25,441.54283368820006,True,0.5,50
+2048,uniboost_static,UniBoost rule,2.25,341.72280506064317,True,0.5,50
+3072,arrival,SPARE,3.5,305.7630765992736,True,0.5,50
+3072,native,vLLM V1,3.0,305.7630765992736,True,0.5,50
+3072,sarathi,Sarathi rule,3.0,305.7630765992736,True,0.5,50
+3072,past_future,Past-Future rule,3.0,305.7630765992736,True,0.5,50
+3072,past_future_multi,Past-Future multi,3.0,305.7630765992736,True,0.5,50
+3072,orca_max,Orca reservation,3.0,305.7630765992736,True,0.5,50
+3072,s3_proxy,S3 proxy,3.5,305.7630765992736,True,0.5,50
+3072,ltr_proxy,LTR proxy,2.75,305.7630765992736,True,0.5,50
+3072,apt_serve_kv_rule,Apt-Serve KV rule,3.0,305.7630765992736,True,0.5,50
+3072,sola_rule,SOLA risk rule,2.75,305.7630765992736,True,0.5,50
+3072,sola_calibrated,SOLA calibrated,2.0,441.54283368820006,True,0.5,50
+3072,uniboost_static,UniBoost rule,2.75,341.72280506064317,True,0.5,50
+4096,arrival,SPARE,4.0,305.7630765992736,True,0.5,50
+4096,native,vLLM V1,3.0,305.7630765992736,True,0.5,50
+4096,sarathi,Sarathi rule,3.0,305.7630765992736,True,0.5,50
+4096,past_future,Past-Future rule,3.5,305.7630765992736,True,0.5,50
+4096,past_future_multi,Past-Future multi,3.5,305.7630765992736,True,0.5,50
+4096,orca_max,Orca reservation,3.0,305.7630765992736,True,0.5,50
+4096,s3_proxy,S3 proxy,3.5,305.7630765992736,True,0.5,50
+4096,ltr_proxy,LTR proxy,3.0,305.7630765992736,True,0.5,50
+4096,apt_serve_kv_rule,Apt-Serve KV rule,3.5,305.7630765992736,True,0.5,50
+4096,sola_rule,SOLA risk rule,2.75,305.7630765992736,True,0.5,50
+4096,sola_calibrated,SOLA calibrated,1.75,441.54283368820006,True,0.5,50
+4096,uniboost_static,UniBoost rule,2.75,341.72280506064317,True,0.5,50

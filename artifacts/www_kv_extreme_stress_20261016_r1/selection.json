@@ -1,0 +1,222 @@
+[
+  {
+    "name": "code_d1_w00",
+    "source": "code",
+    "day": "2024-05-13",
+    "full_requests": 64,
+    "short_requests": 35,
+    "max_full_blocks": 482,
+    "max_short_blocks": 123,
+    "full_sha256": "f64658a0dd38aaa9666973c719088133fa90983f57154bc7e4a3a69fa59cfd60",
+    "short_sha256": "818c0a194f13104801a1fa950ce623a12daee059f726fd483568609673b2d32c"
+  },
+  {
+    "name": "code_d1_w05",
+    "source": "code",
+    "day": "2024-05-13",
+    "full_requests": 64,
+    "short_requests": 26,
+    "max_full_blocks": 482,
+    "max_short_blocks": 123,
+    "full_sha256": "4a59b79ee88772f8142b6723567bac127231db5138713cf1c6f51c52300fb013",
+    "short_sha256": "03d2c2c3bcd04a4f60713eb14212fabd57c927633631c92c8831abfce260d763"
+  },
+  {
+    "name": "code_d1_w10",
+    "source": "code",
+    "day": "2024-05-13",
+    "full_requests": 64,
+    "short_requests": 35,
+    "max_full_blocks": 481,
+    "max_short_blocks": 122,
+    "full_sha256": "c60bd7524565df62671c3a8bd38dba91582135de1ee7d536e6fd48a7979e3a1f",
+    "short_sha256": "8f0abdcdbea07c15150a5c4839ca1430cadcaead04bf4d2b2e39fd83975b880a"
+  },
+  {
+    "name": "code_d1_w15",
+    "source": "code",
+    "day": "2024-05-13",
+    "full_requests": 64,
+    "short_requests": 28,
+    "max_full_blocks": 487,
+    "max_short_blocks": 117,
+    "full_sha256": "6a38d540caa9e03b0bf2ee64846621d212b4d9bd7b0a705805768584f6d30ec1",
+    "short_sha256": "37be43a30a7985461b7b059a73ec4487d12a7ce777cb3a6a142b8ac20f5a4ed9"
+  },
+  {
+    "name": "code_d1_w20",
+    "source": "code",
+    "day": "2024-05-13",
+    "full_requests": 64,
+    "short_requests": 32,
+    "max_full_blocks": 482,
+    "max_short_blocks": 120,
+    "full_sha256": "acb9540056d75d64ecd4ec377be98492cec9316f00284c60a556caff889f48a5",
+    "short_sha256": "607d4994a221c6e8c2b3ea6809393c003233f75d779aa4ab5d02f1c43ae05f57"
+  },
+  {
+    "name": "code_d2_w00",
+    "source": "code",
+    "day": "2024-05-16",
+    "full_requests": 64,
+    "short_requests": 34,
+    "max_full_blocks": 483,
+    "max_short_blocks": 119,
+    "full_sha256": "69f8b52c4ecad4436aea40f6feb65b03f898645af4a05b0802665ea17bc9b350",
+    "short_sha256": "5360b4bf5a25e90ac20ad08bf71efed57c9a7ca9aa40f193ecc7ac9eefa65486"
+  },
+  {
+    "name": "code_d2_w05",
+    "source": "code",
+    "day": "2024-05-16",
+    "full_requests": 64,
+    "short_requests": 31,
+    "max_full_blocks": 486,
+    "max_short_blocks": 125,
+    "full_sha256": "394e6deeddac13860ed98b98ce5b4cb7d277626b7ec73972310c42cedab96d1d",
+    "short_sha256": "7d80d7d8db80cc403cc613aaafa9103a5aa45fad1cdae413b0764a760a71e296"
+  },
+  {
+    "name": "code_d2_w10",
+    "source": "code",
+    "day": "2024-05-16",
+    "full_requests": 64,
+    "short_requests": 35,
+    "max_full_blocks": 481,
+    "max_short_blocks": 116,
+    "full_sha256": "99b93a59d14695fab18b976ad46445c2d030a0291c3beeb20749c95f96434cba",
+    "short_sha256": "65b6a36f621ca5003b160bb10141a5434eb787c0fbadd0e25c13f89ccac709b0"
+  },
+  {
+    "name": "code_d2_w15",
+    "source": "code",
+    "day": "2024-05-16",
+    "full_requests": 64,
+    "short_requests": 37,
+    "max_full_blocks": 482,
+    "max_short_blocks": 118,
+    "full_sha256": "6d72e54bad9fac228cd877256aeca22f89d0a042ce20e77a7a1979aac6be171f",
+    "short_sha256": "d95d5f49ffdbd99cf3a91afb63557793ebc01f3d6cca2e832ec9e57248ad8abf"
+  },
+  {
+    "name": "code_d2_w20",
+    "source": "code",
+    "day": "2024-05-16",
+    "full_requests": 64,
+    "short_requests": 27,
+    "max_full_blocks": 488,
+    "max_short_blocks": 115,
+    "full_sha256": "348060657b20c0cb7be685dd843f07a6a4862615072b14f9c66691c7c745c028",
+    "short_sha256": "289f056b01f885cac45eea3228d4f7d2b4186b165ced2c8e3663d9e4dd965c12"
+  },
+  {
+    "name": "conversation_d1_w00",
+    "source": "conversation",
+    "day": "2024-05-15",
+    "full_requests": 64,
+    "short_requests": 44,
+    "max_full_blocks": 491,
+    "max_short_blocks": 122,
+    "full_sha256": "4b39cd7f575f51f6456fa6a920946fa677c4362ae06b28646a0d1fac0c7b272b",
+    "short_sha256": "94312e22279579472366eb62b7a6ae57697133e0b25fd7f51b212a562eeccf93"
+  },
+  {
+    "name": "conversation_d1_w05",
+    "source": "conversation",
+    "day": "2024-05-15",
+    "full_requests": 64,
+    "short_requests": 42,
+    "max_full_blocks": 397,
+    "max_short_blocks": 127,
+    "full_sha256": "d28f0c0c9b130ea123aaa4f52be108b3d2a6804bfac1e1ef9fb2dd9e6810676a",
+    "short_sha256": "163480716298e594e991bf6ed2bcc38d308a3534ff0d61e25ce09e793e7c19eb"
+  },
+  {
+    "name": "conversation_d1_w10",
+    "source": "conversation",
+    "day": "2024-05-15",
+    "full_requests": 64,
+    "short_requests": 44,
+    "max_full_blocks": 307,
+    "max_short_blocks": 127,
+    "full_sha256": "820fcbedc8dbd80123e19ae6910642db1da9b5ed902e349ffd45d60dba86f3e8",
+    "short_sha256": "41ed18acb0ef1778eab73ebd9a36c9f9c7cde08042972a1a42c504d337455d8a"
+  },
+  {
+    "name": "conversation_d1_w15",
+    "source": "conversation",
+    "day": "2024-05-15",
+    "full_requests": 64,
+    "short_requests": 43,
+    "max_full_blocks": 400,
+    "max_short_blocks": 125,
+    "full_sha256": "590f83eb3d1a6cbb51f08d6f3286cad036b0ae5b7d44fe9b7cd582322b541670",
+    "short_sha256": "a022912ab481f9cec3828918e9fc49ede964878775577d5cf4733f672650da41"
+  },
+  {
+    "name": "conversation_d1_w20",
+    "source": "conversation",
+    "day": "2024-05-15",
+    "full_requests": 64,
+    "short_requests": 43,
+    "max_full_blocks": 459,
+    "max_short_blocks": 127,
+    "full_sha256": "bc8c66abdcbfac8763769ff91bc220464042d752843b514ba25cd9826916e4ce",
+    "short_sha256": "a50d3ac63d4ed301aee04f294bea96ea65b6ea05b2c9c22ea0098298088e6e9e"
+  },
+  {
+    "name": "conversation_d2_w00",
+    "source": "conversation",
+    "day": "2024-05-18",
+    "full_requests": 64,
+    "short_requests": 37,
+    "max_full_blocks": 442,
+    "max_short_blocks": 126,
+    "full_sha256": "150514c5aaeeaf8d2d8c2ca0236c40ac242479b736ee1d4663ae14dd8f2ac652",
+    "short_sha256": "d041c795bcd5e9c4e7461174546452aecea791acc14ef03b1ac2c45f0ecaa760"
+  },
+  {
+    "name": "conversation_d2_w05",
+    "source": "conversation",
+    "day": "2024-05-18",
+    "full_requests": 64,
+    "short_requests": 36,
+    "max_full_blocks": 449,
+    "max_short_blocks": 122,
+    "full_sha256": "913be0e7b0dfa6c73e4ddf63e7047f3c05b3d2074ba2a70f089a8feb03f94a38",
+    "short_sha256": "3169121f82ad59a43ac12a171c8b90ace80c64f6293b5f78d434c4c7cd50e65e"
+  },
+  {
+    "name": "conversation_d2_w10",
+    "source": "conversation",
+    "day": "2024-05-18",
+    "full_requests": 64,
+    "short_requests": 41,
+    "max_full_blocks": 489,
+    "max_short_blocks": 121,
+    "full_sha256": "20170d04b91f98662e99bc3166b094f0a03341f0eeb114e010d246959a2bcec4",
+    "short_sha256": "618028d4f2e2d1635aafaebf737b7ad5d50a89ec511dfe933956784537e5e553"
+  },
+  {
+    "name": "conversation_d2_w15",
+    "source": "conversation",
+    "day": "2024-05-18",
+    "full_requests": 64,
+    "short_requests": 49,
+    "max_full_blocks": 326,
+    "max_short_blocks": 126,
+    "full_sha256": "f059e431534f1cb042d315116a58d922740dbb409f30bc6f23e1fec8ace6a2e2",
+    "short_sha256": "4b4232be1965b9927c79698837d63635f171a5e0b3ecdfd9ac27396a6f002f85"
+  },
+  {
+    "name": "conversation_d2_w20",
+    "source": "conversation",
+    "day": "2024-05-18",
+    "full_requests": 64,
+    "short_requests": 46,
+    "max_full_blocks": 389,
+    "max_short_blocks": 123,
+    "full_sha256": "8ab73de9157b4157e3402fd6f31a93de11812716c16da65c5215ec93ed0ab853",
+    "short_sha256": "d0f2e5f2b92113dce9c3ddbc88641437aa5ca2ca0e2964f1cdbb039239e9d934"
+  }
+]

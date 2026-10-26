@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "created": 1791303032.7784214,
+  "source_hashes": {
+    "research/v1_broad12h_20260925/policy.py": "9d79b2fc7978338f3f6b4633d3895a9b3e21aaa00aa23237df63d112e76865e0",
+    "research/v1_broad12h_20260925/scheduler.py": "18ece913c6cb7553e46a28ea0d3ad19c180899ae410cefa1df68ae964f7f327c",
+    "research/v1_budget_20260922/policy.py": "7a47e70bcde98f3e4924e1c395d593531cd580601ff81f1a2d9da89b227d6ebe",
+    "research/v1_budget_20260922/scheduler.py": "541d9b46947369229699f3d16a2a6557435e1eb3a67a0fd0c5cdaa75f4615ae3",
+    "research/v1_paper_comparison_20260922/rules.py": "37d514ed46828e67a186ce85854c84b30757ac68fac4a3d37f45709fe8186b86",
+    "research/v1_paper_comparison_20260922/scheduler.py": "0ec9cfbe361377fb1d1a54151eeab56589536f203c756f5e63cd318719a04636",
+    "research/v1_saving_threshold_20260924/policy.py": "91be5c6b341ff81728ba3a60571bd927eb26b096f3302bc52d54718271454ab2",
+    "research/www_capacity_load_20261007/PROTOCOL_CN.md": "49d2686dd399377039cb956b1df03739aebe99c7aab57a13802ba70a1c03cb7c",
+    "research/www_capacity_load_20261007/analyze.py": "817302958b06f04fc7d1fabf91a6b3c7dc7fa2aba2ce653b9335da77868f08d3",
+    "research/www_capacity_load_20261007/common.py": "0adbcf8f9ce0d10e28beec557830cf6e3da87ca255534673747a89c769c28791",
+    "research/www_capacity_load_20261007/policy.py": "a8bc6213fa34f884d1f74dec01cbdf456eb0e0feb537cb2ba7f58836c2f3ba09",
+    "research/www_capacity_load_20261007/prepare.py": "7ba0017b2b24a4cf7d06a8bf69054827d4e661ddde55c195d6ce9493c7ad3b01",
+    "research/www_capacity_load_20261007/run.py": "109c58df2208aba6c97c37d82946a0f175b6b5f4cff786c8519ecc81d12702a5",
+    "research/www_capacity_load_20261007/scheduler.py": "529411ccf35ca2a8c7357f3ce1ca4f0cc52bf238ac81ca6921c446933a03cfc1",
+    "research/www_capacity_load_20261007/status.py": "c2a78d76129ad4a022b624ad7bfa13a1b975e8eb2a1a5be06ba926f4c6e37fac",
+    "research/www_capacity_load_20261007/validate.py": "c031d7d100fcb05626227780d30661219456e43cc781e615af2e7c46bdd6f023",
+    "research/www_evaluation_completion_20261003/policy.py": "42003dee07b34d840c9e09fb78fc47629d486c08c73023cfc6699320e90f186f",
+    "research/www_evaluation_completion_20261003/scheduler.py": "04280f49c250965638b590295a47edef80582d824c8783fc38dcc2d3be2b4ecb",
+    "research/www_evaluation_completion_20261003/simulate.py": "7c600588d0a6fcd5c5c26d7719fac80db2159169fa69065816ca01f2f3fd9fc0",
+    "simulator_core/timing.py": "f1cd3e9e99bbc75879222cd50e7e2cf0f793d5383e424c737c8e150ddd18da6a",
+    "simulator_core/types.py": "ae1eaa476bbc8421cc948e43d92238dcfe1bd63885df01bb0c368fbb94b7f75f",
+    "writing/www/code/run_simulator.py": "d9e95dfebfee825a2202c751ad16a44550e128c094f05d5ea450f2985ad8c246"
+  },
+  "checks": {
+    "arrival/resource": {
+      "rounds": 354,
+      "preemptions": 92,
+      "trajectory": "4ab13f50eb3603766cf0ae58f0747e165b3ba53f46687826c17d058dc150989d"
+    },
+    "arrival/resource_staircase": {
+      "rounds": 352,
+      "preemptions": 92,
+      "trajectory": "a00a351045940710f3932131ba2063bc5c66bc4b7c887854ffe36f142d377cd2"
+    },
+    "basic/resource": {
+      "rounds": 350,
+      "preemptions": 92,
+      "trajectory": "77644f7e841ee37246342398d6f93b549e652095274c855aac1908f8fd20e1ca"
+    },
+    "basic/resource_staircase": {
+      "rounds": 350,
+      "preemptions": 92,
+      "trajectory": "e83ac2769a7dab26b8ff5d78aa1eed05312323a417ad9e304e98ed984c3cf159"
+    },
+    "srp/resource": {
+      "rounds": 355,
+      "preemptions": 220,
+      "trajectory": "fbe163423ecdf0825fb1b29f58ad33da82334a94c0b78bb9d6e7feca8977e604"
+    },
+    "srp/resource_staircase": {
+      "rounds": 355,
+      "preemptions": 220,
+      "trajectory": "9df3db9c17e1ad1e56253ff489846740eff8875cb892b6f4bbd870849eb6cbaf"
+    },
+    "past_future/resource": {
+      "rounds": 320,
+      "preemptions": 0,
+      "trajectory": "09d2f97de307597df20613dc96506e5bfb7878e9b5b610142ace89acc69e6b5c"
+    },
+    "past_future/resource_staircase": {
+      "rounds": 320,
+      "preemptions": 0,
+      "trajectory": "5fe7a79521d712498384185fe7e43475d5e2119e319fa90a7ea1a1f69e44c284"
+    },
+    "fixed256/resource": {
+      "rounds": 355,
+      "preemptions": 63,
+      "trajectory": "d7dbd674556a11addb8630f13704854067e39a6652a2296ec37256e042db8582"
+    },
+    "fixed256/resource_staircase": {
+      "rounds": 355,
+      "preemptions": 63,
+      "trajectory": "f1aa7c51db7a33af7dfb35eb7fff790631c2860c2cfe17fc6a8be21886c971e4"
+    }
+  },
+  "scope": "actual GPU scheduler on native CPU allocator; default matches frozen trajectories including recovery; no hardware latency claim"
+}

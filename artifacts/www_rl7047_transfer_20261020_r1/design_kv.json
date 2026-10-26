@@ -1,0 +1,225 @@
+{
+  "stage": "kv",
+  "kvs": [
+    1024,
+    2048,
+    3072,
+    4096,
+    6144
+  ],
+  "code_percentages": [
+    0,
+    25,
+    50,
+    75,
+    100
+  ],
+  "selected": {
+    "episode": 256,
+    "path": "checkpoints/seed7047_ep256.pt",
+    "sha256": "c0458ba84d0bc1efc7b531326e14d313b3e54106964d5cde5134c129c49e9723",
+    "dev_score": 0.43102579415421705,
+    "dev_conditions": [
+      {
+        "rate_qps": 3.0,
+        "score": 0.23526213843335048,
+        "mean_ttft_ms": 470.524276866701,
+        "p99_tbt_ms": 71.05766232137648,
+        "backlog_drift": 1.75,
+        "failed_samples": 0
+      },
+      {
+        "rate_qps": 3.25,
+        "score": 0.2774077553655705,
+        "mean_ttft_ms": 554.815510731141,
+        "p99_tbt_ms": 75.84960867298832,
+        "backlog_drift": -0.75,
+        "failed_samples": 0
+      },
+      {
+        "rate_qps": 3.5,
+        "score": 0.3360213907443941,
+        "mean_ttft_ms": 672.0427814887881,
+        "p99_tbt_ms": 76.65497962002519,
+        "backlog_drift": -2.25,
+        "failed_samples": 0
+      },
+      {
+        "rate_qps": 3.75,
+        "score": 0.42757715969180193,
+        "mean_ttft_ms": 855.1543193836038,
+        "p99_tbt_ms": 77.27823416760702,
+        "backlog_drift": 1.25,
+        "failed_samples": 0
+      },
+      {
+        "rate_qps": 4.0,
+        "score": 0.5450265095521979,
+        "mean_ttft_ms": 1090.0530191043958,
+        "p99_tbt_ms": 76.87745632258004,
+        "backlog_drift": 1.75,
+        "failed_samples": 0
+      },
+      {
+        "rate_qps": 4.25,
+        "score": 0.7648598111379875,
+        "mean_ttft_ms": 1529.719622275975,
+        "p99_tbt_ms": 57.16641812000671,
+        "backlog_drift": 0.0,
+        "failed_samples": 0
+      }
+    ]
+  },
+  "tasks": [
+    [
+      "kv",
+      "conversation",
+      1024,
+      "spare",
+      null
+    ],
+    [
+      "kv",
+      "conversation",
+      1024,
+      "rl_standalone",
+      null
+    ],
+    [
+      "kv",
+      "conversation",
+      2048,
+      "spare",
+      null
+    ],
+    [
+      "kv",
+      "conversation",
+      2048,
+      "rl_standalone",
+      null
+    ],
+    [
+      "kv",
+      "conversation",
+      3072,
+      "spare",
+      null
+    ],
+    [
+      "kv",
+      "conversation",
+      3072,
+      "rl_standalone",
+      null
+    ],
+    [
+      "kv",
+      "conversation",
+      4096,
+      "spare",
+      null
+    ],
+    [
+      "kv",
+      "conversation",
+      4096,
+      "rl_standalone",
+      null
+    ],
+    [
+      "kv",
+      "conversation",
+      6144,
+      "spare",
+      null
+    ],
+    [
+      "kv",
+      "conversation",
+      6144,
+      "rl_standalone",
+      null
+    ],
+    [
+      "kv",
+      "code",
+      1024,
+      "spare",
+      null
+    ],
+    [
+      "kv",
+      "code",
+      1024,
+      "rl_standalone",
+      null
+    ],
+    [
+      "kv",
+      "code",
+      2048,
+      "spare",
+      null
+    ],
+    [
+      "kv",
+      "code",
+      2048,
+      "rl_standalone",
+      null
+    ],
+    [
+      "kv",
+      "code",
+      3072,
+      "spare",
+      null
+    ],
+    [
+      "kv",
+      "code",
+      3072,
+      "rl_standalone",
+      null
+    ],
+    [
+      "kv",
+      "code",
+      4096,
+      "spare",
+      null
+    ],
+    [
+      "kv",
+      "code",
+      4096,
+      "rl_standalone",
+      null
+    ],
+    [
+      "kv",
+      "code",
+      6144,
+      "spare",
+      null
+    ],
+    [
+      "kv",
+      "code",
+      6144,
+      "rl_standalone",
+      null
+    ]
+  ],
+  "reference_qps": [
+    2.0,
+    3.0
+  ],
+  "mean_ttft_limit_ms": 2000,
+  "windows": 50,
+  "capacity_rule": "ascending observed QPS through first failure; all valid; mean TTFT <=2s; mean window P99 TBT<=200ms; mean backlog drift<=max(2,QPS)",
+  "mixture_protocol": "Common Conversation arrival times and indices into paired 64-request pools; nested random permutations in blocks of four arrivals set Code share; preserve prompt/output pairs. History fixed to Conversation for all proportions; new pure-Code endpoint uses common arrivals. Partial blocks cause small realized-share deviations, recorded per window.",
+  "timing_sha256": "e73a97338fe7beb9883b86e3bd46b7f44742e70026796262993858b351a44cc8",
+  "source_sha256": "2d079b61faafe46314b22b3bb16bd04f467f65a0387c2d01f4d6b6743415772c"
+}

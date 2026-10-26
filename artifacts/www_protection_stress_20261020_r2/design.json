@@ -1,0 +1,92 @@
+{
+  "capacity_blocks": 112,
+  "control_capacity_blocks": 512,
+  "motif": [
+    {
+      "id": "m000:background_a",
+      "prompt": 400,
+      "output": 64,
+      "arrival_ms": 0.0
+    },
+    {
+      "id": "m000:background_b",
+      "prompt": 400,
+      "output": 64,
+      "arrival_ms": 0.0
+    },
+    {
+      "id": "m000:background_c",
+      "prompt": 400,
+      "output": 64,
+      "arrival_ms": 0.0
+    },
+    {
+      "id": "m000:target",
+      "prompt": 480,
+      "output": 16,
+      "arrival_ms": 0.0
+    },
+    {
+      "id": "m000:heavy_a",
+      "prompt": 1200,
+      "output": 64,
+      "arrival_ms": 65.0
+    },
+    {
+      "id": "m000:heavy_b",
+      "prompt": 1200,
+      "output": 64,
+      "arrival_ms": 65.0
+    }
+  ],
+  "background_prompts": [
+    384,
+    400,
+    416
+  ],
+  "micro_arms": {
+    "full": {},
+    "no_finish_guard": {
+      "protect_finish": false
+    },
+    "no_decode_guard": {
+      "protect_decode": false
+    },
+    "no_protection": {
+      "protect_finish": false,
+      "protect_decode": false
+    }
+  },
+  "capacity_arms": {
+    "full": {},
+    "no_finish_guard": {
+      "protect_finish": false
+    }
+  },
+  "rates_qps": [
+    0.5,
+    1.0,
+    1.05,
+    1.1,
+    1.15,
+    1.2,
+    1.25,
+    1.5,
+    1.75,
+    2.0,
+    2.5,
+    3.0
+  ],
+  "heavy_offset_ms": 65.0,
+  "horizon_ms": 60000.0,
+  "warm_ms": 20000.0,
+  "mid_ms": 40000.0,
+  "mean_ttft_limit_ms": 2000.0,
+  "p99_tbt_limit_ms": 200,
+  "backlog_limit": "max(2, offered_qps)",
+  "capacity_rule": "all valid; mean of 3 motif conditions meets all limits; ascending grid until first failure",
+  "fitted_timing_sha256": "e73a97338fe7beb9883b86e3bd46b7f44742e70026796262993858b351a44cc8",
+  "policy_sha256": "6a021a378dcc4513001030843d37d8df18ddb0f9eb0442a34cf913b5c8cc8366",
+  "runner_sha256": "5b0da53f0448f888f65113875d1de6863487ed1af2554ab5df3b294d50be684f",
+  "simulator_only": true
+}

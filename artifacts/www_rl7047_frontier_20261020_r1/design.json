@@ -1,0 +1,189 @@
+{
+  "seed": 7047,
+  "selected": {
+    "episode": 256,
+    "path": "checkpoints/seed7047_ep256.pt",
+    "sha256": "c0458ba84d0bc1efc7b531326e14d313b3e54106964d5cde5134c129c49e9723",
+    "dev_score": 0.43102579415421705,
+    "dev_conditions": [
+      {
+        "rate_qps": 3.0,
+        "score": 0.23526213843335048,
+        "mean_ttft_ms": 470.524276866701,
+        "p99_tbt_ms": 71.05766232137648,
+        "backlog_drift": 1.75,
+        "failed_samples": 0
+      },
+      {
+        "rate_qps": 3.25,
+        "score": 0.2774077553655705,
+        "mean_ttft_ms": 554.815510731141,
+        "p99_tbt_ms": 75.84960867298832,
+        "backlog_drift": -0.75,
+        "failed_samples": 0
+      },
+      {
+        "rate_qps": 3.5,
+        "score": 0.3360213907443941,
+        "mean_ttft_ms": 672.0427814887881,
+        "p99_tbt_ms": 76.65497962002519,
+        "backlog_drift": -2.25,
+        "failed_samples": 0
+      },
+      {
+        "rate_qps": 3.75,
+        "score": 0.42757715969180193,
+        "mean_ttft_ms": 855.1543193836038,
+        "p99_tbt_ms": 77.27823416760702,
+        "backlog_drift": 1.25,
+        "failed_samples": 0
+      },
+      {
+        "rate_qps": 4.0,
+        "score": 0.5450265095521979,
+        "mean_ttft_ms": 1090.0530191043958,
+        "p99_tbt_ms": 76.87745632258004,
+        "backlog_drift": 1.75,
+        "failed_samples": 0
+      },
+      {
+        "rate_qps": 4.25,
+        "score": 0.7648598111379875,
+        "mean_ttft_ms": 1529.719622275975,
+        "p99_tbt_ms": 57.16641812000671,
+        "backlog_drift": 0.0,
+        "failed_samples": 0
+      }
+    ]
+  },
+  "limits_ms": [
+    250,
+    300,
+    350,
+    400,
+    500,
+    600,
+    750,
+    1000,
+    1250,
+    1500,
+    1750,
+    2000,
+    2500,
+    3000,
+    4000,
+    6000,
+    8000
+  ],
+  "minimum_qps": 0.25,
+  "resolution_qps": 0.02,
+  "cells": [
+    [
+      "conversation",
+      2048,
+      "spare"
+    ],
+    [
+      "conversation",
+      2048,
+      "rl_standalone"
+    ],
+    [
+      "conversation",
+      4096,
+      "spare"
+    ],
+    [
+      "conversation",
+      4096,
+      "rl_standalone"
+    ],
+    [
+      "code",
+      2048,
+      "spare"
+    ],
+    [
+      "code",
+      2048,
+      "rl_standalone"
+    ],
+    [
+      "code",
+      4096,
+      "spare"
+    ],
+    [
+      "code",
+      4096,
+      "rl_standalone"
+    ]
+  ],
+  "windows_per_source": 50,
+  "input_sha256": {
+    "conversation": "fc4fd7e74bfbb387e6537eb7952cded32ee53d9e2518b2163206da2546a4b709",
+    "code": "95132d23a2e0a71bb272b2bd8069b6d0a688521b2a0ac1babf077abc0df1ad69"
+  },
+  "timing_sha256": "e73a97338fe7beb9883b86e3bd46b7f44742e70026796262993858b351a44cc8",
+  "capacity_rule": "ascending measured QPS through first failure; mean TTFT <= limit; mean window P99 TBT <=200 ms; mean backlog drift <=max(2,QPS); all valid",
+  "seed_selection": "highest Conversation/KV2048 test capacity among three runs; checkpoint selected on validation windows",
+  "reuse_audit": [
+    {
+      "source": "conversation",
+      "kv_blocks": 2048,
+      "arm": "spare",
+      "available_rates": 27,
+      "ablation_overlap_rates": 14
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2048,
+      "arm": "rl_standalone",
+      "available_rates": 15,
+      "ablation_overlap_rates": 0
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 4096,
+      "arm": "spare",
+      "available_rates": 29,
+      "ablation_overlap_rates": 15
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 4096,
+      "arm": "rl_standalone",
+      "available_rates": 16,
+      "ablation_overlap_rates": 0
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2048,
+      "arm": "spare",
+      "available_rates": 25,
+      "ablation_overlap_rates": 13
+    },
+    {
+      "source": "code",
+      "kv_blocks": 2048,
+      "arm": "rl_standalone",
+      "available_rates": 13,
+      "ablation_overlap_rates": 0
+    },
+    {
+      "source": "code",
+      "kv_blocks": 4096,
+      "arm": "spare",
+      "available_rates": 27,
+      "ablation_overlap_rates": 14
+    },
+    {
+      "source": "code",
+      "kv_blocks": 4096,
+      "arm": "rl_standalone",
+      "available_rates": 13,
+      "ablation_overlap_rates": 0
+    }
+  ],
+  "simulator_only": true
+}

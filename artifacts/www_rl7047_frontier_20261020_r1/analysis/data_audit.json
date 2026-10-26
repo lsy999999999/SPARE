@@ -1,0 +1,90 @@
+[
+  {
+    "source": "conversation",
+    "kv_blocks": 2048,
+    "arm": "spare",
+    "rate_records": 74,
+    "raw_window_records": 3700,
+    "original_capacity_2s": 3.84,
+    "new_capacity_2s": 3.84,
+    "difference_2s": 0.0,
+    "all_boundaries_verified": true
+  },
+  {
+    "source": "conversation",
+    "kv_blocks": 2048,
+    "arm": "rl_standalone",
+    "rate_records": 61,
+    "raw_window_records": 3050,
+    "original_capacity_2s": 4.02,
+    "new_capacity_2s": 4.02,
+    "difference_2s": 0.0,
+    "all_boundaries_verified": true
+  },
+  {
+    "source": "code",
+    "kv_blocks": 2048,
+    "arm": "spare",
+    "rate_records": 63,
+    "raw_window_records": 3150,
+    "original_capacity_2s": 3.32,
+    "new_capacity_2s": 3.32,
+    "difference_2s": 0.0,
+    "all_boundaries_verified": true
+  },
+  {
+    "source": "code",
+    "kv_blocks": 2048,
+    "arm": "rl_standalone",
+    "rate_records": 56,
+    "raw_window_records": 2800,
+    "original_capacity_2s": 3.12,
+    "new_capacity_2s": 3.12,
+    "difference_2s": 0.0,
+    "all_boundaries_verified": true
+  },
+  {
+    "source": "conversation",
+    "kv_blocks": 4096,
+    "arm": "spare",
+    "rate_records": 81,
+    "raw_window_records": 4050,
+    "original_capacity_2s": 4.98,
+    "new_capacity_2s": 4.98,
+    "difference_2s": 0.0,
+    "all_boundaries_verified": true
+  },
+  {
+    "source": "conversation",
+    "kv_blocks": 4096,
+    "arm": "rl_standalone",
+    "rate_records": 50,
+    "raw_window_records": 2500,
+    "original_capacity_2s": 4.73,
+    "new_capacity_2s": 4.73,
+    "difference_2s": 0.0,
+    "all_boundaries_verified": true
+  },
+  {
+    "source": "code",
+    "kv_blocks": 4096,
+    "arm": "spare",
+    "rate_records": 69,
+    "raw_window_records": 3450,
+    "original_capacity_2s": 3.53,
+    "new_capacity_2s": 3.53,
+    "difference_2s": 0.0,
+    "all_boundaries_verified": true
+  },
+  {
+    "source": "code",
+    "kv_blocks": 4096,
+    "arm": "rl_standalone",
+    "rate_records": 56,
+    "raw_window_records": 2800,
+    "original_capacity_2s": 3.12,
+    "new_capacity_2s": 3.12,
+    "difference_2s": 0.0,
+    "all_boundaries_verified": true
+  }
+]

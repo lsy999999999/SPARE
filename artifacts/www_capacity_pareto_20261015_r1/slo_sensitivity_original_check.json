@@ -1,0 +1,1990 @@
+[
+  {
+    "p95_ttft_ms": 5000,
+    "p99_tbt_ms": 200.0,
+    "drift_fraction": 0.05,
+    "drift_floor": 2.0,
+    "scenes": [
+      {
+        "source": "code",
+        "blocks": 768,
+        "valid": true,
+        "ref_rate": 1.0,
+        "non_dominated": 11,
+        "selected": [
+          {
+            "weight": 0.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          },
+          {
+            "weight": 0.1,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          },
+          {
+            "weight": 0.2,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          },
+          {
+            "weight": 0.3,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          },
+          {
+            "weight": 0.4,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          },
+          {
+            "weight": 0.5,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          },
+          {
+            "weight": 0.6,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          },
+          {
+            "weight": 0.7,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          },
+          {
+            "weight": 0.8,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          },
+          {
+            "weight": 0.9,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          },
+          {
+            "weight": 1.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          }
+        ]
+      },
+      {
+        "source": "code",
+        "blocks": 4096,
+        "valid": true,
+        "ref_rate": 1.5,
+        "non_dominated": 11,
+        "selected": [
+          {
+            "weight": 0.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          },
+          {
+            "weight": 0.1,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          },
+          {
+            "weight": 0.2,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          },
+          {
+            "weight": 0.3,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          },
+          {
+            "weight": 0.4,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          },
+          {
+            "weight": 0.5,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          },
+          {
+            "weight": 0.6,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          },
+          {
+            "weight": 0.7,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          },
+          {
+            "weight": 0.8,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          },
+          {
+            "weight": 0.9,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          },
+          {
+            "weight": 1.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          }
+        ]
+      },
+      {
+        "source": "conversation",
+        "blocks": 768,
+        "valid": true,
+        "ref_rate": 0.5,
+        "non_dominated": 0,
+        "selected": [
+          {
+            "weight": 0.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          },
+          {
+            "weight": 0.1,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          },
+          {
+            "weight": 0.2,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          },
+          {
+            "weight": 0.3,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          },
+          {
+            "weight": 0.4,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          },
+          {
+            "weight": 0.5,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          },
+          {
+            "weight": 0.6,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          },
+          {
+            "weight": 0.7,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          },
+          {
+            "weight": 0.8,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          },
+          {
+            "weight": 0.9,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          },
+          {
+            "weight": 1.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "conversation",
+        "blocks": 4096,
+        "valid": true,
+        "ref_rate": 2.0,
+        "non_dominated": 11,
+        "selected": [
+          {
+            "weight": 0.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.1,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.2,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.3,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.4,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.5,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.6,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.7,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.8,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.9,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 1.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          }
+        ]
+      }
+    ],
+    "scenes_with_spare_point": 3,
+    "non_dominated_weights": 33
+  },
+  {
+    "p95_ttft_ms": 10000,
+    "p99_tbt_ms": 200.0,
+    "drift_fraction": 0.05,
+    "drift_floor": 2.0,
+    "scenes": [
+      {
+        "source": "code",
+        "blocks": 768,
+        "valid": true,
+        "ref_rate": 1.5,
+        "non_dominated": 11,
+        "selected": [
+          {
+            "weight": 0.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          },
+          {
+            "weight": 0.1,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          },
+          {
+            "weight": 0.2,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          },
+          {
+            "weight": 0.3,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          },
+          {
+            "weight": 0.4,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          },
+          {
+            "weight": 0.5,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          },
+          {
+            "weight": 0.6,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          },
+          {
+            "weight": 0.7,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          },
+          {
+            "weight": 0.8,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          },
+          {
+            "weight": 0.9,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          },
+          {
+            "weight": 1.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          }
+        ]
+      },
+      {
+        "source": "code",
+        "blocks": 4096,
+        "valid": true,
+        "ref_rate": 2.0,
+        "non_dominated": 11,
+        "selected": [
+          {
+            "weight": 0.0,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          },
+          {
+            "weight": 0.1,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          },
+          {
+            "weight": 0.2,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          },
+          {
+            "weight": 0.3,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          },
+          {
+            "weight": 0.4,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          },
+          {
+            "weight": 0.5,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          },
+          {
+            "weight": 0.6,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          },
+          {
+            "weight": 0.7,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          },
+          {
+            "weight": 0.8,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          },
+          {
+            "weight": 0.9,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          },
+          {
+            "weight": 1.0,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          }
+        ]
+      },
+      {
+        "source": "conversation",
+        "blocks": 768,
+        "valid": true,
+        "ref_rate": 0.75,
+        "non_dominated": 0,
+        "selected": [
+          {
+            "weight": 0.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          },
+          {
+            "weight": 0.1,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          },
+          {
+            "weight": 0.2,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          },
+          {
+            "weight": 0.3,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          },
+          {
+            "weight": 0.4,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          },
+          {
+            "weight": 0.5,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          },
+          {
+            "weight": 0.6,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          },
+          {
+            "weight": 0.7,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          },
+          {
+            "weight": 0.8,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          },
+          {
+            "weight": 0.9,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          },
+          {
+            "weight": 1.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "conversation",
+        "blocks": 4096,
+        "valid": true,
+        "ref_rate": 2.0,
+        "non_dominated": 11,
+        "selected": [
+          {
+            "weight": 0.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.1,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.2,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.3,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.4,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.5,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.6,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.7,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.8,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.9,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 1.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          }
+        ]
+      }
+    ],
+    "scenes_with_spare_point": 3,
+    "non_dominated_weights": 33
+  },
+  {
+    "p95_ttft_ms": 5000,
+    "p99_tbt_ms": 500.0,
+    "drift_fraction": 0.05,
+    "drift_floor": 2.0,
+    "scenes": [
+      {
+        "source": "code",
+        "blocks": 768,
+        "valid": true,
+        "ref_rate": 1.0,
+        "non_dominated": 11,
+        "selected": [
+          {
+            "weight": 0.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          },
+          {
+            "weight": 0.1,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          },
+          {
+            "weight": 0.2,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          },
+          {
+            "weight": 0.3,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          },
+          {
+            "weight": 0.4,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          },
+          {
+            "weight": 0.5,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          },
+          {
+            "weight": 0.6,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          },
+          {
+            "weight": 0.7,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          },
+          {
+            "weight": 0.8,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          },
+          {
+            "weight": 0.9,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          },
+          {
+            "weight": 1.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.0,
+            "ttft_ms": 497.3399861607367,
+            "dominators": []
+          }
+        ]
+      },
+      {
+        "source": "code",
+        "blocks": 4096,
+        "valid": true,
+        "ref_rate": 1.5,
+        "non_dominated": 11,
+        "selected": [
+          {
+            "weight": 0.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          },
+          {
+            "weight": 0.1,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          },
+          {
+            "weight": 0.2,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          },
+          {
+            "weight": 0.3,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          },
+          {
+            "weight": 0.4,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          },
+          {
+            "weight": 0.5,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          },
+          {
+            "weight": 0.6,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          },
+          {
+            "weight": 0.7,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          },
+          {
+            "weight": 0.8,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          },
+          {
+            "weight": 0.9,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          },
+          {
+            "weight": 1.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 558.3198039982925,
+            "dominators": []
+          }
+        ]
+      },
+      {
+        "source": "conversation",
+        "blocks": 768,
+        "valid": true,
+        "ref_rate": 0.5,
+        "non_dominated": 0,
+        "selected": [
+          {
+            "weight": 0.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          },
+          {
+            "weight": 0.1,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          },
+          {
+            "weight": 0.2,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          },
+          {
+            "weight": 0.3,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          },
+          {
+            "weight": 0.4,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          },
+          {
+            "weight": 0.5,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          },
+          {
+            "weight": 0.6,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          },
+          {
+            "weight": 0.7,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          },
+          {
+            "weight": 0.8,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          },
+          {
+            "weight": 0.9,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          },
+          {
+            "weight": 1.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.0,
+            "ttft_ms": 229.00634094785474,
+            "dominators": [
+              "past_future:T256",
+              "past_future_multi:T256",
+              "s3_proxy:T256",
+              "apt_serve_kv_rule:T256"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "conversation",
+        "blocks": 4096,
+        "valid": true,
+        "ref_rate": 2.0,
+        "non_dominated": 11,
+        "selected": [
+          {
+            "weight": 0.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.1,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.2,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.3,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.4,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.5,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.6,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.7,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.8,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.9,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 1.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          }
+        ]
+      }
+    ],
+    "scenes_with_spare_point": 3,
+    "non_dominated_weights": 33
+  },
+  {
+    "p95_ttft_ms": 10000,
+    "p99_tbt_ms": 500.0,
+    "drift_fraction": 0.05,
+    "drift_floor": 2.0,
+    "scenes": [
+      {
+        "source": "code",
+        "blocks": 768,
+        "valid": true,
+        "ref_rate": 1.5,
+        "non_dominated": 11,
+        "selected": [
+          {
+            "weight": 0.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          },
+          {
+            "weight": 0.1,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          },
+          {
+            "weight": 0.2,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          },
+          {
+            "weight": 0.3,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          },
+          {
+            "weight": 0.4,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          },
+          {
+            "weight": 0.5,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          },
+          {
+            "weight": 0.6,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          },
+          {
+            "weight": 0.7,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          },
+          {
+            "weight": 0.8,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          },
+          {
+            "weight": 0.9,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          },
+          {
+            "weight": 1.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 2.5,
+            "ttft_ms": 661.1771177411025,
+            "dominators": []
+          }
+        ]
+      },
+      {
+        "source": "code",
+        "blocks": 4096,
+        "valid": true,
+        "ref_rate": 2.0,
+        "non_dominated": 11,
+        "selected": [
+          {
+            "weight": 0.0,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          },
+          {
+            "weight": 0.1,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          },
+          {
+            "weight": 0.2,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          },
+          {
+            "weight": 0.3,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          },
+          {
+            "weight": 0.4,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          },
+          {
+            "weight": 0.5,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          },
+          {
+            "weight": 0.6,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          },
+          {
+            "weight": 0.7,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          },
+          {
+            "weight": 0.8,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          },
+          {
+            "weight": 0.9,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          },
+          {
+            "weight": 1.0,
+            "budget": 512,
+            "feasible": true,
+            "dominated": false,
+            "qps": 3.0,
+            "ttft_ms": 687.2331616733784,
+            "dominators": []
+          }
+        ]
+      },
+      {
+        "source": "conversation",
+        "blocks": 768,
+        "valid": true,
+        "ref_rate": 0.75,
+        "non_dominated": 0,
+        "selected": [
+          {
+            "weight": 0.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          },
+          {
+            "weight": 0.1,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          },
+          {
+            "weight": 0.2,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          },
+          {
+            "weight": 0.3,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          },
+          {
+            "weight": 0.4,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          },
+          {
+            "weight": 0.5,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          },
+          {
+            "weight": 0.6,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          },
+          {
+            "weight": 0.7,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          },
+          {
+            "weight": 0.8,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          },
+          {
+            "weight": 0.9,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          },
+          {
+            "weight": 1.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": true,
+            "qps": 1.5,
+            "ttft_ms": 296.5448893863663,
+            "dominators": [
+              "past_future:T256",
+              "past_future:T512",
+              "past_future_multi:T256",
+              "s3_proxy:T256"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "conversation",
+        "blocks": 4096,
+        "valid": true,
+        "ref_rate": 2.0,
+        "non_dominated": 11,
+        "selected": [
+          {
+            "weight": 0.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.1,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.2,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.3,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.4,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.5,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.6,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.7,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.8,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 0.9,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          },
+          {
+            "weight": 1.0,
+            "budget": 256,
+            "feasible": true,
+            "dominated": false,
+            "qps": 4.0,
+            "ttft_ms": 313.22981953738673,
+            "dominators": []
+          }
+        ]
+      }
+    ],
+    "scenes_with_spare_point": 3,
+    "non_dominated_weights": 33
+  }
+]

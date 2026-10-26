@@ -1,0 +1,30 @@
+% Companion tables: table_2s.tex (main text), table_4s.tex (appendix).
+% Uses the new continuous-load sensitivity matrix only.
+\subsection{Parameter Sensitivity}
+\label{sec:parameter-sensitivity}
+
+We individually halve or double $n_0$, $\alpha$, $H$, and $\tau$
+around their defaults. Table~\ref{tab:parameter-sensitivity-2s}
+reports serving capacity and mean TTFT at the same KV budgets and
+on the same 24 paired windows per workload. All latency measurements
+use a common offered load of 2 QPS. Capacity uses a 2-s mean-TTFT
+limit with the same TBT and backlog constraints as the main evaluation.
+
+Threshold strength affects both metrics most clearly under tight KV
+budgets. On Conversation with 1,024 blocks, increasing $n_0$ from
+8 to 16 reduces capacity from 2.20 to 2.04 QPS and increases mean
+TTFT from 1,511 to 1,850 ms. Reducing $\alpha$ to 64 instead yields
+2.30 QPS and 1,362 ms, showing that the default is not uniformly
+optimal across operating conditions. Temporal parameters have
+smaller effects on capacity in this matrix: halving or doubling $H$
+changes capacity by $-0.59$\% to $+1.03$\% relative to the default,
+and changing $\tau$ yields $-1.78$\% to $+2.73$\%.
+
+The paired metrics also distinguish latency at a fixed load from
+the capacity boundary. At 4,096 blocks and 2 QPS, all parameter
+configurations yield approximately 734 ms on Code and 332 ms on
+Conversation, while their capacity estimates differ. Under a relaxed
+4-s limit, for example, Code capacity increases from 3.76 to 4.14 QPS
+with $n_0=16$, despite unchanged latency at 2 QPS
+(Table~\ref{tab:parameter-sensitivity-4s}). Parameter sensitivity
+therefore depends on both available KV space and the service objective.

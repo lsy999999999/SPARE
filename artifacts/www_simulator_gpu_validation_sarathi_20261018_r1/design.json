@@ -1,0 +1,249 @@
+{
+  "schema": 1,
+  "purpose": "Sarathi supplement to independent RTX 4090 simulator validation",
+  "gpu_execution": true,
+  "model": "Qwen2.5-7B-Instruct",
+  "gpu": "RTX 4090",
+  "samples": [
+    {
+      "name": "code_d1_w07",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 7,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w07.json"
+    },
+    {
+      "name": "code_d1_w17",
+      "source": "code",
+      "day": "2024-05-13",
+      "window": 17,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d1_w17.json"
+    },
+    {
+      "name": "code_d2_w07",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 7,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w07.json"
+    },
+    {
+      "name": "code_d2_w17",
+      "source": "code",
+      "day": "2024-05-16",
+      "window": 17,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/code_d2_w17.json"
+    },
+    {
+      "name": "conversation_d1_w07",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 7,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w07.json"
+    },
+    {
+      "name": "conversation_d1_w17",
+      "source": "conversation",
+      "day": "2024-05-15",
+      "window": 17,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d1_w17.json"
+    },
+    {
+      "name": "conversation_d2_w07",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 7,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w07.json"
+    },
+    {
+      "name": "conversation_d2_w17",
+      "source": "conversation",
+      "day": "2024-05-18",
+      "window": 17,
+      "split": "test",
+      "input": "artifacts/www_pareto_20261014_r1/inputs/conversation_d2_w17.json"
+    }
+  ],
+  "methods_by_kv": {
+    "2048": [
+      "sarathi"
+    ],
+    "6144": [
+      "sarathi"
+    ]
+  },
+  "plans": [
+    {
+      "source": "code",
+      "kv_blocks": 2048,
+      "arm": "sarathi",
+      "simulator_bracket": [
+        {
+          "rate_qps": 2.5,
+          "passed": true,
+          "valid": true,
+          "mean_ttft_ms": 811.453004139145,
+          "p99_tbt_ms": 100.12957745111035,
+          "backlog_drift": -0.5,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/code_c2048_sarathi_r2.5.json"
+        },
+        {
+          "rate_qps": 3.0,
+          "passed": false,
+          "valid": true,
+          "mean_ttft_ms": 1652.9195653670033,
+          "p99_tbt_ms": 108.80384366982335,
+          "backlog_drift": 4.5,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/code_c2048_sarathi_r3.json"
+        }
+      ]
+    },
+    {
+      "source": "code",
+      "kv_blocks": 6144,
+      "arm": "sarathi",
+      "simulator_bracket": [
+        {
+          "rate_qps": 2.5,
+          "passed": true,
+          "valid": true,
+          "mean_ttft_ms": 802.9055891197881,
+          "p99_tbt_ms": 100.43561315483915,
+          "backlog_drift": -0.5,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/code_c6144_sarathi_r2.5.json"
+        },
+        {
+          "rate_qps": 3.0,
+          "passed": false,
+          "valid": true,
+          "mean_ttft_ms": 1290.3518292550946,
+          "p99_tbt_ms": 110.58968953490022,
+          "backlog_drift": 4.75,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/code_c6144_sarathi_r3.json"
+        }
+      ]
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 2048,
+      "arm": "sarathi",
+      "simulator_bracket": [
+        {
+          "rate_qps": 2.12,
+          "passed": true,
+          "valid": true,
+          "mean_ttft_ms": 442.43959255752213,
+          "p99_tbt_ms": 78.90017361077705,
+          "backlog_drift": -0.5,
+          "source_record": "artifacts/www_kv_capacity_fine50_20261016_r1/rates/conversation_c2048_sarathi_r2.12.json"
+        },
+        {
+          "rate_qps": 2.25,
+          "passed": false,
+          "valid": true,
+          "mean_ttft_ms": 1414.60205917795,
+          "p99_tbt_ms": 79.26770171247671,
+          "backlog_drift": 7.25,
+          "source_record": "artifacts/www_kv_capacity_fine50_20261016_r1/rates/conversation_c2048_sarathi_r2.25.json"
+        }
+      ]
+    },
+    {
+      "source": "conversation",
+      "kv_blocks": 6144,
+      "arm": "sarathi",
+      "simulator_bracket": [
+        {
+          "rate_qps": 4.0,
+          "passed": true,
+          "valid": true,
+          "mean_ttft_ms": 1014.6774181091117,
+          "p99_tbt_ms": 109.82271145523555,
+          "backlog_drift": -1.0,
+          "source_record": "artifacts/www_kv_capacity_dense_20261016_r1/rates/conversation_c6144_sarathi_r4.json"
+        },
+        {
+          "rate_qps": 4.25,
+          "passed": false,
+          "valid": true,
+          "mean_ttft_ms": 1603.3101063863687,
+          "p99_tbt_ms": 109.55542450577377,
+          "backlog_drift": 7.25,
+          "source_record": "artifacts/www_kv_capacity_fine50_20261016_r1/rates/conversation_c6144_sarathi_r4.25.json"
+        }
+      ]
+    }
+  ],
+  "repeats": 2,
+  "input_hashes": {
+    "inputs/code_d1_w07_r2.5.json": "4da75c51d49ea80caa1ef0bc45cfcff5f5ecdba98694b5a6efc7a461f455b0ef",
+    "inputs/code_d1_w07_r3.json": "ca09344ea1cb91592b9d1a435da215a9c1473a037b686cb8cadd24ad1f66b175",
+    "inputs/code_d1_w17_r2.5.json": "ff1d55c9a4f4016ed28ca9b9b80e1863c238dcfeab3d8ccc1e564d3db11857a8",
+    "inputs/code_d1_w17_r3.json": "1984363f8a2bc94f5a2f91078c6aa299b0f74da4fa991cd3d9a39eaf812e4dfc",
+    "inputs/code_d2_w07_r2.5.json": "4da6375bf509b367e5aad788537807f81e6d2e07cba764005a8b348dea5b547a",
+    "inputs/code_d2_w07_r3.json": "a513c1e3d47dfb3d6b0ed65ce1dc4764893253ff896102807f29608fa0bdf491",
+    "inputs/code_d2_w17_r2.5.json": "764a70f4e99c0cc51f937941de530ba9cf4490a90653c9e767b6ba0e74a330da",
+    "inputs/code_d2_w17_r3.json": "a6454df0d172f867bf904e006f926dc0e49d7821476374bee2df6bcbbc9a85cb",
+    "inputs/conversation_d1_w07_r2.12.json": "2dc682eb4c57bdae93ea5bc77d1f99f27785313a2ad3f22159eb50c0ecf5befe",
+    "inputs/conversation_d1_w07_r2.25.json": "780dd56b4ab05bfb3bc3925877849887938cbf7144e7fbbbc5a9b63c61eb52c4",
+    "inputs/conversation_d1_w17_r2.12.json": "73a9a1788a815b20a91a446259ddcf26242d5e4d38ffb85250a7caed9503429e",
+    "inputs/conversation_d1_w17_r2.25.json": "f67902016a040d5924f9ebec4d447b811ea5b628a780a21e5f4c2b0a5fe7b3aa",
+    "inputs/conversation_d2_w07_r2.12.json": "0c30f6213f58687fe2753f4cffaaa2bdd0ee0049ab84aec4aa0189fb2d32fd9f",
+    "inputs/conversation_d2_w07_r2.25.json": "cc9d4746be4a6703bc62cb213b604ecd031abd59a968c8ac5bb363565840a246",
+    "inputs/conversation_d2_w17_r2.12.json": "5fc9b984bd704ac17cb4e9c4f3b31530febeeba95ce87d0314f9023f8c20574c",
+    "inputs/conversation_d2_w17_r2.25.json": "9b20b785fdcc4fe5626580ac2a15fa53ff4358de159c558dca997e453641e3b9",
+    "inputs/conversation_d1_w07_r4.json": "a352b93c86b416912d9cbe1f5fef54c5622b602f366301559b78500b2cba2f23",
+    "inputs/conversation_d1_w07_r4.25.json": "cba1f94c3ee095387f2d63c6bfee27f7e057ee6f90f5c0ecda9071d68c411e62",
+    "inputs/conversation_d1_w17_r4.json": "dc755ecd3337439d68aa3f2fd3e199d35fc97dd245e1845586dc1bc33e925dc8",
+    "inputs/conversation_d1_w17_r4.25.json": "337148387fb0f821d29b39d0a794f7d2a4372f28de8ebdb480aba0081f97b47d",
+    "inputs/conversation_d2_w07_r4.json": "cb127872fbddcb37f9ccabc7676688c6518a5116f6a5cc80ac6c201441723bd6",
+    "inputs/conversation_d2_w07_r4.25.json": "20d4ca81dcffa0f24898f6e04cc961edd4cda5234148f35cc63136873eb880c9",
+    "inputs/conversation_d2_w17_r4.json": "63ec9420b8c52ed5d81b5799903222757d07c9d170f12de59cd1b9075ce797ed",
+    "inputs/conversation_d2_w17_r4.25.json": "fa131cdba98c21f811bbb06bd44709898f8b5331dc9a7a669a268b2b63bbfe79"
+  },
+  "history_hashes": {
+    "code": "3a264551ae459dea9848b9be5baee3941a606d3159c9a643d42c2c206a4fb8ba",
+    "conversation": "82961b668d10af3b713b524308286c71813a31804a73e12a482c3e77f3387065"
+  },
+  "source_hashes": {
+    "research/www_simulator_gpu_validation_20261018/prepare.py": "3ff67a8b9c6e632981cf56384d7e6b12fe2d7177dfa39ec951c1a77b46a70d32",
+    "research/www_simulator_gpu_validation_20261018/run.py": "686648ac2a0dddd1b8d49a89d454f95b42950ac6ca216b243b1642a8a6adc1e6",
+    "research/www_simulator_gpu_validation_20261018/analyze.py": "5fe9b35a029b3845a7e4c651509397b23adab96ac186186ed1725ab0ccf22354",
+    "research/www_idea1_gpu_pilot_20261016/run.py": "f12bb37c6b20d9af93acac545758ee9b305f10816d84cd82ee0d16cabcabcafe",
+    "research/www_idea1_gpu_pilot_20261016/scheduler.py": "04552f20a80a928a29deb70f04555e8a1aa517d2e7f0620d0d9ab917a03f006a",
+    "research/www_evaluation_gpu_completion_20261003/run.py": "199bdb2b6d2aa994b07788227ca83a294f35a9b2ff91d1e5f4f579a978937427",
+    "research/www_evaluation_gpu_completion_20261003/scheduler.py": "a7f604fe9b7d0b8c2eba6f87360956c685e9ebf81f4a8460dfc10e623b41c418",
+    "research/www_legacy_baselines_20261006/scheduler.py": "4b38d5e20b119b7e623b81d425892def37ce610d92486319396b2a730f71eba7",
+    "research/www_simulator_gpu_validation_20261018/prepare_sarathi.py": "7e5bd1edada3aadc6138cca7a5d48acd553344eb04e9aef17f44b1f9d63eb14b",
+    "research/www_simulator_gpu_validation_20261018/run_sarathi.py": "8f27b3d5b478bcd9f45a40124effab3bbd915e9860f98788040cdef9fecd3054"
+  },
+  "source_design_sha256": "e3bd94199fe148c93d35b37cdc479acebeffc1819be4779f3ea028372e36d55c",
+  "source_audit_sha256": "3d2b7e9b8340ec26b9e6865a3399083b0a0696c9c8d7cec59cc3db7de1050e16",
+  "timing_profile_sha256": "e73a97338fe7beb9883b86e3bd46b7f44742e70026796262993858b351a44cc8",
+  "horizon_ms": 60000,
+  "warm_ms": 20000,
+  "backlog_interval_ms": [
+    40000,
+    60000
+  ],
+  "mean_ttft_limit_ms": 2000,
+  "p99_tbt_limit_ms": 200,
+  "backlog_limit": "max(2, offered QPS) requests",
+  "budget": 1024,
+  "chunk": 256,
+  "concurrency": 32,
+  "block_size": 16,
+  "max_num_seqs": 64,
+  "max_num_batched_tokens": 2048,
+  "qps_rule": "two archived simulator rates bracketing each paired-window 2 s boundary",
+  "gpu_candidates": [
+    4
+  ],
+  "paired_design_sha256": "71b238b32e3bdfc16070536d6b5695e6ab0c11f3f23e465502e029e64da5e331"
+}

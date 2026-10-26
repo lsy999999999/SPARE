@@ -1,0 +1,152 @@
+[
+  {
+    "left": "spare",
+    "right": "no_decode_guard",
+    "total_pairs": 7750,
+    "different_trajectories": 0,
+    "by_condition": [
+      {
+        "source": "code",
+        "kv_blocks": 1024,
+        "common_rates": 25,
+        "pairs": 1250,
+        "different_trajectories": 0
+      },
+      {
+        "source": "code",
+        "kv_blocks": 2048,
+        "common_rates": 25,
+        "pairs": 1250,
+        "different_trajectories": 0
+      },
+      {
+        "source": "code",
+        "kv_blocks": 4096,
+        "common_rates": 27,
+        "pairs": 1350,
+        "different_trajectories": 0
+      },
+      {
+        "source": "conversation",
+        "kv_blocks": 1024,
+        "common_rates": 23,
+        "pairs": 1150,
+        "different_trajectories": 0
+      },
+      {
+        "source": "conversation",
+        "kv_blocks": 2048,
+        "common_rates": 27,
+        "pairs": 1350,
+        "different_trajectories": 0
+      },
+      {
+        "source": "conversation",
+        "kv_blocks": 4096,
+        "common_rates": 28,
+        "pairs": 1400,
+        "different_trajectories": 0
+      }
+    ]
+  },
+  {
+    "left": "no_finish_guard",
+    "right": "no_protection",
+    "total_pairs": 7750,
+    "different_trajectories": 0,
+    "by_condition": [
+      {
+        "source": "code",
+        "kv_blocks": 1024,
+        "common_rates": 25,
+        "pairs": 1250,
+        "different_trajectories": 0
+      },
+      {
+        "source": "code",
+        "kv_blocks": 2048,
+        "common_rates": 25,
+        "pairs": 1250,
+        "different_trajectories": 0
+      },
+      {
+        "source": "code",
+        "kv_blocks": 4096,
+        "common_rates": 27,
+        "pairs": 1350,
+        "different_trajectories": 0
+      },
+      {
+        "source": "conversation",
+        "kv_blocks": 1024,
+        "common_rates": 23,
+        "pairs": 1150,
+        "different_trajectories": 0
+      },
+      {
+        "source": "conversation",
+        "kv_blocks": 2048,
+        "common_rates": 27,
+        "pairs": 1350,
+        "different_trajectories": 0
+      },
+      {
+        "source": "conversation",
+        "kv_blocks": 4096,
+        "common_rates": 28,
+        "pairs": 1400,
+        "different_trajectories": 0
+      }
+    ]
+  },
+  {
+    "left": "spare",
+    "right": "no_finish_guard",
+    "total_pairs": 6750,
+    "different_trajectories": 3607,
+    "by_condition": [
+      {
+        "source": "code",
+        "kv_blocks": 1024,
+        "common_rates": 22,
+        "pairs": 1100,
+        "different_trajectories": 839
+      },
+      {
+        "source": "code",
+        "kv_blocks": 2048,
+        "common_rates": 23,
+        "pairs": 1150,
+        "different_trajectories": 590
+      },
+      {
+        "source": "code",
+        "kv_blocks": 4096,
+        "common_rates": 27,
+        "pairs": 1350,
+        "different_trajectories": 287
+      },
+      {
+        "source": "conversation",
+        "kv_blocks": 1024,
+        "common_rates": 15,
+        "pairs": 750,
+        "different_trajectories": 462
+      },
+      {
+        "source": "conversation",
+        "kv_blocks": 2048,
+        "common_rates": 25,
+        "pairs": 1250,
+        "different_trajectories": 855
+      },
+      {
+        "source": "conversation",
+        "kv_blocks": 4096,
+        "common_rates": 23,
+        "pairs": 1150,
+        "different_trajectories": 574
+      }
+    ]
+  }
+]

@@ -1,0 +1,117 @@
+{
+  "groups": 26,
+  "simulator_groups": 26,
+  "simulator_fully_ordered_groups": 16,
+  "complete_pairs": 78,
+  "matching_pairs": 62,
+  "gpu_strict_pairs": 60,
+  "matching_gpu_strict_pairs": 47,
+  "clean_gpu_strict_pairs": 27,
+  "matching_clean_gpu_strict_pairs": 24,
+  "conditions": {
+    "qwen25_7b_code_c2048": {
+      "compared_pairs": 3,
+      "matching_pairs": 3
+    },
+    "qwen25_7b_conversation_c2048": {
+      "compared_pairs": 3,
+      "matching_pairs": 3
+    },
+    "qwen25_3b_code_c2048": {
+      "compared_pairs": 3,
+      "matching_pairs": 3
+    },
+    "qwen25_3b_conversation_c2048": {
+      "compared_pairs": 3,
+      "matching_pairs": 3
+    },
+    "qwen3_8b_code_c1536": {
+      "compared_pairs": 3,
+      "matching_pairs": 3
+    },
+    "qwen3_8b_conversation_c1536": {
+      "compared_pairs": 3,
+      "matching_pairs": 3
+    },
+    "mistral_7b_code_c1536": {
+      "compared_pairs": 3,
+      "matching_pairs": 1
+    },
+    "mistral_7b_conversation_c1536": {
+      "compared_pairs": 3,
+      "matching_pairs": 3
+    },
+    "qwen25_7b_code_c4096": {
+      "compared_pairs": 3,
+      "matching_pairs": 2
+    },
+    "qwen25_7b_conversation_c4096": {
+      "compared_pairs": 3,
+      "matching_pairs": 1
+    },
+    "qwen25_7b_code_c6144": {
+      "compared_pairs": 3,
+      "matching_pairs": 2
+    },
+    "qwen25_7b_conversation_c6144": {
+      "compared_pairs": 3,
+      "matching_pairs": 3
+    },
+    "qwen25_7b_code_c7424": {
+      "compared_pairs": 3,
+      "matching_pairs": 2
+    },
+    "qwen25_7b_conversation_c7424": {
+      "compared_pairs": 3,
+      "matching_pairs": 1
+    },
+    "qwen25_3b_code_c4096": {
+      "compared_pairs": 3,
+      "matching_pairs": 2
+    },
+    "qwen25_3b_conversation_c4096": {
+      "compared_pairs": 3,
+      "matching_pairs": 3
+    },
+    "qwen25_3b_code_c6144": {
+      "compared_pairs": 3,
+      "matching_pairs": 2
+    },
+    "qwen25_3b_conversation_c6144": {
+      "compared_pairs": 3,
+      "matching_pairs": 0
+    },
+    "qwen3_8b_code_c1792": {
+      "compared_pairs": 3,
+      "matching_pairs": 3
+    },
+    "qwen3_8b_conversation_c1792": {
+      "compared_pairs": 3,
+      "matching_pairs": 3
+    },
+    "qwen3_8b_code_c2048": {
+      "compared_pairs": 3,
+      "matching_pairs": 3
+    },
+    "qwen3_8b_conversation_c2048": {
+      "compared_pairs": 3,
+      "matching_pairs": 3
+    },
+    "mistral_7b_code_c2048": {
+      "compared_pairs": 3,
+      "matching_pairs": 2
+    },
+    "mistral_7b_conversation_c2048": {
+      "compared_pairs": 3,
+      "matching_pairs": 3
+    },
+    "mistral_7b_code_c2560": {
+      "compared_pairs": 3,
+      "matching_pairs": 3
+    },
+    "mistral_7b_conversation_c2560": {
+      "compared_pairs": 3,
+      "matching_pairs": 2
+    }
+  }
+}

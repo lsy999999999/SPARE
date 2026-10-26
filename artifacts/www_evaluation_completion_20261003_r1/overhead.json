@@ -1,0 +1,23 @@
+{
+  "complete": true,
+  "sampled_states": 512,
+  "early_exit_action_mismatches": 0,
+  "removing_decode_guard_changed_actions": 0,
+  "removing_finish_guard_changed_actions": 4,
+  "costs": {
+    "audited_all_candidates": {
+      "mean_us": 35.45318294270833,
+      "p50_us": 34.1005,
+      "p95_us": 70.8098,
+      "mean_candidates": 3.90625
+    },
+    "early_exit_no_diagnostics": {
+      "mean_us": 30.235812825520835,
+      "p50_us": 25.3345,
+      "p95_us": 64.89309999999998,
+      "mean_candidates": 3.119140625
+    }
+  },
+  "scope": "Single-process CPU pure-policy microbenchmark, alternating order, six measurements per state. Excludes queue sorting, state extraction, native scheduler, file logging and GPU execution. Not production overhead.",
+  "sample_scope": "32 uniformly spaced iterations from each accepted r3 arrival repeat 0. Not weighted by online state frequency."
+}

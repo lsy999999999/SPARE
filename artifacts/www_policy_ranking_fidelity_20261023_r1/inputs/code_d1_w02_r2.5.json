@@ -1,0 +1,812 @@
+[
+  {
+    "id": "code_d1_w02:0",
+    "prompt": 1449,
+    "output": 4,
+    "arrival_ms": 434.2561113232171
+  },
+  {
+    "id": "code_d1_w02:1",
+    "prompt": 2410,
+    "output": 9,
+    "arrival_ms": 831.1120906630929
+  },
+  {
+    "id": "code_d1_w02:2",
+    "prompt": 5977,
+    "output": 12,
+    "arrival_ms": 940.6367183978
+  },
+  {
+    "id": "code_d1_w02:3",
+    "prompt": 2091,
+    "output": 11,
+    "arrival_ms": 1050.8127440625326
+  },
+  {
+    "id": "code_d1_w02:4",
+    "prompt": 970,
+    "output": 22,
+    "arrival_ms": 1485.8995686078567
+  },
+  {
+    "id": "code_d1_w02:5",
+    "prompt": 2030,
+    "output": 3,
+    "arrival_ms": 1795.3742584825163
+  },
+  {
+    "id": "code_d1_w02:6",
+    "prompt": 2410,
+    "output": 9,
+    "arrival_ms": 1986.0590966606408
+  },
+  {
+    "id": "code_d1_w02:7",
+    "prompt": 6911,
+    "output": 7,
+    "arrival_ms": 2001.6119420972773
+  },
+  {
+    "id": "code_d1_w02:8",
+    "prompt": 1699,
+    "output": 60,
+    "arrival_ms": 2568.5990209980896
+  },
+  {
+    "id": "code_d1_w02:9",
+    "prompt": 7681,
+    "output": 9,
+    "arrival_ms": 2692.7312177482045
+  },
+  {
+    "id": "code_d1_w02:10",
+    "prompt": 98,
+    "output": 73,
+    "arrival_ms": 2965.4469297356122
+  },
+  {
+    "id": "code_d1_w02:11",
+    "prompt": 1667,
+    "output": 15,
+    "arrival_ms": 2983.774177697994
+  },
+  {
+    "id": "code_d1_w02:12",
+    "prompt": 3020,
+    "output": 7,
+    "arrival_ms": 3468.852792963871
+  },
+  {
+    "id": "code_d1_w02:13",
+    "prompt": 609,
+    "output": 5,
+    "arrival_ms": 4071.5007634173935
+  },
+  {
+    "id": "code_d1_w02:14",
+    "prompt": 3856,
+    "output": 18,
+    "arrival_ms": 4092.4957696985584
+  },
+  {
+    "id": "code_d1_w02:15",
+    "prompt": 1925,
+    "output": 34,
+    "arrival_ms": 4572.953556748702
+  },
+  {
+    "id": "code_d1_w02:16",
+    "prompt": 2271,
+    "output": 8,
+    "arrival_ms": 4797.222840355665
+  },
+  {
+    "id": "code_d1_w02:17",
+    "prompt": 7681,
+    "output": 9,
+    "arrival_ms": 4801.362521781501
+  },
+  {
+    "id": "code_d1_w02:18",
+    "prompt": 3020,
+    "output": 1,
+    "arrival_ms": 5241.2662697918895
+  },
+  {
+    "id": "code_d1_w02:19",
+    "prompt": 5977,
+    "output": 12,
+    "arrival_ms": 5880.604298295344
+  },
+  {
+    "id": "code_d1_w02:20",
+    "prompt": 1695,
+    "output": 109,
+    "arrival_ms": 6789.771198853455
+  },
+  {
+    "id": "code_d1_w02:21",
+    "prompt": 3454,
+    "output": 3,
+    "arrival_ms": 6908.1313003600835
+  },
+  {
+    "id": "code_d1_w02:22",
+    "prompt": 98,
+    "output": 73,
+    "arrival_ms": 7048.478864773696
+  },
+  {
+    "id": "code_d1_w02:23",
+    "prompt": 6911,
+    "output": 7,
+    "arrival_ms": 7099.623576191558
+  },
+  {
+    "id": "code_d1_w02:24",
+    "prompt": 3531,
+    "output": 18,
+    "arrival_ms": 7146.184123050884
+  },
+  {
+    "id": "code_d1_w02:25",
+    "prompt": 108,
+    "output": 3,
+    "arrival_ms": 7317.458419248149
+  },
+  {
+    "id": "code_d1_w02:26",
+    "prompt": 989,
+    "output": 15,
+    "arrival_ms": 7792.094837333714
+  },
+  {
+    "id": "code_d1_w02:27",
+    "prompt": 1261,
+    "output": 9,
+    "arrival_ms": 7833.664058908462
+  },
+  {
+    "id": "code_d1_w02:28",
+    "prompt": 7685,
+    "output": 3,
+    "arrival_ms": 7837.631181053077
+  },
+  {
+    "id": "code_d1_w02:29",
+    "prompt": 353,
+    "output": 3,
+    "arrival_ms": 8031.399766161414
+  },
+  {
+    "id": "code_d1_w02:30",
+    "prompt": 108,
+    "output": 3,
+    "arrival_ms": 9241.1955697141
+  },
+  {
+    "id": "code_d1_w02:31",
+    "prompt": 108,
+    "output": 3,
+    "arrival_ms": 9417.473112079326
+  },
+  {
+    "id": "code_d1_w02:32",
+    "prompt": 3434,
+    "output": 1,
+    "arrival_ms": 10164.294317868715
+  },
+  {
+    "id": "code_d1_w02:33",
+    "prompt": 6911,
+    "output": 7,
+    "arrival_ms": 10559.244277569116
+  },
+  {
+    "id": "code_d1_w02:34",
+    "prompt": 353,
+    "output": 3,
+    "arrival_ms": 11507.808127239481
+  },
+  {
+    "id": "code_d1_w02:35",
+    "prompt": 1925,
+    "output": 34,
+    "arrival_ms": 12187.37476696018
+  },
+  {
+    "id": "code_d1_w02:36",
+    "prompt": 609,
+    "output": 1,
+    "arrival_ms": 12553.284409414655
+  },
+  {
+    "id": "code_d1_w02:37",
+    "prompt": 3531,
+    "output": 18,
+    "arrival_ms": 13264.440379966978
+  },
+  {
+    "id": "code_d1_w02:38",
+    "prompt": 2030,
+    "output": 3,
+    "arrival_ms": 13315.162796043436
+  },
+  {
+    "id": "code_d1_w02:39",
+    "prompt": 7685,
+    "output": 3,
+    "arrival_ms": 13362.886872065486
+  },
+  {
+    "id": "code_d1_w02:40",
+    "prompt": 948,
+    "output": 451,
+    "arrival_ms": 14107.505988518373
+  },
+  {
+    "id": "code_d1_w02:41",
+    "prompt": 2091,
+    "output": 11,
+    "arrival_ms": 14540.36124076106
+  },
+  {
+    "id": "code_d1_w02:42",
+    "prompt": 2030,
+    "output": 1,
+    "arrival_ms": 14558.357293499814
+  },
+  {
+    "id": "code_d1_w02:43",
+    "prompt": 6911,
+    "output": 7,
+    "arrival_ms": 15613.049243421152
+  },
+  {
+    "id": "code_d1_w02:44",
+    "prompt": 5015,
+    "output": 2,
+    "arrival_ms": 17288.39429789938
+  },
+  {
+    "id": "code_d1_w02:45",
+    "prompt": 7684,
+    "output": 1,
+    "arrival_ms": 17557.47273936361
+  },
+  {
+    "id": "code_d1_w02:46",
+    "prompt": 353,
+    "output": 3,
+    "arrival_ms": 18169.860068493457
+  },
+  {
+    "id": "code_d1_w02:47",
+    "prompt": 3531,
+    "output": 18,
+    "arrival_ms": 18356.446373612074
+  },
+  {
+    "id": "code_d1_w02:48",
+    "prompt": 1770,
+    "output": 9,
+    "arrival_ms": 18594.43119110217
+  },
+  {
+    "id": "code_d1_w02:49",
+    "prompt": 2664,
+    "output": 16,
+    "arrival_ms": 19074.633290363527
+  },
+  {
+    "id": "code_d1_w02:50",
+    "prompt": 2271,
+    "output": 1,
+    "arrival_ms": 19406.478389314718
+  },
+  {
+    "id": "code_d1_w02:51",
+    "prompt": 3020,
+    "output": 7,
+    "arrival_ms": 19492.296784399983
+  },
+  {
+    "id": "code_d1_w02:52",
+    "prompt": 2466,
+    "output": 110,
+    "arrival_ms": 19662.089275097915
+  },
+  {
+    "id": "code_d1_w02:53",
+    "prompt": 1449,
+    "output": 4,
+    "arrival_ms": 20182.5030248075
+  },
+  {
+    "id": "code_d1_w02:54",
+    "prompt": 487,
+    "output": 9,
+    "arrival_ms": 20299.007971512663
+  },
+  {
+    "id": "code_d1_w02:55",
+    "prompt": 1032,
+    "output": 1,
+    "arrival_ms": 20985.941160073424
+  },
+  {
+    "id": "code_d1_w02:56",
+    "prompt": 1699,
+    "output": 60,
+    "arrival_ms": 21145.107216125234
+  },
+  {
+    "id": "code_d1_w02:57",
+    "prompt": 1667,
+    "output": 15,
+    "arrival_ms": 22204.198485001536
+  },
+  {
+    "id": "code_d1_w02:58",
+    "prompt": 609,
+    "output": 1,
+    "arrival_ms": 22525.426400161825
+  },
+  {
+    "id": "code_d1_w02:59",
+    "prompt": 108,
+    "output": 3,
+    "arrival_ms": 22858.16683738408
+  },
+  {
+    "id": "code_d1_w02:60",
+    "prompt": 1449,
+    "output": 4,
+    "arrival_ms": 23017.219177893232
+  },
+  {
+    "id": "code_d1_w02:61",
+    "prompt": 609,
+    "output": 9,
+    "arrival_ms": 25529.495632204627
+  },
+  {
+    "id": "code_d1_w02:62",
+    "prompt": 970,
+    "output": 22,
+    "arrival_ms": 25740.374505543692
+  },
+  {
+    "id": "code_d1_w02:63",
+    "prompt": 1925,
+    "output": 34,
+    "arrival_ms": 25805.154228462146
+  },
+  {
+    "id": "code_d1_w02:64",
+    "prompt": 2410,
+    "output": 9,
+    "arrival_ms": 26229.515136466518
+  },
+  {
+    "id": "code_d1_w02:65",
+    "prompt": 2271,
+    "output": 8,
+    "arrival_ms": 26879.37480352196
+  },
+  {
+    "id": "code_d1_w02:66",
+    "prompt": 1667,
+    "output": 15,
+    "arrival_ms": 26989.759370040287
+  },
+  {
+    "id": "code_d1_w02:67",
+    "prompt": 3856,
+    "output": 18,
+    "arrival_ms": 28594.277449177705
+  },
+  {
+    "id": "code_d1_w02:68",
+    "prompt": 609,
+    "output": 1,
+    "arrival_ms": 29962.100531034434
+  },
+  {
+    "id": "code_d1_w02:69",
+    "prompt": 2271,
+    "output": 8,
+    "arrival_ms": 32171.07606811304
+  },
+  {
+    "id": "code_d1_w02:70",
+    "prompt": 1699,
+    "output": 60,
+    "arrival_ms": 32664.719320229364
+  },
+  {
+    "id": "code_d1_w02:71",
+    "prompt": 2272,
+    "output": 8,
+    "arrival_ms": 32967.80461384574
+  },
+  {
+    "id": "code_d1_w02:72",
+    "prompt": 1699,
+    "output": 60,
+    "arrival_ms": 32972.960849469986
+  },
+  {
+    "id": "code_d1_w02:73",
+    "prompt": 108,
+    "output": 3,
+    "arrival_ms": 33382.701865579336
+  },
+  {
+    "id": "code_d1_w02:74",
+    "prompt": 2289,
+    "output": 11,
+    "arrival_ms": 33756.469519305756
+  },
+  {
+    "id": "code_d1_w02:75",
+    "prompt": 7673,
+    "output": 6,
+    "arrival_ms": 33962.531128673334
+  },
+  {
+    "id": "code_d1_w02:76",
+    "prompt": 836,
+    "output": 8,
+    "arrival_ms": 36040.61755328711
+  },
+  {
+    "id": "code_d1_w02:77",
+    "prompt": 3020,
+    "output": 7,
+    "arrival_ms": 37172.30677363457
+  },
+  {
+    "id": "code_d1_w02:78",
+    "prompt": 1449,
+    "output": 1,
+    "arrival_ms": 37436.72029897542
+  },
+  {
+    "id": "code_d1_w02:79",
+    "prompt": 2030,
+    "output": 3,
+    "arrival_ms": 37491.565725360386
+  },
+  {
+    "id": "code_d1_w02:80",
+    "prompt": 7681,
+    "output": 9,
+    "arrival_ms": 37871.437024054074
+  },
+  {
+    "id": "code_d1_w02:81",
+    "prompt": 108,
+    "output": 3,
+    "arrival_ms": 38426.15802161426
+  },
+  {
+    "id": "code_d1_w02:82",
+    "prompt": 7685,
+    "output": 3,
+    "arrival_ms": 38590.663529007354
+  },
+  {
+    "id": "code_d1_w02:83",
+    "prompt": 1449,
+    "output": 1,
+    "arrival_ms": 38791.74361121113
+  },
+  {
+    "id": "code_d1_w02:84",
+    "prompt": 2410,
+    "output": 9,
+    "arrival_ms": 39399.892307241054
+  },
+  {
+    "id": "code_d1_w02:85",
+    "prompt": 3020,
+    "output": 12,
+    "arrival_ms": 39867.17545246791
+  },
+  {
+    "id": "code_d1_w02:86",
+    "prompt": 2793,
+    "output": 17,
+    "arrival_ms": 39948.47092391898
+  },
+  {
+    "id": "code_d1_w02:87",
+    "prompt": 2030,
+    "output": 1,
+    "arrival_ms": 40645.659580427935
+  },
+  {
+    "id": "code_d1_w02:88",
+    "prompt": 2271,
+    "output": 8,
+    "arrival_ms": 40729.40230914433
+  },
+  {
+    "id": "code_d1_w02:89",
+    "prompt": 1261,
+    "output": 9,
+    "arrival_ms": 40985.12847355814
+  },
+  {
+    "id": "code_d1_w02:90",
+    "prompt": 3434,
+    "output": 1,
+    "arrival_ms": 41801.57790419419
+  },
+  {
+    "id": "code_d1_w02:91",
+    "prompt": 1449,
+    "output": 4,
+    "arrival_ms": 42492.720514804445
+  },
+  {
+    "id": "code_d1_w02:92",
+    "prompt": 1770,
+    "output": 9,
+    "arrival_ms": 42815.08956819166
+  },
+  {
+    "id": "code_d1_w02:93",
+    "prompt": 7684,
+    "output": 1,
+    "arrival_ms": 42839.25259811968
+  },
+  {
+    "id": "code_d1_w02:94",
+    "prompt": 2664,
+    "output": 16,
+    "arrival_ms": 43058.156508300744
+  },
+  {
+    "id": "code_d1_w02:95",
+    "prompt": 826,
+    "output": 29,
+    "arrival_ms": 43141.95789566467
+  },
+  {
+    "id": "code_d1_w02:96",
+    "prompt": 1667,
+    "output": 15,
+    "arrival_ms": 44181.05822236572
+  },
+  {
+    "id": "code_d1_w02:97",
+    "prompt": 353,
+    "output": 3,
+    "arrival_ms": 44337.19915701717
+  },
+  {
+    "id": "code_d1_w02:98",
+    "prompt": 609,
+    "output": 5,
+    "arrival_ms": 44393.86809035031
+  },
+  {
+    "id": "code_d1_w02:99",
+    "prompt": 3020,
+    "output": 7,
+    "arrival_ms": 44686.11405428428
+  },
+  {
+    "id": "code_d1_w02:100",
+    "prompt": 1341,
+    "output": 36,
+    "arrival_ms": 45170.87023825939
+  },
+  {
+    "id": "code_d1_w02:101",
+    "prompt": 3018,
+    "output": 54,
+    "arrival_ms": 45400.150616146086
+  },
+  {
+    "id": "code_d1_w02:102",
+    "prompt": 3856,
+    "output": 18,
+    "arrival_ms": 45485.226132689335
+  },
+  {
+    "id": "code_d1_w02:103",
+    "prompt": 2793,
+    "output": 9,
+    "arrival_ms": 46474.41407299185
+  },
+  {
+    "id": "code_d1_w02:104",
+    "prompt": 1695,
+    "output": 109,
+    "arrival_ms": 46558.24500748514
+  },
+  {
+    "id": "code_d1_w02:105",
+    "prompt": 5977,
+    "output": 12,
+    "arrival_ms": 46581.4352944265
+  },
+  {
+    "id": "code_d1_w02:106",
+    "prompt": 2792,
+    "output": 16,
+    "arrival_ms": 47372.55334050058
+  },
+  {
+    "id": "code_d1_w02:107",
+    "prompt": 609,
+    "output": 9,
+    "arrival_ms": 48093.184664547545
+  },
+  {
+    "id": "code_d1_w02:108",
+    "prompt": 3020,
+    "output": 7,
+    "arrival_ms": 48112.87504368281
+  },
+  {
+    "id": "code_d1_w02:109",
+    "prompt": 5015,
+    "output": 2,
+    "arrival_ms": 48203.79689710642
+  },
+  {
+    "id": "code_d1_w02:110",
+    "prompt": 2792,
+    "output": 16,
+    "arrival_ms": 48609.72973230842
+  },
+  {
+    "id": "code_d1_w02:111",
+    "prompt": 2271,
+    "output": 8,
+    "arrival_ms": 48631.49399705524
+  },
+  {
+    "id": "code_d1_w02:112",
+    "prompt": 1449,
+    "output": 1,
+    "arrival_ms": 48933.34860320283
+  },
+  {
+    "id": "code_d1_w02:113",
+    "prompt": 1064,
+    "output": 1,
+    "arrival_ms": 48944.1206318985
+  },
+  {
+    "id": "code_d1_w02:114",
+    "prompt": 5015,
+    "output": 2,
+    "arrival_ms": 49343.69032373805
+  },
+  {
+    "id": "code_d1_w02:115",
+    "prompt": 6911,
+    "output": 7,
+    "arrival_ms": 49707.87810790774
+  },
+  {
+    "id": "code_d1_w02:116",
+    "prompt": 826,
+    "output": 29,
+    "arrival_ms": 49733.78848255654
+  },
+  {
+    "id": "code_d1_w02:117",
+    "prompt": 826,
+    "output": 29,
+    "arrival_ms": 50118.96160016738
+  },
+  {
+    "id": "code_d1_w02:118",
+    "prompt": 1261,
+    "output": 9,
+    "arrival_ms": 50370.01212438154
+  },
+  {
+    "id": "code_d1_w02:119",
+    "prompt": 970,
+    "output": 22,
+    "arrival_ms": 51487.99464538022
+  },
+  {
+    "id": "code_d1_w02:120",
+    "prompt": 3433,
+    "output": 3,
+    "arrival_ms": 51956.106037879814
+  },
+  {
+    "id": "code_d1_w02:121",
+    "prompt": 7673,
+    "output": 6,
+    "arrival_ms": 52244.59715909403
+  },
+  {
+    "id": "code_d1_w02:122",
+    "prompt": 509,
+    "output": 20,
+    "arrival_ms": 52483.4344203846
+  },
+  {
+    "id": "code_d1_w02:123",
+    "prompt": 836,
+    "output": 8,
+    "arrival_ms": 53304.99430375187
+  },
+  {
+    "id": "code_d1_w02:124",
+    "prompt": 1064,
+    "output": 1,
+    "arrival_ms": 54150.33521258227
+  },
+  {
+    "id": "code_d1_w02:125",
+    "prompt": 2664,
+    "output": 16,
+    "arrival_ms": 54204.386958826704
+  },
+  {
+    "id": "code_d1_w02:126",
+    "prompt": 1261,
+    "output": 9,
+    "arrival_ms": 54764.89932596969
+  },
+  {
+    "id": "code_d1_w02:127",
+    "prompt": 374,
+    "output": 5,
+    "arrival_ms": 55057.80436946724
+  },
+  {
+    "id": "code_d1_w02:128",
+    "prompt": 2466,
+    "output": 110,
+    "arrival_ms": 55338.22253890479
+  },
+  {
+    "id": "code_d1_w02:129",
+    "prompt": 7684,
+    "output": 1,
+    "arrival_ms": 55849.757428608
+  },
+  {
+    "id": "code_d1_w02:130",
+    "prompt": 609,
+    "output": 5,
+    "arrival_ms": 55906.98326277075
+  },
+  {
+    "id": "code_d1_w02:131",
+    "prompt": 2811,
+    "output": 11,
+    "arrival_ms": 58316.77781599349
+  },
+  {
+    "id": "code_d1_w02:132",
+    "prompt": 7681,
+    "output": 9,
+    "arrival_ms": 58704.242789782096
+  },
+  {
+    "id": "code_d1_w02:133",
+    "prompt": 836,
+    "output": 8,
+    "arrival_ms": 59154.20696169877
+  },
+  {
+    "id": "code_d1_w02:134",
+    "prompt": 1341,
+    "output": 36,
+    "arrival_ms": 59619.938227812665
+  }
+]

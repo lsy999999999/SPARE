@@ -1,0 +1,82 @@
+[
+  {
+    "cell": [
+      "conversation",
+      2048,
+      "spare"
+    ],
+    "sample": "conversation_d1_w00",
+    "rate_qps": 2.0,
+    "passed": true
+  },
+  {
+    "cell": [
+      "conversation",
+      2048,
+      "rl_standalone"
+    ],
+    "sample": "conversation_d1_w00",
+    "rate_qps": 2.0,
+    "passed": true
+  },
+  {
+    "cell": [
+      "conversation",
+      4096,
+      "spare"
+    ],
+    "sample": "conversation_d1_w00",
+    "rate_qps": 2.0,
+    "passed": true
+  },
+  {
+    "cell": [
+      "conversation",
+      4096,
+      "rl_standalone"
+    ],
+    "sample": "conversation_d1_w00",
+    "rate_qps": 2.0,
+    "passed": true
+  },
+  {
+    "cell": [
+      "code",
+      2048,
+      "spare"
+    ],
+    "sample": "code_d1_w00",
+    "rate_qps": 2.0,
+    "passed": true
+  },
+  {
+    "cell": [
+      "code",
+      2048,
+      "rl_standalone"
+    ],
+    "sample": "code_d1_w00",
+    "rate_qps": 2.0,
+    "passed": true
+  },
+  {
+    "cell": [
+      "code",
+      4096,
+      "spare"
+    ],
+    "sample": "code_d1_w00",
+    "rate_qps": 2.0,
+    "passed": true
+  },
+  {
+    "cell": [
+      "code",
+      4096,
+      "rl_standalone"
+    ],
+    "sample": "code_d1_w00",
+    "rate_qps": 2.0,
+    "passed": true
+  }
+]

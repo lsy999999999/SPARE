@@ -1,0 +1,93 @@
+kv_blocks,arm,prior_archives,supplemented_here
+1024,spare,www_component_ablation_mean_20261020_r4: 24 rates; www_biobjective_ablation_20261016_r1: 7 rates; www_mean_ttft_capacity_20261017_r2: 6 rates; www_kv_capacity_fine50_20261016_r1: 5 rates; www_kv_capacity_dense_20261016_r1: 7 rates,False
+1024,srp,www_component_ablation_mean_20261020_r4: 16 rates; www_biobjective_ablation_20261016_r1: 6 rates,False
+1024,constant8,www_component_ablation_mean_20261020_r4: 23 rates,False
+1024,no_arrival,www_component_ablation_mean_20261020_r4: 21 rates; www_biobjective_ablation_20261016_r1: 7 rates,False
+1792,spare,www_mean_ttft_capacity_20261017_r2: 7 rates; www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 9 rates,False
+1792,srp,,False
+1792,constant8,,False
+1792,no_arrival,,False
+2048,spare,www_component_ablation_mean_20261020_r4: 27 rates; www_biobjective_ablation_20261016_r1: 9 rates; www_mean_ttft_capacity_20261017_r2: 7 rates; www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 9 rates,False
+2048,srp,www_component_ablation_mean_20261020_r4: 22 rates; www_biobjective_ablation_20261016_r1: 8 rates,False
+2048,constant8,www_component_ablation_mean_20261020_r4: 26 rates,False
+2048,no_arrival,www_component_ablation_mean_20261020_r4: 27 rates; www_biobjective_ablation_20261016_r1: 9 rates,False
+2560,spare,www_mean_ttft_capacity_20261017_r2: 5 rates; www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 10 rates,False
+2560,srp,,False
+2560,constant8,,False
+2560,no_arrival,,False
+2816,spare,www_mean_ttft_capacity_20261017_r2: 4 rates; www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 10 rates,False
+2816,srp,,False
+2816,constant8,,False
+2816,no_arrival,,False
+3072,spare,www_biobjective_ablation_20261016_r1: 10 rates; www_mean_ttft_capacity_20261017_r2: 2 rates; www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 10 rates,True
+3072,srp,www_biobjective_ablation_20261016_r1: 9 rates,True
+3072,constant8,,True
+3072,no_arrival,www_biobjective_ablation_20261016_r1: 10 rates,True
+3328,spare,www_mean_ttft_capacity_20261017_r2: 2 rates; www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 10 rates,False
+3328,srp,,False
+3328,constant8,,False
+3328,no_arrival,,False
+3584,spare,www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 10 rates,True
+3584,srp,,True
+3584,constant8,,True
+3584,no_arrival,,True
+3840,spare,www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 11 rates,False
+3840,srp,,False
+3840,constant8,,False
+3840,no_arrival,,False
+4096,spare,www_component_ablation_mean_20261020_r4: 28 rates; www_biobjective_ablation_20261016_r1: 11 rates; www_mean_ttft_capacity_20261017_r2: 5 rates; www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 11 rates,False
+4096,srp,www_component_ablation_mean_20261020_r4: 16 rates; www_biobjective_ablation_20261016_r1: 10 rates,False
+4096,constant8,www_component_ablation_mean_20261020_r4: 25 rates,False
+4096,no_arrival,www_component_ablation_mean_20261020_r4: 28 rates; www_biobjective_ablation_20261016_r1: 11 rates,False
+4352,spare,www_mean_ttft_capacity_20261017_r2: 5 rates; www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 11 rates,False
+4352,srp,,False
+4352,constant8,,False
+4352,no_arrival,,False
+4608,spare,www_mean_ttft_capacity_20261017_r2: 17 rates; www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 11 rates,False
+4608,srp,,False
+4608,constant8,,False
+4608,no_arrival,,False
+4864,spare,www_mean_ttft_capacity_20261017_r2: 5 rates; www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 11 rates,False
+4864,srp,,False
+4864,constant8,,False
+4864,no_arrival,,False
+5120,spare,www_mean_ttft_capacity_20261017_r2: 17 rates; www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 11 rates,True
+5120,srp,,True
+5120,constant8,,True
+5120,no_arrival,,True
+5376,spare,www_mean_ttft_capacity_20261017_r2: 5 rates; www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 11 rates,False
+5376,srp,,False
+5376,constant8,,False
+5376,no_arrival,,False
+6656,spare,www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 11 rates,False
+6656,srp,,False
+6656,constant8,,False
+6656,no_arrival,,False
+6912,spare,www_mean_ttft_capacity_20261017_r2: 16 rates; www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 10 rates,False
+6912,srp,,False
+6912,constant8,,False
+6912,no_arrival,,False
+7168,spare,www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 10 rates,False
+7168,srp,,False
+7168,constant8,,False
+7168,no_arrival,,False
+7424,spare,www_mean_ttft_capacity_20261017_r2: 16 rates; www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 10 rates,False
+7424,srp,,False
+7424,constant8,,False
+7424,no_arrival,,False
+7680,spare,www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 10 rates,False
+7680,srp,,False
+7680,constant8,,False
+7680,no_arrival,,False
+7936,spare,www_mean_ttft_capacity_20261017_r2: 16 rates; www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 10 rates,False
+7936,srp,,False
+7936,constant8,,False
+7936,no_arrival,,False
+8192,spare,www_kv_capacity_fine50_20261016_r1: 6 rates; www_kv_capacity_dense_20261016_r1: 10 rates,False
+8192,srp,,False
+8192,constant8,,False
+8192,no_arrival,,False
+12032,spare,www_mean_ttft_capacity_20261017_r2: 16 rates,False
+12032,srp,,False
+12032,constant8,,False
+12032,no_arrival,,False

@@ -1,0 +1,9 @@
+{
+  "model": "Qwen2.5-7B",
+  "groups": 8,
+  "refined_groups": 5,
+  "complete_ranking_groups": 4,
+  "matching_pairs": 18,
+  "compared_pairs": 24,
+  "refinement_qps": 0.001
+}

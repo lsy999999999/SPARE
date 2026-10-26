@@ -1,0 +1,9 @@
+source,kv_blocks,arm,rate_qps,simulator_passed,simulator_mean_ttft_ms,simulator_p99_tbt_ms,simulator_backlog_drift,gpu_complete,gpu_passed,gpu_mean_ttft_ms,gpu_p99_tbt_ms,gpu_backlog_drift,gpu_failure_reason
+code,2048,sarathi,2.5,True,811.453004139145,100.12957745111035,-0.5,False,,,,,
+code,2048,sarathi,3.0,False,1652.9195653670033,108.80384366982335,4.5,False,,,,,
+code,6144,sarathi,2.5,True,802.9055891197881,100.43561315483915,-0.5,False,,,,,
+code,6144,sarathi,3.0,False,1290.3518292550946,110.58968953490022,4.75,False,,,,,
+conversation,2048,sarathi,2.12,True,442.43959255752213,78.90017361077705,-0.5,False,,,,,
+conversation,2048,sarathi,2.25,False,1414.60205917795,79.26770171247671,7.25,False,,,,,
+conversation,6144,sarathi,4.0,True,1014.6774181091117,109.82271145523555,-1.0,False,,,,,
+conversation,6144,sarathi,4.25,False,1603.3101063863687,109.55542450577377,7.25,False,,,,,

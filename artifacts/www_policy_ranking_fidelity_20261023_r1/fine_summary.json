@@ -1,0 +1,14 @@
+{
+  "new_paired_points": 24,
+  "new_window_comparisons": 12,
+  "new_ttft_order_agreement": 8,
+  "new_pooled_ttft_order_agreement": 3,
+  "new_pooled_spare_only_pass_gpu": [
+    2.75,
+    3.25
+  ],
+  "new_pooled_spare_only_pass_sim": [
+    2.75,
+    3.25
+  ]
+}

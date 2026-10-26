@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "created": 1791570621.7509973,
+  "source_hashes": {
+    "research/v1_broad12h_20260925/policy.py": "9d79b2fc7978338f3f6b4633d3895a9b3e21aaa00aa23237df63d112e76865e0",
+    "research/v1_broad12h_20260925/scheduler.py": "18ece913c6cb7553e46a28ea0d3ad19c180899ae410cefa1df68ae964f7f327c",
+    "research/v1_budget_20260922/policy.py": "7a47e70bcde98f3e4924e1c395d593531cd580601ff81f1a2d9da89b227d6ebe",
+    "research/v1_budget_20260922/scheduler.py": "541d9b46947369229699f3d16a2a6557435e1eb3a67a0fd0c5cdaa75f4615ae3",
+    "research/v1_paper_comparison_20260922/rules.py": "37d514ed46828e67a186ce85854c84b30757ac68fac4a3d37f45709fe8186b86",
+    "research/v1_paper_comparison_20260922/scheduler.py": "0ec9cfbe361377fb1d1a54151eeab56589536f203c756f5e63cd318719a04636",
+    "research/v1_saving_threshold_20260924/policy.py": "91be5c6b341ff81728ba3a60571bd927eb26b096f3302bc52d54718271454ab2",
+    "research/www_burst_background_gpu_20261009/PROTOCOL_CN.md": "28f00d035a4f55fe34a94f3dae92c1080f6bb859f1311351ab085c21eccc5715",
+    "research/www_burst_background_gpu_20261009/analyze.py": "1ba7e90e4ff83f469f5e1b5eb5e753b03cefa90c7ec82faea09a9e14184111b9",
+    "research/www_burst_background_gpu_20261009/common.py": "45170d6568f06a13fb6694a43a8e942d8632ecabcdc7b6a61ab76f67ae627546",
+    "research/www_burst_background_gpu_20261009/prepare.py": "cb82e0241295eae1ebf88e529ebf5c60fe872daa9ce959805e799bc0d006e6c1",
+    "research/www_burst_background_gpu_20261009/run.py": "0a78f9e47ea78c1af212493d50e502dce319605ab4d63c2bb1ed32a75e848a9b",
+    "research/www_burst_background_gpu_20261009/status.py": "163dea2eaae7a8b9b07bc18e37330e23852175793231a1b247788c7a7acd441d",
+    "research/www_burst_background_gpu_20261009/validate.py": "4b8aa80fb006825aec312fc33e14f26fdba1c560685a9479e2424ff49d864483",
+    "research/www_code_long_output_gpu_20261010/PROTOCOL_CN.md": "b635813b132e5a9dea4260049d6be430e0e17948e532eae06b10bb12e245655c",
+    "research/www_code_long_output_gpu_20261010/analyze.py": "ce15f8f73aa965f47ff8f85113c3597c3918edc1cc26aea2b4f575968c6ad845",
+    "research/www_code_long_output_gpu_20261010/common.py": "00a33441184cf80195637745370ad0f7c19b7c9e20ac342f3eeb59aaa0900c2a",
+    "research/www_code_long_output_gpu_20261010/prepare.py": "2215b1c77f27c28f69c5a05304b6a404bd2fc67ee1e1970dbb42725ded398394",
+    "research/www_code_long_output_gpu_20261010/run.py": "0f7af73987673111474f239cc5e4263e97e4cfd521722e448671bbd38139d705",
+    "research/www_code_long_output_gpu_20261010/status.py": "3e7af7f9651151cbdd078b1658b5086218489a7422f0756fdc9b267fc679384f",
+    "research/www_code_long_output_gpu_20261010/validate.py": "f251a21aa0e11d6330c4ec46661972abb57e7e8afd119998141fc4bbce8068c8",
+    "research/www_evaluation_completion_20261003/policy.py": "42003dee07b34d840c9e09fb78fc47629d486c08c73023cfc6699320e90f186f",
+    "research/www_evaluation_completion_20261003/scheduler.py": "04280f49c250965638b590295a47edef80582d824c8783fc38dcc2d3be2b4ecb",
+    "research/www_evaluation_completion_20261003/simulate.py": "7c600588d0a6fcd5c5c26d7719fac80db2159169fa69065816ca01f2f3fd9fc0",
+    "research/www_evaluation_gpu_completion_20261003/PROTOCOL_CN.md": "c7ef20a9a9b359cfae2f7f20baa152b0bf34a644604f7d7b2b0b3430925727dd",
+    "research/www_evaluation_gpu_completion_20261003/analyze.py": "c8fbf3098ebf8ada1f577ddb94037f577b6c46b7ea88aa35e47706808d8ab420",
+    "research/www_evaluation_gpu_completion_20261003/common.py": "fd77eeb6aae4a5cd396824742779a93b18696b8348c46eae361945ca1227f515",
+    "research/www_evaluation_gpu_completion_20261003/policy.py": "a8bc6213fa34f884d1f74dec01cbdf456eb0e0feb537cb2ba7f58836c2f3ba09",
+    "research/www_evaluation_gpu_completion_20261003/prepare.py": "8f0b7b93c0b966f18e08beb98fadd16dff2b6eaf0772be97b60044a3c10ac522",
+    "research/www_evaluation_gpu_completion_20261003/run.py": "199bdb2b6d2aa994b07788227ca83a294f35a9b2ff91d1e5f4f579a978937427",
+    "research/www_evaluation_gpu_completion_20261003/scheduler.py": "a7f604fe9b7d0b8c2eba6f87360956c685e9ebf81f4a8460dfc10e623b41c418",
+    "research/www_evaluation_gpu_completion_20261003/status.py": "2f519eb82ed3b8f1e05ffd9072d2be1d3847102b2f59c5a68b2dae2706a77826",
+    "research/www_evaluation_gpu_completion_20261003/validate.py": "33b746cd7b494228c66bce3c03f019a716894e3d2d580f8e5ff25127f36b3220",
+    "research/www_long_output_gpu_20261010/PROTOCOL_CN.md": "a42129c81c1bc6b7642925680d7be89afde9a157d287eb4a4d0e68e707a8aeeb",
+    "research/www_long_output_gpu_20261010/analyze.py": "3e43fb14999dfa572fe02c227eb8e9631e36890308d21df344048ab42249d917",
+    "research/www_long_output_gpu_20261010/common.py": "87d8d3f4470bf6352e905456b137d8df456bff287912fab9ecb51650d7d7a744",
+    "research/www_long_output_gpu_20261010/prepare.py": "df055a8e00810a23fcaa6932b8e0b72e834e6fd331e83202e1242fee1a650545",
+    "research/www_long_output_gpu_20261010/run.py": "8535aec1ca3ecf9691a97926fa3d647f294706d66e0dce5b2dfd4b42f64ccd25",
+    "research/www_long_output_gpu_20261010/status.py": "10b100f9cf428f641560b99561b64e513222d9debb6562232f2de5ebe4c730f0",
+    "research/www_long_output_gpu_20261010/validate.py": "94ddf88a18587bcd576032bf87febf111712d4d042849b32f1802b76c3125932",
+    "simulator_core/timing.py": "f1cd3e9e99bbc75879222cd50e7e2cf0f793d5383e424c737c8e150ddd18da6a",
+    "simulator_core/types.py": "ae1eaa476bbc8421cc948e43d92238dcfe1bd63885df01bb0c368fbb94b7f75f",
+    "writing/www/code/run_simulator.py": "d9e95dfebfee825a2202c751ad16a44550e128c094f05d5ea450f2985ad8c246"
+  },
+  "checks": {
+    "arrival": {
+      "rounds": 2723,
+      "trajectory": "958005af886053e39d64df67d3746f8fed2ca3a9ade960d3f725240c59db6ab4"
+    },
+    "srp": {
+      "rounds": 2723,
+      "trajectory": "958005af886053e39d64df67d3746f8fed2ca3a9ade960d3f725240c59db6ab4"
+    },
+    "fixed256": {
+      "rounds": 2724,
+      "trajectory": "c9e8f4af803807b8a9cb8a5fb4bfc883b123db02ae1c58d1bd9f5c37e8adea06"
+    },
+    "fixed512": {
+      "rounds": 2723,
+      "trajectory": "3bf95fc6a9e09bfc9a3aeb43a11414073d2036375e8eea0b2e6e50f5e9db56f1"
+    },
+    "native": {
+      "rounds": 2738,
+      "trajectory": "f1ba720f8cf8e2404f002e85a555eab1eaaf7f101c2d5a872311544f71db3502"
+    }
+  },
+  "scope": "64-request long-output inputs; native allocator completion and conservation"
+}

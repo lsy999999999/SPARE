@@ -1,0 +1,246 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "source": "code",
+      "arm": "arrival",
+      "passed": true,
+      "cpu_s": 0.18574387417174876,
+      "feedback_gamma": null
+    },
+    {
+      "source": "code",
+      "arm": "native",
+      "passed": true,
+      "cpu_s": 0.08910560607910156,
+      "feedback_gamma": null
+    },
+    {
+      "source": "code",
+      "arm": "sarathi",
+      "passed": true,
+      "cpu_s": 0.06514123687520623,
+      "feedback_gamma": null
+    },
+    {
+      "source": "code",
+      "arm": "past_future",
+      "passed": true,
+      "cpu_s": 0.06316269002854824,
+      "feedback_gamma": null
+    },
+    {
+      "source": "code",
+      "arm": "past_future_multi",
+      "passed": true,
+      "cpu_s": 0.10090380883775651,
+      "feedback_gamma": null
+    },
+    {
+      "source": "code",
+      "arm": "orca_max",
+      "passed": true,
+      "cpu_s": 0.0677808509208262,
+      "feedback_gamma": null
+    },
+    {
+      "source": "code",
+      "arm": "s3_proxy",
+      "passed": true,
+      "cpu_s": 0.05580647592432797,
+      "feedback_gamma": null
+    },
+    {
+      "source": "code",
+      "arm": "ltr_proxy",
+      "passed": true,
+      "cpu_s": 0.06114660110324621,
+      "feedback_gamma": null
+    },
+    {
+      "source": "code",
+      "arm": "apt_serve_kv_rule",
+      "passed": true,
+      "cpu_s": 0.0656517711468041,
+      "feedback_gamma": null
+    },
+    {
+      "source": "code",
+      "arm": "sola_rule",
+      "passed": true,
+      "cpu_s": 0.07109182700514793,
+      "feedback_gamma": null
+    },
+    {
+      "source": "code",
+      "arm": "sola_calibrated",
+      "passed": true,
+      "cpu_s": 0.46867790305987,
+      "feedback_gamma": 1.0038858829167527
+    },
+    {
+      "source": "code",
+      "arm": "uniboost_static",
+      "passed": true,
+      "cpu_s": 0.07220568205229938,
+      "feedback_gamma": null
+    },
+    {
+      "source": "code",
+      "arm": "ssjf_oracle",
+      "passed": true,
+      "cpu_s": 0.06474357983097434,
+      "feedback_gamma": null
+    },
+    {
+      "source": "code",
+      "arm": "trail_oracle",
+      "passed": true,
+      "cpu_s": 0.08172854105941951,
+      "feedback_gamma": null
+    },
+    {
+      "source": "code",
+      "arm": "mc_sf_oracle",
+      "passed": true,
+      "cpu_s": 0.06164330989122391,
+      "feedback_gamma": null
+    },
+    {
+      "source": "code",
+      "arm": "tie_oracle_proxy",
+      "passed": true,
+      "cpu_s": 0.33115884894505143,
+      "feedback_gamma": null
+    },
+    {
+      "source": "code",
+      "arm": "ltr_oracle",
+      "passed": true,
+      "cpu_s": 0.06853797100484371,
+      "feedback_gamma": null
+    },
+    {
+      "source": "conversation",
+      "arm": "arrival",
+      "passed": true,
+      "cpu_s": 0.6935155740939081,
+      "feedback_gamma": null
+    },
+    {
+      "source": "conversation",
+      "arm": "native",
+      "passed": true,
+      "cpu_s": 0.3552425750531256,
+      "feedback_gamma": null
+    },
+    {
+      "source": "conversation",
+      "arm": "sarathi",
+      "passed": true,
+      "cpu_s": 0.37341135716997087,
+      "feedback_gamma": null
+    },
+    {
+      "source": "conversation",
+      "arm": "past_future",
+      "passed": true,
+      "cpu_s": 0.2564709121361375,
+      "feedback_gamma": null
+    },
+    {
+      "source": "conversation",
+      "arm": "past_future_multi",
+      "passed": true,
+      "cpu_s": 0.5098871649242938,
+      "feedback_gamma": null
+    },
+    {
+      "source": "conversation",
+      "arm": "orca_max",
+      "passed": true,
+      "cpu_s": 0.38951741298660636,
+      "feedback_gamma": null
+    },
+    {
+      "source": "conversation",
+      "arm": "s3_proxy",
+      "passed": true,
+      "cpu_s": 0.3559477520175278,
+      "feedback_gamma": null
+    },
+    {
+      "source": "conversation",
+      "arm": "ltr_proxy",
+      "passed": true,
+      "cpu_s": 0.5362017070874572,
+      "feedback_gamma": null
+    },
+    {
+      "source": "conversation",
+      "arm": "apt_serve_kv_rule",
+      "passed": true,
+      "cpu_s": 0.3111059060320258,
+      "feedback_gamma": null
+    },
+    {
+      "source": "conversation",
+      "arm": "sola_rule",
+      "passed": true,
+      "cpu_s": 0.4077750560827553,
+      "feedback_gamma": null
+    },
+    {
+      "source": "conversation",
+      "arm": "sola_calibrated",
+      "passed": true,
+      "cpu_s": 3.620668224990368,
+      "feedback_gamma": 0.9443251420206491
+    },
+    {
+      "source": "conversation",
+      "arm": "uniboost_static",
+      "passed": true,
+      "cpu_s": 0.5391331289429218,
+      "feedback_gamma": null
+    },
+    {
+      "source": "conversation",
+      "arm": "ssjf_oracle",
+      "passed": true,
+      "cpu_s": 0.2908284410368651,
+      "feedback_gamma": null
+    },
+    {
+      "source": "conversation",
+      "arm": "trail_oracle",
+      "passed": true,
+      "cpu_s": 0.3275087480433285,
+      "feedback_gamma": null
+    },
+    {
+      "source": "conversation",
+      "arm": "mc_sf_oracle",
+      "passed": true,
+      "cpu_s": 0.23859416600316763,
+      "feedback_gamma": null
+    },
+    {
+      "source": "conversation",
+      "arm": "tie_oracle_proxy",
+      "passed": true,
+      "cpu_s": 0.8474653130397201,
+      "feedback_gamma": null
+    },
+    {
+      "source": "conversation",
+      "arm": "ltr_oracle",
+      "passed": true,
+      "cpu_s": 0.33128241705708206,
+      "feedback_gamma": null
+    }
+  ],
+  "previous_trajectory_parity": true,
+  "conservation": true,
+  "sola_online_feedback": true
+}

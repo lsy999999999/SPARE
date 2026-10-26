@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "created": 1791905567.6389766,
+  "source_hashes": {
+    "research/v1_broad12h_20260925/policy.py": "9d79b2fc7978338f3f6b4633d3895a9b3e21aaa00aa23237df63d112e76865e0",
+    "research/v1_broad12h_20260925/scheduler.py": "18ece913c6cb7553e46a28ea0d3ad19c180899ae410cefa1df68ae964f7f327c",
+    "research/v1_budget_20260922/policy.py": "7a47e70bcde98f3e4924e1c395d593531cd580601ff81f1a2d9da89b227d6ebe",
+    "research/v1_budget_20260922/scheduler.py": "541d9b46947369229699f3d16a2a6557435e1eb3a67a0fd0c5cdaa75f4615ae3",
+    "research/v1_paper_comparison_20260922/rules.py": "37d514ed46828e67a186ce85854c84b30757ac68fac4a3d37f45709fe8186b86",
+    "research/v1_paper_comparison_20260922/scheduler.py": "0ec9cfbe361377fb1d1a54151eeab56589536f203c756f5e63cd318719a04636",
+    "research/v1_saving_threshold_20260924/policy.py": "91be5c6b341ff81728ba3a60571bd927eb26b096f3302bc52d54718271454ab2",
+    "research/www_baseline_fidelity_20261013/PROTOCOL_CN.md": "e4bfaf4d91b9c1ee2ba17a4de9ba529737c44ad80dc217a1a40d522c63044578",
+    "research/www_baseline_fidelity_20261013/analyze.py": "23c033cc6bc7aef2bf4acd267032ab37cbe6cc1a9de1904828f7593d783f4de3",
+    "research/www_baseline_fidelity_20261013/calibrate.py": "d0398e19f83785808f660eb3ca34e1cabce7844a2839510d13422d12eebd35b8",
+    "research/www_baseline_fidelity_20261013/common.py": "d37efc40414dae1c843cf12cc04106a6779a6ca7ea92534e0e3de17b78ffbda5",
+    "research/www_baseline_fidelity_20261013/freeze.py": "c1eb5095c84204bebf1cc5f8f92d4633599d46fa596c56d3772a051e3200c159",
+    "research/www_baseline_fidelity_20261013/policy.py": "d8440a5c1ca566db57134c879f4d7a4bcf13d5f86814ff995b13feacdc5a6f84",
+    "research/www_baseline_fidelity_20261013/prepare.py": "377ad542a888f25f2c2bf0469f85dff1a0bce8f614518ddc80234eeda9df5ae8",
+    "research/www_baseline_fidelity_20261013/run.py": "478cf2e7484c2d7d74f4e8fa6f823daba9c8dfae17e1e3db442e2e78b4afcc41",
+    "research/www_baseline_fidelity_20261013/scheduler.py": "e9ff72c583da604b016a98f2ab7c7702d14a0d2ead957b6f7465a840639bce13",
+    "research/www_baseline_fidelity_20261013/simulate.py": "81fb33af1e167d9f2771539f5469878d38a3b6e6b35556b53649c376c7483b08",
+    "research/www_baseline_fidelity_20261013/status.py": "e663993a5be22514e7036eb1c762810b0f0338007fc4a1a659ddae440870db4f",
+    "research/www_baseline_fidelity_20261013/test_fidelity.py": "114341f99fb18596ae25b547b00a4dd57ef561f67612e4a7b3375e90cb71374a",
+    "research/www_baseline_fidelity_20261013/validate.py": "e91c6dffcd49cbb18c6db14d7c872fed58067336c9515eeda3d5ef08bff55734",
+    "research/www_evaluation_completion_20261003/policy.py": "42003dee07b34d840c9e09fb78fc47629d486c08c73023cfc6699320e90f186f",
+    "research/www_evaluation_completion_20261003/scheduler.py": "04280f49c250965638b590295a47edef80582d824c8783fc38dcc2d3be2b4ecb",
+    "research/www_evaluation_completion_20261003/simulate.py": "7c600588d0a6fcd5c5c26d7719fac80db2159169fa69065816ca01f2f3fd9fc0",
+    "research/www_evaluation_gpu_completion_20261003/policy.py": "a8bc6213fa34f884d1f74dec01cbdf456eb0e0feb537cb2ba7f58836c2f3ba09",
+    "research/www_evaluation_gpu_completion_20261003/scheduler.py": "a7f604fe9b7d0b8c2eba6f87360956c685e9ebf81f4a8460dfc10e623b41c418",
+    "simulator_core/timing.py": "f1cd3e9e99bbc75879222cd50e7e2cf0f793d5383e424c737c8e150ddd18da6a",
+    "simulator_core/types.py": "ae1eaa476bbc8421cc948e43d92238dcfe1bd63885df01bb0c368fbb94b7f75f",
+    "writing/www/code/run_simulator.py": "d9e95dfebfee825a2202c751ad16a44550e128c094f05d5ea450f2985ad8c246"
+  },
+  "checks": {
+    "arrival/resource": {
+      "rounds": 354,
+      "preemptions": 92,
+      "trajectory": "4ab13f50eb3603766cf0ae58f0747e165b3ba53f46687826c17d058dc150989d"
+    },
+    "native/resource": {
+      "rounds": 317,
+      "preemptions": 176,
+      "trajectory": "938185fb6b0b5de20987383eb8a0e868a498f2c32d47f457dee4e92b4f1991c4"
+    },
+    "past_future/resource": {
+      "rounds": 320,
+      "preemptions": 0,
+      "trajectory": "09d2f97de307597df20613dc96506e5bfb7878e9b5b610142ace89acc69e6b5c"
+    },
+    "past_future_multi/resource": {
+      "rounds": 320,
+      "preemptions": 0,
+      "trajectory": "09d2f97de307597df20613dc96506e5bfb7878e9b5b610142ace89acc69e6b5c"
+    },
+    "sola_rule/resource": {
+      "rounds": 375,
+      "preemptions": 252,
+      "trajectory": "f084d6dd1f678f10ebb034436c5068ec19877a23883dc17c0448997e67196039"
+    },
+    "sola_calibrated/resource": {
+      "rounds": 350,
+      "preemptions": 0,
+      "trajectory": "783fbedf425732716caecba4a4003a23423a58004ed1a9eaaafd20102232beca"
+    },
+    "arrival/resource_staircase": {
+      "rounds": 352,
+      "preemptions": 92,
+      "trajectory": "a00a351045940710f3932131ba2063bc5c66bc4b7c887854ffe36f142d377cd2"
+    },
+    "native/resource_staircase": {
+      "rounds": 317,
+      "preemptions": 176,
+      "trajectory": "7421f7c1101178f206eb9e6f58bbefb9119a19c641851ff7b36bc4b09a40ae84"
+    },
+    "past_future/resource_staircase": {
+      "rounds": 320,
+      "preemptions": 0,
+      "trajectory": "5fe7a79521d712498384185fe7e43475d5e2119e319fa90a7ea1a1f69e44c284"
+    },
+    "past_future_multi/resource_staircase": {
+      "rounds": 320,
+      "preemptions": 0,
+      "trajectory": "5fe7a79521d712498384185fe7e43475d5e2119e319fa90a7ea1a1f69e44c284"
+    },
+    "sola_rule/resource_staircase": {
+      "rounds": 375,
+      "preemptions": 252,
+      "trajectory": "bb64eea3d011a073fd811fed107e03adbe77cfb092f1b69fd1c3fa3ce6b0fe6a"
+    },
+    "sola_calibrated/resource_staircase": {
+      "rounds": 351,
+      "preemptions": 0,
+      "trajectory": "279d60718107b41aacb375764e7bd1d7cf3bf9c9a1e9db73cf9183551aa9403b"
+    }
+  },
+  "hidden_output_cap_invariance": true,
+  "scope": "actual GPU scheduler on native allocator; conservation; SPARE frozen parity; not GPU latency"
+}

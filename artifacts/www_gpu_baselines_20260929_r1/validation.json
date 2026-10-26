@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "created": 1790659337.4886136,
+  "arms": [
+    "arrival",
+    "basic",
+    "srp",
+    "native",
+    "sarathi",
+    "past_future",
+    "ssjf_oracle",
+    "mc_sf_oracle",
+    "trail_oracle",
+    "tie_oracle_proxy",
+    "uniboost_static",
+    "apt_serve_kv_rule",
+    "sola_rule"
+  ],
+  "smoke": {
+    "arrival": {
+      "rounds": 16,
+      "trajectory_sha256": "b3e1ed71c76f07db2481c10940127779dcb6173ae6a45270113da0766e633301"
+    },
+    "basic": {
+      "rounds": 16,
+      "trajectory_sha256": "b3e1ed71c76f07db2481c10940127779dcb6173ae6a45270113da0766e633301"
+    },
+    "srp": {
+      "rounds": 16,
+      "trajectory_sha256": "b3e1ed71c76f07db2481c10940127779dcb6173ae6a45270113da0766e633301"
+    },
+    "native": {
+      "rounds": 16,
+      "trajectory_sha256": "b3e1ed71c76f07db2481c10940127779dcb6173ae6a45270113da0766e633301"
+    },
+    "sarathi": {
+      "rounds": 16,
+      "trajectory_sha256": "b3e1ed71c76f07db2481c10940127779dcb6173ae6a45270113da0766e633301"
+    },
+    "past_future": {
+      "rounds": 16,
+      "trajectory_sha256": "b3e1ed71c76f07db2481c10940127779dcb6173ae6a45270113da0766e633301"
+    },
+    "ssjf_oracle": {
+      "rounds": 16,
+      "trajectory_sha256": "b3e1ed71c76f07db2481c10940127779dcb6173ae6a45270113da0766e633301"
+    },
+    "mc_sf_oracle": {
+      "rounds": 16,
+      "trajectory_sha256": "b3e1ed71c76f07db2481c10940127779dcb6173ae6a45270113da0766e633301"
+    },
+    "trail_oracle": {
+      "rounds": 16,
+      "trajectory_sha256": "b3e1ed71c76f07db2481c10940127779dcb6173ae6a45270113da0766e633301"
+    },
+    "tie_oracle_proxy": {
+      "rounds": 16,
+      "trajectory_sha256": "b3e1ed71c76f07db2481c10940127779dcb6173ae6a45270113da0766e633301"
+    },
+    "uniboost_static": {
+      "rounds": 16,
+      "trajectory_sha256": "b3e1ed71c76f07db2481c10940127779dcb6173ae6a45270113da0766e633301"
+    },
+    "apt_serve_kv_rule": {
+      "rounds": 16,
+      "trajectory_sha256": "b3e1ed71c76f07db2481c10940127779dcb6173ae6a45270113da0766e633301"
+    },
+    "sola_rule": {
+      "rounds": 15,
+      "trajectory_sha256": "00fada6092a1a4988aa320f9c5d4ed835aaebd9eff8e736e6b6a9d0afb983fa9"
+    }
+  },
+  "source_hashes": {
+    "research/v1_broad12h_20260925/policy.py": "9d79b2fc7978338f3f6b4633d3895a9b3e21aaa00aa23237df63d112e76865e0",
+    "research/v1_broad12h_20260925/scheduler.py": "18ece913c6cb7553e46a28ea0d3ad19c180899ae410cefa1df68ae964f7f327c",
+    "research/v1_budget_20260922/policy.py": "7a47e70bcde98f3e4924e1c395d593531cd580601ff81f1a2d9da89b227d6ebe",
+    "research/v1_budget_20260922/scheduler.py": "541d9b46947369229699f3d16a2a6557435e1eb3a67a0fd0c5cdaa75f4615ae3",
+    "research/v1_paper_comparison_20260922/rules.py": "37d514ed46828e67a186ce85854c84b30757ac68fac4a3d37f45709fe8186b86",
+    "research/v1_paper_comparison_20260922/scheduler.py": "75848788c536320bab982195e51a6e1bb481f1b6f8365c94cd67941e168ef412",
+    "research/v1_saving_threshold_20260924/policy.py": "91be5c6b341ff81728ba3a60571bd927eb26b096f3302bc52d54718271454ab2",
+    "research/www_gpu_baselines_20260929/PROTOCOL_CN.md": "957eca5618baea94109d1d0c57be2b4001a932c96733d64597f6e63474aa8263",
+    "research/www_gpu_baselines_20260929/analyze.py": "af9b175edc68cdef1f3a79d7622220e1190ca60cc0eae444a66d154c659685ca",
+    "research/www_gpu_baselines_20260929/common.py": "839531aa1d535413811e1ece18d47f0ab8f6bb4fe25e0d7b43f3f41260c22f5c",
+    "research/www_gpu_baselines_20260929/prepare.py": "d8039997b604165d5b71c4c11735d4ea35153316f36b44fc73ac3855ad2bbb24",
+    "research/www_gpu_baselines_20260929/run.py": "e6c586bbf2982df661db5be896e31b63cff662a55f8b843c8e9187e97eb8a904",
+    "research/www_gpu_baselines_20260929/scheduler.py": "caf9019222eb4981af12185489d9bee59075ccfb4fb9cc83829bebef2f52a653",
+    "research/www_gpu_baselines_20260929/status.py": "c95c4f0d0f94788ecbb0d41aafa829c294840f0247b643e5b7608cbf402b6003",
+    "research/www_gpu_baselines_20260929/validate.py": "bf973bc901dfbfa670b39562e9e96f8bcab852a431e59f2365e6cc6ce971b222"
+  },
+  "scope": "Native V1 CPU allocation and policy semantics only; no CUDA timing"
+}
